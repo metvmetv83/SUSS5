@@ -15,11 +15,9 @@ YELLOW = "\033[93m"
 RESET  = "\033[0m"
 
 headers = {
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept': '*/*',
     'Accept-Encoding': 'gzip, deflate',
-    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Cache-Control': 'no-cache',
-    'Pragma': 'no-cache',
+    'Accept-Language': 'tr-TR,tr;q=0.8',
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Referer': 'https://url24.link/'
@@ -42,10 +40,11 @@ def get_base_domain():
         if 'location' in r1.headers:
             r2 = requests.get(r1.headers['location'], headers=headers, allow_redirects=False, timeout=10)
             if 'location' in r2.headers:
-                return r2.headers['location'].strip().rstrip('/')
+                domain = r2.headers['location'].strip().rstrip('/')
+                return domain
     except Exception:
         pass
-    return "https://www.atomsportv510.top"
+    return "https://atomsportv492.top"
 
 def normalize_logo(src):
     if not src: return ""
@@ -99,69 +98,54 @@ def get_matches():
 def get_m3u8(resource_id, base_domain):
     try:
         h = headers.copy()
-        page_url = f"{base_domain}/matches?id={resource_id}"
         h['Referer'] = f"{base_domain}/"
-        
+        page_url = f"{base_domain}/matches?id={resource_id}"
         resp = requests.get(page_url, headers=h, timeout=10)
-        text = resp.text
+        
+        target_text = resp.text
 
-        # 1. Sayfa içindeki player/ajax API endpoint'ini veya script içindeki fetch adresini bul
-        # AtomSporTV maç sayfaları genellikle player JS dosyalarından veya load scriptlerinden veri çeker
-        api_match = re.search(r'["\'](/load/[^"\']+)["\']|["\'](https?://[^"\']+/load/[^"\']+)["\']', text)
-        if api_match:
-            api_url = api_match.group(1) or api_match.group(2)
-            if not api_url.startswith("http"):
-                api_url = base_domain + api_url
+        # Iframe kaynaklarını kontrol et ve içeriğini dahil et
+        iframe_m = re.search(r'src=["\'](https?://[^"\']+)["\']', resp.text)
+        if iframe_m:
+            iframe_url = iframe_m.group(1)
+            h['Referer'] = page_url
             try:
-                r_api = requests.get(api_url, headers=h, timeout=10)
-                json_data = r_api.json()
-                if isinstance(json_data, dict) and "URL" in json_data:
-                    return json_data["URL"].replace('\\/', '/')
+                resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
+                target_text += "\n" + resp_iframe.text
             except:
                 pass
 
-        # 2. Doğrudan sayfada veya scriptlerde JSON formatındaki URL parametresini ara ("URL":"...")
-        json_url_match = re.search(r'"URL"\s*:\s*"([^"]+)"', text, re.IGNORECASE)
-        if json_url_match:
-            return json_url_match.group(1).replace('\\/', '/')
+        # Fetch adresini kontrol et
+        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
+        if fetch_m:
+            fetch_url = fetch_m.group(1).strip()
+            if not fetch_url.startswith("http"):
+                fetch_url = base_domain + "/" + fetch_url.lstrip("/")
+            if not fetch_url.endswith(resource_id) and resource_id not in fetch_url:
+                fetch_url += resource_id
 
-        # 3. Sayfa içi iframe kaynaklarını (streamsport365 vb.) takip et ve JSON yanıtını parse et
-        iframes = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', text, re.IGNORECASE)
-        for iframe_url in iframes:
+            h['Origin'] = base_domain
             try:
-                h['Referer'] = page_url
-                r_iframe = requests.get(iframe_url, headers=h, timeout=10)
-                
-                # streamsport365 gibi sayfalardan dönen JSON yanıtını kontrol et
-                try:
-                    data = r_iframe.json()
-                    if isinstance(data, dict) and "URL" in data:
-                        return data["URL"].replace('\\/', '/')
-                except:
-                    pass
-
-                # Alternatif olarak iframe içinde .m3u8 arama
-                m3u8_sub = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', r_iframe.text, re.IGNORECASE)
-                if m3u8_sub:
-                    url = m3u8_sub.group(1).replace('\\/', '/').replace('\\', '')
-                    if "http" in url: return url
+                resp2 = requests.get(fetch_url, headers=h, timeout=10)
+                target_text += "\n" + resp2.text
             except:
                 pass
 
-        # 4. Standart .m3u8 regex fallback
-        m3u8_match = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', text, re.IGNORECASE)
-        if m3u8_match:
-            url = m3u8_match.group(1).replace('\\/', '/').replace('\\', '')
-            if "http" in url: return url
-
+        for pat in [r'"URL"\s*:\s*"([^"]+)"', r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
+            mm = re.search(pat, target_text, re.IGNORECASE)
+            if mm: 
+                found = mm.group(1).replace('\\/', '/').replace('\\', '')
+                if found.startswith("http"):
+                    return found
         return None
-    except Exception: 
+    except: 
         return None
 
 def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
+        # ── CANLI MAÇLAR (Yeni Format)
         for m in working_matches:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
@@ -169,8 +153,10 @@ def build_m3u(working_matches, working_channels, base_domain):
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
-            f.write(f"{m['url']}\n\n")
+            f.write(f"{m['url']}\n")
+            f.write(f"# İki logo: {m['home_logo']} | {m['away_logo']}\n\n")
 
+        # ── TV KANALLARI
         for ch in working_channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
