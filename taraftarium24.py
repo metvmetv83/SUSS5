@@ -7,10 +7,17 @@ from urllib.parse import urlparse, parse_qs, urljoin
 from playwright.sync_api import sync_playwright, Error as PlaywrightError, TimeoutError as PlaywrightTimeoutError
 
 TARAFTARIUM_DOMAIN = "https://taraftarium24.xyz/"
+CORS_PROXY = "https://cors.gerhut.workers.dev/?"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
 
 OUTPUT_M3U = "taraftarium24.m3u8"
 OUTPUT_JSON = "taraftarium24_yayinlar.json"
+
+def apply_cors_proxy(url):
+    """URL'ye CORS proxy ekler"""
+    if url.startswith('http'):
+        return f"{CORS_PROXY}{url}"
+    return url
 
 def scrape_default_channel_info(page):
     print(f"\n📡 Varsayılan kanal bilgisi {TARAFTARIUM_DOMAIN} adresinden alınıyor...")
@@ -73,7 +80,6 @@ def scrape_all_channels(page):
                 except Exception:
                     pass
             
-            # Logo bilgisini al (varsa)
             logo_element = element.query_selector("img")
             logo_url = logo_element.get_attribute('src') if logo_element else ""
             if logo_url and not logo_url.startswith('http'):
@@ -118,12 +124,13 @@ def get_channel_group(channel_name):
     return "Diğer Kanallar"
 
 def create_m3u_content(channels, base_m3u8_url):
-    """M3U içeriği oluşturur"""
+    """M3U içeriği oluşturur - CORS proxy ile"""
     m3u_content = []
     m3u_header_lines = [
         "#EXTM3U",
         f"#EXT-X-USER-AGENT:{USER_AGENT}",
-        f"#EXT-X-ORIGIN:{TARAFTARIUM_DOMAIN.rstrip('/')}"
+        f"#EXT-X-ORIGIN:{TARAFTARIUM_DOMAIN.rstrip('/')}",
+        f"#CORS-PROXY:{CORS_PROXY}"
     ]
     
     for channel_info in channels:
@@ -131,22 +138,29 @@ def create_m3u_content(channels, base_m3u8_url):
         stream_id = channel_info['id']
         group_name = get_channel_group(channel_name)
         logo = channel_info.get('logo', '')
-        m3u8_link = f"{base_m3u8_url}{stream_id}.m3u8"
+        
+        # CORS proxy ile URL oluştur
+        raw_url = f"{base_m3u8_url}{stream_id}.m3u8"
+        proxied_url = apply_cors_proxy(raw_url)
         
         m3u_content.append(f'#EXTINF:-1 tvg-logo="{logo}" tvg-name="{channel_name}" group-title="{group_name}",{channel_name}')
         m3u_content.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
         m3u_content.append(f'#EXTVLCOPT:http-referrer={TARAFTARIUM_DOMAIN}')
-        m3u_content.append(m3u8_link)
-        m3u_content.append('')  # Boş satır
+        m3u_content.append(f'#ORIGINAL-URL:{raw_url}')
+        m3u_content.append(proxied_url)
+        m3u_content.append('')
     
     return m3u_header_lines, m3u_content
 
 def create_json_output(channels, base_m3u8_url, default_stream_id):
-    """JSON çıktısı oluşturur"""
+    """JSON çıktısı oluşturur - CORS proxy ile"""
     channels_with_url = []
     for channel in channels:
         channel_copy = channel.copy()
-        channel_copy['url'] = f"{base_m3u8_url}{channel['id']}.m3u8"
+        raw_url = f"{base_m3u8_url}{channel['id']}.m3u8"
+        channel_copy['url'] = apply_cors_proxy(raw_url)
+        channel_copy['original_url'] = raw_url
+        channel_copy['cors_proxy'] = CORS_PROXY
         channel_copy['user_agent'] = USER_AGENT
         channel_copy['referrer'] = TARAFTARIUM_DOMAIN
         channel_copy['group'] = get_channel_group(channel['name'])
@@ -156,6 +170,7 @@ def create_json_output(channels, base_m3u8_url, default_stream_id):
         "generated_at": datetime.now().isoformat(),
         "source": "Taraftarium24",
         "base_url": base_m3u8_url,
+        "cors_proxy": CORS_PROXY,
         "domain": TARAFTARIUM_DOMAIN,
         "user_agent": USER_AGENT,
         "default_stream_id": default_stream_id,
@@ -170,6 +185,7 @@ def create_json_output(channels, base_m3u8_url, default_stream_id):
 
 def main():
     print("🚀 Taraftarium24 M3U8 Kanal İndirici Başlatılıyor...")
+    print(f"🔧 CORS Proxy: {CORS_PROXY}")
     
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -206,6 +222,7 @@ def main():
             print("\n📊 ÖZET:")
             print(f"   Kanal: {len(channels)}")
             print(f"   Base URL: {base_m3u8_url}")
+            print(f"   CORS Proxy: {CORS_PROXY}")
             print(f"   M3U Dosyası: {OUTPUT_M3U}")
             print(f"   JSON Dosyası: {OUTPUT_JSON}")
         else:
