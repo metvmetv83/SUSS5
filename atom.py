@@ -2,7 +2,7 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup
-import time
+import urllib.parse
 
 # ─────────────────────────────────────────────
 #  AtomSporTV  –  Canlı Maç + TV Kanalları M3U
@@ -46,8 +46,8 @@ def get_base_domain():
             if 'location' in r2.headers:
                 domain = r2.headers['location'].strip().rstrip('/')
                 return domain
-    except Exception as e:
-        print(f"{RED}Domain bulma hatası: {e}{RESET}")
+    except Exception:
+        pass
     return "https://www.atomsportv510.top"
 
 def normalize_logo(src):
@@ -101,152 +101,136 @@ def get_matches():
         print(f"{RED}Maç çekme hatası: {e}{RESET}")
         return []
 
-def get_m3u8_from_cinema(resource_id, base_domain):
-    """Cinema sayfasından özel olarak m3u8 URL'sini bulur"""
-    try:
-        # Cinema sayfasına doğrudan istek at
-        cinema_url = "https://streamsport365.com/cinema"
-        h = headers.copy()
-        h['Referer'] = f"{base_domain}/"
-        h['Origin'] = base_domain
-        
-        print(f"  Cinema isteği: {cinema_url}")
-        resp = requests.get(cinema_url, headers=h, timeout=10)
-        
-        # Yanıtı göster (debug için)
-        print(f"  Cinema Status: {resp.status_code}")
-        print(f"  Cinema Content-Type: {resp.headers.get('Content-Type', '')}")
-        
-        # JSON yanıtı kontrol et
-        if 'application/json' in resp.headers.get('Content-Type', ''):
-            try:
-                data = resp.json()
-                print(f"  Cinema JSON: {json.dumps(data, indent=2)[:500]}...")
-                
-                # JSON içinde m3u8 ara
-                json_str = json.dumps(data)
-                m3u8_patterns = [
-                    r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                    r'"URL"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                    r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                    r'"stream"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                    r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                    r'"playlist"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                ]
-                
-                for pattern in m3u8_patterns:
-                    matches = re.findall(pattern, json_str, re.IGNORECASE)
-                    for match in matches:
-                        url = match.replace('\\/', '/').replace('\\', '')
-                        if url.startswith('http') and '.m3u8' in url:
-                            print(f"  ✓ M3U8 bulundu (JSON): {url[:100]}...")
-                            return url
-            except Exception as e:
-                print(f"  JSON parse hatası: {e}")
-        
-        # HTML yanıtı
-        else:
-            # Sayfanın ilk 1000 karakterini göster
-            print(f"  Cinema HTML (ilk 500): {resp.text[:500]}...")
-            
-            # HTML içinde m3u8 ara
-            m3u8_patterns = [
-                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-                r'"URL"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'"stream"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-                r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            ]
-            
-            for pattern in m3u8_patterns:
-                matches = re.findall(pattern, resp.text, re.IGNORECASE)
-                for match in matches:
-                    url = match.replace('\\/', '/').replace('\\', '')
-                    if url.startswith('http') and '.m3u8' in url:
-                        print(f"  ✓ M3U8 bulundu (HTML): {url[:100]}...")
-                        return url
-            
-            # iframe'leri kontrol et
-            iframes = re.findall(r'<iframe[^>]+src=["\']([^"\']+)["\']', resp.text, re.IGNORECASE)
-            for iframe_url in iframes:
-                if iframe_url.startswith('http') and '.m3u8' not in iframe_url:
-                    try:
-                        print(f"  iframe kontrol: {iframe_url}")
-                        iframe_resp = requests.get(iframe_url, headers=h, timeout=5)
-                        for pattern in m3u8_patterns:
-                            matches = re.findall(pattern, iframe_resp.text, re.IGNORECASE)
-                            for match in matches:
-                                url = match.replace('\\/', '/').replace('\\', '')
-                                if url.startswith('http') and '.m3u8' in url:
-                                    print(f"  ✓ M3U8 bulundu (iframe): {url[:100]}...")
-                                    return url
-                    except:
-                        pass
-        
-        return None
-    except Exception as e:
-        print(f"  Cinema hatası: {e}")
-        return None
+def extract_m3u8_from_text(text):
+    """Metin içinden m3u8 URL'sini çıkarır"""
+    patterns = [
+        r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+        r'"URL"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"stream"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"playlist"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"deismackanal"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"file"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"video"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+        r'"hls"\s*:\s*"([^"]+\.m3u8[^"]*)"',
+    ]
+    
+    for pattern in patterns:
+        matches = re.findall(pattern, text, re.IGNORECASE)
+        for match in matches:
+            url = match.replace('\\/', '/').replace('\\', '')
+            if url.startswith('http') and '.m3u8' in url:
+                return url
+    return None
 
 def get_m3u8(resource_id, base_domain):
     """Maç veya kanal için m3u8 URL'sini bulur"""
     try:
-        # Önce cinema sayfasını dene
-        print(f"  Cinema method deneniyor...")
-        result = get_m3u8_from_cinema(resource_id, base_domain)
-        if result:
-            return result
-        
         # Ana sayfa URL'si
         page_url = f"{base_domain}/matches?id={resource_id}"
-        print(f"  Ana sayfa kontrol: {page_url}")
+        print(f"  Kontrol: {page_url}")
         
         h = headers.copy()
         h['Referer'] = base_domain + '/'
         
+        # Ana sayfayı çek
         resp = requests.get(page_url, headers=h, timeout=10)
         content = resp.text
         
-        # Ana sayfada m3u8 ara
-        m3u8_patterns = [
-            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
-            r'"URL"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            r'"url"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            r'"stream"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            r'"source"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            r'"playlist"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-            r'"deismackanal"\s*:\s*"([^"]+\.m3u8[^"]*)"',
-        ]
+        # 1. Doğrudan m3u8 URL'lerini ara
+        result = extract_m3u8_from_text(content)
+        if result:
+            print(f"  ✓ Doğrudan M3U8 bulundu")
+            return result
         
-        for pattern in m3u8_patterns:
-            matches = re.findall(pattern, content, re.IGNORECASE)
-            for match in matches:
-                url = match.replace('\\/', '/').replace('\\', '')
-                if url.startswith('http') and '.m3u8' in url:
-                    print(f"  ✓ M3U8 bulundu (ana sayfa): {url[:100]}...")
-                    return url
-        
-        # iframe'leri kontrol et
+        # 2. iframe'leri kontrol et
         iframes = re.findall(r'<iframe[^>]+src=["\']([^"\']+)["\']', content, re.IGNORECASE)
         for iframe_url in iframes:
-            if iframe_url.startswith('http') and 'cinema' in iframe_url:
-                print(f"  iframe cinema: {iframe_url}")
+            if not iframe_url.startswith('http'):
+                if iframe_url.startswith('//'):
+                    iframe_url = 'https:' + iframe_url
+                elif iframe_url.startswith('/'):
+                    iframe_url = base_domain + iframe_url
+                else:
+                    continue
+            
+            print(f"  iframe: {iframe_url}")
+            try:
+                h['Referer'] = page_url
+                iframe_resp = requests.get(iframe_url, headers=h, timeout=5)
+                result = extract_m3u8_from_text(iframe_resp.text)
+                if result:
+                    print(f"  ✓ iframe'den M3U8 bulundu")
+                    return result
+            except:
+                pass
+        
+        # 3. Script içindeki URL'leri kontrol et
+        scripts = re.findall(r'<script[^>]*>([^<]+)</script>', content, re.IGNORECASE | re.DOTALL)
+        for script in scripts:
+            # JavaScript içindeki URL'leri bul
+            js_urls = re.findall(r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']', script)
+            for url in js_urls:
+                if url.startswith('http') and '.m3u8' in url:
+                    print(f"  ✓ Script'ten M3U8 bulundu")
+                    return url
+            
+            # JavaScript içindeki fetch/axios çağrıları
+            api_calls = re.findall(r'(?:fetch|axios)\s*\(\s*["\']([^"\']+)["\']', script)
+            for api_url in api_calls:
+                if not api_url.startswith('http'):
+                    if api_url.startswith('/'):
+                        api_url = base_domain + api_url
+                    else:
+                        continue
+                
                 try:
                     h['Referer'] = page_url
-                    iframe_resp = requests.get(iframe_url, headers=h, timeout=5)
-                    for pattern in m3u8_patterns:
-                        matches = re.findall(pattern, iframe_resp.text, re.IGNORECASE)
-                        for match in matches:
-                            url = match.replace('\\/', '/').replace('\\', '')
-                            if url.startswith('http') and '.m3u8' in url:
-                                print(f"  ✓ M3U8 bulundu (iframe): {url[:100]}...")
-                                return url
+                    api_resp = requests.get(api_url, headers=h, timeout=5)
+                    result = extract_m3u8_from_text(api_resp.text)
+                    if result:
+                        print(f"  ✓ API'den M3U8 bulundu")
+                        return result
                 except:
                     pass
         
+        # 4. Cinema sayfasını dene (POST ile)
+        cinema_url = "https://streamsport365.com/cinema"
+        try:
+            # POST isteği ile dene
+            post_data = {'id': resource_id}
+            h['Referer'] = page_url
+            h['Origin'] = base_domain
+            h['Content-Type'] = 'application/x-www-form-urlencoded'
+            
+            print(f"  Cinema POST: {cinema_url}")
+            post_resp = requests.post(cinema_url, data=post_data, headers=h, timeout=10)
+            
+            if post_resp.status_code == 200:
+                result = extract_m3u8_from_text(post_resp.text)
+                if result:
+                    print(f"  ✓ Cinema POST'ten M3U8 bulundu")
+                    return result
+                
+                # JSON yanıtı
+                try:
+                    data = post_resp.json()
+                    json_str = json.dumps(data)
+                    result = extract_m3u8_from_text(json_str)
+                    if result:
+                        print(f"  ✓ Cinema JSON'dan M3U8 bulundu")
+                        return result
+                except:
+                    pass
+        except:
+            pass
+        
+        print(f"  ✗ M3U8 bulunamadı")
         return None
+        
     except Exception as e:
-        print(f"{RED}M3U8 bulma hatası ({resource_id}): {e}{RESET}")
+        print(f"{RED}Hata: {e}{RESET}")
         return None
 
 def build_m3u(working_matches, working_channels, base_domain):
@@ -285,7 +269,7 @@ def main():
     working_matches = []
     
     print(f"\n{YELLOW}Maçlar test ediliyor...{RESET}")
-    for m in matches[:3]:  # Sadece ilk 3 maçı test et
+    for m in matches[:5]:
         print(f"\nTest: {m['home']} vs {m['away']} (ID: {m['id']})")
         url = get_m3u8(m['id'], base_domain)
         if url:
@@ -298,7 +282,7 @@ def main():
     # TV kanallarını test et
     tv_items = []
     print(f"\n{YELLOW}Kanallar test ediliyor...{RESET}")
-    for cid, name, logo in TV_CHANNELS[:3]:  # Sadece ilk 3 kanalı test et
+    for cid, name, logo in TV_CHANNELS:
         print(f"\nTest: {name} (ID: {cid})")
         url = get_m3u8(cid, base_domain)
         if url:
