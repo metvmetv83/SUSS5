@@ -1,7 +1,7 @@
 name: Atom2 M3U Oluşturucu
 
 permissions:
-  contents: write   # <<--- Push izni çok önemli!
+  contents: write   # Push izni çok önemli!
 
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
   workflow_dispatch:       # Manuel çalıştırma
 
 jobs:
-  update-trgoals-m3u:
+  update-atom-m3u:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,13 +31,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Atom M3U oluştur (atom2.py)
+      - name: Atom M3U oluştur (atom.py)
         run: python atom.py
 
       - name: Değişiklikleri Commit et
         run: |
-          git add atom_mac.m3u
-          git commit -m "Auto-update atom_mac.m3u" || echo "No changes to commit"
+          git add atom_mac.m3u atom_yayinlar.json || echo "Dosyalar bulunamadı"
+          git commit -m "Auto-update atom_mac.m3u and atom_yayinlar.json [skip ci]" || echo "No changes to commit"
 
       - name: Uzaktaki değişiklikleri çek
         run: |
