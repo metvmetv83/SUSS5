@@ -1,0 +1,55 @@
+name: Patron Sports M3U Oluşturucu
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '45 * * * *'   # Her saat 45. dakikada
+  workflow_dispatch:
+
+jobs:
+  update-patron-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Gerekli Python paketleri
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 urllib3
+
+      - name: Git Ayarları
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Patron Sports M3U oluştur
+        run: python patron.py
+
+      - name: Değişiklikleri Commit ve Push et
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Doğru dosya isimleriyle ekle
+          git add patron.m3u patron_yayinlar.json || echo "⚠️ Dosyalar bulunamadı"
+          
+          # Değişiklik varsa commit yap
+          if ! git diff --cached --quiet; then
+            echo "✅ Değişiklikler bulundu, commit yapılıyor..."
+            git commit -m "Auto-update: Patron Sports M3U and JSON [skip ci]"
+            
+            # Push yap
+            echo "📤 Değişiklikler pushlanıyor..."
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+            echo "✅ Başarıyla pushlandı!"
+          else
+            echo "ℹ️ Değişiklik yok, işlem atlanıyor."
+          fi
