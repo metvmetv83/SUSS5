@@ -1,0 +1,48 @@
+name: RoyalTV M3U Oluşturucu
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '30 * * * *'   # Her saat 30. dakikada
+  workflow_dispatch:
+
+jobs:
+  update-royaltv-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Gerekli Python paketleri
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4
+
+      - name: Git Ayarları
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: RoyalTV M3U oluştur
+        run: python royal.py
+
+      - name: Değişiklikleri Commit et
+        run: |
+          git add rayal.m3u royal_yayinlar.json || echo "Dosyalar bulunamadı"
+          git commit -m "Auto-update royaltv.m3u and royaltv_yayinlar.json [skip ci]" || echo "No changes to commit"
+
+      - name: Değişiklikleri Pushla
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git fetch origin main
+          git rebase origin/main || git rebase --abort
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
