@@ -32,7 +32,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Atom M3U oluştur (atom2.py)
-        run: python atom2.py
+        run: python atom.py
 
       - name: Değişiklikleri Commit et
         run: |
