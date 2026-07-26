@@ -19,7 +19,8 @@ YELLOW = "\033[93m"
 RED    = "\033[91m"
 RESET  = "\033[0m"
 
-headers = {
+# Base headers
+BASE_HEADERS = {
     'Accept': '*/*',
     'Accept-Encoding': 'gzip, deflate',
     'Accept-Language': 'tr-TR,tr;q=0.8',
@@ -90,12 +91,16 @@ TV_CHANNELS = [
 def get_base_domain():
     """Ana domain adresini bulur"""
     try:
-        r1 = requests.get(START_URL, headers=headers, allow_redirects=False, timeout=10)
+        # Önce URL24 üzerinden yönlendirmeyi takip et
+        r1 = requests.get(START_URL, headers=BASE_HEADERS, allow_redirects=False, timeout=10)
         if 'location' in r1.headers:
-            r2 = requests.get(r1.headers['location'], headers=headers, allow_redirects=False, timeout=10)
+            r2 = requests.get(r1.headers['location'], headers=BASE_HEADERS, allow_redirects=False, timeout=10)
             if 'location' in r2.headers:
                 domain = r2.headers['location'].strip().rstrip('/')
-                return domain
+                # Domain'i temizle
+                if domain.startswith('https://'):
+                    domain = domain.split('/')[2]  # Sadece domain adını al
+                return f"https://{domain}"
     except Exception:
         pass
     return "https://www.atomsportv510.top"
@@ -111,7 +116,7 @@ def get_matches():
     """Maç listesini çeker"""
     print(f"Maçlar çekiliyor → {MATCHES_URL}")
     try:
-        resp = requests.get(MATCHES_URL, headers=headers, timeout=10)
+        resp = requests.get(MATCHES_URL, headers=BASE_HEADERS, timeout=10)
         resp.encoding = 'utf-8'
         soup = BeautifulSoup(resp.text, 'html.parser')
         matches = []
@@ -151,13 +156,14 @@ def get_matches():
         print(f"{RED}Maç çekme hatası: {e}{RESET}")
         return []
 
-def get_m3u8_from_api(resource_id):
+def get_m3u8_from_api(resource_id, base_domain):
     """Yayınlink API'sinden m3u8 URL'sini alır"""
     try:
         api_url = f"{YAYINLINK_URL}?id={resource_id}"
         
-        h = headers.copy()
-        h['Referer'] = 'https://teletv5.top/'
+        h = BASE_HEADERS.copy()
+        h['Referer'] = base_domain + '/'
+        h['Origin'] = base_domain
         
         resp = requests.get(api_url, headers=h, timeout=10)
         
@@ -167,23 +173,22 @@ def get_m3u8_from_api(resource_id):
         try:
             data = resp.json()
             
-            # deismackanal alanını kontrol et
             if 'deismackanal' in data:
                 url = data['deismackanal']
                 if url and url.startswith('http') and '.m3u8' in url:
                     url = url.replace('\\/', '/').replace('\\', '')
-                    # Headers bilgilerini oluştur
+                    # Header'ları base_domain'e göre oluştur
                     headers_info = {
                         "h1Key": "accept",
                         "h1Val": "*/*",
                         "h2Key": "referer",
-                        "h2Val": "https://teletv5.top/",
+                        "h2Val": base_domain + "/",
                         "h3Key": "origin",
-                        "h3Val": "https://teletv5.top",
+                        "h3Val": base_domain,
                         "h4Key": "accept-language",
                         "h4Val": "tr-TR,tr;q=0.8",
                         "h5Key": "user-agent",
-                        "h5Val": headers['User-Agent']
+                        "h5Val": BASE_HEADERS['User-Agent']
                     }
                     return url, headers_info
                 elif url and url.isdigit():
@@ -205,7 +210,7 @@ def get_m3u8_from_api(resource_id):
 def get_m3u8(resource_id, base_domain):
     """Maç veya kanal için m3u8 URL'sini bulur"""
     # Önce API'den dene
-    url, headers_info = get_m3u8_from_api(resource_id)
+    url, headers_info = get_m3u8_from_api(resource_id, base_domain)
     if url:
         return url, headers_info
     
@@ -213,7 +218,7 @@ def get_m3u8(resource_id, base_domain):
     try:
         page_url = f"{base_domain}/matches?id={resource_id}"
         
-        h = headers.copy()
+        h = BASE_HEADERS.copy()
         h['Referer'] = base_domain + '/'
         
         resp = requests.get(page_url, headers=h, timeout=10)
@@ -241,7 +246,7 @@ def get_m3u8(resource_id, base_domain):
                         "h4Key": "accept-language",
                         "h4Val": "tr-TR,tr;q=0.8",
                         "h5Key": "user-agent",
-                        "h5Val": headers['User-Agent']
+                        "h5Val": BASE_HEADERS['User-Agent']
                     }
                     return url, headers_info
     except:
@@ -272,13 +277,16 @@ def build_m3u(tv_items, match_items, base_domain):
         # TV kanallarını ekle
         for ch in tv_items:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
+            # Header'ları ekle
             if ch.get("headers"):
                 for key, val in ch["headers"].items():
                     if key.startswith("h") and key.endswith("Key"):
                         num = key[1]
                         val_key = f"h{num}Val"
                         if val_key in ch["headers"]:
-                            f.write(f'#EXTVLCOPT:http-{ch["headers"][key]}={ch["headers"][val_key]}\n')
+                            header_name = ch["headers"][key].lower()
+                            header_value = ch["headers"][val_key]
+                            f.write(f'#EXTVLCOPT:http-{header_name}={header_value}\n')
             f.write(f"{ch['url']}\n\n")
 
         # Maçları ekle
@@ -293,7 +301,9 @@ def build_m3u(tv_items, match_items, base_domain):
                         num = key[1]
                         val_key = f"h{num}Val"
                         if val_key in m["headers"]:
-                            f.write(f'#EXTVLCOPT:http-{m["headers"][key]}={m["headers"][val_key]}\n')
+                            header_name = m["headers"][key].lower()
+                            header_value = m["headers"][val_key]
+                            f.write(f'#EXTVLCOPT:http-{header_name}={header_value}\n')
             f.write(f"{m['url']}\n\n")
 
     print(f"\n{GREEN}[✓] {OUTPUT_FILE} başarıyla oluşturuldu.{RESET}")
@@ -318,7 +328,7 @@ def main():
             channel_copy['playlistURL'] = ""
             channel_copy['media_url'] = url
             tv_items.append(channel_copy)
-            print(f"  {GREEN}✓{RESET} M3U8 bulundu")
+            print(f"  {GREEN}✓{RESET} M3U8 bulundu: {url[:80]}...")
         else:
             print(f"  {RED}✗{RESET} M3U8 bulunamadı")
     
@@ -336,7 +346,7 @@ def main():
             m['playlistURL'] = ""
             m['media_url'] = url
             match_items.append(m)
-            print(f"  {GREEN}✓{RESET} M3U8 bulundu")
+            print(f"  {GREEN}✓{RESET} M3U8 bulundu: {url[:80]}...")
         else:
             print(f"  {RED}✗{RESET} M3U8 bulunamadı")
 
