@@ -42,8 +42,7 @@ def get_base_domain():
         if 'location' in r1.headers:
             r2 = requests.get(r1.headers['location'], headers=headers, allow_redirects=False, timeout=10)
             if 'location' in r2.headers:
-                domain = r2.headers['location'].strip().rstrip('/')
-                return domain
+                return r2.headers['location'].strip().rstrip('/')
     except Exception:
         pass
     return "https://www.atomsportv510.top"
@@ -104,54 +103,40 @@ def get_m3u8(resource_id, base_domain):
         h['Referer'] = f"{base_domain}/"
         
         resp = requests.get(page_url, headers=h, timeout=10)
-        combined_text = resp.text
+        text = resp.text
 
-        # 1. Doğrudan sayfada veya script içinde geçen xmediaget/m3u8 linklerini yakala
-        direct_m3u8 = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', combined_text, re.IGNORECASE)
-        if direct_m3u8:
-            clean_url = direct_m3u8.group(1).replace('\\/', '/').replace('\\', '')
-            if "http" in clean_url:
-                return clean_url
+        # 1. Doğrudan m3u8 uzantısı kontrolü
+        m3u8_match = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', text, re.IGNORECASE)
+        if m3u8_match:
+            url = m3u8_match.group(1).replace('\\/', '/').replace('\\', '')
+            if "http" in url: return url
 
-        # 2. Iframe (cinema, embed, streamsport365 vb.) kaynaklarını tara
-        iframe_matches = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', combined_text, re.IGNORECASE)
-        for iframe_url in iframe_matches:
+        # 2. Iframe (cinema, embed, streamsport vb.) kaynaklarını çözme
+        iframes = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', text, re.IGNORECASE)
+        for iframe_url in iframes:
             try:
                 h['Referer'] = page_url
-                resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
+                r_iframe = requests.get(iframe_url, headers=h, timeout=10)
                 
-                # İframe içerisindeki m3u8 veya URL parametresi
-                m3u8_in_iframe = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', resp_iframe.text, re.IGNORECASE)
-                if m3u8_in_iframe:
-                    clean_url = m3u8_in_iframe.group(1).replace('\\/', '/').replace('\\', '')
-                    if "http" in clean_url:
-                        return clean_url
+                # İframe içinde .m3u8 arama
+                m3u8_sub = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', r_iframe.text, re.IGNORECASE)
+                if m3u8_sub:
+                    url = m3u8_sub.group(1).replace('\\/', '/').replace('\\', '')
+                    if "http" in url: return url
                 
-                # JSON / URL değişken formatı (örn: URL: "...")
-                url_param = re.search(r'URL["\']?\s*:\s*["\'](https?://[^"\']+)["\']', resp_iframe.text, re.IGNORECASE)
+                # URL parametrelerini yakalama (xmediaget tarzı)
+                url_param = re.search(r'URL["\']?\s*:\s*["\'](https?://[^"\']+)["\']', r_iframe.text, re.IGNORECASE)
                 if url_param:
-                    clean_url = url_param.group(1).replace('\\/', '/').replace('\\', '')
-                    if "http" in clean_url:
-                        return clean_url
+                    url = url_param.group(1).replace('\\/', '/').replace('\\', '')
+                    if "http" in url: return url
             except:
                 pass
 
-        # 3. Sayfa içindeki alternatif fetch / api isteklerini tara
-        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', combined_text)
-        if fetch_m:
-            fetch_url = fetch_m.group(1).strip()
-            if not fetch_url.startswith("http"):
-                fetch_url = base_domain + "/" + fetch_url.lstrip("/")
-            try:
-                h['Origin'] = base_domain
-                resp2 = requests.get(fetch_url, headers=h, timeout=10)
-                m3u8_in_fetch = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', resp2.text, re.IGNORECASE)
-                if m3u8_in_fetch:
-                    clean_url = m3u8_in_fetch.group(1).replace('\\/', '/').replace('\\', '')
-                    if "http" in clean_url:
-                        return clean_url
-            except:
-                pass
+        # 3. Script veya API fetch uç noktaları
+        script_urls = re.findall(r'["\'](https?://[^"\']+/hls-live/[^"\']+)["\']', text)
+        for su in script_urls:
+            if ".m3u8" in su:
+                return su.replace('\\/', '/').replace('\\', '')
 
         return None
     except Exception: 
@@ -161,7 +146,6 @@ def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
-        # ── CANLI MAÇLAR
         for m in working_matches:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
@@ -169,10 +153,8 @@ def build_m3u(working_matches, working_channels, base_domain):
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
-            f.write(f"{m['url']}\n")
-            f.write(f"# İki logo: {m['home_logo']} | {m['away_logo']}\n\n")
+            f.write(f"{m['url']}\n\n")
 
-        # ── TV KANALLARI
         for ch in working_channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
@@ -194,7 +176,7 @@ def main():
         if url:
             m['url'] = url
             working_matches.append(m)
-            print(f"  ✓ {m['home']} vs {m['away']} -> {url}")
+            print(f"  ✓ {m['home']} vs {m['away']}")
         else:
             print(f"  ✗ {m['home']} vs {m['away']}")
 
