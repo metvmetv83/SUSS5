@@ -6,7 +6,7 @@ permissions:
 on:
   schedule:
     - cron: '30 * * * *'   # Her saat 30. dakikada
-  workflow_dispatch:       # Manuel çalıştırma
+  workflow_dispatch:
 
 jobs:
   update-royaltv-m3u:
@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Repo Checkout
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: Python Kur
         uses: actions/setup-python@v4
@@ -40,29 +38,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Çalışma dizinindeki dosyaları listele (debug için)
-          echo "📁 Çalışma dizini içeriği:"
-          ls -la
-          
-          # Değişiklikleri kontrol et
-          echo "📊 Git durumu:"
-          git status
-          
           # Doğru dosya isimleriyle ekle
-          # (royal.py script'i mono.m3u ve mono_yayinlar.json oluşturuyor)
-          git add royal.m3u royal_yayinlar.json 2>/dev/null || echo "⚠️ Dosyalar bulunamadı, kontrol ediliyor..."
-          
-          # Eğer dosyalar farklı isimdeyse, onları da dene
-          git add rayal.m3u royal_yayinlar.json 2>/dev/null || echo "ℹ️ Alternatif dosya isimleri kontrol edildi."
+          git add royal.m3u royal_yayinlar.json || echo "⚠️ Dosyalar bulunamadı"
           
           # Değişiklik varsa commit yap
           if ! git diff --cached --quiet; then
             echo "✅ Değişiklikler bulundu, commit yapılıyor..."
             git commit -m "Auto-update: RoyalTV M3U and JSON [skip ci]"
-            
-            # Push yapmadan önce uzaktaki değişiklikleri çek
-            echo "📥 Uzaktaki değişiklikler çekiliyor..."
-            git pull --rebase origin main || echo "⚠️ Rebase sırasında sorun oluştu, devam ediliyor..."
             
             # Push yap
             echo "📤 Değişiklikler pushlanıyor..."
