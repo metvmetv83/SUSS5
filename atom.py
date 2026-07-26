@@ -2,6 +2,7 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 # ─────────────────────────────────────────────
 #  AtomSporTV  –  Canlı Maç + TV Kanalları M3U
@@ -11,6 +12,7 @@ MATCHES_URL  = "https://teletv5.top/load/matches.php"
 YAYINLINK_URL = "https://teletv5.top/load/yayinlink.php"
 LOGO_BASE    = "https://im.mackolik.com/img/logo/buyuk"
 OUTPUT_FILE  = "atom_mac.m3u"
+JSON_FILE    = "atom_yayinlar.json"
 
 GREEN  = "\033[92m"
 YELLOW = "\033[93m"
@@ -27,14 +29,62 @@ headers = {
 }
 
 TV_CHANNELS = [
-    ("bein-sports-1", "BEIN SPORTS 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png"),
-    ("bein-sports-2", "BEIN SPORTS 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png"),
-    ("bein-sports-3", "BEIN SPORTS 3", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png"),
-    ("bein-sports-4", "BEIN SPORTS 4", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png"),
-    ("s-sport",       "S SPORT", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
-    ("s-sport-2",     "S SPORT 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
-    ("trt-spor",      "TRT SPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png"),
-    ("aspor",         "ASPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Spor_logo.svg/200px-A_Spor_logo.svg.png"),
+    {
+        "id": "bein-sports-1",
+        "name": "BEIN SPORTS 1",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
+        "title": "BeIN Sports 1"
+    },
+    {
+        "id": "bein-sports-2",
+        "name": "BEIN SPORTS 2",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png",
+        "title": "BeIN Sports 2"
+    },
+    {
+        "id": "bein-sports-3",
+        "name": "BEIN SPORTS 3",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png",
+        "title": "BeIN Sports 3"
+    },
+    {
+        "id": "bein-sports-4",
+        "name": "BEIN SPORTS 4",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png",
+        "title": "BeIN Sports 4"
+    },
+    {
+        "id": "s-sport",
+        "name": "S SPORT",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png",
+        "title": "S Sport"
+    },
+    {
+        "id": "s-sport-2",
+        "name": "S SPORT 2",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png",
+        "title": "S Sport 2"
+    },
+    {
+        "id": "trt-spor",
+        "name": "TRT SPOR",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png",
+        "title": "TRT Spor"
+    },
+    {
+        "id": "aspor",
+        "name": "ASPOR",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Spor_logo.svg/200px-A_Spor_logo.svg.png",
+        "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Spor_logo.svg/200px-A_Spor_logo.svg.png",
+        "title": "A Spor"
+    },
 ]
 
 def get_base_domain():
@@ -105,7 +155,6 @@ def get_m3u8_from_api(resource_id):
     """Yayınlink API'sinden m3u8 URL'sini alır"""
     try:
         api_url = f"{YAYINLINK_URL}?id={resource_id}"
-        print(f"  API: {api_url}")
         
         h = headers.copy()
         h['Referer'] = 'https://teletv5.top/'
@@ -113,56 +162,56 @@ def get_m3u8_from_api(resource_id):
         resp = requests.get(api_url, headers=h, timeout=10)
         
         if resp.status_code != 200:
-            print(f"  API Hata Kodu: {resp.status_code}")
-            return None
+            return None, None
         
-        # JSON yanıtını parse et
         try:
             data = resp.json()
-            print(f"  API Yanıt: {json.dumps(data, indent=2, ensure_ascii=False)}")
             
             # deismackanal alanını kontrol et
             if 'deismackanal' in data:
                 url = data['deismackanal']
                 if url and url.startswith('http') and '.m3u8' in url:
-                    # URL'deki kaçış karakterlerini temizle
                     url = url.replace('\\/', '/').replace('\\', '')
-                    print(f"  ✓ M3U8 bulundu: {url[:100]}...")
-                    return url
+                    # Headers bilgilerini oluştur
+                    headers_info = {
+                        "h1Key": "accept",
+                        "h1Val": "*/*",
+                        "h2Key": "referer",
+                        "h2Val": "https://teletv5.top/",
+                        "h3Key": "origin",
+                        "h3Val": "https://teletv5.top",
+                        "h4Key": "accept-language",
+                        "h4Val": "tr-TR,tr;q=0.8",
+                        "h5Key": "user-agent",
+                        "h5Val": headers['User-Agent']
+                    }
+                    return url, headers_info
                 elif url and url.isdigit():
-                    # Eğer sayısal bir ID döndüyse, bu maç ID'si olabilir
-                    print(f"  ! Sayısal ID döndü: {url} - Bu maç için yayın yok")
-                    return None
+                    return None, None
                 else:
-                    print(f"  ✗ Geçersiz URL: {url}")
-                    return None
+                    return None, None
             
-            # Hata mesajı kontrol et
             if 'error' in data:
-                print(f"  ✗ API Hatası: {data['error']}")
-                return None
+                return None, None
                 
         except json.JSONDecodeError:
-            print(f"  ✗ JSON parse hatası")
-            return None
+            return None, None
             
-    except Exception as e:
-        print(f"  ✗ API Hatası: {e}")
-        return None
+    except Exception:
+        return None, None
     
-    return None
+    return None, None
 
 def get_m3u8(resource_id, base_domain):
     """Maç veya kanal için m3u8 URL'sini bulur"""
     # Önce API'den dene
-    result = get_m3u8_from_api(resource_id)
-    if result:
-        return result
+    url, headers_info = get_m3u8_from_api(resource_id)
+    if url:
+        return url, headers_info
     
     # API çalışmazsa, ana sayfayı kontrol et
     try:
         page_url = f"{base_domain}/matches?id={resource_id}"
-        print(f"  Ana sayfa: {page_url}")
         
         h = headers.copy()
         h['Referer'] = base_domain + '/'
@@ -170,7 +219,6 @@ def get_m3u8(resource_id, base_domain):
         resp = requests.get(page_url, headers=h, timeout=10)
         content = resp.text
         
-        # Sayfada m3u8 ara
         patterns = [
             r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
             r'"URL"\s*:\s*"([^"]+\.m3u8[^"]*)"',
@@ -183,35 +231,70 @@ def get_m3u8(resource_id, base_domain):
             for match in matches:
                 url = match.replace('\\/', '/').replace('\\', '')
                 if url.startswith('http') and '.m3u8' in url:
-                    print(f"  ✓ Sayfada M3U8 bulundu")
-                    return url
+                    headers_info = {
+                        "h1Key": "accept",
+                        "h1Val": "*/*",
+                        "h2Key": "referer",
+                        "h2Val": base_domain + "/",
+                        "h3Key": "origin",
+                        "h3Val": base_domain,
+                        "h4Key": "accept-language",
+                        "h4Val": "tr-TR,tr;q=0.8",
+                        "h5Key": "user-agent",
+                        "h5Val": headers['User-Agent']
+                    }
+                    return url, headers_info
     except:
         pass
     
-    print(f"  ✗ M3U8 bulunamadı")
-    return None
+    return None, None
 
-def build_m3u(working_matches, working_channels, base_domain):
+def build_json_output(tv_items, match_items, base_domain):
+    """JSON çıktısı oluşturur"""
+    output = {
+        "generated_at": datetime.now().isoformat(),
+        "base_domain": base_domain,
+        "total_streams": len(tv_items) + len(match_items),
+        "channels": tv_items,
+        "matches": match_items
+    }
+    
+    with open(JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+    
+    print(f"{GREEN}[✓] {JSON_FILE} başarıyla oluşturuldu.{RESET}")
+
+def build_m3u(tv_items, match_items, base_domain):
     """M3U dosyasını oluşturur"""
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
+        # TV kanallarını ekle
+        for ch in tv_items:
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
+            if ch.get("headers"):
+                for key, val in ch["headers"].items():
+                    if key.startswith("h") and key.endswith("Key"):
+                        num = key[1]
+                        val_key = f"h{num}Val"
+                        if val_key in ch["headers"]:
+                            f.write(f'#EXTVLCOPT:http-{ch["headers"][key]}={ch["headers"][val_key]}\n')
+            f.write(f"{ch['url']}\n\n")
+
         # Maçları ekle
-        for m in working_matches:
+        for m in match_items:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
             
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
+            if m.get("headers"):
+                for key, val in m["headers"].items():
+                    if key.startswith("h") and key.endswith("Key"):
+                        num = key[1]
+                        val_key = f"h{num}Val"
+                        if val_key in m["headers"]:
+                            f.write(f'#EXTVLCOPT:http-{m["headers"][key]}={m["headers"][val_key]}\n')
             f.write(f"{m['url']}\n\n")
-
-        # TV kanallarını ekle
-        for ch in working_channels:
-            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
-            f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
-            f.write(f"{ch['url']}\n\n")
 
     print(f"\n{GREEN}[✓] {OUTPUT_FILE} başarıyla oluşturuldu.{RESET}")
 
@@ -222,44 +305,55 @@ def main():
     base_domain = get_base_domain()
     print(f"Ana Domain: {base_domain}")
     
-    # TV kanallarını test et (önce)
+    # TV kanallarını test et
     tv_items = []
     print(f"\n{YELLOW}TV Kanalları test ediliyor...{RESET}")
-    for cid, name, logo in TV_CHANNELS:
-        print(f"\nTest: {name} (ID: {cid})")
-        url = get_m3u8(cid, base_domain)
+    for channel in TV_CHANNELS:
+        print(f"\nTest: {channel['name']} (ID: {channel['id']})")
+        url, headers_info = get_m3u8(channel['id'], base_domain)
         if url:
-            tv_items.append({'name': name, 'logo': logo, 'url': url})
+            channel_copy = channel.copy()
+            channel_copy['url'] = url
+            channel_copy['headers'] = headers_info
+            channel_copy['playlistURL'] = ""
+            channel_copy['media_url'] = url
+            tv_items.append(channel_copy)
             print(f"  {GREEN}✓{RESET} M3U8 bulundu")
         else:
             print(f"  {RED}✗{RESET} M3U8 bulunamadı")
     
     # Maçları çek ve test et
     matches = get_matches()
-    working_matches = []
+    match_items = []
     
     print(f"\n{YELLOW}Maçlar test ediliyor...{RESET}")
-    for m in matches[:10]:  # İlk 10 maçı test et
+    for m in matches[:10]:
         print(f"\nTest: {m['home']} vs {m['away']} (ID: {m['id']})")
-        url = get_m3u8(m['id'], base_domain)
+        url, headers_info = get_m3u8(m['id'], base_domain)
         if url:
             m['url'] = url
-            working_matches.append(m)
+            m['headers'] = headers_info
+            m['playlistURL'] = ""
+            m['media_url'] = url
+            match_items.append(m)
             print(f"  {GREEN}✓{RESET} M3U8 bulundu")
         else:
             print(f"  {RED}✗{RESET} M3U8 bulunamadı")
 
-    # M3U dosyasını oluştur
-    if working_matches or tv_items:
-        build_m3u(working_matches, tv_items, base_domain)
+    # JSON ve M3U dosyalarını oluştur
+    if tv_items or match_items:
+        build_m3u(tv_items, match_items, base_domain)
+        build_json_output(tv_items, match_items, base_domain)
     else:
         print(f"\n{RED}Hiçbir yayın bulunamadı!{RESET}")
     
     # Özet
     print(f"\n{GREEN}Özet:{RESET}")
     print(f"  Çalışan TV kanalı: {len(tv_items)}/{len(TV_CHANNELS)}")
-    print(f"  Çalışan maç: {len(working_matches)}/{len(matches[:10])}")
-    print(f"  Toplam: {len(tv_items) + len(working_matches)} yayın")
+    print(f"  Çalışan maç: {len(match_items)}/{len(matches[:10])}")
+    print(f"  Toplam: {len(tv_items) + len(match_items)} yayın")
+    print(f"  JSON dosyası: {JSON_FILE}")
+    print(f"  M3U dosyası: {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
