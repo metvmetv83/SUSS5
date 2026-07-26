@@ -2,6 +2,9 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
+# ─────────────────────────────────────────────
+#  AtomSporTV  –  Canlı Maç + TV Kanalları M3U
+# ─────────────────────────────────────────────
 START_URL    = "https://url24.link/AtomSporTV"
 MATCHES_URL  = "https://teletv5.top/load/matches.php"
 LOGO_BASE    = "https://im.mackolik.com/img/logo/buyuk"
@@ -22,6 +25,13 @@ headers = {
 
 TV_CHANNELS = [
     ("bein-sports-1", "BEIN SPORTS 1", "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png"),
+    ("bein-sports-2", "BEIN SPORTS 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png"),
+    ("bein-sports-3", "BEIN SPORTS 3", "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png"),
+    ("bein-sports-4", "BEIN SPORTS 4", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png"),
+    ("s-sport",       "S SPORT", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
+    ("s-sport-2",     "S SPORT 2", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png"),
+    ("trt-spor",      "TRT SPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png"),
+    ("aspor",         "ASPOR", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/A_Spor_logo.svg/200px-A_Spor_logo.svg.png"),
 ]
 
 def get_base_domain():
@@ -30,7 +40,8 @@ def get_base_domain():
         if 'location' in r1.headers:
             r2 = requests.get(r1.headers['location'], headers=headers, allow_redirects=False, timeout=10)
             if 'location' in r2.headers:
-                return r2.headers['location'].strip().rstrip('/')
+                domain = r2.headers['location'].strip().rstrip('/')
+                return domain
     except Exception:
         pass
     return "https://www.atomsportv510.top"
@@ -79,7 +90,7 @@ def get_matches():
                 'time': saat,
                 'league': lig or "Diğer Maçlar"
             })
-        return matches[:3] # Test için sadece ilk 3 maçı alalım
+        return matches
     except Exception as e:
         print(f"Hata: {e}")
         return []
@@ -91,27 +102,100 @@ def get_m3u8(resource_id, base_domain):
         h['Referer'] = f"{base_domain}/"
         
         resp = requests.get(page_url, headers=h, timeout=10)
-        print(f"\n--- [DEBUG] Sayfa İçeriği ({resource_id}) ---")
-        print(resp.text[:500]) # Gelen HTML'in ilk 500 karakterini basar
-        print("------------------------------------------\n")
+        combined_text = resp.text
+
+        # 1. Sayfa içindeki iframe kaynaklarını yakala (örn. streamsport365.com/cinema vb.)
+        iframe_matches = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', resp.text, re.IGNORECASE)
+        for iframe_url in iframe_matches:
+            try:
+                h['Referer'] = page_url
+                resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
+                combined_text += "\n" + resp_iframe.text
+            except:
+                pass
+
+        # 2. Sayfadaki JavaScript değişkenleri veya fetch isteklerini ara
+        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', combined_text)
+        if fetch_m:
+            fetch_url = fetch_m.group(1).strip()
+            if not fetch_url.startswith("http"):
+                fetch_url = base_domain + "/" + fetch_url.lstrip("/")
+            try:
+                h['Origin'] = base_domain
+                resp2 = requests.get(fetch_url, headers=h, timeout=10)
+                combined_text += "\n" + resp2.text
+            except:
+                pass
+
+        # 3. .m3u8 uzantısını (xmediaget dahil) esnek bir şekilde yakala
+        patterns = [
+            r'URL["\']?\s*:\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
+            r'"deismackanal":"(.*?)"',
+            r'"stream":\s*"(.*?)"',
+            r'"url":\s*"(.*?\.m3u8[^"]*)"',
+            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+        ]
         
-        # .m3u8 arama
-        mm = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\]*)', resp.text)
-        if mm:
-            return mm.group(1).replace('\\/', '/').replace('\\', '')
+        for pat in patterns:
+            mm = re.search(pat, combined_text, re.IGNORECASE)
+            if mm:
+                found_url = mm.group(1).replace('\\/', '/').replace('\\', '')
+                if found_url.startswith("http"):
+                    return found_url
         return None
-    except Exception as e: 
-        print(f"DEBUG HATA: {e}")
+    except Exception: 
         return None
 
+def build_m3u(working_matches, working_channels, base_domain):
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n\n")
+
+        # ── CANLI MAÇLAR
+        for m in working_matches:
+            display_name = f"{m['home']} - {m['away']} [{m['time']}]"
+            group_title = f"CANLI MAÇLAR - {m['league']}"
+            
+            f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
+            f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
+            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
+            f.write(f"{m['url']}\n")
+            f.write(f"# İki logo: {m['home_logo']} | {m['away_logo']}\n\n")
+
+        # ── TV KANALLARI
+        for ch in working_channels:
+            f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
+            f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
+            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
+            f.write(f"{ch['url']}\n\n")
+
+    print(f"\n{GREEN}[✓] {OUTPUT_FILE} başarıyla oluşturuldu.{RESET}")
+
 def main():
+    print(f"\n{GREEN}AtomSporTV M3U Oluşturucu Başlatıldı...{RESET}")
     base_domain = get_base_domain()
     print(f"Ana Domain: {base_domain}")
+    
     matches = get_matches()
+    working_matches = []
+    print(f"\n{YELLOW}Maçlar test ediliyor...{RESET}")
     for m in matches:
-        print(Test ediliyor: {m['home']} vs {m['away']})
         url = get_m3u8(m['id'], base_domain)
-        print(Sonuç URL: {url})
+        if url:
+            m['url'] = url
+            working_matches.append(m)
+            print(f"  ✓ {m['home']} vs {m['away']}")
+        else:
+            print(f"  ✗ {m['home']} vs {m['away']}")
+
+    tv_items = []
+    print(f"\n{YELLOW}Kanallar test ediliyor...{RESET}")
+    for cid, name, logo in TV_CHANNELS:
+        url = get_m3u8(cid, base_domain)
+        if url:
+            tv_items.append({'name': name, 'logo': logo, 'url': url})
+            print(f"  ✓ {name}")
+
+    build_m3u(working_matches, tv_items, base_domain)
 
 if __name__ == "__main__":
     main()
