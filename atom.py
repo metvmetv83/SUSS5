@@ -105,38 +105,54 @@ def get_m3u8(resource_id, base_domain):
         resp = requests.get(page_url, headers=h, timeout=10)
         text = resp.text
 
-        # 1. Doğrudan m3u8 uzantısı kontrolü
-        m3u8_match = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', text, re.IGNORECASE)
-        if m3u8_match:
-            url = m3u8_match.group(1).replace('\\/', '/').replace('\\', '')
-            if "http" in url: return url
+        # 1. Sayfa içindeki player/ajax API endpoint'ini veya script içindeki fetch adresini bul
+        # AtomSporTV maç sayfaları genellikle player JS dosyalarından veya load scriptlerinden veri çeker
+        api_match = re.search(r'["\'](/load/[^"\']+)["\']|["\'](https?://[^"\']+/load/[^"\']+)["\']', text)
+        if api_match:
+            api_url = api_match.group(1) or api_match.group(2)
+            if not api_url.startswith("http"):
+                api_url = base_domain + api_url
+            try:
+                r_api = requests.get(api_url, headers=h, timeout=10)
+                json_data = r_api.json()
+                if isinstance(json_data, dict) and "URL" in json_data:
+                    return json_data["URL"].replace('\\/', '/')
+            except:
+                pass
 
-        # 2. Iframe (cinema, embed, streamsport vb.) kaynaklarını çözme
+        # 2. Doğrudan sayfada veya scriptlerde JSON formatındaki URL parametresini ara ("URL":"...")
+        json_url_match = re.search(r'"URL"\s*:\s*"([^"]+)"', text, re.IGNORECASE)
+        if json_url_match:
+            return json_url_match.group(1).replace('\\/', '/')
+
+        # 3. Sayfa içi iframe kaynaklarını (streamsport365 vb.) takip et ve JSON yanıtını parse et
         iframes = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', text, re.IGNORECASE)
         for iframe_url in iframes:
             try:
                 h['Referer'] = page_url
                 r_iframe = requests.get(iframe_url, headers=h, timeout=10)
                 
-                # İframe içinde .m3u8 arama
+                # streamsport365 gibi sayfalardan dönen JSON yanıtını kontrol et
+                try:
+                    data = r_iframe.json()
+                    if isinstance(data, dict) and "URL" in data:
+                        return data["URL"].replace('\\/', '/')
+                except:
+                    pass
+
+                # Alternatif olarak iframe içinde .m3u8 arama
                 m3u8_sub = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', r_iframe.text, re.IGNORECASE)
                 if m3u8_sub:
                     url = m3u8_sub.group(1).replace('\\/', '/').replace('\\', '')
                     if "http" in url: return url
-                
-                # URL parametrelerini yakalama (xmediaget tarzı)
-                url_param = re.search(r'URL["\']?\s*:\s*["\'](https?://[^"\']+)["\']', r_iframe.text, re.IGNORECASE)
-                if url_param:
-                    url = url_param.group(1).replace('\\/', '/').replace('\\', '')
-                    if "http" in url: return url
             except:
                 pass
 
-        # 3. Script veya API fetch uç noktaları
-        script_urls = re.findall(r'["\'](https?://[^"\']+/hls-live/[^"\']+)["\']', text)
-        for su in script_urls:
-            if ".m3u8" in su:
-                return su.replace('\\/', '/').replace('\\', '')
+        # 4. Standart .m3u8 regex fallback
+        m3u8_match = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', text, re.IGNORECASE)
+        if m3u8_match:
+            url = m3u8_match.group(1).replace('\\/', '/').replace('\\', '')
+            if "http" in url: return url
 
         return None
     except Exception: 
