@@ -6,7 +6,7 @@ permissions:
 on:
   schedule:
     - cron: '30 * * * *'   # Her saat 30. dakikada
-  workflow_dispatch:
+  workflow_dispatch:       # Manuel çalıştırma
 
 jobs:
   update-royaltv-m3u:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Repo Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Python Kur
         uses: actions/setup-python@v4
@@ -24,7 +26,7 @@ jobs:
       - name: Gerekli Python paketleri
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests beautifulsoup4
+          python -m pip install requests beautifulsoup4 urllib3
 
       - name: Git Ayarları
         run: |
@@ -34,15 +36,38 @@ jobs:
       - name: RoyalTV M3U oluştur
         run: python royal.py
 
-      - name: Değişiklikleri Commit et
-        run: |
-          git add rayal.m3u royal_yayinlar.json || echo "Dosyalar bulunamadı"
-          git commit -m "Auto-update royaltv.m3u and royaltv_yayinlar.json [skip ci]" || echo "No changes to commit"
-
-      - name: Değişiklikleri Pushla
+      - name: Değişiklikleri Commit ve Push et
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git fetch origin main
-          git rebase origin/main || git rebase --abort
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+          # Çalışma dizinindeki dosyaları listele (debug için)
+          echo "📁 Çalışma dizini içeriği:"
+          ls -la
+          
+          # Değişiklikleri kontrol et
+          echo "📊 Git durumu:"
+          git status
+          
+          # Doğru dosya isimleriyle ekle
+          # (royal.py script'i mono.m3u ve mono_yayinlar.json oluşturuyor)
+          git add mono.m3u mono_yayinlar.json 2>/dev/null || echo "⚠️ Dosyalar bulunamadı, kontrol ediliyor..."
+          
+          # Eğer dosyalar farklı isimdeyse, onları da dene
+          git add rayal.m3u royal_yayinlar.json 2>/dev/null || echo "ℹ️ Alternatif dosya isimleri kontrol edildi."
+          
+          # Değişiklik varsa commit yap
+          if ! git diff --cached --quiet; then
+            echo "✅ Değişiklikler bulundu, commit yapılıyor..."
+            git commit -m "Auto-update: RoyalTV M3U and JSON [skip ci]"
+            
+            # Push yapmadan önce uzaktaki değişiklikleri çek
+            echo "📥 Uzaktaki değişiklikler çekiliyor..."
+            git pull --rebase origin main || echo "⚠️ Rebase sırasında sorun oluştu, devam ediliyor..."
+            
+            # Push yap
+            echo "📤 Değişiklikler pushlanıyor..."
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+            echo "✅ Başarıyla pushlandı!"
+          else
+            echo "ℹ️ Değişiklik yok, işlem atlanıyor."
+          fi
