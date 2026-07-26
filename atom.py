@@ -98,34 +98,37 @@ def get_matches():
 def get_m3u8(resource_id, base_domain):
     try:
         h = headers.copy()
+        page_url = f"{base_domain}/matches?id={resource_id}"
         h['Referer'] = f"{base_domain}/"
         
-        # 1. Ana maç sayfasını çek
-        page_url = f"{base_domain}/matches?id={resource_id}"
         resp = requests.get(page_url, headers=h, timeout=10)
-        
-        # Sayfa içeriğindeki iframe veya fetch adreslerini kontrol et
-        iframe_m = re.search(r'src=["\'](https?://[^\"\']+(?:cinema|embed|player)[^\"\']*)["\']', resp.text)
-        target_text = resp.text
-        
-        if iframe_m:
-            iframe_url = iframe_m.group(1)
-            h['Referer'] = page_url
-            resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
-            target_text += "\n" + resp_iframe.text
+        combined_text = resp.text
 
-        # 2. İçerik içinde .m3u8 veya fetch kaynaklarını ara
-        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
+        # Sayfa içinde iframe veya harici oynatıcı linkleri (ör. streamsport365) var mı kontrol et
+        iframe_matches = re.findall(r'src=["\'](https?://[^"\']+)["\']', resp.text)
+        for iframe_url in iframe_matches:
+            if any(x in iframe_url for x in ['cinema', 'embed', 'player', 'stream']):
+                try:
+                    h['Referer'] = page_url
+                    resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
+                    combined_text += "\n" + resp_iframe.text
+                except:
+                    pass
+
+        # Fetch veya yönlendirme linklerini yakala
+        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', combined_text)
         if fetch_m:
             fetch_url = fetch_m.group(1).strip()
             if not fetch_url.startswith("http"):
                 fetch_url = base_domain + "/" + fetch_url.lstrip("/")
-            
-            h['Origin'] = base_domain
-            resp2 = requests.get(fetch_url, headers=h, timeout=10)
-            target_text += "\n" + resp2.text
+            try:
+                h['Origin'] = base_domain
+                resp2 = requests.get(fetch_url, headers=h, timeout=10)
+                combined_text += "\n" + resp2.text
+            except:
+                pass
 
-        # 3. Genel .m3u8 kalıplarını regex ile ayıkla
+        # Tüm metin içinde .m3u8 uzantılı linkleri ara
         patterns = [
             r'"deismackanal":"(.*?)"',
             r'"stream":\s*"(.*?)"',
@@ -134,13 +137,13 @@ def get_m3u8(resource_id, base_domain):
         ]
         
         for pat in patterns:
-            mm = re.search(pat, target_text)
+            mm = re.search(pat, combined_text)
             if mm:
                 found_url = mm.group(1).replace('\\/', '/').replace('\\', '')
                 if found_url.startswith("http"):
                     return found_url
         return None
-    except: 
+    except Exception: 
         return None
 
 def build_m3u(working_matches, working_channels, base_domain):
