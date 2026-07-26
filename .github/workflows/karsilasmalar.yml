@@ -1,0 +1,50 @@
+name: Karşılaşmalar M3U Oluşturucu
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '15 * * * *'   # Her saat 15. dakikada
+  workflow_dispatch:
+
+jobs:
+  update-karsilasmalar-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Gerekli Python paketleri
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests beautifulsoup4 urllib3
+
+      - name: Git Ayarları
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Karşılaşmalar M3U oluştur
+        run: python karsilasmalar.py
+
+      - name: Değişiklikleri Commit ve Push et
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add karsilasmalar.m3u karsilasmalar_yayinlar.json || echo "⚠️ Dosyalar bulunamadı"
+          
+          if ! git diff --cached --quiet; then
+            echo "✅ Değişiklikler bulundu, commit yapılıyor..."
+            git commit -m "Auto-update: Karşılaşmalar M3U and JSON [skip ci]"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+            echo "✅ Başarıyla pushlandı!"
+          else
+            echo "ℹ️ Değişiklik yok, işlem atlanıyor."
+          fi
