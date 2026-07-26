@@ -101,46 +101,44 @@ def get_m3u8(resource_id, base_domain):
         h['Referer'] = f"{base_domain}/"
         page_url = f"{base_domain}/matches?id={resource_id}"
         resp = requests.get(page_url, headers=h, timeout=10)
-        
         target_text = resp.text
 
-        # 1. Sayfa içindeki iframe kaynaklarını yakala ve içeriğini dahil et
-        iframe_m = re.search(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', resp.text, re.IGNORECASE)
-        if iframe_m:
-            iframe_url = iframe_m.group(1)
-            h['Referer'] = page_url
+        # 1. Sayfa içindeki iframe src adreslerini bul ve içeriğini çek
+        iframes = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', target_text, re.IGNORECASE)
+        for iframe_url in iframes:
             try:
-                resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
-                target_text += "\n" + resp_iframe.text
-                
-                # İframe içindeki scriptlerin çağırdığı ek url veya kaynakları kontrol et
-                sub_iframe_m = re.search(r'src=["\'](https?://[^"\']+)["\']', resp_iframe.text)
-                if sub_iframe_m:
-                    try:
-                        resp_sub = requests.get(sub_iframe_m.group(1), headers=h, timeout=10)
-                        target_text += "\n" + resp_sub.text
-                    except:
-                        pass
+                h['Referer'] = page_url
+                r_iframe = requests.get(iframe_url, headers=h, timeout=10)
+                target_text += "\n" + r_iframe.text
             except:
                 pass
 
-        # 2. Fetch veya API isteklerini takip et
-        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
-        if fetch_m:
-            fetch_url = fetch_m.group(1).strip()
-            if not fetch_url.startswith("http"):
-                fetch_url = base_domain + "/" + fetch_url.lstrip("/")
-            if not fetch_url.endswith(resource_id) and resource_id not in fetch_url:
-                fetch_url += resource_id
+        # 2. Sayfa veya iframe içindeki scriptlerde geçen .php, .js veya api endpoint isteklerini takip et
+        scripts = re.findall(r'src=["\'](https?://[^"\']+)["\']', target_text)
+        for scr in scripts:
+            if "load" in scr or "get" in scr or "stream" in scr:
+                try:
+                    r_scr = requests.get(scr, headers=h, timeout=5)
+                    target_text += "\n" + r_scr.text
+                except:
+                    pass
 
-            h['Origin'] = base_domain
+        # 3. Fetch veyaharici istekleri yakala
+        fetch_matches = re.findall(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
+        for fetch_url in fetch_matches:
+            f_url = fetch_url.strip()
+            if not f_url.startswith("http"):
+                f_url = base_domain + "/" + f_url.lstrip("/")
+            if resource_id not in f_url:
+                f_url += resource_id
             try:
-                resp2 = requests.get(fetch_url, headers=h, timeout=10)
-                target_text += "\n" + resp2.text
+                h['Origin'] = base_domain
+                r_fetch = requests.get(f_url, headers=h, timeout=5)
+                target_text += "\n" + r_fetch.text
             except:
                 pass
 
-        # 3. URL, stream veya m3u8 formatlarını çöz
+        # 4. JSON URL veya m3u8 kalıplarını tara
         for pat in [r'"URL"\s*:\s*"([^"]+)"', r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
             mm = re.search(pat, target_text, re.IGNORECASE)
             if mm: 
