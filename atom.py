@@ -44,7 +44,7 @@ def get_base_domain():
                 return domain
     except Exception:
         pass
-    return "https://atomsportv492.top"
+    return "https://atomsportv510.top"
 
 def normalize_logo(src):
     if not src: return ""
@@ -99,27 +99,55 @@ def get_m3u8(resource_id, base_domain):
     try:
         h = headers.copy()
         h['Referer'] = f"{base_domain}/"
-        resp = requests.get(f"{base_domain}/matches?id={resource_id}", headers=h, timeout=10)
-        fetch_m = re.search(r'fetch\(\s*["\']([^"\']+)["\']', resp.text)
-        if not fetch_m: return None
         
-        fetch_url = fetch_m.group(1).strip()
-        if not fetch_url.endswith(resource_id): fetch_url += resource_id
+        # 1. Ana maç sayfasını çek
+        page_url = f"{base_domain}/matches?id={resource_id}"
+        resp = requests.get(page_url, headers=h, timeout=10)
+        
+        # Sayfa içeriğindeki iframe veya fetch adreslerini kontrol et
+        iframe_m = re.search(r'src=["\'](https?://[^\"\']+(?:cinema|embed|player)[^\"\']*)["\']', resp.text)
+        target_text = resp.text
+        
+        if iframe_m:
+            iframe_url = iframe_m.group(1)
+            h['Referer'] = page_url
+            resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
+            target_text += "\n" + resp_iframe.text
 
-        h['Origin'] = base_domain
-        resp2 = requests.get(fetch_url, headers=h, timeout=10)
-        data = resp2.text
-        for pat in [r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
-            mm = re.search(pat, data)
-            if mm: return mm.group(1).replace('\\/', '/').replace('\\', '')
+        # 2. İçerik içinde .m3u8 veya fetch kaynaklarını ara
+        fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
+        if fetch_m:
+            fetch_url = fetch_m.group(1).strip()
+            if not fetch_url.startswith("http"):
+                fetch_url = base_domain + "/" + fetch_url.lstrip("/")
+            
+            h['Origin'] = base_domain
+            resp2 = requests.get(fetch_url, headers=h, timeout=10)
+            target_text += "\n" + resp2.text
+
+        # 3. Genel .m3u8 kalıplarını regex ile ayıkla
+        patterns = [
+            r'"deismackanal":"(.*?)"',
+            r'"stream":\s*"(.*?)"',
+            r'"url":\s*"(.*?\.m3u8[^"]*)"',
+            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
+        ]
+        
+        for pat in patterns:
+            mm = re.search(pat, target_text)
+            if mm:
+                found_url = mm.group(1).replace('\\/', '/').replace('\\', '')
+                if found_url.startswith("http"):
+                    return found_url
         return None
-    except: return None
+    except: 
+        return None
 
 def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
-        # ── CANLI MAÇLAR (Yeni Format)
+        # ── CANLI MAÇLAR
         for m in working_matches:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
