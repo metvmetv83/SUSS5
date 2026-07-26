@@ -1,0 +1,52 @@
+name: Taraftarium24 M3U Oluşturucu
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # Her 2 saatte bir
+  workflow_dispatch:
+
+jobs:
+  update-taraftarium-m3u:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo Checkout
+        uses: actions/checkout@v3
+
+      - name: Python Kur
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Playwright Kurulumu
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright
+          playwright install chromium
+          playwright install-deps
+
+      - name: Git Ayarları
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Taraftarium24 M3U oluştur
+        run: python taraftarium24.py
+
+      - name: Değişiklikleri Commit ve Push et
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add taraftarium24.m3u8 taraftarium24_yayinlar.json || echo "⚠️ Dosyalar bulunamadı"
+          
+          if ! git diff --cached --quiet; then
+            echo "✅ Değişiklikler bulundu, commit yapılıyor..."
+            git commit -m "Auto-update: Taraftarium24 M3U and JSON [skip ci]"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} main
+            echo "✅ Başarıyla pushlandı!"
+          else
+            echo "ℹ️ Değişiklik yok, işlem atlanıyor."
+          fi
