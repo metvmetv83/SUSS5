@@ -96,57 +96,29 @@ def get_matches():
         return []
 
 def get_m3u8(resource_id, base_domain):
+    import json
     try:
-        h = headers.copy()
-        h['Referer'] = f"{base_domain}/"
-        page_url = f"{base_domain}/matches?id={resource_id}"
-        resp = requests.get(page_url, headers=h, timeout=10)
-        target_text = resp.text
-
-        # 1. Sayfa içindeki iframe src adreslerini bul ve içeriğini çek
-        iframes = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', target_text, re.IGNORECASE)
-        for iframe_url in iframes:
+        h=headers.copy()
+        h['Referer']='https://streamsport365.com/cinema'
+        h['Origin']=base_domain
+        h['Accept']='application/json, text/plain, */*'
+        r=requests.get(f"{base_domain}/matches?id={resource_id}",headers=h,timeout=10)
+        if r.status_code!=200:
+            return None
+        t=r.text.strip()
+        if t.startswith('{'):
             try:
-                h['Referer'] = page_url
-                r_iframe = requests.get(iframe_url, headers=h, timeout=10)
-                target_text += "\n" + r_iframe.text
-            except:
+                d=json.loads(t)
+                if 'URL' in d:
+                    return d['URL'].replace('\\/','/')
+            except Exception:
                 pass
-
-        # 2. Sayfa veya iframe içindeki scriptlerde geçen .php, .js veya api endpoint isteklerini takip et
-        scripts = re.findall(r'src=["\'](https?://[^"\']+)["\']', target_text)
-        for scr in scripts:
-            if "load" in scr or "get" in scr or "stream" in scr:
-                try:
-                    r_scr = requests.get(scr, headers=h, timeout=5)
-                    target_text += "\n" + r_scr.text
-                except:
-                    pass
-
-        # 3. Fetch veyaharici istekleri yakala
-        fetch_matches = re.findall(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
-        for fetch_url in fetch_matches:
-            f_url = fetch_url.strip()
-            if not f_url.startswith("http"):
-                f_url = base_domain + "/" + f_url.lstrip("/")
-            if resource_id not in f_url:
-                f_url += resource_id
-            try:
-                h['Origin'] = base_domain
-                r_fetch = requests.get(f_url, headers=h, timeout=5)
-                target_text += "\n" + r_fetch.text
-            except:
-                pass
-
-        # 4. JSON URL veya m3u8 kalıplarını tara
-        for pat in [r'"URL"\s*:\s*"([^"]+)"', r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
-            mm = re.search(pat, target_text, re.IGNORECASE)
-            if mm: 
-                found = mm.group(1).replace('\\/', '/').replace('\\', '')
-                if found.startswith("http"):
-                    return found
-        return None
-    except: 
+        m=re.search(r'"URL"\s*:\s*"([^"]+)"',t)
+        if m:
+            return m.group(1).replace('\\/','/')
+        m=re.search(r'https?://[^\s"\']+\.m3u8[^\s"\']*',t)
+        return m.group(0) if m else None
+    except Exception:
         return None
 
 def build_m3u(working_matches, working_channels, base_domain):
@@ -159,13 +131,13 @@ def build_m3u(working_matches, working_channels, base_domain):
             
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
+            f.write(f'#EXTVLCOPT:http-referrer=https://streamsport365.com/cinema\n')
             f.write(f"{m['url']}\n\n")
 
         for ch in working_channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
-            f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
+            f.write(f'#EXTVLCOPT:http-referrer=https://streamsport365.com/cinema\n')
             f.write(f"{ch['url']}\n\n")
 
     print(f"\n{GREEN}[✓] {OUTPUT_FILE} başarıyla oluşturuldu.{RESET}")
