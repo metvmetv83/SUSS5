@@ -60,7 +60,6 @@ def parse_matches_from_html(html_content):
             if not detail_div: 
                 continue
                 
-            # Tarih/Spor türü
             date_div = detail_div.find('div', class_='date')
             sport_type = date_div.text.strip() if date_div else ''
             
@@ -129,7 +128,6 @@ def parse_channels_from_html(html_content):
             if not detail_div:
                 continue
             
-            # 7/24 kanalı mı kontrol et
             event_div = detail_div.find('div', class_='event')
             is_channel = event_div and '7/24' in event_div.text
             
@@ -141,7 +139,6 @@ def parse_channels_from_html(html_content):
                     
                     name = home_div.text.strip() if home_div else ''
                     
-                    # Logo URL'sini al
                     logo = ''
                     if away_div:
                         logo_img = away_div.find('img')
@@ -174,31 +171,53 @@ def create_m3u_with_logos(matches, channels, base_url, referrer):
         display_name = f"{m['home']} - {m['away']} [{m['time']}]"
         group_title = f"CANLI MAÇLAR - {m['league']}"
         main_logo = m['home_logo'] or m['away_logo']
+        stream_url = f"{base_url}{m['id']}/mono.m3u8"
         
         m3u_list.append(f'#EXTINF:-1 tvg-logo="{main_logo}" group-title="{group_title}",{display_name}')
         m3u_list.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
         m3u_list.append(f'#EXTVLCOPT:http-referrer={referrer}/')
-        m3u_list.append(f'{base_url}{m["id"]}/mono.m3u8')
+        m3u_list.append(stream_url)
         m3u_list.append(f'# İki logo: {m["home_logo"]} | {m["away_logo"]}\n')
 
     # --- 7/24 KANALLAR ---
     for c in channels:
+        stream_url = f"{base_url}{c['id']}/mono.m3u8"
         m3u_list.append(f'#EXTINF:-1 tvg-logo="{c["logo"]}" group-title="7/24 KANALLAR",{c["name"]}')
         m3u_list.append(f'#EXTVLCOPT:http-user-agent={HEADERS["User-Agent"]}')
         m3u_list.append(f'#EXTVLCOPT:http-referrer={referrer}/')
-        m3u_list.append(f'{base_url}{c["id"]}/mono.m3u8\n')
+        m3u_list.append(f'{stream_url}\n')
         
     return m3u_list
 
 def create_json_output(matches, channels, base_url, referrer):
-    """JSON çıktısı oluşturur"""
+    """JSON çıktısı oluşturur - URL'ler dahil"""
+    
+    # Maçlara URL ekle
+    matches_with_url = []
+    for m in matches:
+        match_copy = m.copy()
+        match_copy['url'] = f"{base_url}{m['id']}/mono.m3u8"
+        match_copy['user_agent'] = HEADERS["User-Agent"]
+        match_copy['referrer'] = referrer + '/'
+        matches_with_url.append(match_copy)
+    
+    # Kanallara URL ekle
+    channels_with_url = []
+    for c in channels:
+        channel_copy = c.copy()
+        channel_copy['url'] = f"{base_url}{c['id']}/mono.m3u8"
+        channel_copy['user_agent'] = HEADERS["User-Agent"]
+        channel_copy['referrer'] = referrer + '/'
+        channels_with_url.append(channel_copy)
+    
     output = {
         "generated_at": datetime.now().isoformat(),
         "base_url": base_url,
-        "referrer": referrer,
+        "referrer": referrer + '/',
+        "user_agent": HEADERS["User-Agent"],
         "total_streams": len(matches) + len(channels),
-        "matches": matches,
-        "channels": channels
+        "matches": matches_with_url,
+        "channels": channels_with_url
     }
     
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
@@ -234,7 +253,7 @@ def main():
                 f.write("\n".join(m3u_content))
             print(f"✅ {OUTPUT_M3U} başarıyla oluşturuldu! ({len(matches)} Maç, {len(channels)} Kanal)")
             
-            # JSON oluştur
+            # JSON oluştur (URL'ler dahil)
             create_json_output(matches, channels, base_url, referrer)
             
             # Özet
