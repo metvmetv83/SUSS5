@@ -44,7 +44,7 @@ def get_base_domain():
                 return domain
     except Exception:
         pass
-    return "https://atomsportv492.top"
+    return "https://www.atomsportv510.top"
 
 def normalize_logo(src):
     if not src: return ""
@@ -104,18 +104,27 @@ def get_m3u8(resource_id, base_domain):
         
         target_text = resp.text
 
-        # Iframe kaynaklarını kontrol et ve içeriğini dahil et
-        iframe_m = re.search(r'src=["\'](https?://[^"\']+)["\']', resp.text)
+        # 1. Sayfa içindeki iframe kaynaklarını yakala ve içeriğini dahil et
+        iframe_m = re.search(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', resp.text, re.IGNORECASE)
         if iframe_m:
             iframe_url = iframe_m.group(1)
             h['Referer'] = page_url
             try:
                 resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
                 target_text += "\n" + resp_iframe.text
+                
+                # İframe içindeki scriptlerin çağırdığı ek url veya kaynakları kontrol et
+                sub_iframe_m = re.search(r'src=["\'](https?://[^"\']+)["\']', resp_iframe.text)
+                if sub_iframe_m:
+                    try:
+                        resp_sub = requests.get(sub_iframe_m.group(1), headers=h, timeout=10)
+                        target_text += "\n" + resp_sub.text
+                    except:
+                        pass
             except:
                 pass
 
-        # Fetch adresini kontrol et
+        # 2. Fetch veya API isteklerini takip et
         fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', target_text)
         if fetch_m:
             fetch_url = fetch_m.group(1).strip()
@@ -131,6 +140,7 @@ def get_m3u8(resource_id, base_domain):
             except:
                 pass
 
+        # 3. URL, stream veya m3u8 formatlarını çöz
         for pat in [r'"URL"\s*:\s*"([^"]+)"', r'"deismackanal":"(.*?)"', r'"stream":\s*"(.*?)"', r'"url":\s*"(.*?\.m3u8[^"]*)"', r'(https?://[^\s"\']+\.m3u8[^\s"\']*)']:
             mm = re.search(pat, target_text, re.IGNORECASE)
             if mm: 
@@ -145,7 +155,6 @@ def build_m3u(working_matches, working_channels, base_domain):
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n\n")
 
-        # ── CANLI MAÇLAR (Yeni Format)
         for m in working_matches:
             display_name = f"{m['home']} - {m['away']} [{m['time']}]"
             group_title = f"CANLI MAÇLAR - {m['league']}"
@@ -153,10 +162,8 @@ def build_m3u(working_matches, working_channels, base_domain):
             f.write(f'#EXTINF:-1 tvg-logo="{m["logo"]}" group-title="{group_title}",{display_name}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
             f.write(f'#EXTVLCOPT:http-referrer={base_domain}/\n')
-            f.write(f"{m['url']}\n")
-            f.write(f"# İki logo: {m['home_logo']} | {m['away_logo']}\n\n")
+            f.write(f"{m['url']}\n\n")
 
-        # ── TV KANALLARI
         for ch in working_channels:
             f.write(f'#EXTINF:-1 tvg-logo="{ch["logo"]}" group-title="TV Kanalları",{ch["name"]}\n')
             f.write(f'#EXTVLCOPT:http-user-agent={headers["User-Agent"]}\n')
