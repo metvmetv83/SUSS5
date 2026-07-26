@@ -15,14 +15,14 @@ DOMAIN_API_URL = "https://data-reality.com/domain.php"
 MATCHES_API_URL = "https://data-reality.com/matches.php"
 CHANNELS_API_URL = "https://data-reality.com/channels.php"
 
-# Referer'ı güncelledik
+# RoyalTV özel çıktı dosyaları
+OUTPUT_M3U = "royal.m3u"
+OUTPUT_JSON = "royal_yayinlar.json"
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Referer": "https://royaltv33.com/"
 }
-
-OUTPUT_M3U = "mono.m3u"
-OUTPUT_JSON = "mono_yayinlar.json"
 
 def get_base_url_with_fallback():
     """Base URL'yi API'den alır, yoksa fallback kullanır"""
@@ -42,10 +42,8 @@ def get_base_url_with_fallback():
 def get_royal_tv_domain():
     """RoyalTV'nin güncel domain adresini bulur"""
     try:
-        # Önce t2ly.io üzerinden yönlendirmeyi takip et
         r = requests.get("https://t2ly.io/royalTV", headers=HEADERS, allow_redirects=True, timeout=10)
         if r.url:
-            # Yönlendirilen URL'den domain'i al
             parsed = urlparse(r.url)
             domain = f"{parsed.scheme}://{parsed.netloc}"
             print(f"📡 RoyalTV Domain: {domain}")
@@ -53,7 +51,6 @@ def get_royal_tv_domain():
     except Exception as e:
         print(f"⚠️ RoyalTV domain bulma hatası: {e}")
     
-    # Fallback
     return "https://royaltv33.com"
 
 def parse_matches_from_html(html_content):
@@ -99,7 +96,6 @@ def parse_matches_from_html(html_content):
                 home = home_div.text.strip() if home_div else ''
                 away = away_div.text.strip() if away_div else ''
                 
-                # Logo URL'lerini düzelt
                 if home_logo and not home_logo.startswith('http'):
                     if home_logo.startswith('/'):
                         home_logo = 'https://data-reality.com' + home_logo
@@ -184,7 +180,6 @@ def create_m3u_with_logos(matches, channels, base_url, referrer):
     """M3U dosyası oluşturur"""
     m3u_list = ["#EXTM3U\n"]
     
-    # --- CANLI MAÇLAR ---
     for m in matches:
         display_name = f"{m['home']} - {m['away']} [{m['time']}]"
         group_title = f"CANLI MAÇLAR - {m['league']}"
@@ -197,7 +192,6 @@ def create_m3u_with_logos(matches, channels, base_url, referrer):
         m3u_list.append(stream_url)
         m3u_list.append(f'# İki logo: {m["home_logo"]} | {m["away_logo"]}\n')
 
-    # --- 7/24 KANALLAR ---
     for c in channels:
         stream_url = f"{base_url}{c['id']}/mono.m3u8"
         m3u_list.append(f'#EXTINF:-1 tvg-logo="{c["logo"]}" group-title="7/24 KANALLAR",{c["name"]}')
@@ -208,9 +202,8 @@ def create_m3u_with_logos(matches, channels, base_url, referrer):
     return m3u_list
 
 def create_json_output(matches, channels, base_url, referrer):
-    """JSON çıktısı oluşturur - URL'ler dahil"""
+    """JSON çıktısı oluşturur"""
     
-    # Maçlara URL ekle
     matches_with_url = []
     for m in matches:
         match_copy = m.copy()
@@ -219,7 +212,6 @@ def create_json_output(matches, channels, base_url, referrer):
         match_copy['referrer'] = referrer + '/'
         matches_with_url.append(match_copy)
     
-    # Kanallara URL ekle
     channels_with_url = []
     for c in channels:
         channel_copy = c.copy()
@@ -230,6 +222,7 @@ def create_json_output(matches, channels, base_url, referrer):
     
     output = {
         "generated_at": datetime.now().isoformat(),
+        "source": "RoyalTV",
         "base_url": base_url,
         "referrer": referrer + '/',
         "user_agent": HEADERS["User-Agent"],
@@ -246,50 +239,41 @@ def create_json_output(matches, channels, base_url, referrer):
 def main():
     print("🚀 RoyalTV Verileri Çekiliyor...")
     
-    # RoyalTV'nin güncel domain'ini bul
     royal_domain = get_royal_tv_domain()
-    
-    # Base URL'yi al
     base_url = get_base_url_with_fallback()
-    
-    # Referer olarak RoyalTV domain'ini kullan
     referrer = royal_domain
     
     print(f"📡 Base URL: {base_url}")
     print(f"📡 Referrer: {referrer}")
     
-    # Header'ları güncelle
     HEADERS["Referer"] = referrer + "/"
     
     try:
-        # Maçları çek
         print("📊 Maçlar çekiliyor...")
         resp_m = requests.get(MATCHES_API_URL, headers=HEADERS, timeout=15, verify=False)
         matches = parse_matches_from_html(resp_m.text)
         print(f"   {len(matches)} maç bulundu.")
         
-        # Kanalları çek
         print("📺 Kanallar çekiliyor...")
         resp_c = requests.get(CHANNELS_API_URL, headers=HEADERS, timeout=15, verify=False)
         channels = parse_channels_from_html(resp_c.text)
         print(f"   {len(channels)} kanal bulundu.")
         
         if matches or channels:
-            # M3U oluştur
             m3u_content = create_m3u_with_logos(matches, channels, base_url, referrer)
             with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
                 f.write("\n".join(m3u_content))
             print(f"✅ {OUTPUT_M3U} başarıyla oluşturuldu! ({len(matches)} Maç, {len(channels)} Kanal)")
             
-            # JSON oluştur (URL'ler dahil)
             create_json_output(matches, channels, base_url, referrer)
             
-            # Özet
             print("\n📊 ÖZET:")
             print(f"   Maç: {len(matches)}")
             print(f"   Kanal: {len(channels)}")
             print(f"   Toplam: {len(matches) + len(channels)}")
             print(f"   RoyalTV Domain: {royal_domain}")
+            print(f"   M3U Dosyası: {OUTPUT_M3U}")
+            print(f"   JSON Dosyası: {OUTPUT_JSON}")
         else:
             print("❌ Veri bulunamadı.")
             
