@@ -50,7 +50,7 @@ jobs:
           
           # Doğru dosya isimleriyle ekle
           # (royal.py script'i mono.m3u ve mono_yayinlar.json oluşturuyor)
-          git add mono.m3u mono_yayinlar.json 2>/dev/null || echo "⚠️ Dosyalar bulunamadı, kontrol ediliyor..."
+          git add royal.m3u royal_yayinlar.json 2>/dev/null || echo "⚠️ Dosyalar bulunamadı, kontrol ediliyor..."
           
           # Eğer dosyalar farklı isimdeyse, onları da dene
           git add rayal.m3u royal_yayinlar.json 2>/dev/null || echo "ℹ️ Alternatif dosya isimleri kontrol edildi."
