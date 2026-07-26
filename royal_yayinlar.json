@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-07-26T03:29:35.561689",
+  "source": "RoyalTV",
+  "base_url": "https://tzy.zirvedesin236.cfd/",
+  "referrer": "https://royaltv33.com/",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+  "total_streams": 34,
+  "matches": [
+    {
+      "id": "ss",
+      "home": "Çin",
+      "away": "İtalya",
+      "home_logo": "https://img.sporekrani.com/teams/fqNO9rQ3OUOY8PhDyJjEgAARd0qy10BBJReB6RcM.png",
+      "away_logo": "https://img.sporekrani.com/teams/Jn8E47NtsziihDvFal2OsbQQmHk6sR7DthoHUE4D.png",
+      "league": "Kadınlar Milletler Ligi 3'üncülük",
+      "time": "10:30",
+      "sport": "Voleybol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "trt1",
+      "home": "Türkiye",
+      "away": "Brezilya",
+      "home_logo": "https://img.sporekrani.com/teams/HAd4Sck7okZvo4JBIKWrQi3GtzXOMiDukeVsP27J.png",
+      "away_logo": "https://img.sporekrani.com/teams/yg4p3LneSCPj558lvhqLWdIFBaqdKfWWHQwuK7MQ.png",
+      "league": "Kadınlar Milletler Ligi Final",
+      "time": "14:30",
+      "sport": "Voleybol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "trtspor",
+      "home": "Bursaspor",
+      "away": "Shakhtar Donetsk",
+      "home_logo": "https://img.sporekrani.com/teams/9SxJfsPRCG6sknLMbGM35rTW2eE6CKAl3MgHN0aU.png",
+      "away_logo": "https://img.sporekrani.com/teams/O1zRrBUKcDWBD4tbNdWeSuEOE8QhSGyESHvOJhVO.png",
+      "league": "Hazırlık Maçı",
+      "time": "19:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    }
+  ],
+  "channels": [
+    {
+      "id": "zirve",
+      "name": "BEIN SPORTS 1",
+      "logo": "https://data-reality.com/img/beinsports1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/zirve/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "b2",
+      "name": "BEIN SPORTS 2",
+      "logo": "https://data-reality.com/img/beinsports2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/b2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "b3",
+      "name": "BEIN SPORTS 3",
+      "logo": "https://data-reality.com/img/beinsports3.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/b3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "b4",
+      "name": "BEIN SPORTS 4",
+      "logo": "https://data-reality.com/img/beinsports4.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/b4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "b5",
+      "name": "BEIN SPORTS 5",
+      "logo": "https://data-reality.com/img/beinsports5.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/b5/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "bm1",
+      "name": "BEIN SPORTS MAX 1",
+      "logo": "https://data-reality.com/img/beinsportsmax1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/bm1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "bm2",
+      "name": "BEIN SPORTS MAX 2",
+      "logo": "https://data-reality.com/img/beinsportsmax2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/bm2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ss",
+      "name": "S SPORT",
+      "logo": "https://data-reality.com/img/ssport1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ss2",
+      "name": "S SPORT 2",
+      "logo": "https://data-reality.com/img/ssport2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ss2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "smarts",
+      "name": "SMART SPOR",
+      "logo": "https://data-reality.com/img/smartspor.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/smarts/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "sms2",
+      "name": "SMART SPOR 2",
+      "logo": "https://data-reality.com/img/smartspor2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/sms2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "t1",
+      "name": "TIVIBU SPOR 1",
+      "logo": "https://data-reality.com/img/tivibu1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/t1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "t2",
+      "name": "TIVIBU SPOR 2",
+      "logo": "https://data-reality.com/img/tivibu2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/t2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "t3",
+      "name": "TIVIBU SPOR 3",
+      "logo": "https://data-reality.com/img/tivibu3.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/t3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "t4",
+      "name": "TIVIBU SPOR 4",
+      "logo": "https://data-reality.com/img/tivibu4.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/t4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "trtspor",
+      "name": "TRT SPOR",
+      "logo": "https://data-reality.com/img/trtspornew.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "trtspor2",
+      "name": "TRT SPOR YILDIZ",
+      "logo": "https://data-reality.com/img/trtspor2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/trtspor2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "trt1",
+      "name": "TRT 1",
+      "logo": "https://data-reality.com/img/trt1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "as",
+      "name": "A SPOR",
+      "logo": "https://data-reality.com/img/aspornew.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/as/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "atv",
+      "name": "ATV",
+      "logo": "https://data-reality.com/img/atv.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/atv/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "tv8",
+      "name": "TV 8",
+      "logo": "https://data-reality.com/img/tv8.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/tv8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "tv85",
+      "name": "TV 8,5",
+      "logo": "https://data-reality.com/img/tv85.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/tv85/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "eu1",
+      "name": "EURO SPORT 1",
+      "logo": "https://data-reality.com/img/eurosport1.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/eu1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "eu2",
+      "name": "EURO SPORT 2",
+      "logo": "https://data-reality.com/img/eurosport2.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/eu2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex7",
+      "name": "TABII SPOR",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex1",
+      "name": "TABII SPOR 1",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex2",
+      "name": "TABII SPOR 2",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex3",
+      "name": "TABII SPOR 3",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex4",
+      "name": "TABII SPOR 4",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex5",
+      "name": "TABII SPOR 5",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex5/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    },
+    {
+      "id": "ex6",
+      "name": "TABII SPOR 6",
+      "logo": "https://data-reality.com/img/tabii.png",
+      "type": "channel",
+      "url": "https://tzy.zirvedesin236.cfd/ex6/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv33.com/"
+    }
+  ]
+}
