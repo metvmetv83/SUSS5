@@ -15,9 +15,11 @@ YELLOW = "\033[93m"
 RESET  = "\033[0m"
 
 headers = {
-    'Accept': '*/*',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
     'Accept-Encoding': 'gzip, deflate',
-    'Accept-Language': 'tr-TR,tr;q=0.8',
+    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
     'Connection': 'keep-alive',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Referer': 'https://url24.link/'
@@ -104,17 +106,37 @@ def get_m3u8(resource_id, base_domain):
         resp = requests.get(page_url, headers=h, timeout=10)
         combined_text = resp.text
 
-        # 1. Sayfa içindeki iframe kaynaklarını yakala (örn. streamsport365.com/cinema vb.)
-        iframe_matches = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', resp.text, re.IGNORECASE)
+        # 1. Doğrudan sayfada veya script içinde geçen xmediaget/m3u8 linklerini yakala
+        direct_m3u8 = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', combined_text, re.IGNORECASE)
+        if direct_m3u8:
+            clean_url = direct_m3u8.group(1).replace('\\/', '/').replace('\\', '')
+            if "http" in clean_url:
+                return clean_url
+
+        # 2. Iframe (cinema, embed, streamsport365 vb.) kaynaklarını tara
+        iframe_matches = re.findall(r'<iframe[^>]+src=["\'](https?://[^"\']+)["\']', combined_text, re.IGNORECASE)
         for iframe_url in iframe_matches:
             try:
                 h['Referer'] = page_url
                 resp_iframe = requests.get(iframe_url, headers=h, timeout=10)
-                combined_text += "\n" + resp_iframe.text
+                
+                # İframe içerisindeki m3u8 veya URL parametresi
+                m3u8_in_iframe = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', resp_iframe.text, re.IGNORECASE)
+                if m3u8_in_iframe:
+                    clean_url = m3u8_in_iframe.group(1).replace('\\/', '/').replace('\\', '')
+                    if "http" in clean_url:
+                        return clean_url
+                
+                # JSON / URL değişken formatı (örn: URL: "...")
+                url_param = re.search(r'URL["\']?\s*:\s*["\'](https?://[^"\']+)["\']', resp_iframe.text, re.IGNORECASE)
+                if url_param:
+                    clean_url = url_param.group(1).replace('\\/', '/').replace('\\', '')
+                    if "http" in clean_url:
+                        return clean_url
             except:
                 pass
 
-        # 2. Sayfadaki JavaScript değişkenleri veya fetch isteklerini ara
+        # 3. Sayfa içindeki alternatif fetch / api isteklerini tara
         fetch_m = re.search(r'fetch\s*\(\s*["\']([^"\']+)["\']', combined_text)
         if fetch_m:
             fetch_url = fetch_m.group(1).strip()
@@ -123,25 +145,14 @@ def get_m3u8(resource_id, base_domain):
             try:
                 h['Origin'] = base_domain
                 resp2 = requests.get(fetch_url, headers=h, timeout=10)
-                combined_text += "\n" + resp2.text
+                m3u8_in_fetch = re.search(r'(https?://[^\s"\']+\.m3u8[^\s"\']*)', resp2.text, re.IGNORECASE)
+                if m3u8_in_fetch:
+                    clean_url = m3u8_in_fetch.group(1).replace('\\/', '/').replace('\\', '')
+                    if "http" in clean_url:
+                        return clean_url
             except:
                 pass
 
-        # 3. .m3u8 uzantısını (xmediaget dahil) esnek bir şekilde yakala
-        patterns = [
-            r'URL["\']?\s*:\s*["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
-            r'"deismackanal":"(.*?)"',
-            r'"stream":\s*"(.*?)"',
-            r'"url":\s*"(.*?\.m3u8[^"]*)"',
-            r'(https?://[^\s"\']+\.m3u8[^\s"\']*)'
-        ]
-        
-        for pat in patterns:
-            mm = re.search(pat, combined_text, re.IGNORECASE)
-            if mm:
-                found_url = mm.group(1).replace('\\/', '/').replace('\\', '')
-                if found_url.startswith("http"):
-                    return found_url
         return None
     except Exception: 
         return None
@@ -183,7 +194,7 @@ def main():
         if url:
             m['url'] = url
             working_matches.append(m)
-            print(f"  ✓ {m['home']} vs {m['away']}")
+            print(f"  ✓ {m['home']} vs {m['away']} -> {url}")
         else:
             print(f"  ✗ {m['home']} vs {m['away']}")
 
