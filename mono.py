@@ -17,7 +17,7 @@ CHANNELS_API_URL = "https://data-reality.com/channels.php"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-    "Referer": "https://canlimacizlejustin.online/"
+    "Referer": "https://patronsports2.cfd/"
 }
 
 OUTPUT_M3U = "mono.m3u"
