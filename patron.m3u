@@ -1,34 +1,46 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/galatasaray.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Galatasaray - Venezia [21:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/rizespor.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Ç.Rizespor - Hull City [15:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/galatasaray.png | https://patronsports2.cfd/img/logos/venezia.png
+https://2i4.d72577a9dd0ec71.cfd/tv8/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/rizespor.png | https://patronsports2.cfd/img/logos/hullcity.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/palmeiras.png" group-title="CANLI MAÇLAR - Brezilya Serie A",Palmeiras - Atletico Mineiro [01:30]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/snooker.png" group-title="CANLI MAÇLAR - Snooker Shanghai Masters",Snooker Shanghai Masters - Tur 2 [09:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/palmeiras.png | https://patronsports2.cfd/img/logos/atleticomineiro.png
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/snooker.png | https://patronsports2.cfd/img/logos/snooker.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/deportivoalavés.png" group-title="CANLI MAÇLAR - Arjantin Primera Division",Deportivo Riestra - Boca Juniors [01:30]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/eskrim.png" group-title="CANLI MAÇLAR - Eskrim Dünya Şampiyonasi",Eskrim Dünya Şampiyonasi - Gün 4 [13:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/deportivoalavés.png | https://patronsports2.cfd/img/logos/bocajuniors.png
+https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/eskrim.png | https://patronsports2.cfd/img/logos/eskrim.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/tenis.png" group-title="CANLI MAÇLAR - ATP Washington",M.Arnaldi - L.Musetti [19:30]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/bisiklet.png" group-title="CANLI MAÇLAR - Bisiklet Tour de L'Ain",Bisiklet Tour de L'Ain - Etap 1 [15:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/tenis.png | https://patronsports2.cfd/img/logos/tenis.png
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/bisiklet.png | https://patronsports2.cfd/img/logos/bisiklet.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/tenis.png" group-title="CANLI MAÇLAR - ATP Washington",T.Fritz - Z.Bergs [22:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/snooker.png" group-title="CANLI MAÇLAR - Snooker Shanghai Masters",Snooker Shanghai Masters - 2'nci Tur [16:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/tenis.png | https://patronsports2.cfd/img/logos/tenis.png
+https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/snooker.png | https://patronsports2.cfd/img/logos/snooker.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Commonwealth Oyunlari",Commonwealth Oyunlari - Atletizm [21:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/atletizm.png | https://patronsports2.cfd/img/logos/atletizm.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/stokecity.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Stoke - Everton [21:45]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/stokecity.png | https://patronsports2.cfd/img/logos/everton.png
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/beinsports1.png" group-title="7/24 KANALLAR",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
