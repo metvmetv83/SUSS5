@@ -229,7 +229,7 @@ def main():
     print("🚀 Justin TV Verileri Çekiliyor...")
     
     base_url = get_base_url_with_fallback()
-    referrer = "https://canlimacizlejustin.online"
+    referrer = "https://patronsports2.cfd"
     
     print(f"📡 Base URL: {base_url}")
     
