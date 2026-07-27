@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T07:49:45.885456",
+  "generated_at": "2026-07-27T11:37:55.968304",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1080.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1080.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 52,
+  "total_streams": 39,
   "matches": [
     {
       "id": "ex2",
-      "name": "Trabzonspor - E.Frankfurt",
-      "status": "16:30",
+      "name": "Galatasaray - Venezia",
+      "status": "21:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
@@ -19,8 +19,8 @@
     },
     {
       "id": "sms2",
-      "name": "Santos - Chapecoense",
-      "status": "00:30",
+      "name": "Palmeiras - Atletico Mineiro",
+      "status": "01:30",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
@@ -28,19 +28,9 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "trtspor",
-      "name": "Liverpool - Sunderland",
-      "status": "01:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
       "id": "smarts",
-      "name": "River Plate - Barracas Central",
-      "status": "01:15",
+      "name": "Deportivo Riestra - Boca Juniors",
+      "status": "01:30",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
@@ -48,142 +38,22 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "trtspor",
-      "name": "Bursaspor - Shakhtar Donetsk",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "b4",
-      "name": "FIA Formula 3 - Macaristan GP",
-      "status": "09:40",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Çin - İtalya",
-      "status": "10:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "b4",
-      "name": "Porsche Super Cup - Macaristan GP",
-      "status": "11:10",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "trtspor2",
-      "name": "Aybasti Yağli Güreşleri - Ordu Yayın 3",
-      "status": "12:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "b4",
-      "name": "FIA Formula 2 - Macaristan GP",
-      "status": "12:25",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "Eskrim Dünya Şampiyonasi - Gün 2",
-      "status": "13:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "trt1",
-      "name": "Türkiye - Brezilya",
-      "status": "14:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu1",
-      "name": "Polonya Bisiklet Turu - Kadınlar Etap 3",
-      "status": "15:15",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "b4",
-      "name": "Formula 1 - Macaristan GP",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "Motokros Dünya Şampiyonasi - Büyük Britanya - MX2 Yarış 2",
-      "status": "17:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu1",
-      "name": "Bisiklet Tour de France - Etap 21",
-      "status": "17:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Ödül Töreni - TVF Pro Kulüpler Türkiye Şampiyonası",
+      "id": "ex2",
+      "name": "M.Arnaldi - L.Musetti",
       "status": "19:30",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "eu2",
-      "name": "3M Golf Turnuvasi - Gün 4",
-      "status": "20:00",
+      "id": "ex4",
+      "name": "T.Fritz - Z.Bergs",
+      "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     }
