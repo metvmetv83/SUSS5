@@ -1,19 +1,29 @@
 {
-  "generated_at": "2026-07-28T22:16:18.772913",
+  "generated_at": "2026-07-29T00:08:33.922277",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1080.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1080.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 41,
+  "total_streams": 44,
   "matches": [
     {
-      "id": "tv8",
-      "name": "Ç.Rizespor - Hull City",
-      "status": "15:00",
+      "id": "ex2",
+      "name": "Gornik Zabrze - Fenerbahçe",
+      "status": "21:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/tv8/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
+      "id": "smarts",
+      "name": "Rosario Central - Racing Club",
+      "status": "03:15",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
@@ -28,9 +38,39 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
+      "id": "trtspor",
+      "name": "Slovenya - Türkiye",
+      "status": "10:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
       "id": "eu2",
-      "name": "Eskrim Dünya Şampiyonasi - Gün 4",
-      "status": "13:00",
+      "name": "Eskrim Dünya Şampiyonasi - Gün 5",
+      "status": "11:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
+      "id": "ss",
+      "name": "Japonya - Çin",
+      "status": "14:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
+      "id": "eu2",
+      "name": "Snooker Shanghai Masters - 2'nci Tur",
+      "status": "15:30",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
@@ -39,7 +79,7 @@
     },
     {
       "id": "eu1",
-      "name": "Bisiklet Tour de L'Ain - Etap 1",
+      "name": "Bisiklet Tour de L'Ain - Etap 2",
       "status": "15:30",
       "logo": "",
       "type": "match",
@@ -48,19 +88,9 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "eu2",
-      "name": "Snooker Shanghai Masters - 2'nci Tur",
-      "status": "16:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
       "id": "eu1",
-      "name": "Commonwealth Oyunlari - Atletizm",
-      "status": "21:00",
+      "name": "Danimarka Bisiklet Turu - Etap 1",
+      "status": "17:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
@@ -69,8 +99,8 @@
     },
     {
       "id": "trtspor",
-      "name": "Stoke - Everton",
-      "status": "21:45",
+      "name": "Real Betis - Lyon",
+      "status": "21:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
