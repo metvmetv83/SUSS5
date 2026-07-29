@@ -6,7 +6,7 @@
 #EXTVLCOPT:http-origin=https://www.atomsportv511.top
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//hls/s-sport.m3u8
+https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//bein1/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png" group-title="TV Kanalları",BEIN SPORTS 2
 #EXTVLCOPT:http-accept=*/*
@@ -38,7 +38,7 @@ https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live/
 #EXTVLCOPT:http-origin=https://www.atomsportv511.top
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//hls/s-sport.m3u8
+https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/S_Sport_logo.svg/200px-S_Sport_logo.svg.png" group-title="TV Kanalları",S SPORT 2
 #EXTVLCOPT:http-accept=*/*
@@ -46,7 +46,7 @@ https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live/
 #EXTVLCOPT:http-origin=https://www.atomsportv511.top
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//hls/s-sport.m3u8
+https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png" group-title="TV Kanalları",TRT SPOR
 #EXTVLCOPT:http-accept=*/*
@@ -55,4 +55,12 @@ https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live/
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://1xlite-47499.pro/resized/size16/sfiles/logo_teams/4434.png" group-title="CANLI MAÇLAR - UEFA Champions League",Gornik Zabrze - Fenerbahçe S.K. [21:00]
+#EXTVLCOPT:http-accept=*/*
+#EXTVLCOPT:http-referer=https://www.atomsportv511.top/
+#EXTVLCOPT:http-origin=https://www.atomsportv511.top
+#EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://hlsforever.forgetmoenszo.workers.dev/https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8
 
