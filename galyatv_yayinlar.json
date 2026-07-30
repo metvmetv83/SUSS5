@@ -1,37 +1,23 @@
 {
-  "generated_at": "2026-07-30T18:24:13.483306",
+  "generated_at": "2026-07-30T20:20:45.451771",
   "source": "Galyatv1",
   "base_url": "https://galyatv1.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv1.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 8,
+  "total_streams": 7,
   "channels": [
     {
-      "id": "191814",
+      "id": "631708",
       "name": "TRT Spor",
       "logo": "https://galyatv1.com/images/channels/trtspor.png",
       "type": "channel",
-      "url": "https://cdn.galyatv1.com/M191814/M191814.m3u8",
+      "url": "https://cdn.galyatv1.com/M631708/M631708.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv1.com/"
     }
   ],
   "matches": [
-    {
-      "id": "191814",
-      "home": "20:00",
-      "away": "",
-      "title": "20:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M191814/M191814.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv1.com/"
-    },
     {
       "id": "631708",
       "home": "00:00",
@@ -90,9 +76,9 @@
     },
     {
       "id": "970499",
-      "home": "CANLI00:00",
+      "home": "00:00",
       "away": "",
-      "title": "CANLI00:00",
+      "title": "00:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
