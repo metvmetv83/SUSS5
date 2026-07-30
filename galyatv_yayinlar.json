@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T11:58:15.442091",
+  "generated_at": "2026-07-30T14:25:10.181719",
   "source": "Galyatv1",
   "base_url": "https://galyatv1.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv1.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 11,
+  "total_streams": 10,
   "channels": [
     {
       "id": "631708",
@@ -99,20 +99,6 @@
       "time": "",
       "sport": "Futbol",
       "url": "https://cdn.galyatv1.com/M875407/M875407.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv1.com/"
-    },
-    {
-      "id": "213683",
-      "home": "CANLI14:30",
-      "away": "",
-      "title": "CANLI14:30",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M213683/M213683.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv1.com/"
     },
