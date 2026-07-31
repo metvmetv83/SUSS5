@@ -1,46 +1,16 @@
 {
-  "generated_at": "2026-07-30T22:18:45.493106",
+  "generated_at": "2026-07-31T00:15:25.217546",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1080.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1080.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 48,
+  "total_streams": 37,
   "matches": [
     {
-      "id": "ex2",
-      "name": "Trabzonspor - Al Sadd",
-      "status": "18:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ex3",
-      "name": "FC Midtjylland - Beşiktaş",
-      "status": "20:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "trt1",
-      "name": "Inter Turku - Rams Başakşehir",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
       "id": "smarts",
-      "name": "Gimnasia La Plata - River Plate",
-      "status": "01:15",
+      "name": "Corinthians - Atletico PR",
+      "status": "01:30",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
@@ -48,18 +18,8 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "sms2",
-      "name": "Internacional - Flamengo",
-      "status": "01:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
       "id": "smarts",
-      "name": "Vitoria - Palmeiras",
+      "name": "Coritiba - Cruzeiro",
       "status": "03:30",
       "logo": "",
       "type": "match",
@@ -68,82 +28,12 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "ss",
-      "name": "İtalya - ABD",
-      "status": "10:00",
+      "id": "trtspor",
+      "name": "Sporting Lisbon - Nottingham Forest",
+      "status": "21:45",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "Eskrim Dünya Şampiyonasi - Gün 6",
-      "status": "10:15",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Polonya - Ukrayna",
-      "status": "14:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "Snooker Shanghai Masters - Çeyrek Final",
-      "status": "14:45",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu1",
-      "name": "Bisiklet Tour de L'Ain - Etap 3",
-      "status": "15:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu1",
-      "name": "Danimarka Bisiklet Turu - Etap 2",
-      "status": "17:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu1",
-      "name": "Commonwealth Oyunlari - Atletizm",
-      "status": "21:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "Golf Rocket Mortgage Classic - Gün 1",
-      "status": "22:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     }
