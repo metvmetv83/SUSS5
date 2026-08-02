@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-02T11:22:57.813383",
+  "generated_at": "2026-08-02T13:46:06.751805",
   "source": "Galyatv1",
   "base_url": "https://galyatv1.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv1.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 14,
+  "total_streams": 13,
   "channels": [
     {
       "id": "631708",
@@ -103,24 +103,10 @@
       "referrer": "https://galyatv1.com/"
     },
     {
-      "id": "753847",
-      "home": "BİRAZDAN14:30",
-      "away": "",
-      "title": "BİRAZDAN14:30",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M753847/M753847.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv1.com/"
-    },
-    {
       "id": "154245",
-      "home": "15:00",
+      "home": "CANLI15:00",
       "away": "",
-      "title": "15:00",
+      "title": "CANLI15:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
