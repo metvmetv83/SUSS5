@@ -1,28 +1,28 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00 | Fenerbahçe - Sturm Graz
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",20:00 | Hradec Kralove - Beşiktaş
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",13:05 | Polonya Bisiklet Turu - Etap 3
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",01:00 | Boca Juniors - Estudiantes
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",12:00 | Gomez/Ortiz - Martin/Fernandez
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/bm2/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",13:15 | Polonya Bisiklet Turu - Etap 4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",14:30 | Chelsea - Juventus
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",14:30 | Bisiklet Tour de France - Kadınlar
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",16:30 | Bisiklet Tour de France - Kadınlar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Arsenal - Real Betis
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
