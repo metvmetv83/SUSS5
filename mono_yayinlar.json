@@ -1,35 +1,21 @@
 {
-  "generated_at": "2026-08-05T19:01:47.321194",
+  "generated_at": "2026-08-05T22:34:35.952731",
   "base_url": "https://tzy.zirvedesin236.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 33,
+  "total_streams": 32,
   "matches": [
     {
       "id": "ex1",
-      "home": "Fenerbahçe",
-      "away": "Sturm Graz",
-      "home_logo": "https://img.sporekrani.com/tr_w_72,h_72,c_limit/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
-      "away_logo": "https://img.sporekrani.com/tr_w_72,h_72,c_limit/teams/iWNTxHfWQeHWcugFJMSVDGkqEwnY4IYQYo7hqkdt.png",
-      "league": "UEFA Şampiyonlar Ligi Ön Eleme",
-      "time": "21:00",
+      "home": "Hradec Kralove",
+      "away": "Beşiktaş",
+      "home_logo": "https://img.sporekrani.com/teams/42059b23-efa7-4fd2-bf0c-c2d651a8ad99.png",
+      "away_logo": "https://img.sporekrani.com/teams/CFvwmLuUD6H974wec5ga09WZXmTeWdI3RneaRBkc.png",
+      "league": "UEFA Avrupa Ligi Ön Eleme",
+      "time": "20:00",
       "sport": "Futbol",
       "type": "match",
       "url": "https://tzy.zirvedesin236.cfd/ex1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://patronsports2.cfd/"
-    },
-    {
-      "id": "trtspor",
-      "home": "Arsenal",
-      "away": "Real Betis",
-      "home_logo": "https://img.sporekrani.com/teams/Oyf1KjdNrQ3JRqlad56loSKdEvRBippxrf4sgKYr.png",
-      "away_logo": "https://img.sporekrani.com/teams/AaogJhN63KSgYMLUAY4RLcEi4oSGQSLLQS6Qc0wm.png",
-      "league": "Hazırlık Maçı",
-      "time": "21:30",
-      "sport": "Futbol",
-      "type": "match",
-      "url": "https://tzy.zirvedesin236.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     }
