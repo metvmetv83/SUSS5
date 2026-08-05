@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # ─────────────────────────────────────────────
 #  KAYNAKLAR
 # ─────────────────────────────────────────────
-BASE_URL = "https://galyatv1.com"
+BASE_URL = "https://galyatv2.com"
 POPULAR_VIEW_URL = f"{BASE_URL}/Live/Main/GetPopularSportView"
 SPORT_VIEW_URL = f"{BASE_URL}/Live/Main/GetSportView"
 CDN_BASE = "https://cdn.galyatv1.com"
