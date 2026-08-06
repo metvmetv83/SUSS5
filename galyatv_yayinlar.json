@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-06T03:27:13.693691",
+  "generated_at": "2026-08-06T06:40:03.637749",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 7,
+  "total_streams": 8,
   "channels": [
     {
       "id": "631708",
@@ -99,6 +99,20 @@
       "time": "",
       "sport": "Futbol",
       "url": "https://cdn.galyatv1.com/M875407/M875407.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://galyatv2.com/"
+    },
+    {
+      "id": "288030",
+      "home": "20:00",
+      "away": "",
+      "title": "20:00",
+      "logo": "",
+      "type": "match",
+      "league": "Galyatv1 Maçları",
+      "time": "",
+      "sport": "Futbol",
+      "url": "https://cdn.galyatv1.com/M288030/M288030.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     }
