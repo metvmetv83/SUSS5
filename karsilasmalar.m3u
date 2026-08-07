@@ -1,28 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",20:00 | Hradec Kralove - Beşiktaş
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",13:30 | Bayern Münih - Aston Villa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",01:00 | Boca Juniors - Estudiantes
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",13:45 | MotoGP - Serbest Antrenman 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",12:00 | Gomez/Ortiz - Martin/Fernandez
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",15:00 | Kunduz Yağli Güreşleri - Samsun Gün 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/bm2/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",13:15 | Polonya Bisiklet Turu - Etap 4
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",18:00 | MotoGP - Antrenman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",16:30 | Bisiklet Tour de France - Kadınlar
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Boluspor - Manisa FK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Bochum - Hertha Berlin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
