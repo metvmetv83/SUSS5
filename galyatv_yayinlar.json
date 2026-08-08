@@ -1,37 +1,23 @@
 {
-  "generated_at": "2026-08-08T19:37:03.325493",
+  "generated_at": "2026-08-08T20:39:24.497079",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 16,
+  "total_streams": 14,
   "channels": [
     {
-      "id": "082556",
+      "id": "334103",
       "name": "TRT Spor",
       "logo": "https://galyatv2.com/images/channels/trtspor.png",
       "type": "channel",
-      "url": "https://cdn.galyatv1.com/M082556/M082556.m3u8",
+      "url": "https://cdn.galyatv1.com/M334103/M334103.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     }
   ],
   "matches": [
-    {
-      "id": "082556",
-      "home": "21:00",
-      "away": "",
-      "title": "21:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M082556/M082556.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
     {
       "id": "334103",
       "home": "21:30",
@@ -43,20 +29,6 @@
       "time": "",
       "sport": "Futbol",
       "url": "https://cdn.galyatv1.com/M334103/M334103.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "233231",
-      "home": "21:00",
-      "away": "",
-      "title": "21:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M233231/M233231.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     },
@@ -90,9 +62,9 @@
     },
     {
       "id": "817817",
-      "home": "CANLI00:00",
+      "home": "00:00",
       "away": "",
-      "title": "CANLI00:00",
+      "title": "00:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -104,9 +76,9 @@
     },
     {
       "id": "541957",
-      "home": "CANLI00:00",
+      "home": "00:00",
       "away": "",
-      "title": "CANLI00:00",
+      "title": "00:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -146,9 +118,9 @@
     },
     {
       "id": "802083",
-      "home": "23:00",
+      "home": "CANLI23:00",
       "away": "",
-      "title": "23:00",
+      "title": "CANLI23:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
