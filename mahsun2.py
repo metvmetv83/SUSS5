@@ -96,10 +96,10 @@ def main():
 
         browser.close()
 
-    with open('mahsun.m3u', 'w', encoding='utf-8') as f:
+    with open('mahsun2.m3u', 'w', encoding='utf-8') as f:
         f.writelines(m3u_lines)
 
-    print("mahsun.m3u başarıyla oluşturuldu!")
+    print("mahsun2.m3u başarıyla oluşturuldu!")
 
 if __name__ == '__main__':
     main()
