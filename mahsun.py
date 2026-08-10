@@ -3,12 +3,16 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
+
 def get_active_domain():
     # Aralık üzerinden aktif domain bulma
     for i in range(70, 1000):
         domain = f"https://mahsunsports{i}.xyz"
         try:
-            response = requests.get(domain, timeout=5)
+            response = requests.get(domain, headers=HEADERS, timeout=5)
             if response.status_code == 200:
                 return domain
         except:
@@ -25,7 +29,7 @@ def main():
         return
 
     try:
-        response = requests.get(base_url, timeout=10)
+        response = requests.get(base_url, headers=HEADERS, timeout=10)
         response.raise_for_status()
         html_content = response.text
     except Exception as e:
