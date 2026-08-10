@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 
 def get_active_domain():
     # Aralık üzerinden aktif domain bulma
-    for i in range(216, 1000):
-        domain = f"https://mahsunsports{i}.com"
+    for i in range(70, 1000):
+        domain = f"https://mahsunsports{i}.xyz"
         try:
             response = requests.get(domain, timeout=5)
             if response.status_code == 200:
