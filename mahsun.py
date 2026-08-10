@@ -3,27 +3,31 @@ import time
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+# Eğer domaini manuel sabitlemek isterseniz buraya yazabilirsiniz (Örn: "https://mahsunsports80.xyz")
+# Boş bırakırsanız otomatik arama yapar.
+DOMAIN_OVERRIDE = "https://mahsunsports80.xyz"
+
 def get_active_domain(playwright):
+    if DOMAIN_OVERRIDE:
+        return DOMAIN_OVERRIDE
+
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     page = context.new_page()
 
-    active_domain = None
-    for i in range(70, 1000):
+    # Genişletilmiş aralık kontrolü
+    for i in range(1, 1000):
         domain = f"https://mahsunsports{i}.xyz"
         try:
-            response = page.goto(domain, timeout=4000, wait_until="domcontentloaded")
+            response = page.goto(domain, timeout=3000, wait_until="domcontentloaded")
             if response and response.status == 200:
-                active_domain = domain
-                break
+                browser.close()
+                return domain
         except:
             pass
 
     browser.close()
-    if active_domain:
-        return active_domain
-    
-    raise RuntimeError("Belirtilen aralıkta aktif domain bulunamadı!")
+    raise RuntimeError("Aktif domain bulunamadı!")
 
 def main():
     with sync_playwright() as p:
@@ -40,8 +44,7 @@ def main():
 
         try:
             page.goto(base_url, timeout=15000, wait_until="networkidle")
-            # JavaScript'in elementleri yüklemesi için kısa bir bekleme
-            time.sleep(3)
+            time.sleep(3) # İçeriklerin yüklenmesi için bekleme
             html_content = page.content()
         except Exception as e:
             print(f"Sayfa yüklenirken hata oluştu: {e}")
