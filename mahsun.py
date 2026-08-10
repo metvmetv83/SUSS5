@@ -1,40 +1,54 @@
 import os
-import re
-import requests
+import time
 from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-}
+def get_active_domain(playwright):
+    browser = playwright.chromium.launch(headless=True)
+    context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    page = context.new_page()
 
-def get_active_domain():
-    # Aralık üzerinden aktif domain bulma
+    active_domain = None
     for i in range(70, 1000):
         domain = f"https://mahsunsports{i}.xyz"
         try:
-            response = requests.get(domain, headers=HEADERS, timeout=5)
-            if response.status_code == 200:
-                return domain
+            response = page.goto(domain, timeout=4000, wait_until="domcontentloaded")
+            if response and response.status == 200:
+                active_domain = domain
+                break
         except:
             pass
-            
+
+    browser.close()
+    if active_domain:
+        return active_domain
+    
     raise RuntimeError("Belirtilen aralıkta aktif domain bulunamadı!")
 
 def main():
-    try:
-        base_url = get_active_domain()
-        print(f"Aktif Domain: {base_url}")
-    except Exception as e:
-        print(f"Hata: {e}")
-        return
+    with sync_playwright() as p:
+        try:
+            base_url = get_active_domain(p)
+            print(f"Aktif Domain: {base_url}")
+        except Exception as e:
+            print(f"Hata: {e}")
+            return
 
-    try:
-        response = requests.get(base_url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        html_content = response.text
-    except Exception as e:
-        print(f"Sayfa yüklenirken hata oluştu: {e}")
-        return
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        page = context.new_page()
+
+        try:
+            page.goto(base_url, timeout=15000, wait_until="networkidle")
+            # JavaScript'in elementleri yüklemesi için kısa bir bekleme
+            time.sleep(3)
+            html_content = page.content()
+        except Exception as e:
+            print(f"Sayfa yüklenirken hata oluştu: {e}")
+            browser.close()
+            return
+
+        browser.close()
 
     soup = BeautifulSoup(html_content, 'html.parser')
     items = soup.find_all('div', class_='mac iframeYayin')
@@ -46,7 +60,6 @@ def main():
         if not data_url or 'androstreamlivechNone' in data_url:
             continue
 
-        # Göreceli linkleri tam URL'ye çevirme
         if data_url.startswith('/'):
             stream_url = f"{base_url}{data_url}"
         elif not data_url.startswith('http'):
@@ -54,11 +67,9 @@ def main():
         else:
             stream_url = data_url
 
-        # Takım / Kanal Adı
         top_div = item.find('div', class_='mac-row-top')
         teams = top_div.find('span', class_='takimlar').text.strip() if top_div and top_div.find('span', class_='takimlar') else "Canlı Yayın"
 
-        # Saat ve Lig Bilgisi
         bottom_div = item.find('div', class_='mac-row-bottom')
         saat = ""
         lig = ""
@@ -70,7 +81,6 @@ def main():
             if lig_span:
                 lig = lig_span.text.strip()
 
-        # M3U Başlık Formatı
         title = f"{teams} ({lig})" if lig else teams
         if saat and saat != "CANLI":
             title = f"[{saat}] {title}"
