@@ -1,10 +1,20 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Sturm Graz - Fenerbahçe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",09:00 | Snooker Çin Açik - Tur 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",12:30 | Avrupa Atletizm Şampiyonasi - Gündüz Seansı
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",15:30 | Snooker Çin Açik - 1'inci Tur
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",15:05 | Snooker Çin Açik - 1'inci Tur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
@@ -18,11 +28,6 @@ https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Pendikspor - Batman Petrol
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
