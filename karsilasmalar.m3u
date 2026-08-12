@@ -1,30 +1,40 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Sturm Graz - Fenerbahçe
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | PSG - Aston Villa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",09:00 | Snooker Çin Açik - Tur 1
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",19:15 | Newcastle Utd. - Everton
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:30 | Manchester Utd - Leeds United
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",12:30 | Avrupa Atletizm Şampiyonasi - Gündüz Seansı
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",15:05 | Snooker Çin Açik - 1'inci Tur
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",15:30 | Snooker Çin Açik - 2'nci Tur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",19:00 | Avrupa Su Sporlari Şampiyonasi - Yüzme Finaller
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",19:30 | Avrupa Su Sporlari Şampiyonasi - Yüzme Finaller
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00 | Avrupa Atletizm Şampiyonasi - Akşam Seansı
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:40 | Avrupa Atletizm Şampiyonasi - Akşam Seans
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
