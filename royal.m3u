@@ -1,10 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/iWNTxHfWQeHWcugFJMSVDGkqEwnY4IYQYo7hqkdt.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Ön Eleme",Sturm Graz - Fenerbahçe [21:30]
+#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/wsceG6la9eTs1xNrqH9TKxeGLQM5pQGVWDuQWB4S.png" group-title="CANLI MAÇLAR - Hazırlık Maçı",Newcastle Utd. - Everton [19:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://royaltv33.com/
-https://tzy.zirvedesin236.cfd/ex1/mono.m3u8
-# İki logo: https://img.sporekrani.com/teams/iWNTxHfWQeHWcugFJMSVDGkqEwnY4IYQYo7hqkdt.png | https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png
+https://tzy.zirvedesin236.cfd/trtspor/mono.m3u8
+# İki logo: https://img.sporekrani.com/teams/wsceG6la9eTs1xNrqH9TKxeGLQM5pQGVWDuQWB4S.png | https://img.sporekrani.com/teams/ilrMavY5AgzKRt52pbr7JhakxVJUeuGx8CX2JUg9.png
+
+#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/rNuI9YXtAltzauAEWG5ed9YNRn0gG9TGvwgmJTCq.png" group-title="CANLI MAÇLAR - Hazırlık Maçı",Leeds United - Manchester Utd [21:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://royaltv33.com/
+https://tzy.zirvedesin236.cfd/trtspor/mono.m3u8
+# İki logo: https://img.sporekrani.com/teams/rNuI9YXtAltzauAEWG5ed9YNRn0gG9TGvwgmJTCq.png | https://img.sporekrani.com/teams/4Oa5393ovYudsgE2snx6Q1iJPYlP6WooxyETwIMg.png
+
+#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/V4H7yH7E3GBuSO94SIr4WuLrfqCZsFEC5hMm5mWH.png" group-title="CANLI MAÇLAR - UEFA Süper Kupa Final",PSG - Aston Villa [22:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://royaltv33.com/
+https://tzy.zirvedesin236.cfd/trt1/mono.m3u8
+# İki logo: https://img.sporekrani.com/teams/V4H7yH7E3GBuSO94SIr4WuLrfqCZsFEC5hMm5mWH.png | https://img.sporekrani.com/teams/g6sqS6ui4cRXpQeHFw58VBbrDWWHHKmMv0kSD5aY.png
 
 #EXTINF:-1 tvg-logo="https://data-reality.com/img/beinsports1.png" group-title="7/24 KANALLAR",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
