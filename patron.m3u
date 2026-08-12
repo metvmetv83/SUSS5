@@ -1,16 +1,22 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/sturmgraz.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Ön Eleme",Sturm Graz - Fenerbahçe [21:30]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/psg.png" group-title="CANLI MAÇLAR - UEFA Süper Kupa",PSG - Aston Villa [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/sturmgraz.png | https://patronsports2.cfd/img/logos/fenerbahce.png
+https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/psg.png | https://patronsports2.cfd/img/logos/aston-villa.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/snooker.png" group-title="CANLI MAÇLAR - Snooker Çin Açik",Snooker Çin Açik - Tur 1 [09:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/newcastle.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Newcastle Utd. - Everton [19:15]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/snooker.png | https://patronsports2.cfd/img/logos/snooker.png
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/newcastle.png | https://patronsports2.cfd/img/logos/everton.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/manchesterunited.png" group-title="CANLI MAÇLAR - Hazirlik Maçi",Manchester Utd - Leeds United [21:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/manchesterunited.png | https://patronsports2.cfd/img/logos/leedsunited.png
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Avrupa Atletizm Şampiyonasi",Avrupa Atletizm Şampiyonasi - Gündüz Seansı [12:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -18,19 +24,25 @@ https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/atletizm.png | https://patronsports2.cfd/img/logos/atletizm.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/snooker.png" group-title="CANLI MAÇLAR - Snooker Çin Açik",Snooker Çin Açik - 1'inci Tur [15:05]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/snooker.png" group-title="CANLI MAÇLAR - Snooker Çin Açik",Snooker Çin Açik - 2'nci Tur [15:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/snooker.png | https://patronsports2.cfd/img/logos/snooker.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/avrupasu.png" group-title="CANLI MAÇLAR - Avrupa Su Sporlari Şampiyonasi",Avrupa Su Sporlari Şampiyonasi - Yüzme Finaller [19:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/avrupasu.png" group-title="CANLI MAÇLAR - Avrupa Su Sporlari Şampiyonasi",Avrupa Su Sporlari Şampiyonasi - Yüzme Finaller [19:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/avrupasu.png | https://patronsports2.cfd/img/logos/avrupasu.png
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Avrupa Atletizm Şampiyonasi",Avrupa Atletizm Şampiyonasi - Akşam Seansı [21:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/atletizm.png | https://patronsports2.cfd/img/logos/atletizm.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atletizm.png" group-title="CANLI MAÇLAR - Avrupa Atletizm Şampiyonasi",Avrupa Atletizm Şampiyonasi - Akşam Seans [21:40]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
