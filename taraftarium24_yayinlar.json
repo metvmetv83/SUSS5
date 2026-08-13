@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-13T07:46:43.333447",
+  "generated_at": "2026-08-13T09:20:26.609429",
   "source": "Taraftarium24",
   "base_url": "https://andro.2385437.xyz/checklist/",
   "cors_proxy": "https://cors.gerhut.workers.dev/?",
   "domain": "https://taraftarium24.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
   "default_stream_id": "androstreamlivebs1",
-  "total_streams": 260,
+  "total_streams": 262,
   "channels": [
     {
       "name": "Karabağ - Dinamo Kiev",
@@ -699,6 +699,18 @@
       "type": "channel",
       "url": "https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech19978832.m3u8",
       "original_url": "https://andro.2385437.xyz/checklist/androstreamlivech19978832.m3u8",
+      "cors_proxy": "https://cors.gerhut.workers.dev/?",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium24.xyz/",
+      "group": "Maç Yayınları"
+    },
+    {
+      "name": "Dockers United - Athletic Basket",
+      "id": "androstreamlivech39958613",
+      "logo": "",
+      "type": "channel",
+      "url": "https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech39958613.m3u8",
+      "original_url": "https://andro.2385437.xyz/checklist/androstreamlivech39958613.m3u8",
       "cors_proxy": "https://cors.gerhut.workers.dev/?",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium24.xyz/",
@@ -2151,6 +2163,18 @@
       "type": "channel",
       "url": "https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech19978832.m3u8",
       "original_url": "https://andro.2385437.xyz/checklist/androstreamlivech19978832.m3u8",
+      "cors_proxy": "https://cors.gerhut.workers.dev/?",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium24.xyz/",
+      "group": "Maç Yayınları"
+    },
+    {
+      "name": "Dockers United - Athletic Basket",
+      "id": "androstreamlivech39958613",
+      "logo": "",
+      "type": "channel",
+      "url": "https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech39958613.m3u8",
+      "original_url": "https://andro.2385437.xyz/checklist/androstreamlivech39958613.m3u8",
       "cors_proxy": "https://cors.gerhut.workers.dev/?",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium24.xyz/",
