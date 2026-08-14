@@ -1,15 +1,29 @@
 {
-  "generated_at": "2026-08-14T17:38:17.582505",
+  "generated_at": "2026-08-14T18:33:56.771896",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 49,
+  "total_streams": 50,
   "matches": [
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Galatasaray",
+      "away": "Çorum FK",
+      "home_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/corum.png",
+      "league": "Trendyol Süper Lig",
+      "time": "21:30",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
     {
       "id": "patron",
       "home": "Galatasaray",
-      "away": "Çorum FK",
+      "away": "Çorum FK 2",
       "home_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
       "away_logo": "https://patronsports2.cfd/img/logos/corum.png",
       "league": "Trendyol Süper Lig",
