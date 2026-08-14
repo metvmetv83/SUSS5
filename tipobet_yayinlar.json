@@ -1,16 +1,30 @@
 {
-  "generated_at": "2026-08-14T18:06:53.645612",
+  "generated_at": "2026-08-14T19:15:03.893999",
   "source": "Tipobet TV",
   "active_domain": "https://tipobettv265.com",
   "base_url": "https://tzy.zirvedesin236.cfd/",
   "referrer": "https://tipobettv265.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 36,
+  "total_streams": 37,
   "matches": [
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Galatasaray",
+      "away": "Çorum FK",
+      "home_logo": "https://img.sporekrani.com/teams/GG15p6Gkt4vy5CbGDmFNuSLHMC5ojiP0GatfJCdh.png",
+      "away_logo": "https://img.sporekrani.com/teams/ul472wqFpxYMSgwffkI2iBvLOVijrewsahXT1Yew.png",
+      "league": "Trendyol Süper Lig",
+      "time": "21:30",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
+    },
     {
       "id": "zirve",
       "home": "Galatasaray",
-      "away": "Çorum FK",
+      "away": "Çorum FK 2",
       "home_logo": "https://img.sporekrani.com/teams/GG15p6Gkt4vy5CbGDmFNuSLHMC5ojiP0GatfJCdh.png",
       "away_logo": "https://img.sporekrani.com/teams/ul472wqFpxYMSgwffkI2iBvLOVijrewsahXT1Yew.png",
       "league": "Trendyol Süper Lig",
