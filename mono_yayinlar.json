@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-15T14:48:56.800775",
+  "generated_at": "2026-08-15T15:45:39.814027",
   "base_url": "https://tzy.zirvedesin236.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 43,
+  "total_streams": 45,
   "matches": [
     {
       "id": "zirve",
@@ -16,6 +16,20 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://tzy.zirvedesin236.cfd/zirve/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Gençlerbirliği",
+      "away": "Fenerbahçe",
+      "home_logo": "https://img.sporekrani.com/teams/KlRsFgW5XWpxdPoNf5JCGYFMMxDMdJUBroZOkwYW.png",
+      "away_logo": "https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
+      "league": "Trendyol Süper Lig [Günün Maçı 2]",
+      "time": "21:30",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -34,9 +48,23 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
-      "id": "zirve",
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
       "home": "Kasımpaşa",
       "away": "Trabzonspor",
+      "home_logo": "https://img.sporekrani.com/teams/V8j30a2ng4nlBmArptHawOVHFk5ArigAyuoxEMW4.png",
+      "away_logo": "https://img.sporekrani.com/teams/du8xrhC2p6tNr2lBt0EpxnnyUp94NYKETlbvtfqe.png",
+      "league": "Trendyol Süper Lig",
+      "time": "19:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "zirve",
+      "home": "Kasımpaşa",
+      "away": "Trabzonspor 2",
       "home_logo": "https://img.sporekrani.com/teams/V8j30a2ng4nlBmArptHawOVHFk5ArigAyuoxEMW4.png",
       "away_logo": "https://img.sporekrani.com/teams/du8xrhC2p6tNr2lBt0EpxnnyUp94NYKETlbvtfqe.png",
       "league": "Trendyol Süper Lig",
