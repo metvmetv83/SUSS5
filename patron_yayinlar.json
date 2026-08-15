@@ -1,15 +1,29 @@
 {
-  "generated_at": "2026-08-15T14:59:25.559222",
+  "generated_at": "2026-08-15T15:57:00.253301",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 57,
+  "total_streams": 59,
   "matches": [
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Kasımpaşa",
+      "away": "Trabzonspor",
+      "home_logo": "https://patronsports2.cfd/img/logos/kasimpasa.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/trabzonspor.png",
+      "league": "Trendyol Süper Lig",
+      "time": "19:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
     {
       "id": "patron",
       "home": "Kasımpaşa",
-      "away": "Trabzonspor",
+      "away": "Trabzonspor 2",
       "home_logo": "https://patronsports2.cfd/img/logos/kasimpasa.png",
       "away_logo": "https://patronsports2.cfd/img/logos/trabzonspor.png",
       "league": "Trendyol Süper Lig",
@@ -21,9 +35,23 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
-      "id": "patron",
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
       "home": "Gençlerbirliği",
       "away": "Fenerbahçe",
+      "home_logo": "https://patronsports2.cfd/img/logos/genclerbirligi.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
+      "league": "Trendyol Süper Lig",
+      "time": "21:30",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "patron",
+      "home": "Gençlerbirliği",
+      "away": "Fenerbahçe 2",
       "home_logo": "https://patronsports2.cfd/img/logos/genclerbirligi.png",
       "away_logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
       "league": "Trendyol Süper Lig",
