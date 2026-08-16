@@ -27,7 +27,7 @@ jobs:
 
       - name: Tarama Scriptini Calistir
         run: |
-          python bulucu.py
+          python zeus.py
 
       - name: zeus.txt Dosyasini Repoya Kaydet
         run: |
