@@ -36,14 +36,15 @@ def extract_stream_domain_dynamically(tv_url):
     try:
         response = requests.get(tv_url + "/", timeout=10)
         if response.status_code == 200:
-            # 1. Yöntem: Sayfa içindeki JS kodlarında geçen streamUrl veya benzeri yapıları ara (örn: "https://xxx.cfd/" + ...)
-            matches = re.findall(r'["\'](https?://[a-zA-Z0-9.-]+\.cfd)["\']', response.text)
-            for domain in matches:
-                if domain.rstrip('/') != tv_url.rstrip('/'):
-                    print(f"Dinamik yakalanan Stream Domain (JS): {domain}")
-                    return domain.rstrip('/')
+            # 1. Ana sayfadaki tüm JS / HTML kodlarında cfd uzantılı domainleri ara
+            cfd_domains = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', response.text)
+            for domain in cfd_domains:
+                full_domain = f"https://{domain}"
+                if full_domain.rstrip('/') != tv_url.rstrip('/'):
+                    print(f"Ana sayfadan dinamik yakalandı: {full_domain}")
+                    return full_domain
 
-            # 2. Yöntem: ch.html sayfalarından birine gidip player içindeki streamUrl tanımını çek
+            # 2. ch.html sayfalarını tarayarak içerisindeki streamUrl veya domain yapılarını yakala
             soup = BeautifulSoup(response.text, 'html.parser')
             for a in soup.find_all('a', href=True):
                 href = a['href']
@@ -51,19 +52,36 @@ def extract_stream_domain_dynamically(tv_url):
                     full_ch_url = href if href.startswith("http") else tv_url + ("/" if not href.startswith("/") else "") + href
                     try:
                         ch_resp = requests.get(full_ch_url, timeout=5)
-                        # ch.html içinde geçen "https://xxx.cfd/b1/index.txt" veya benzeri URL'yi bul
+                        # ch.html içindeki scriptlerde streamUrl veya index.txt geçen adresleri ara
                         match = re.search(r'(https?://[^\s<>"]+?/[a-zA-Z0-9_-]+/index\.txt)', ch_resp.text)
                         if match:
                             full_path = match.group(1)
                             domain_match = re.match(r'(https?://[^/]+)', full_path)
                             if domain_match:
                                 found_domain = domain_match.group(1)
-                                print(f"Dinamik yakalanan Stream Domain (ch.html): {found_domain}")
+                                print(f"ch.html sayfasından dinamik yakalandı: {found_domain}")
                                 return found_domain
+                                
+                        # Alternatif olarak ch.html içinde geçen cfd domainleri ara
+                        ch_cfd = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', ch_resp.text)
+                        for d in ch_cfd:
+                            fd = f"https://{d}"
+                            if fd.rstrip('/') != tv_url.rstrip('/'):
+                                print(f"ch.html içinden cfd yakalandı: {fd}")
+                                return fd
                     except:
                         continue
     except Exception as e:
-        print(f"Stream domain dinamik aranırken hata: {e}")
+        print(f"Stream domain aranırken hata: {e}")
+
+    # Eğer hiçbir şekilde otomatik metin içinde geçmiyorsa, ch.html isteklerindeki yönlendirme/base URL'den bulmaya çalış
+    try:
+        resp = requests.get(tv_url + "/ch.html?id=b1", timeout=5)
+        match = re.search(r'https?://([a-zA-Z0-9.-]+\.cfd)', resp.text)
+        if match:
+            return f"https://{match.group(1)}"
+    except:
+        pass
 
     raise Exception("Stream domain hiçbir kaynaktan dinamik olarak çözülemedi!")
 
