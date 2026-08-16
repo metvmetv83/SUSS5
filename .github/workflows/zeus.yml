@@ -2,15 +2,14 @@ name: Zeus TV Link Scanner
 
 on:
   schedule:
-    # Her 6 saatte bir otomatik çalışır (cron ifadesini ihtiyacınıza göre düzenleyebilirsiniz)
     - cron: '0 */6 * * *'
-  workflow_dispatch: # GitHub arayüzünden manuel olarak "Run workflow" butonuna basarak tetiklemeyi sağlar
+  workflow_dispatch:
 
 jobs:
   scan-links:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Dosyayı repoya geri commit edebilmek için yazma izni
+      contents: write
     
     steps:
       - name: Repoyu Kopyala (Checkout)
@@ -28,12 +27,17 @@ jobs:
 
       - name: Tarama Scriptini Calistir
         run: |
-          python zeus.py
+          python bulucu.py
 
       - name: zeus.txt Dosyasini Repoya Kaydet
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add zeus.txt
-          # Eğer zeus.txt içeriğinde bir değişiklik olduysa commit yap ve gönder
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Otomatik guncelleme: Yeni zeus.txt linkleri eklendi [skip ci]" && git push)
+          
+          # Dosya gerçekten oluştuysa işlem yap, oluşmadıysa hata verme
+          if [ -f zeus.txt ]; then
+            git add zeus.txt
+            git diff --quiet && git diff --staged --quiet || (git commit -m "Otomatik guncelleme: Yeni zeus.txt linkleri eklendi [skip ci]" && git push)
+          else
+            echo "Calisan link bulunamadigi icin zeus.txt olusturulamadi."
+          fi
