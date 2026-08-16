@@ -32,44 +32,10 @@ def get_working_tv_url():
         
     raise Exception("Çalışan aktif TV URL'si bulunamadı!")
 
-def extract_stream_domain(tv_url):
-    try:
-        response = requests.get(tv_url + "/", timeout=10)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # 1. Yöntem: ch.html?id=... linklerinin kaynak kodunu (iframe veya script) kontrol et
-            for a in soup.find_all('a', href=True):
-                href = a['href']
-                if 'ch.html?id=' in href:
-                    # ch.html sayfasına gidip içindeki gerçek index.txt linkini çekelim
-                    full_ch_url = href if href.startswith("http") else tv_url + ("/" if not href.startswith("/") else "") + href
-                    try:
-                        ch_resp = requests.get(full_ch_url, timeout=5)
-                        match = re.search(r'(https?://[^\s<>"]+?/index\.txt)', ch_resp.text)
-                        if match:
-                            full_path = match.group(1)
-                            # Örnek: https://zeus324232.cfd/b1/index.txt -> https://zeus324232.cfd
-                            domain_match = re.match(r'(https?://[^/]+)', full_path)
-                            if domain_match:
-                                return domain_match.group(1)
-                    except:
-                        continue
-            
-            # 2. Yöntem: Sayfa içinde geçen herhangi bir index.txt bağlantısını yakala
-            match = re.search(r'(https?://[^\s<>"]+?/index\.txt)', response.text)
-            if match:
-                domain_match = re.match(r'(https?://[^/]+)', match.group(1))
-                if domain_match:
-                    return domain_match.group(1)
-
-    except Exception as e:
-        print(f"Stream domain aranırken hata: {e}")
-
-    raise Exception("Stream domain dinamik olarak çözülemedi!")
-
-def fetch_channels(stream_domain, tv_url):
+def fetch_channels(tv_url):
     channels = []
+    stream_domain = "https://zeus324232.cfd" # Verdiğiniz koddaki ana domain
+    
     try:
         response = requests.get(tv_url + "/", timeout=10)
         if response.status_code == 200:
@@ -82,20 +48,32 @@ def fetch_channels(stream_domain, tv_url):
                     if match:
                         ch_id = match.group(1).lower()
                         txt_link = f"{stream_domain}/{ch_id}/index.txt"
-                        channels.append((channel_name if channel_name else ch_id.upper(), txt_link))
+                        # Aynı kanalı tekrar eklememek için kontrol
+                        if (channel_name if channel_name else ch_id.upper(), txt_link) not in channels:
+                            channels.append((channel_name if channel_name else ch_id.upper(), txt_link))
+                            
+        # Eğer siteden dinamik çekilemezse varsayılan temel listeyi kullan
+        if not channels:
+            print("Dinamik kanal bulunamadı, varsayılan liste yükleniyor...")
+            default_ids = [
+                "b1", "b1local", "b2", "b3", "b4", "bein5", "b1max", "b2max", 
+                "s1", "s2", "smart1", "smart2", "tivibu", "tivibu1", "tivibu2", 
+                "tivibu3", "sifirtv", "euro1", "euro2", "tabiiyedek", "tabii1", 
+                "tabii2", "tabii3", "tabii4", "tabii5", "tabii6", "xexxen", "xexxen1", "b5"
+            ]
+            for ch_id in default_ids:
+                channels.append((ch_id.upper(), f"{stream_domain}/{ch_id}/index.txt"))
+                
     except Exception as e:
         print(f"Kanal verileri çekilirken hata oluştu: {e}")
     
-    return channels
+    return channels, stream_domain
 
 def create_m3u():
     tv_url = get_working_tv_url()
     print(f"Aktif TV URL: {tv_url}")
     
-    stream_domain = extract_stream_domain(tv_url)
-    print(f"Dinamik Stream Domain: {stream_domain}")
-    
-    channels = fetch_channels(stream_domain, tv_url)
+    channels, stream_domain = fetch_channels(tv_url)
     
     m3u_content = f"#EXTM3U\n# Source: {tv_url}\n# Stream Domain: {stream_domain}\n"
     for name, link in channels:
