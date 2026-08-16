@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T23:57:16.444351",
+  "generated_at": "2026-08-16T02:10:39.030026",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
@@ -7,16 +7,16 @@
   "total_streams": 59,
   "matches": [
     {
-      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
-      "home": "Kasımpaşa",
-      "away": "Trabzonspor",
-      "home_logo": "https://patronsports2.cfd/img/logos/kasimpasa.png",
-      "away_logo": "https://patronsports2.cfd/img/logos/trabzonspor.png",
-      "league": "Trendyol Süper Lig",
-      "time": "19:00",
-      "sport": "football",
+      "id": "ex3",
+      "home": "I.Makhachev",
+      "away": "I.Garry",
+      "home_logo": "https://www.pngall.com/wp-content/uploads/17/Islam-Makhachev-UFC-Champion-Pose-PNG.png",
+      "away_logo": "https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4738092.png&w=350&h=254",
+      "league": "UFC Dövüş Serisi",
+      "time": "05:30",
+      "sport": "boxing",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },

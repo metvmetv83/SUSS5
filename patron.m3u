@@ -1,10 +1,10 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/kasimpasa.png" group-title="CANLI MAÇLAR - Trendyol Süper Lig",Kasımpaşa - Trabzonspor [19:00]
+#EXTINF:-1 tvg-logo="https://www.pngall.com/wp-content/uploads/17/Islam-Makhachev-UFC-Champion-Pose-PNG.png" group-title="CANLI MAÇLAR - UFC Dövüş Serisi",I.Makhachev - I.Garry [05:30]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/kasimpasa.png | https://patronsports2.cfd/img/logos/trabzonspor.png
+https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8
+# İki logo: https://www.pngall.com/wp-content/uploads/17/Islam-Makhachev-UFC-Champion-Pose-PNG.png | https://a.espncdn.com/combiner/i?img=/i/headshots/mma/players/full/4738092.png&w=350&h=254
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/kasimpasa.png" group-title="CANLI MAÇLAR - Trendyol Süper Lig",Kasımpaşa - Trabzonspor 2 [19:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
