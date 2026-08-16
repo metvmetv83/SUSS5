@@ -11,27 +11,22 @@ def get_working_tv_url():
             for line in response.text.splitlines():
                 line = line.strip()
                 if line.startswith("http"):
-                    # Satırdaki tüm HTTP adreslerini ayıkla
                     found = re.findall(r'https?://[^\s]+', line)
                     for u in found:
                         u_clean = u.rstrip('/')
                         if u_clean not in urls:
                             urls.append(u_clean)
             
-            # Listelenen URL'leri tek tek test et, çalışan ve yayın barındıranı seç
             for tv_url in urls:
                 try:
                     print(f"Test ediliyor: {tv_url}")
                     resp = requests.get(tv_url + "/", timeout=5)
-                    if resp.status_code == 200 and ("ch.html" in resp.text or "index.txt" in resp.text or "Zeus" in resp.text):
-                        # Plesk sayfası gibi boş/hatalı sayfaları elemek için kontrol
-                        if "Plesk" not in resp.text:
-                            print(f"Çalışan aktif URL bulundu: {tv_url}")
-                            return tv_url
+                    if resp.status_code == 200 and "Plesk" not in resp.text:
+                        print(f"Çalışan aktif URL bulundu: {tv_url}")
+                        return tv_url
                 except Exception as e:
                     print(f"{tv_url} bağlanılamadı: {e}")
                     continue
-                    
     except Exception as e:
         print(f"Raw URL okunurken hata: {e}")
         
@@ -41,15 +36,33 @@ def extract_stream_domain(tv_url):
     try:
         response = requests.get(tv_url + "/", timeout=10)
         if response.status_code == 200:
-            match = re.search(r'(https?://[^\s<>"]+?/b1/index\.txt)', response.text)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 1. Yöntem: ch.html?id=... linklerinin kaynak kodunu (iframe veya script) kontrol et
+            for a in soup.find_all('a', href=True):
+                href = a['href']
+                if 'ch.html?id=' in href:
+                    # ch.html sayfasına gidip içindeki gerçek index.txt linkini çekelim
+                    full_ch_url = href if href.startswith("http") else tv_url + ("/" if not href.startswith("/") else "") + href
+                    try:
+                        ch_resp = requests.get(full_ch_url, timeout=5)
+                        match = re.search(r'(https?://[^\s<>"]+?/index\.txt)', ch_resp.text)
+                        if match:
+                            full_path = match.group(1)
+                            # Örnek: https://zeus324232.cfd/b1/index.txt -> https://zeus324232.cfd
+                            domain_match = re.match(r'(https?://[^/]+)', full_path)
+                            if domain_match:
+                                return domain_match.group(1)
+                    except:
+                        continue
+            
+            # 2. Yöntem: Sayfa içinde geçen herhangi bir index.txt bağlantısını yakala
+            match = re.search(r'(https?://[^\s<>"]+?/index\.txt)', response.text)
             if match:
-                full_path = match.group(1)
-                return full_path.split('/b1/')[0]
-                
-            matches = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', response.text)
-            for domain in matches:
-                if "zeus" in domain and domain not in tv_url:
-                    return f"https://{domain}"
+                domain_match = re.match(r'(https?://[^/]+)', match.group(1))
+                if domain_match:
+                    return domain_match.group(1)
+
     except Exception as e:
         print(f"Stream domain aranırken hata: {e}")
 
