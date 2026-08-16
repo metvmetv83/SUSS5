@@ -36,7 +36,6 @@ def extract_stream_domain_dynamically(tv_url):
     try:
         response = requests.get(tv_url + "/", timeout=10)
         if response.status_code == 200:
-            # 1. Ana sayfadaki tüm JS / HTML kodlarında cfd uzantılı domainleri ara
             cfd_domains = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', response.text)
             for domain in cfd_domains:
                 full_domain = f"https://{domain}"
@@ -44,7 +43,6 @@ def extract_stream_domain_dynamically(tv_url):
                     print(f"Ana sayfadan dinamik yakalandı: {full_domain}")
                     return full_domain
 
-            # 2. ch.html sayfalarını tarayarak içerisindeki streamUrl veya domain yapılarını yakala
             soup = BeautifulSoup(response.text, 'html.parser')
             for a in soup.find_all('a', href=True):
                 href = a['href']
@@ -52,7 +50,6 @@ def extract_stream_domain_dynamically(tv_url):
                     full_ch_url = href if href.startswith("http") else tv_url + ("/" if not href.startswith("/") else "") + href
                     try:
                         ch_resp = requests.get(full_ch_url, timeout=5)
-                        # ch.html içindeki scriptlerde streamUrl veya index.txt geçen adresleri ara
                         match = re.search(r'(https?://[^\s<>"]+?/[a-zA-Z0-9_-]+/index\.txt)', ch_resp.text)
                         if match:
                             full_path = match.group(1)
@@ -61,20 +58,11 @@ def extract_stream_domain_dynamically(tv_url):
                                 found_domain = domain_match.group(1)
                                 print(f"ch.html sayfasından dinamik yakalandı: {found_domain}")
                                 return found_domain
-                                
-                        # Alternatif olarak ch.html içinde geçen cfd domainleri ara
-                        ch_cfd = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', ch_resp.text)
-                        for d in ch_cfd:
-                            fd = f"https://{d}"
-                            if fd.rstrip('/') != tv_url.rstrip('/'):
-                                print(f"ch.html içinden cfd yakalandı: {fd}")
-                                return fd
                     except:
                         continue
     except Exception as e:
         print(f"Stream domain aranırken hata: {e}")
 
-    # Eğer hiçbir şekilde otomatik metin içinde geçmiyorsa, ch.html isteklerindeki yönlendirme/base URL'den bulmaya çalış
     try:
         resp = requests.get(tv_url + "/ch.html?id=b1", timeout=5)
         match = re.search(r'https?://([a-zA-Z0-9.-]+\.cfd)', resp.text)
@@ -97,13 +85,25 @@ def fetch_channels(stream_domain, tv_url):
                     channel_name = a.get_text(strip=True)
                     match = re.search(r'id=([a-zA-Z0-9_-]+)', href)
                     if match:
-                        ch_id = match.group(1).lower()
-                        txt_link = f"{stream_domain}/{ch_id}/index.txt"
-                        if (channel_name if channel_name else ch_id.upper(), txt_link) not in channels:
-                            channels.append((channel_name if channel_name else ch_id.upper(), txt_link))
+                        ch_id = match.group(1).upper()
+                        txt_link = f"{stream_domain}/{ch_id.lower()}/index.txt"
+                        if (channel_name if channel_name else ch_id, txt_link) not in channels:
+                            channels.append((channel_name if channel_name else ch_id, txt_link))
     except Exception as e:
         print(f"Kanal verileri çekilirken hata oluştu: {e}")
     
+    # Eğer statik ayrıştırma boş dönerse, eksiksiz tam kanal listesini fallback olarak yükle
+    if not channels:
+        print("Dinamik kanal bulunamadı, tam liste otomatik olarak yükleniyor...")
+        default_ids = [
+            "b1", "b1local", "b2", "b3", "b4", "bein5", "b1max", "b2max", 
+            "s1", "s2", "smart1", "smart2", "tivibu", "tivibu1", "tivibu2", 
+            "tivibu3", "sifirtv", "euro1", "euro2", "tabiiyedek", "tabii1", 
+            "tabii2", "tabii3", "tabii4", "tabii5", "tabii6", "xexxen", "xexxen1", "b5"
+        ]
+        for ch_id in default_ids:
+            channels.append((ch_id.upper(), f"{stream_domain}/{ch_id}/index.txt"))
+            
     return channels
 
 def create_m3u():
@@ -124,7 +124,7 @@ def create_m3u():
         
     with open("zeus.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
-    print("zeus.m3u başarıyla oluşturuldu ve kaydedildi.")
+    print(f"zeus.m3u başarıyla oluşturuldu ve kaydedildi. Toplam kanal: {len(channels)}")
 
 if __name__ == "__main__":
     create_m3u()
