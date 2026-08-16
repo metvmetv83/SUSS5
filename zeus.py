@@ -26,7 +26,7 @@ def main():
     
     # Taranacak sayı aralığı (İhtiyacınıza göre artırabilirsiniz: örn. 1 - 300)
     start_range = 1
-    end_range = 150
+    end_range = 400
     
     # Hızlı tarama için çoklu iş parçacığı (ThreadPool) kullanılıyor
     with concurrent.futures.ThreadPoolExecutor(max_workers=30) as executor:
