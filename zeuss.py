@@ -7,47 +7,51 @@ def get_working_tv_url():
     try:
         response = requests.get(source_url, timeout=10)
         if response.status_code == 200:
+            urls = []
             for line in response.text.splitlines():
                 line = line.strip()
                 if line.startswith("http"):
-                    return line.rstrip('/')
+                    # Satırdaki tüm HTTP adreslerini ayıkla
+                    found = re.findall(r'https?://[^\s]+', line)
+                    for u in found:
+                        u_clean = u.rstrip('/')
+                        if u_clean not in urls:
+                            urls.append(u_clean)
+            
+            # Listelenen URL'leri tek tek test et, çalışan ve yayın barındıranı seç
+            for tv_url in urls:
+                try:
+                    print(f"Test ediliyor: {tv_url}")
+                    resp = requests.get(tv_url + "/", timeout=5)
+                    if resp.status_code == 200 and ("ch.html" in resp.text or "index.txt" in resp.text or "Zeus" in resp.text):
+                        # Plesk sayfası gibi boş/hatalı sayfaları elemek için kontrol
+                        if "Plesk" not in resp.text:
+                            print(f"Çalışan aktif URL bulundu: {tv_url}")
+                            return tv_url
+                except Exception as e:
+                    print(f"{tv_url} bağlanılamadı: {e}")
+                    continue
+                    
     except Exception as e:
         print(f"Raw URL okunurken hata: {e}")
-    raise Exception("Çalışan TV URL'si raw dosyasından alınamadı!")
+        
+    raise Exception("Çalışan aktif TV URL'si bulunamadı!")
 
 def extract_stream_domain(tv_url):
     try:
         response = requests.get(tv_url + "/", timeout=10)
         if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Sayfa içerisindeki index.txt veya ch.html bağlantılarını tarayarak stream domain'ini bulur
-            for script in soup.find_all(['script', 'iframe', 'a'], href=True):
-                pass
-            
-            # Alternatif olarak sayfa içeriğinde geçen *.cfd uzantılı domain yapılarını yakala
+            match = re.search(r'(https?://[^\s<>"]+?/b1/index\.txt)', response.text)
+            if match:
+                full_path = match.group(1)
+                return full_path.split('/b1/')[0]
+                
             matches = re.findall(r'https?://([a-zA-Z0-9.-]+\.cfd)', response.text)
             for domain in matches:
-                if "zeus" in domain and domain != tv_url.replace("https://", "").replace("http://", ""):
+                if "zeus" in domain and domain not in tv_url:
                     return f"https://{domain}"
-                    
-            # Eğer regex ile bulunamazsa ch.html linklerini incele
-            for a in soup.find_all('a', href=True):
-                if 'ch.html' in a['href']:
-                    # Sayfa içi istek simülasyonu veya iframe kaynaklarından domain çekme
-                    pass
     except Exception as e:
         print(f"Stream domain aranırken hata: {e}")
-        
-    # Varsayılan dinamik arama başarısız olursa sayfadaki ilk index.txt geçen URL'yi baz al
-    try:
-        response = requests.get(tv_url + "/", timeout=10)
-        match = re.search(r'(https?://[^\s<>"]+?/b1/index\.txt)', response.text)
-        if match:
-            full_path = match.group(1)
-            return full_path.split('/b1/')[0]
-    except:
-        pass
 
     raise Exception("Stream domain dinamik olarak çözülemedi!")
 
@@ -66,10 +70,6 @@ def fetch_channels(stream_domain, tv_url):
                         ch_id = match.group(1).lower()
                         txt_link = f"{stream_domain}/{ch_id}/index.txt"
                         channels.append((channel_name if channel_name else ch_id.upper(), txt_link))
-        
-        if not channels:
-            print("Dinamik kanal listesi oluşturulamadı, site yapısı kontrol edilmeli.")
-            
     except Exception as e:
         print(f"Kanal verileri çekilirken hata oluştu: {e}")
     
@@ -77,10 +77,10 @@ def fetch_channels(stream_domain, tv_url):
 
 def create_m3u():
     tv_url = get_working_tv_url()
-    print(f"Raw'dan alınan aktif TV URL: {tv_url}")
+    print(f"Aktif TV URL: {tv_url}")
     
     stream_domain = extract_stream_domain(tv_url)
-    print(f"Dinamik olarak çekilen Stream Domain: {stream_domain}")
+    print(f"Dinamik Stream Domain: {stream_domain}")
     
     channels = fetch_channels(stream_domain, tv_url)
     
