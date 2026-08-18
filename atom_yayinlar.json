@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-18T19:23:49.131226",
+  "generated_at": "2026-08-18T20:18:19.465334",
   "base_domain": "https://www.atomsportv512.top",
-  "total_streams": 1,
+  "total_streams": 3,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -9,6 +9,50 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "title": "BeIN Sports 1",
+      "url": "https://corestream.siteyaptim.live/hls/trt1.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv512.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv512.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live/hls/trt1.m3u8"
+    },
+    {
+      "id": "bein-sports-2",
+      "name": "BEIN SPORTS 2",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png",
+      "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/BeIN_Sports_2_HD.svg/200px-BeIN_Sports_2_HD.svg.png",
+      "title": "BeIN Sports 2",
+      "url": "https://corestream.siteyaptim.live/hls/trt1.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv512.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv512.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live/hls/trt1.m3u8"
+    },
+    {
+      "id": "bein-sports-3",
+      "name": "BEIN SPORTS 3",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png",
+      "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BeIN_Sports_3_HD.svg/200px-BeIN_Sports_3_HD.svg.png",
+      "title": "BeIN Sports 3",
       "url": "https://corestream.siteyaptim.live/hls/trt1.m3u8",
       "headers": {
         "h1Key": "accept",
