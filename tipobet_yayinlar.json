@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T13:57:34.048152",
+  "generated_at": "2026-08-18T14:53:18.064583",
   "source": "Tipobet TV",
   "active_domain": "https://tipobettv265.com",
   "base_url": "https://tzy.zirvedesin236.cfd/",
   "referrer": "https://tipobettv265.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 34,
+  "total_streams": 35,
   "matches": [
     {
       "id": "trt1",
@@ -18,6 +18,20 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://tzy.zirvedesin236.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "home": "Fenerbahçe",
+      "away": "Lyon FHD",
+      "home_logo": "https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
+      "away_logo": "https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png",
+      "league": "UEFA Şampiyonlar Ligi Play-Off",
+      "time": "22:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://tzy.zirvedesin236.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://tipobettv265.com/"
     },
