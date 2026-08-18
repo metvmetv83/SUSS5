@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T20:39:20.388712",
+  "generated_at": "2026-08-18T21:37:07.838081",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1080.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
@@ -8,42 +8,42 @@
   "total_streams": 38,
   "matches": [
     {
-      "id": "trt1",
-      "name": "Fenerbahçe - Lyon",
+      "id": "ex2",
+      "name": "Slovan Bratislava - NK Celje",
       "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-      "name": "Fenerbahçe - Lyon FHD",
+      "id": "ss",
+      "name": "Atletico Madrid - Malaga",
       "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ex1",
-      "name": "Dinamo Zagreb - Viking",
-      "status": "22:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
       "id": "ex7",
-      "name": "Levski Sofya - AEK",
+      "name": "NEC Nijmegen - Bodo Glimt",
       "status": "22:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
+      "id": "ex1",
+      "name": "Celtic - LASK Linz",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     }

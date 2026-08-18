@@ -1,23 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Fenerbahçe - Lyon
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Slovan Bratislava - NK Celje
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Fenerbahçe - Lyon FHD
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Atletico Madrid - Malaga
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8
+https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Dinamo Zagreb - Viking
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Levski Sofya - AEK
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | NEC Nijmegen - Bodo Glimt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Celtic - LASK Linz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
