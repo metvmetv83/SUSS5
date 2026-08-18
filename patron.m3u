@@ -1,28 +1,28 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/fenerbahce.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Fenerbahçe - Lyon [22:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/sbratislava.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Slovan Bratislava - NK Celje [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/fenerbahce.png | https://patronsports2.cfd/img/logos/lyon.png
+https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/sbratislava.png | https://patronsports2.cfd/img/logos/celje.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/fenerbahce.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Fenerbahçe - Lyon FHD [22:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/atleticomadrid.png" group-title="CANLI MAÇLAR - İspanya La Liga",Atletico Madrid - Malaga [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/fenerbahce.png | https://patronsports2.cfd/img/logos/lyon.png
+https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/atleticomadrid.png | https://patronsports2.cfd/img/logos/malaga.png
 
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/dinamozagreb.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Dinamo Zagreb - Viking [22:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
-https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/dinamozagreb.png | https://patronsports2.cfd/img/logos/viking.png
-
-#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/levskisofia.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Levski Sofya - AEK [22:00]
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/necnijmegen.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",NEC Nijmegen - Bodo Glimt [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
-# İki logo: https://patronsports2.cfd/img/logos/levskisofia.png | https://patronsports2.cfd/img/logos/aek.png
+# İki logo: https://patronsports2.cfd/img/logos/necnijmegen.png | https://patronsports2.cfd/img/logos/bodoglimt.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/celtic.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Celtic - LASK Linz [22:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/celtic.png | https://patronsports2.cfd/img/logos/slaskwroclaw.png
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/beinsports1.png" group-title="7/24 KANALLAR",BEIN SPORTS 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
