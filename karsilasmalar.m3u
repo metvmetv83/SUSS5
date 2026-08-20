@@ -1,23 +1,33 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Slovan Bratislava - NK Celje
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Atletico Madrid - Malaga
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | NEC Nijmegen - Bodo Glimt
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
-https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Celtic - LASK Linz
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",20:00 | Beşiktaş - Kauno Zalgiris
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
 https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",20:00 | Trabzonspor - Ferencvaros
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/atv/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",18:00 | Kuzey Makedonya - Türkiye
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00 | Al Fayha - Al Hilal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | BMW Açik Golf Turnuvasi - Gün 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",22:00 | Rayo Vallecano - Alaves
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium1080.xyz/
+https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="7/24 Kanallar",beIN Sports 1 A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
