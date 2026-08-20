@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T11:04:00.114083",
+  "generated_at": "2026-08-20T12:02:27.165730",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
@@ -7,7 +7,7 @@
   "total_streams": 42,
   "matches": [
     {
-      "id": "ex1",
+      "id": "ss",
       "home": "Beşiktaş",
       "away": "Kauno Zalgiris",
       "home_logo": "https://patronsports2.cfd/img/logos/besiktas.png",
@@ -16,7 +16,7 @@
       "time": "20:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
