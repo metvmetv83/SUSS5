@@ -2,29 +2,41 @@
 #EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXT-X-ORIGIN:https://taraftarium24.xyz
 #CORS-PROXY:https://cors.gerhut.workers.dev/?
-#EXTINF:-1 tvg-logo="" tvg-name="Kuzey Makedonya - Türkiye" group-title="Maç Yayınları",Kuzey Makedonya - Türkiye
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivetrtsy.m3u8
-
-#EXTINF:-1 tvg-logo="" tvg-name="A.Anisimova - J.Pegula" group-title="Maç Yayınları",A.Anisimova - J.Pegula
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivebsm1.m3u8
-
 #EXTINF:-1 tvg-logo="" tvg-name="Beşiktaş - Kauno Zalgiris" group-title="Maç Yayınları",Beşiktaş - Kauno Zalgiris
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivessplus1.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Beşiktaş - Kauno Zalgiris (Yedek)" group-title="Maç Yayınları",Beşiktaş - Kauno Zalgiris (Yedek)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
 #ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
 https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivess1.m3u8
 
+#EXTINF:-1 tvg-logo="" tvg-name="Beşiktaş - Kauno Žalgiris (Deutsch)" group-title="Maç Yayınları",Beşiktaş - Kauno Žalgiris (Deutsch)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamliveexn2.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamliveexn2.m3u8
+
 #EXTINF:-1 tvg-logo="" tvg-name="Trabzonspor - Ferencvaros" group-title="Maç Yayınları",Trabzonspor - Ferencvaros
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamliveexn4.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamliveexn4.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Trabzonspor - Ferencvaros (Yedek)" group-title="Maç Yayınları",Trabzonspor - Ferencvaros (Yedek)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
 #ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamliveatv.m3u8
 https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamliveatv.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Trabzonspor - Ferencvaros (Deutsch)" group-title="Maç Yayınları",Trabzonspor - Ferencvaros (Deutsch)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamliveexn3.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamliveexn3.m3u8
 
 #EXTINF:-1 tvg-logo="" tvg-name="Al Fayha - Al Hilal" group-title="Maç Yayınları",Al Fayha - Al Hilal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
@@ -49,6 +61,12 @@ https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstream
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
 #ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivess2.m3u8
 https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivess2.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Rayo Vallecano - Alaves (Azerice)" group-title="Maç Yayınları",Rayo Vallecano - Alaves (Azerice)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamliveidm.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamliveidm.m3u8
 
 #EXTINF:-1 tvg-logo="" tvg-name="Erzurumspor - Galatasaray" group-title="Maç Yayınları",Erzurumspor - Galatasaray
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
@@ -146,521 +164,719 @@ https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstream
 #ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivechNone.m3u8
 https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivechNone.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ilbirs (Bayanlar) - TSL (Bayanlar)" group-title="Maç Yayınları",Ilbirs (Bayanlar) - TSL (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Humaita - 2 de Mayo" group-title="Maç Yayınları",Humaita - 2 de Mayo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054755.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054755.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056105.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056105.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Bunyodkor - Kokand-1912" group-title="Maç Yayınları",Bunyodkor - Kokand-1912
+#EXTINF:-1 tvg-logo="" tvg-name="Universitatea Craiova - FC Ararat-Armenia" group-title="Maç Yayınları",Universitatea Craiova - FC Ararat-Armenia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054682.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054682.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056189.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056189.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Yaypan - Pakhtakor II" group-title="Maç Yayınları",Yaypan - Pakhtakor II
+#EXTINF:-1 tvg-logo="" tvg-name="Midtjylland - Rijeka" group-title="Maç Yayınları",Midtjylland - Rijeka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054670.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054670.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056108.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056108.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Deportivo Camioneros II - Club Atlético Brown II" group-title="Maç Yayınları",Deportivo Camioneros II - Club Atlético Brown II
+#EXTINF:-1 tvg-logo="" tvg-name="Lech Poznan - Thun" group-title="Maç Yayınları",Lech Poznan - Thun
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054705.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054705.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056120.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056120.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CSA Steaua Bucharest - FK Csikszereda Miercurea Ciuc" group-title="Maç Yayınları",CSA Steaua Bucharest - FK Csikszereda Miercurea Ciuc
+#EXTINF:-1 tvg-logo="" tvg-name="Egnatia Rrogozhine - Lilleström" group-title="Maç Yayınları",Egnatia Rrogozhine - Lilleström
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109671.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109671.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056104.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056104.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Deportivo Camioneros (res.) - CA Brown Adrogue (res.)" group-title="Maç Yayınları",Deportivo Camioneros (res.) - CA Brown Adrogue (res.)
+#EXTINF:-1 tvg-logo="" tvg-name="Tromsö - Brighton & Hove Albion" group-title="Maç Yayınları",Tromsö - Brighton & Hove Albion
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109743.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109743.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056109.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056109.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Wakrah - Qatar SC" group-title="Maç Yayınları",Al Wakrah - Qatar SC
+#EXTINF:-1 tvg-logo="" tvg-name="Vendsyssel FF - Hillerod" group-title="Maç Yayınları",Vendsyssel FF - Hillerod
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054852.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054852.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056110.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056110.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Wakrah SC - Qatar SC" group-title="Maç Yayınları",Al Wakrah SC - Qatar SC
+#EXTINF:-1 tvg-logo="" tvg-name="FC Nordsjælland - FC St. Gallen" group-title="Maç Yayınları",FC Nordsjælland - FC St. Gallen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110037.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110037.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056107.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056107.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="KaPa - JIPPO" group-title="Maç Yayınları",KaPa - JIPPO
+#EXTINF:-1 tvg-logo="" tvg-name="Besiktas - FK Kauno Zalgiris" group-title="Maç Yayınları",Besiktas - FK Kauno Zalgiris
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055185.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055185.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112539.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112539.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kairat - Anderlecht" group-title="Maç Yayınları",Kairat - Anderlecht
+#EXTINF:-1 tvg-logo="" tvg-name="Trabzonspor - Ferencvaros" group-title="Maç Yayınları",Trabzonspor - Ferencvaros
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055182.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055182.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112533.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112533.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="CS Universitatea Craiova - FC Ararat-Armenia" group-title="Maç Yayınları",CS Universitatea Craiova - FC Ararat-Armenia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055199.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055199.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112711.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112711.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="RTC (Bayanlar) - Nasaf (Bayanlar)" group-title="Maç Yayınları",RTC (Bayanlar) - Nasaf (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Egnatia Rrogozhine - Lillestrom" group-title="Maç Yayınları",Egnatia Rrogozhine - Lillestrom
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055271.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055271.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112541.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112541.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm FK Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm FK Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="Lech Poznan - FC Thun" group-title="Maç Yayınları",Lech Poznan - FC Thun
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055213.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055213.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112573.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112573.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Agropecuario II - Club Atletico Nueva Chicago II" group-title="Maç Yayınları",Agropecuario II - Club Atletico Nueva Chicago II
+#EXTINF:-1 tvg-logo="" tvg-name="Vendsyssel FF - Hillerod Fodbold" group-title="Maç Yayınları",Vendsyssel FF - Hillerod Fodbold
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055305.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055305.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112553.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112553.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kairat Almaty - Anderlecht" group-title="Maç Yayınları",Kairat Almaty - Anderlecht
+#EXTINF:-1 tvg-logo="" tvg-name="FC Midtjylland - Rijeka" group-title="Maç Yayınları",FC Midtjylland - Rijeka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110697.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110697.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112549.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112549.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="KaPa - JIPPO" group-title="Maç Yayınları",KaPa - JIPPO
+#EXTINF:-1 tvg-logo="" tvg-name="Tromso - Brighton" group-title="Maç Yayınları",Tromso - Brighton
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110703.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110703.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112551.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112551.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm FK Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm FK Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="FC Nordsjaelland - St Gallen" group-title="Maç Yayınları",FC Nordsjaelland - St Gallen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110731.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110731.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112547.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112547.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="RTC FC (w) - Nasaf Qarshi (w)" group-title="Maç Yayınları",RTC FC (w) - Nasaf Qarshi (w)
+#EXTINF:-1 tvg-logo="" tvg-name="Platense (res.) - CA Colon (res.)" group-title="Maç Yayınları",Platense (res.) - CA Colon (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110875.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110875.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112757.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112757.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Locomotive Tbilisi - FC Gonio" group-title="Maç Yayınları",Locomotive Tbilisi - FC Gonio
+#EXTINF:-1 tvg-logo="" tvg-name="Humaita FC - 2 de Mayo" group-title="Maç Yayınları",Humaita FC - 2 de Mayo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110775.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110775.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112543.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112543.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CA Agropecuario (res.) - Nueva Chicago (res.)" group-title="Maç Yayınları",CA Agropecuario (res.) - Nueva Chicago (res.)
+#EXTINF:-1 tvg-logo="" tvg-name="PPJ/Ruoholahti - Gilla FC" group-title="Maç Yayınları",PPJ/Ruoholahti - Gilla FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110943.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110943.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112855.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112855.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CSA Steaua - Csikszereda Miercurea Ciuc" group-title="Maç Yayınları",CSA Steaua - Csikszereda Miercurea Ciuc
+#EXTINF:-1 tvg-logo="" tvg-name="Temperley (res.) - Talleres Remedios Escalda (res.)" group-title="Maç Yayınları",Temperley (res.) - Talleres Remedios Escalda (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054669.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054669.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113293.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113293.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="AGRO - AUDIT" group-title="Maç Yayınları",AGRO - AUDIT
+#EXTINF:-1 tvg-logo="" tvg-name="KÍ Klaksvík - Riga FC" group-title="Maç Yayınları",KÍ Klaksvík - Riga FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055359.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055359.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056388.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056388.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Santa Fe+ - Madrid+" group-title="Maç Yayınları",Santa Fe+ - Madrid+
+#EXTINF:-1 tvg-logo="" tvg-name="P.A.O.K. - SK Brann" group-title="Maç Yayınları",P.A.O.K. - SK Brann
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055517.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055517.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056523.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056523.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Italya (Frez) - Fransa (Join)" group-title="Maç Yayınları",Italya (Frez) - Fransa (Join)
+#EXTINF:-1 tvg-logo="" tvg-name="Baltika Kaliningrad - FC Dynamo Makhachkala" group-title="Maç Yayınları",Baltika Kaliningrad - FC Dynamo Makhachkala
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055583.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055583.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113351.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113351.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ghaz Al-Shamal - Al-Kahrabaa" group-title="Maç Yayınları",Ghaz Al-Shamal - Al-Kahrabaa
+#EXTINF:-1 tvg-logo="" tvg-name="PAOK - Brann" group-title="Maç Yayınları",PAOK - Brann
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055529.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055529.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113379.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113379.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Dosu Joseph - Crusaders Lagos" group-title="Maç Yayınları",Dosu Joseph - Crusaders Lagos
+#EXTINF:-1 tvg-logo="" tvg-name="Vasco da Gama RJ U-20 (w) - Botafogo BA U-20 (w)" group-title="Maç Yayınları",Vasco da Gama RJ U-20 (w) - Botafogo BA U-20 (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054940.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054940.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113843.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113843.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Knights (2x2) - Heroes (2x2)" group-title="Maç Yayınları",Knights (2x2) - Heroes (2x2)
+#EXTINF:-1 tvg-logo="" tvg-name="Kızılyıldız - Viktoria Plzen" group-title="Maç Yayınları",Kızılyıldız - Viktoria Plzen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055555.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055555.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056609.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056609.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Locomotive Tbilisi - Fc Gonio" group-title="Maç Yayınları",Locomotive Tbilisi - Fc Gonio
+#EXTINF:-1 tvg-logo="" tvg-name="OFI - CSKA Sofia" group-title="Maç Yayınları",OFI - CSKA Sofia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055221.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055221.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056610.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056610.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arsenal Tula - Rotor" group-title="Maç Yayınları",Arsenal Tula - Rotor
+#EXTINF:-1 tvg-logo="" tvg-name="Drita - Inter Club" group-title="Maç Yayınları",Drita - Inter Club
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111133.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111133.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056602.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056602.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Gaz Al Shamal - Al Kakhrabaa" group-title="Maç Yayınları",Gaz Al Shamal - Al Kakhrabaa
+#EXTINF:-1 tvg-logo="" tvg-name="St. Truidense - Omonia Nicosia" group-title="Maç Yayınları",St. Truidense - Omonia Nicosia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111391.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111391.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056603.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056603.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Naft Misan - Al Naft" group-title="Maç Yayınları",Naft Misan - Al Naft
+#EXTINF:-1 tvg-logo="" tvg-name="Twente - Karabağ" group-title="Maç Yayınları",Twente - Karabağ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111197.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111197.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056611.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056611.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Lempaala FC - TP-49" group-title="Maç Yayınları",Lempaala FC - TP-49
+#EXTINF:-1 tvg-logo="" tvg-name="Gornik Zabrze - Monaco" group-title="Maç Yayınları",Gornik Zabrze - Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055563.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055563.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056624.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056624.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Olimpicos Habana - Lawton City" group-title="Maç Yayınları",Olimpicos Habana - Lawton City
+#EXTINF:-1 tvg-logo="" tvg-name="Al Golan - Al Karkh" group-title="Maç Yayınları",Al Golan - Al Karkh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055337.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055337.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056654.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056654.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Futungo - Lobito" group-title="Maç Yayınları",Futungo - Lobito
+#EXTINF:-1 tvg-logo="" tvg-name="Vikingur R. - Borac Banja Luka" group-title="Maç Yayınları",Vikingur R. - Borac Banja Luka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055482.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055482.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056608.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056608.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Naft Maysan - Al-Naft" group-title="Maç Yayınları",Naft Maysan - Al-Naft
+#EXTINF:-1 tvg-logo="" tvg-name="Grindavik/Njardvik (Bayanlar) - Fram (Bayanlar)" group-title="Maç Yayınları",Grindavik/Njardvik (Bayanlar) - Fram (Bayanlar)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055432.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055432.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056651.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056651.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="1. Kaiserslautern (Amatörler) - FT Braunschweig (Amatörler)" group-title="Maç Yayınları",1. Kaiserslautern (Amatörler) - FT Braunschweig (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Al Feiha - Al-Hilal Riyadh" group-title="Maç Yayınları",Al Feiha - Al-Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055428.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055428.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056623.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056623.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Galaxy+ - Salamanca+" group-title="Maç Yayınları",Galaxy+ - Salamanca+
+#EXTINF:-1 tvg-logo="" tvg-name="Al Fayha - Al Hilal Riyadh" group-title="Maç Yayınları",Al Fayha - Al Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055573.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055573.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113579.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113579.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Eintracht (Amatörler) - Dynamo Dresden (Amatörler)" group-title="Maç Yayınları",Eintracht (Amatörler) - Dynamo Dresden (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Crvena Zvezda - Viktoria Plzen" group-title="Maç Yayınları",Crvena Zvezda - Viktoria Plzen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055429.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055429.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113551.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113551.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Fortuna (Amatörler) - Willem (Amatörler)" group-title="Maç Yayınları",Fortuna (Amatörler) - Willem (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Sint-Truiden - Omonia Nicosia" group-title="Maç Yayınları",Sint-Truiden - Omonia Nicosia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055530.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055530.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113539.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113539.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="SOCIO - BUILD" group-title="Maç Yayınları",SOCIO - BUILD
+#EXTINF:-1 tvg-logo="" tvg-name="OFI - CSKA Sofia" group-title="Maç Yayınları",OFI - CSKA Sofia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055360.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055360.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113553.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113553.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arsenal Tula - FC Rotor Volgograd" group-title="Maç Yayınları",Arsenal Tula - FC Rotor Volgograd
+#EXTINF:-1 tvg-logo="" tvg-name="CE Gramadense - CE Lajeadense" group-title="Maç Yayınları",CE Gramadense - CE Lajeadense
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055400.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055400.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113829.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113829.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Bayern (Fonso) - Manchester United (Quezzy)" group-title="Maç Yayınları",Bayern (Fonso) - Manchester United (Quezzy)
+#EXTINF:-1 tvg-logo="" tvg-name="Gornik Zabrze - AS Monaco" group-title="Maç Yayınları",Gornik Zabrze - AS Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055501.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055501.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113581.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113581.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ukrayna - Arizona Wildcats" group-title="Maç Yayınları",Ukrayna - Arizona Wildcats
+#EXTINF:-1 tvg-logo="" tvg-name="KF Drita - Inter Club de Escaldes" group-title="Maç Yayınları",KF Drita - Inter Club de Escaldes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054733.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054733.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113537.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113537.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="REG BBC - Tigers BBC" group-title="Maç Yayınları",REG BBC - Tigers BBC
+#EXTINF:-1 tvg-logo="" tvg-name="Twente - Qarabag FK" group-title="Maç Yayınları",Twente - Qarabag FK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110321.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110321.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113555.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113555.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Nuwaidrat - Al Hala" group-title="Maç Yayınları",Al Nuwaidrat - Al Hala
+#EXTINF:-1 tvg-logo="" tvg-name="Barracas Central (res.) - Tigre (res.)" group-title="Maç Yayınları",Barracas Central (res.) - Tigre (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110929.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110929.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113803.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113803.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="Maç Yayınları",IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Estudiantes Rio Cuarto (res.) - Deportivo Riestra (res.)" group-title="Maç Yayınları",Estudiantes Rio Cuarto (res.) - Deportivo Riestra (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055075.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055075.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114333.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114333.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Vladivostok (Bayanlar) - Kaluga (Bayanlar)" group-title="Maç Yayınları",Vladivostok (Bayanlar) - Kaluga (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Sao Paulo FC U-20 - Paulinense U-20" group-title="Maç Yayınları",Sao Paulo FC U-20 - Paulinense U-20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055156.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055156.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113535.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113535.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Buckets - Hot-Boys" group-title="Maç Yayınları",Buckets - Hot-Boys
+#EXTINF:-1 tvg-logo="" tvg-name="I9 Futebol Clube U-20 - CVAF Ibiuna U-20" group-title="Maç Yayınları",I9 Futebol Clube U-20 - CVAF Ibiuna U-20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055164.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055164.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113855.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113855.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kaliningrad - Moscow" group-title="Maç Yayınları",Kaliningrad - Moscow
+#EXTINF:-1 tvg-logo="" tvg-name="Al Minaa - Zakho FC" group-title="Maç Yayınları",Al Minaa - Zakho FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055131.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055131.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113639.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113639.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Moose - IPBL Lions" group-title="Maç Yayınları",IPBL Moose - IPBL Lions
+#EXTINF:-1 tvg-logo="" tvg-name="Al-Jolan SC - Al Karkh" group-title="Maç Yayınları",Al-Jolan SC - Al Karkh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055335.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055335.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113641.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113641.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Suzhou Cats - Kunming Monks" group-title="Maç Yayınları",Suzhou Cats - Kunming Monks
+#EXTINF:-1 tvg-logo="" tvg-name="UMF Grindavik/Njardvik (w) - Fram (w)" group-title="Maç Yayınları",UMF Grindavik/Njardvik (w) - Fram (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055453.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055453.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113635.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113635.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ulan-Ude - Chita" group-title="Maç Yayınları",Ulan-Ude - Chita
+#EXTINF:-1 tvg-logo="" tvg-name="Spartak+ - Tottenham+" group-title="Maç Yayınları",Spartak+ - Tottenham+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055285.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055285.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057033.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057033.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Saransk (Bayanlar) - Mytishchi (Bayanlar)" group-title="Maç Yayınları",Saransk (Bayanlar) - Mytishchi (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Bats (2x2) - Ducks (2x2)" group-title="Maç Yayınları",Bats (2x2) - Ducks (2x2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055209.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055209.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056945.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056945.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Nuwaidrad - Al Hala" group-title="Maç Yayınları",Nuwaidrad - Al Hala
+#EXTINF:-1 tvg-logo="" tvg-name="Dynamo Saint Petersburg II - Neva-Maxima" group-title="Maç Yayınları",Dynamo Saint Petersburg II - Neva-Maxima
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055298.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055298.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056994.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056994.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Cats - IPBL Wolves" group-title="Maç Yayınları",IPBL Cats - IPBL Wolves
+#EXTINF:-1 tvg-logo="" tvg-name="Toulon+ - Vivero+" group-title="Maç Yayınları",Toulon+ - Vivero+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055110.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055110.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057001.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057001.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Broncos FB - Orioles FB" group-title="Maç Yayınları",Broncos FB - Orioles FB
+#EXTINF:-1 tvg-logo="" tvg-name="Sion - Ajax" group-title="Maç Yayınları",Sion - Ajax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055243.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055243.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056734.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056734.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="REG - RSSB Tigers" group-title="Maç Yayınları",REG - RSSB Tigers
+#EXTINF:-1 tvg-logo="" tvg-name="Vikingur Reykjavik - Borac Banja Luka" group-title="Maç Yayınları",Vikingur Reykjavik - Borac Banja Luka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054994.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054994.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113549.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113549.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Zenit Saint Petersburg - Yaroslavich" group-title="Maç Yayınları",Zenit Saint Petersburg - Yaroslavich
+#EXTINF:-1 tvg-logo="" tvg-name="Sion - Ajax" group-title="Maç Yayınları",Sion - Ajax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055210.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055210.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113801.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113801.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Küba - Letonya" group-title="Maç Yayınları",Küba - Letonya
+#EXTINF:-1 tvg-logo="" tvg-name="1. Kaiserslautern (Amatörler) - VfL Osnabruck (Amatörler)" group-title="Maç Yayınları",1. Kaiserslautern (Amatörler) - VfL Osnabruck (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055024.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055024.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056940.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056940.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Türkiye (Pro) - İtalya (Pro)" group-title="Maç Yayınları",Türkiye (Pro) - İtalya (Pro)
+#EXTINF:-1 tvg-logo="" tvg-name="DIPLOMAT - GEO" group-title="Maç Yayınları",DIPLOMAT - GEO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055336.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055336.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057030.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057030.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Slovenya - Japonya" group-title="Maç Yayınları",Slovenya - Japonya
+#EXTINF:-1 tvg-logo="" tvg-name="Lugano - Maccabi Tel Aviv" group-title="Maç Yayınları",Lugano - Maccabi Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055473.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055473.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056902.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056902.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Rusya - Polonya" group-title="Maç Yayınları",Rusya - Polonya
+#EXTINF:-1 tvg-logo="" tvg-name="Panathinaikos - Hradec Kralove" group-title="Maç Yayınları",Panathinaikos - Hradec Kralove
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055515.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055515.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056928.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056928.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Çin (Bayanlar) - ABD (Bayanlar)" group-title="Maç Yayınları",Çin (Bayanlar) - ABD (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Atalanta - Hapoel Tel Aviv" group-title="Maç Yayınları",Atalanta - Hapoel Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054600.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054600.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056903.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056903.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Mozambik - Hollandaa" group-title="Maç Yayınları",Mozambik - Hollandaa
+#EXTINF:-1 tvg-logo="" tvg-name="Gent - Hibernian" group-title="Maç Yayınları",Gent - Hibernian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055444.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055444.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056900.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056900.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Japonya (Bayanlar) - İtalya (Bayanlar)" group-title="Maç Yayınları",Japonya (Bayanlar) - İtalya (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Motherwell - Freiburg" group-title="Maç Yayınları",Motherwell - Freiburg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054656.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054656.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056884.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056884.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Stroitel (4x4) - Uran (4x4)" group-title="Maç Yayınları",Stroitel (4x4) - Uran (4x4)
+#EXTINF:-1 tvg-logo="" tvg-name="Atalanta - Hapoel Tel Aviv" group-title="Maç Yayınları",Atalanta - Hapoel Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054592.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054592.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114139.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114139.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Norbert Gombos - Radu Mihai Papoe" group-title="Maç Yayınları",Norbert Gombos - Radu Mihai Papoe
+#EXTINF:-1 tvg-logo="" tvg-name="Panathinaikos - FC Hradec Kralove" group-title="Maç Yayınları",Panathinaikos - FC Hradec Kralove
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054601.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054601.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114189.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114189.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Michael Geerts - Lucas Poullain" group-title="Maç Yayınları",Michael Geerts - Lucas Poullain
+#EXTINF:-1 tvg-logo="" tvg-name="Motherwell - SC Freiburg" group-title="Maç Yayınları",Motherwell - SC Freiburg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054502.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054502.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114101.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114101.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Michael Geerts - Lucas Poullain" group-title="Maç Yayınları",Michael Geerts - Lucas Poullain
+#EXTINF:-1 tvg-logo="" tvg-name="Lugano - Maccabi Tel Aviv" group-title="Maç Yayınları",Lugano - Maccabi Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109337.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109337.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114137.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114137.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Rada Zolotareva/Varvara Panshina - Li Zongyu/Feng Shuo" group-title="Maç Yayınları",Rada Zolotareva/Varvara Panshina - Li Zongyu/Feng Shuo
+#EXTINF:-1 tvg-logo="" tvg-name="KAA Gent - Hibernian" group-title="Maç Yayınları",KAA Gent - Hibernian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109871.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109871.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114133.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114133.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Oleksandr Ovcharenko/Petr Nesterov - Zheng Baoluo/Christopher Papa" group-title="Maç Yayınları",Oleksandr Ovcharenko/Petr Nesterov - Zheng Baoluo/Christopher Papa
+#EXTINF:-1 tvg-logo="" tvg-name="JOURN - TEACH" group-title="Maç Yayınları",JOURN - TEACH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110243.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110243.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057042.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057042.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arribage/Olivetti - Arevalo-Gonzalez/Pavic" group-title="Maç Yayınları",Arribage/Olivetti - Arevalo-Gonzalez/Pavic
+#EXTINF:-1 tvg-logo="" tvg-name="Eintracht (Amatörler) - RB Leipzig (Amatörler)" group-title="Maç Yayınları",Eintracht (Amatörler) - RB Leipzig (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055264.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055264.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056941.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056941.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Patten/Heliovaara - Nys/Roger-Vasselin" group-title="Maç Yayınları",Patten/Heliovaara - Nys/Roger-Vasselin
+#EXTINF:-1 tvg-logo="" tvg-name="Breda (Amatörler) - Waalwijk (Amatörler)" group-title="Maç Yayınları",Breda (Amatörler) - Waalwijk (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055130.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055130.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056856.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056856.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Joint/Chan - Kempen/Panova" group-title="Maç Yayınları",Joint/Chan - Kempen/Panova
+#EXTINF:-1 tvg-logo="" tvg-name="PPJ Ruoholahti - Gilla" group-title="Maç Yayınları",PPJ Ruoholahti - Gilla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055249.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055249.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056261.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056261.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Anton Matusevich - Mark Ceban" group-title="Maç Yayınları",Anton Matusevich - Mark Ceban
+#EXTINF:-1 tvg-logo="" tvg-name="Heart of Midlothian F.C. - SK Rapid Wien" group-title="Maç Yayınları",Heart of Midlothian F.C. - SK Rapid Wien
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055294.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055294.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057017.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057017.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Donski/Rai - Arseneault/Rozin" group-title="Maç Yayınları",Donski/Rai - Arseneault/Rozin
+#EXTINF:-1 tvg-logo="" tvg-name="Rangers - Jablonec" group-title="Maç Yayınları",Rangers - Jablonec
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055253.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055253.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057029.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057029.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Wojciech Marek - Karol Filar" group-title="Maç Yayınları",Wojciech Marek - Karol Filar
+#EXTINF:-1 tvg-logo="" tvg-name="Baltika Kaliningrad - Dynamo Makhachkala" group-title="Maç Yayınları",Baltika Kaliningrad - Dynamo Makhachkala
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110845.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110845.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056509.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056509.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kaliyanda Poonacha/Escobar - Lammons/Withrow" group-title="Maç Yayınları",Kaliyanda Poonacha/Escobar - Lammons/Withrow
+#EXTINF:-1 tvg-logo="" tvg-name="Manchester City (Harry) - Bayern (Fonso)" group-title="Maç Yayınları",Manchester City (Harry) - Bayern (Fonso)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055287.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055287.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057012.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057012.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ajeet Rai/Alexander Donski - Nicolas Arseneault/Alexander Rozin" group-title="Maç Yayınları",Ajeet Rai/Alexander Donski - Nicolas Arseneault/Alexander Rozin
+#EXTINF:-1 tvg-logo="" tvg-name="Samba - Longonjo" group-title="Maç Yayınları",Samba - Longonjo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110839.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110839.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057011.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057011.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Harri Heliovaara/Henry Patten - Hugo Nys/Edouard Roger-Vasselin" group-title="Maç Yayınları",Harri Heliovaara/Henry Patten - Hugo Nys/Edouard Roger-Vasselin
+#EXTINF:-1 tvg-logo="" tvg-name="Italya (Frez) - Brezilya (Amanai)" group-title="Maç Yayınları",Italya (Frez) - Brezilya (Amanai)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110593.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110593.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057013.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057013.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Maya Joint/Chan Hao-Ching - Alexandra Panova/Magali Kempen" group-title="Maç Yayınları",Maya Joint/Chan Hao-Ching - Alexandra Panova/Magali Kempen
+#EXTINF:-1 tvg-logo="" tvg-name="Litvanya - Estonya" group-title="Maç Yayınları",Litvanya - Estonya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110831.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110831.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055886.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055886.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="David Fix - Daniel Masur" group-title="Maç Yayınları",David Fix - Daniel Masur
+#EXTINF:-1 tvg-logo="" tvg-name="Lithuania - Estonia" group-title="Maç Yayınları",Lithuania - Estonia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110935.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110935.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112105.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112105.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Gonzalo Escobar/Niki Kaliyanda Poonacha - Nathaniel Lammons/Jackson Withrow" group-title="Maç Yayınları",Gonzalo Escobar/Niki Kaliyanda Poonacha - Nathaniel Lammons/Jackson Withrow
+#EXTINF:-1 tvg-logo="" tvg-name="REG BBC (w) - Hoops BBC (w)" group-title="Maç Yayınları",REG BBC (w) - Hoops BBC (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110907.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110907.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113235.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113235.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Theo Arribage/Albano Olivetti - Mate Pavic/Marcelo Arevalo" group-title="Maç Yayınları",Theo Arribage/Albano Olivetti - Mate Pavic/Marcelo Arevalo
+#EXTINF:-1 tvg-logo="" tvg-name="Sırbistan - Fransa" group-title="Maç Yayınları",Sırbistan - Fransa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110861.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110861.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056638.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056638.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Anton Matusevich - Mark Ceban" group-title="Maç Yayınları",Anton Matusevich - Mark Ceban
+#EXTINF:-1 tvg-logo="" tvg-name="Brezilya (Bayanlar) - Arjantin (Bayanlar)" group-title="Maç Yayınları",Brezilya (Bayanlar) - Arjantin (Bayanlar)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110921.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110921.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056685.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056685.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Pavel Emelyanov - Denis Salyamov" group-title="Maç Yayınları",Pavel Emelyanov - Denis Salyamov
+#EXTINF:-1 tvg-logo="" tvg-name="Brazil (w) - Argentina (w)" group-title="Maç Yayınları",Brazil (w) - Argentina (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054961.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054961.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113703.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113703.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Serbia - France" group-title="Maç Yayınları",Serbia - France
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113609.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113609.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Dogs - IPBL Wolves" group-title="Maç Yayınları",IPBL Dogs - IPBL Wolves
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056946.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056946.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Bulgaristan (TBL) - New Zealand (TBL)" group-title="Maç Yayınları",Bulgaristan (TBL) - New Zealand (TBL)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056588.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056588.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kolombiya (TBL) - Çin (TBL)" group-title="Maç Yayınları",Kolombiya (TBL) - Çin (TBL)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056592.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056592.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Bulls - IPBL Boars" group-title="Maç Yayınları",IPBL Bulls - IPBL Boars
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056930.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056930.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="REG (Bayanlar) - The Hoops BBC (Bayanlar)" group-title="Maç Yayınları",REG (Bayanlar) - The Hoops BBC (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056451.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056451.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Lynx (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="Maç Yayınları",IPBL Lynx (Bayanlar) - IPBL Iguana (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056962.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056962.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Krasnogorsk (Bayanlar) - Grozny (Bayanlar)" group-title="Maç Yayınları",Krasnogorsk (Bayanlar) - Grozny (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056710.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056710.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Chita - Khabarovsk" group-title="Maç Yayınları",Chita - Khabarovsk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056728.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056728.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Al Ahli Manama - Al Muharraq" group-title="Maç Yayınları",Al Ahli Manama - Al Muharraq
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056352.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056352.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kaliningrad - Voronezh" group-title="Maç Yayınları",Kaliningrad - Voronezh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056700.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056700.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kaluga (Bayanlar) - Murino (Bayanlar)" group-title="Maç Yayınları",Kaluga (Bayanlar) - Murino (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056688.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056688.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Buckets - Outlaws" group-title="Maç Yayınları",Buckets - Outlaws
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057005.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057005.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Fransa U20 - İtalya U20" group-title="Maç Yayınları",Fransa U20 - İtalya U20
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056144.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056144.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="France U-20 - Italy U-20" group-title="Maç Yayınları",France U-20 - Italy U-20
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112621.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112621.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Ukrayna - Arjantin" group-title="Maç Yayınları",Ukrayna - Arjantin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056958.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056958.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sırbistan (Bayanlar) - Japonya (Bayanlar)" group-title="Maç Yayınları",Sırbistan (Bayanlar) - Japonya (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056631.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056631.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sputnik (4x4) - Astoria (4x4)" group-title="Maç Yayınları",Sputnik (4x4) - Astoria (4x4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056512.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056512.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="İtalya (Bayanlar) - ABD (Bayanlar)" group-title="Maç Yayınları",İtalya (Bayanlar) - ABD (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056887.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056887.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="İtalya - Brezilya" group-title="Maç Yayınları",İtalya - Brezilya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056888.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056888.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Brezilya - Japonya" group-title="Maç Yayınları",Brezilya - Japonya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056806.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056806.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Venezuela (Pro) - ABD (Pro)" group-title="Maç Yayınları",Venezuela (Pro) - ABD (Pro)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056677.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056677.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kanada - Brezilya" group-title="Maç Yayınları",Kanada - Brezilya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056808.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056808.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Amanda Anisimova - Jessica Pegula" group-title="Maç Yayınları",Amanda Anisimova - Jessica Pegula
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055996.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055996.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Amanda Anisimova - Jessica Pegula" group-title="Maç Yayınları",Amanda Anisimova - Jessica Pegula
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112325.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112325.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Rei Sakamoto - Luca Van Assche" group-title="Maç Yayınları",Rei Sakamoto - Luca Van Assche
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112973.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112973.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Daniil Glinka - Harold Mayot" group-title="Maç Yayınları",Daniil Glinka - Harold Mayot
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113729.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113729.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Stefanos Sakellaridis - Aleksandar Vukic" group-title="Maç Yayınları",Stefanos Sakellaridis - Aleksandar Vukic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113817.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113817.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Louis Wessels - Maximilian Marterer" group-title="Maç Yayınları",Louis Wessels - Maximilian Marterer
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113823.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113823.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Seita Watanabe/Thomas Fancutt - Blaz Kavcic/Max Purcell" group-title="Maç Yayınları",Seita Watanabe/Thomas Fancutt - Blaz Kavcic/Max Purcell
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114053.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114053.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sergey Penin - Aleksey Atamanets" group-title="Maç Yayınları",Sergey Penin - Aleksey Atamanets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056599.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056599.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Ostapenko/Hsieh - Guo/Mladenovic" group-title="Maç Yayınları",Ostapenko/Hsieh - Guo/Mladenovic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056834.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056834.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Jovic/Mcnally - Jiang/Zhang" group-title="Maç Yayınları",Jovic/Mcnally - Jiang/Zhang
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056977.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056977.m3u8
 
 #EXTINF:-1 tvg-logo="" tvg-name="BeIN Sports 1" group-title="BeinSports",BeIN Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
@@ -986,521 +1202,719 @@ https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstream
 #ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivechNone.m3u8
 https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivechNone.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ilbirs (Bayanlar) - TSL (Bayanlar)" group-title="Maç Yayınları",Ilbirs (Bayanlar) - TSL (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Humaita - 2 de Mayo" group-title="Maç Yayınları",Humaita - 2 de Mayo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054755.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054755.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056105.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056105.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Bunyodkor - Kokand-1912" group-title="Maç Yayınları",Bunyodkor - Kokand-1912
+#EXTINF:-1 tvg-logo="" tvg-name="Universitatea Craiova - FC Ararat-Armenia" group-title="Maç Yayınları",Universitatea Craiova - FC Ararat-Armenia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054682.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054682.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056189.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056189.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Yaypan - Pakhtakor II" group-title="Maç Yayınları",Yaypan - Pakhtakor II
+#EXTINF:-1 tvg-logo="" tvg-name="Midtjylland - Rijeka" group-title="Maç Yayınları",Midtjylland - Rijeka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054670.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054670.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056108.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056108.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Deportivo Camioneros II - Club Atlético Brown II" group-title="Maç Yayınları",Deportivo Camioneros II - Club Atlético Brown II
+#EXTINF:-1 tvg-logo="" tvg-name="Lech Poznan - Thun" group-title="Maç Yayınları",Lech Poznan - Thun
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054705.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054705.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056120.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056120.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CSA Steaua Bucharest - FK Csikszereda Miercurea Ciuc" group-title="Maç Yayınları",CSA Steaua Bucharest - FK Csikszereda Miercurea Ciuc
+#EXTINF:-1 tvg-logo="" tvg-name="Egnatia Rrogozhine - Lilleström" group-title="Maç Yayınları",Egnatia Rrogozhine - Lilleström
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109671.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109671.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056104.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056104.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Deportivo Camioneros (res.) - CA Brown Adrogue (res.)" group-title="Maç Yayınları",Deportivo Camioneros (res.) - CA Brown Adrogue (res.)
+#EXTINF:-1 tvg-logo="" tvg-name="Tromsö - Brighton & Hove Albion" group-title="Maç Yayınları",Tromsö - Brighton & Hove Albion
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109743.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109743.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056109.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056109.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Wakrah - Qatar SC" group-title="Maç Yayınları",Al Wakrah - Qatar SC
+#EXTINF:-1 tvg-logo="" tvg-name="Vendsyssel FF - Hillerod" group-title="Maç Yayınları",Vendsyssel FF - Hillerod
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054852.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054852.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056110.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056110.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Wakrah SC - Qatar SC" group-title="Maç Yayınları",Al Wakrah SC - Qatar SC
+#EXTINF:-1 tvg-logo="" tvg-name="FC Nordsjælland - FC St. Gallen" group-title="Maç Yayınları",FC Nordsjælland - FC St. Gallen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110037.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110037.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056107.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056107.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="KaPa - JIPPO" group-title="Maç Yayınları",KaPa - JIPPO
+#EXTINF:-1 tvg-logo="" tvg-name="Besiktas - FK Kauno Zalgiris" group-title="Maç Yayınları",Besiktas - FK Kauno Zalgiris
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055185.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055185.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112539.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112539.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kairat - Anderlecht" group-title="Maç Yayınları",Kairat - Anderlecht
+#EXTINF:-1 tvg-logo="" tvg-name="Trabzonspor - Ferencvaros" group-title="Maç Yayınları",Trabzonspor - Ferencvaros
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055182.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055182.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112533.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112533.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="CS Universitatea Craiova - FC Ararat-Armenia" group-title="Maç Yayınları",CS Universitatea Craiova - FC Ararat-Armenia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055199.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055199.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112711.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112711.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="RTC (Bayanlar) - Nasaf (Bayanlar)" group-title="Maç Yayınları",RTC (Bayanlar) - Nasaf (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Egnatia Rrogozhine - Lillestrom" group-title="Maç Yayınları",Egnatia Rrogozhine - Lillestrom
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055271.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055271.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112541.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112541.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm FK Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm FK Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="Lech Poznan - FC Thun" group-title="Maç Yayınları",Lech Poznan - FC Thun
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055213.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055213.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112573.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112573.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Agropecuario II - Club Atletico Nueva Chicago II" group-title="Maç Yayınları",Agropecuario II - Club Atletico Nueva Chicago II
+#EXTINF:-1 tvg-logo="" tvg-name="Vendsyssel FF - Hillerod Fodbold" group-title="Maç Yayınları",Vendsyssel FF - Hillerod Fodbold
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055305.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055305.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112553.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112553.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kairat Almaty - Anderlecht" group-title="Maç Yayınları",Kairat Almaty - Anderlecht
+#EXTINF:-1 tvg-logo="" tvg-name="FC Midtjylland - Rijeka" group-title="Maç Yayınları",FC Midtjylland - Rijeka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110697.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110697.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112549.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112549.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="KaPa - JIPPO" group-title="Maç Yayınları",KaPa - JIPPO
+#EXTINF:-1 tvg-logo="" tvg-name="Tromso - Brighton" group-title="Maç Yayınları",Tromso - Brighton
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110703.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110703.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112551.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112551.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Xorazm FK Urganch - Lokomotiv Tashkent" group-title="Maç Yayınları",Xorazm FK Urganch - Lokomotiv Tashkent
+#EXTINF:-1 tvg-logo="" tvg-name="FC Nordsjaelland - St Gallen" group-title="Maç Yayınları",FC Nordsjaelland - St Gallen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110731.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110731.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112547.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112547.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="RTC FC (w) - Nasaf Qarshi (w)" group-title="Maç Yayınları",RTC FC (w) - Nasaf Qarshi (w)
+#EXTINF:-1 tvg-logo="" tvg-name="Platense (res.) - CA Colon (res.)" group-title="Maç Yayınları",Platense (res.) - CA Colon (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110875.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110875.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112757.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112757.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Locomotive Tbilisi - FC Gonio" group-title="Maç Yayınları",Locomotive Tbilisi - FC Gonio
+#EXTINF:-1 tvg-logo="" tvg-name="Humaita FC - 2 de Mayo" group-title="Maç Yayınları",Humaita FC - 2 de Mayo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110775.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110775.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112543.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112543.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CA Agropecuario (res.) - Nueva Chicago (res.)" group-title="Maç Yayınları",CA Agropecuario (res.) - Nueva Chicago (res.)
+#EXTINF:-1 tvg-logo="" tvg-name="PPJ/Ruoholahti - Gilla FC" group-title="Maç Yayınları",PPJ/Ruoholahti - Gilla FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110943.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110943.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112855.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112855.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="CSA Steaua - Csikszereda Miercurea Ciuc" group-title="Maç Yayınları",CSA Steaua - Csikszereda Miercurea Ciuc
+#EXTINF:-1 tvg-logo="" tvg-name="Temperley (res.) - Talleres Remedios Escalda (res.)" group-title="Maç Yayınları",Temperley (res.) - Talleres Remedios Escalda (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054669.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054669.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113293.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113293.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="AGRO - AUDIT" group-title="Maç Yayınları",AGRO - AUDIT
+#EXTINF:-1 tvg-logo="" tvg-name="KÍ Klaksvík - Riga FC" group-title="Maç Yayınları",KÍ Klaksvík - Riga FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055359.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055359.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056388.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056388.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Santa Fe+ - Madrid+" group-title="Maç Yayınları",Santa Fe+ - Madrid+
+#EXTINF:-1 tvg-logo="" tvg-name="P.A.O.K. - SK Brann" group-title="Maç Yayınları",P.A.O.K. - SK Brann
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055517.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055517.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056523.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056523.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Italya (Frez) - Fransa (Join)" group-title="Maç Yayınları",Italya (Frez) - Fransa (Join)
+#EXTINF:-1 tvg-logo="" tvg-name="Baltika Kaliningrad - FC Dynamo Makhachkala" group-title="Maç Yayınları",Baltika Kaliningrad - FC Dynamo Makhachkala
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055583.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055583.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113351.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113351.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ghaz Al-Shamal - Al-Kahrabaa" group-title="Maç Yayınları",Ghaz Al-Shamal - Al-Kahrabaa
+#EXTINF:-1 tvg-logo="" tvg-name="PAOK - Brann" group-title="Maç Yayınları",PAOK - Brann
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055529.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055529.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113379.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113379.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Dosu Joseph - Crusaders Lagos" group-title="Maç Yayınları",Dosu Joseph - Crusaders Lagos
+#EXTINF:-1 tvg-logo="" tvg-name="Vasco da Gama RJ U-20 (w) - Botafogo BA U-20 (w)" group-title="Maç Yayınları",Vasco da Gama RJ U-20 (w) - Botafogo BA U-20 (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054940.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054940.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113843.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113843.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Knights (2x2) - Heroes (2x2)" group-title="Maç Yayınları",Knights (2x2) - Heroes (2x2)
+#EXTINF:-1 tvg-logo="" tvg-name="Kızılyıldız - Viktoria Plzen" group-title="Maç Yayınları",Kızılyıldız - Viktoria Plzen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055555.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055555.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056609.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056609.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Locomotive Tbilisi - Fc Gonio" group-title="Maç Yayınları",Locomotive Tbilisi - Fc Gonio
+#EXTINF:-1 tvg-logo="" tvg-name="OFI - CSKA Sofia" group-title="Maç Yayınları",OFI - CSKA Sofia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055221.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055221.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056610.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056610.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arsenal Tula - Rotor" group-title="Maç Yayınları",Arsenal Tula - Rotor
+#EXTINF:-1 tvg-logo="" tvg-name="Drita - Inter Club" group-title="Maç Yayınları",Drita - Inter Club
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111133.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111133.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056602.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056602.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Gaz Al Shamal - Al Kakhrabaa" group-title="Maç Yayınları",Gaz Al Shamal - Al Kakhrabaa
+#EXTINF:-1 tvg-logo="" tvg-name="St. Truidense - Omonia Nicosia" group-title="Maç Yayınları",St. Truidense - Omonia Nicosia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111391.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111391.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056603.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056603.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Naft Misan - Al Naft" group-title="Maç Yayınları",Naft Misan - Al Naft
+#EXTINF:-1 tvg-logo="" tvg-name="Twente - Karabağ" group-title="Maç Yayınları",Twente - Karabağ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40111197.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40111197.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056611.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056611.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Lempaala FC - TP-49" group-title="Maç Yayınları",Lempaala FC - TP-49
+#EXTINF:-1 tvg-logo="" tvg-name="Gornik Zabrze - Monaco" group-title="Maç Yayınları",Gornik Zabrze - Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055563.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055563.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056624.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056624.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Olimpicos Habana - Lawton City" group-title="Maç Yayınları",Olimpicos Habana - Lawton City
+#EXTINF:-1 tvg-logo="" tvg-name="Al Golan - Al Karkh" group-title="Maç Yayınları",Al Golan - Al Karkh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055337.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055337.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056654.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056654.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Futungo - Lobito" group-title="Maç Yayınları",Futungo - Lobito
+#EXTINF:-1 tvg-logo="" tvg-name="Vikingur R. - Borac Banja Luka" group-title="Maç Yayınları",Vikingur R. - Borac Banja Luka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055482.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055482.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056608.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056608.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Naft Maysan - Al-Naft" group-title="Maç Yayınları",Naft Maysan - Al-Naft
+#EXTINF:-1 tvg-logo="" tvg-name="Grindavik/Njardvik (Bayanlar) - Fram (Bayanlar)" group-title="Maç Yayınları",Grindavik/Njardvik (Bayanlar) - Fram (Bayanlar)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055432.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055432.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056651.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056651.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="1. Kaiserslautern (Amatörler) - FT Braunschweig (Amatörler)" group-title="Maç Yayınları",1. Kaiserslautern (Amatörler) - FT Braunschweig (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Al Feiha - Al-Hilal Riyadh" group-title="Maç Yayınları",Al Feiha - Al-Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055428.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055428.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056623.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056623.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Galaxy+ - Salamanca+" group-title="Maç Yayınları",Galaxy+ - Salamanca+
+#EXTINF:-1 tvg-logo="" tvg-name="Al Fayha - Al Hilal Riyadh" group-title="Maç Yayınları",Al Fayha - Al Hilal Riyadh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055573.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055573.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113579.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113579.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Eintracht (Amatörler) - Dynamo Dresden (Amatörler)" group-title="Maç Yayınları",Eintracht (Amatörler) - Dynamo Dresden (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Crvena Zvezda - Viktoria Plzen" group-title="Maç Yayınları",Crvena Zvezda - Viktoria Plzen
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055429.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055429.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113551.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113551.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Fortuna (Amatörler) - Willem (Amatörler)" group-title="Maç Yayınları",Fortuna (Amatörler) - Willem (Amatörler)
+#EXTINF:-1 tvg-logo="" tvg-name="Sint-Truiden - Omonia Nicosia" group-title="Maç Yayınları",Sint-Truiden - Omonia Nicosia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055530.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055530.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113539.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113539.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="SOCIO - BUILD" group-title="Maç Yayınları",SOCIO - BUILD
+#EXTINF:-1 tvg-logo="" tvg-name="OFI - CSKA Sofia" group-title="Maç Yayınları",OFI - CSKA Sofia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055360.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055360.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113553.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113553.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arsenal Tula - FC Rotor Volgograd" group-title="Maç Yayınları",Arsenal Tula - FC Rotor Volgograd
+#EXTINF:-1 tvg-logo="" tvg-name="CE Gramadense - CE Lajeadense" group-title="Maç Yayınları",CE Gramadense - CE Lajeadense
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055400.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055400.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113829.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113829.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Bayern (Fonso) - Manchester United (Quezzy)" group-title="Maç Yayınları",Bayern (Fonso) - Manchester United (Quezzy)
+#EXTINF:-1 tvg-logo="" tvg-name="Gornik Zabrze - AS Monaco" group-title="Maç Yayınları",Gornik Zabrze - AS Monaco
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055501.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055501.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113581.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113581.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ukrayna - Arizona Wildcats" group-title="Maç Yayınları",Ukrayna - Arizona Wildcats
+#EXTINF:-1 tvg-logo="" tvg-name="KF Drita - Inter Club de Escaldes" group-title="Maç Yayınları",KF Drita - Inter Club de Escaldes
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054733.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054733.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113537.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113537.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="REG BBC - Tigers BBC" group-title="Maç Yayınları",REG BBC - Tigers BBC
+#EXTINF:-1 tvg-logo="" tvg-name="Twente - Qarabag FK" group-title="Maç Yayınları",Twente - Qarabag FK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110321.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110321.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113555.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113555.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Al Nuwaidrat - Al Hala" group-title="Maç Yayınları",Al Nuwaidrat - Al Hala
+#EXTINF:-1 tvg-logo="" tvg-name="Barracas Central (res.) - Tigre (res.)" group-title="Maç Yayınları",Barracas Central (res.) - Tigre (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110929.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110929.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113803.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113803.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="Maç Yayınları",IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Estudiantes Rio Cuarto (res.) - Deportivo Riestra (res.)" group-title="Maç Yayınları",Estudiantes Rio Cuarto (res.) - Deportivo Riestra (res.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055075.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055075.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114333.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114333.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Vladivostok (Bayanlar) - Kaluga (Bayanlar)" group-title="Maç Yayınları",Vladivostok (Bayanlar) - Kaluga (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Sao Paulo FC U-20 - Paulinense U-20" group-title="Maç Yayınları",Sao Paulo FC U-20 - Paulinense U-20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055156.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055156.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113535.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113535.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Buckets - Hot-Boys" group-title="Maç Yayınları",Buckets - Hot-Boys
+#EXTINF:-1 tvg-logo="" tvg-name="I9 Futebol Clube U-20 - CVAF Ibiuna U-20" group-title="Maç Yayınları",I9 Futebol Clube U-20 - CVAF Ibiuna U-20
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055164.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055164.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113855.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113855.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kaliningrad - Moscow" group-title="Maç Yayınları",Kaliningrad - Moscow
+#EXTINF:-1 tvg-logo="" tvg-name="Al Minaa - Zakho FC" group-title="Maç Yayınları",Al Minaa - Zakho FC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055131.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055131.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113639.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113639.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Moose - IPBL Lions" group-title="Maç Yayınları",IPBL Moose - IPBL Lions
+#EXTINF:-1 tvg-logo="" tvg-name="Al-Jolan SC - Al Karkh" group-title="Maç Yayınları",Al-Jolan SC - Al Karkh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055335.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055335.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113641.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113641.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Suzhou Cats - Kunming Monks" group-title="Maç Yayınları",Suzhou Cats - Kunming Monks
+#EXTINF:-1 tvg-logo="" tvg-name="UMF Grindavik/Njardvik (w) - Fram (w)" group-title="Maç Yayınları",UMF Grindavik/Njardvik (w) - Fram (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055453.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055453.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113635.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113635.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ulan-Ude - Chita" group-title="Maç Yayınları",Ulan-Ude - Chita
+#EXTINF:-1 tvg-logo="" tvg-name="Spartak+ - Tottenham+" group-title="Maç Yayınları",Spartak+ - Tottenham+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055285.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055285.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057033.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057033.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Saransk (Bayanlar) - Mytishchi (Bayanlar)" group-title="Maç Yayınları",Saransk (Bayanlar) - Mytishchi (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Bats (2x2) - Ducks (2x2)" group-title="Maç Yayınları",Bats (2x2) - Ducks (2x2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055209.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055209.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056945.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056945.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Nuwaidrad - Al Hala" group-title="Maç Yayınları",Nuwaidrad - Al Hala
+#EXTINF:-1 tvg-logo="" tvg-name="Dynamo Saint Petersburg II - Neva-Maxima" group-title="Maç Yayınları",Dynamo Saint Petersburg II - Neva-Maxima
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055298.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055298.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056994.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056994.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="IPBL Cats - IPBL Wolves" group-title="Maç Yayınları",IPBL Cats - IPBL Wolves
+#EXTINF:-1 tvg-logo="" tvg-name="Toulon+ - Vivero+" group-title="Maç Yayınları",Toulon+ - Vivero+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055110.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055110.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057001.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057001.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Broncos FB - Orioles FB" group-title="Maç Yayınları",Broncos FB - Orioles FB
+#EXTINF:-1 tvg-logo="" tvg-name="Sion - Ajax" group-title="Maç Yayınları",Sion - Ajax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055243.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055243.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056734.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056734.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="REG - RSSB Tigers" group-title="Maç Yayınları",REG - RSSB Tigers
+#EXTINF:-1 tvg-logo="" tvg-name="Vikingur Reykjavik - Borac Banja Luka" group-title="Maç Yayınları",Vikingur Reykjavik - Borac Banja Luka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054994.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054994.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113549.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113549.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Zenit Saint Petersburg - Yaroslavich" group-title="Maç Yayınları",Zenit Saint Petersburg - Yaroslavich
+#EXTINF:-1 tvg-logo="" tvg-name="Sion - Ajax" group-title="Maç Yayınları",Sion - Ajax
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055210.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055210.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113801.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113801.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Küba - Letonya" group-title="Maç Yayınları",Küba - Letonya
+#EXTINF:-1 tvg-logo="" tvg-name="1. Kaiserslautern (Amatörler) - VfL Osnabruck (Amatörler)" group-title="Maç Yayınları",1. Kaiserslautern (Amatörler) - VfL Osnabruck (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055024.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055024.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056940.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056940.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Türkiye (Pro) - İtalya (Pro)" group-title="Maç Yayınları",Türkiye (Pro) - İtalya (Pro)
+#EXTINF:-1 tvg-logo="" tvg-name="DIPLOMAT - GEO" group-title="Maç Yayınları",DIPLOMAT - GEO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055336.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055336.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057030.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057030.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Slovenya - Japonya" group-title="Maç Yayınları",Slovenya - Japonya
+#EXTINF:-1 tvg-logo="" tvg-name="Lugano - Maccabi Tel Aviv" group-title="Maç Yayınları",Lugano - Maccabi Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055473.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055473.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056902.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056902.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Rusya - Polonya" group-title="Maç Yayınları",Rusya - Polonya
+#EXTINF:-1 tvg-logo="" tvg-name="Panathinaikos - Hradec Kralove" group-title="Maç Yayınları",Panathinaikos - Hradec Kralove
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055515.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055515.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056928.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056928.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Çin (Bayanlar) - ABD (Bayanlar)" group-title="Maç Yayınları",Çin (Bayanlar) - ABD (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Atalanta - Hapoel Tel Aviv" group-title="Maç Yayınları",Atalanta - Hapoel Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054600.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054600.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056903.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056903.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Mozambik - Hollandaa" group-title="Maç Yayınları",Mozambik - Hollandaa
+#EXTINF:-1 tvg-logo="" tvg-name="Gent - Hibernian" group-title="Maç Yayınları",Gent - Hibernian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055444.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055444.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056900.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056900.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Japonya (Bayanlar) - İtalya (Bayanlar)" group-title="Maç Yayınları",Japonya (Bayanlar) - İtalya (Bayanlar)
+#EXTINF:-1 tvg-logo="" tvg-name="Motherwell - Freiburg" group-title="Maç Yayınları",Motherwell - Freiburg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054656.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054656.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056884.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056884.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Stroitel (4x4) - Uran (4x4)" group-title="Maç Yayınları",Stroitel (4x4) - Uran (4x4)
+#EXTINF:-1 tvg-logo="" tvg-name="Atalanta - Hapoel Tel Aviv" group-title="Maç Yayınları",Atalanta - Hapoel Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054592.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054592.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114139.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114139.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Norbert Gombos - Radu Mihai Papoe" group-title="Maç Yayınları",Norbert Gombos - Radu Mihai Papoe
+#EXTINF:-1 tvg-logo="" tvg-name="Panathinaikos - FC Hradec Kralove" group-title="Maç Yayınları",Panathinaikos - FC Hradec Kralove
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054601.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054601.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114189.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114189.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Michael Geerts - Lucas Poullain" group-title="Maç Yayınları",Michael Geerts - Lucas Poullain
+#EXTINF:-1 tvg-logo="" tvg-name="Motherwell - SC Freiburg" group-title="Maç Yayınları",Motherwell - SC Freiburg
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054502.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054502.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114101.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114101.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Michael Geerts - Lucas Poullain" group-title="Maç Yayınları",Michael Geerts - Lucas Poullain
+#EXTINF:-1 tvg-logo="" tvg-name="Lugano - Maccabi Tel Aviv" group-title="Maç Yayınları",Lugano - Maccabi Tel Aviv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109337.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109337.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114137.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114137.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Rada Zolotareva/Varvara Panshina - Li Zongyu/Feng Shuo" group-title="Maç Yayınları",Rada Zolotareva/Varvara Panshina - Li Zongyu/Feng Shuo
+#EXTINF:-1 tvg-logo="" tvg-name="KAA Gent - Hibernian" group-title="Maç Yayınları",KAA Gent - Hibernian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40109871.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40109871.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114133.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114133.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Oleksandr Ovcharenko/Petr Nesterov - Zheng Baoluo/Christopher Papa" group-title="Maç Yayınları",Oleksandr Ovcharenko/Petr Nesterov - Zheng Baoluo/Christopher Papa
+#EXTINF:-1 tvg-logo="" tvg-name="JOURN - TEACH" group-title="Maç Yayınları",JOURN - TEACH
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110243.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110243.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057042.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057042.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Arribage/Olivetti - Arevalo-Gonzalez/Pavic" group-title="Maç Yayınları",Arribage/Olivetti - Arevalo-Gonzalez/Pavic
+#EXTINF:-1 tvg-logo="" tvg-name="Eintracht (Amatörler) - RB Leipzig (Amatörler)" group-title="Maç Yayınları",Eintracht (Amatörler) - RB Leipzig (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055264.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055264.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056941.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056941.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Patten/Heliovaara - Nys/Roger-Vasselin" group-title="Maç Yayınları",Patten/Heliovaara - Nys/Roger-Vasselin
+#EXTINF:-1 tvg-logo="" tvg-name="Breda (Amatörler) - Waalwijk (Amatörler)" group-title="Maç Yayınları",Breda (Amatörler) - Waalwijk (Amatörler)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055130.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055130.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056856.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056856.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Joint/Chan - Kempen/Panova" group-title="Maç Yayınları",Joint/Chan - Kempen/Panova
+#EXTINF:-1 tvg-logo="" tvg-name="PPJ Ruoholahti - Gilla" group-title="Maç Yayınları",PPJ Ruoholahti - Gilla
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055249.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055249.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056261.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056261.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Anton Matusevich - Mark Ceban" group-title="Maç Yayınları",Anton Matusevich - Mark Ceban
+#EXTINF:-1 tvg-logo="" tvg-name="Heart of Midlothian F.C. - SK Rapid Wien" group-title="Maç Yayınları",Heart of Midlothian F.C. - SK Rapid Wien
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055294.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055294.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057017.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057017.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Donski/Rai - Arseneault/Rozin" group-title="Maç Yayınları",Donski/Rai - Arseneault/Rozin
+#EXTINF:-1 tvg-logo="" tvg-name="Rangers - Jablonec" group-title="Maç Yayınları",Rangers - Jablonec
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055253.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055253.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057029.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057029.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Wojciech Marek - Karol Filar" group-title="Maç Yayınları",Wojciech Marek - Karol Filar
+#EXTINF:-1 tvg-logo="" tvg-name="Baltika Kaliningrad - Dynamo Makhachkala" group-title="Maç Yayınları",Baltika Kaliningrad - Dynamo Makhachkala
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110845.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110845.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056509.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056509.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Kaliyanda Poonacha/Escobar - Lammons/Withrow" group-title="Maç Yayınları",Kaliyanda Poonacha/Escobar - Lammons/Withrow
+#EXTINF:-1 tvg-logo="" tvg-name="Manchester City (Harry) - Bayern (Fonso)" group-title="Maç Yayınları",Manchester City (Harry) - Bayern (Fonso)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055287.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055287.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057012.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057012.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Ajeet Rai/Alexander Donski - Nicolas Arseneault/Alexander Rozin" group-title="Maç Yayınları",Ajeet Rai/Alexander Donski - Nicolas Arseneault/Alexander Rozin
+#EXTINF:-1 tvg-logo="" tvg-name="Samba - Longonjo" group-title="Maç Yayınları",Samba - Longonjo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110839.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110839.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057011.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057011.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Harri Heliovaara/Henry Patten - Hugo Nys/Edouard Roger-Vasselin" group-title="Maç Yayınları",Harri Heliovaara/Henry Patten - Hugo Nys/Edouard Roger-Vasselin
+#EXTINF:-1 tvg-logo="" tvg-name="Italya (Frez) - Brezilya (Amanai)" group-title="Maç Yayınları",Italya (Frez) - Brezilya (Amanai)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110593.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110593.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057013.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057013.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Maya Joint/Chan Hao-Ching - Alexandra Panova/Magali Kempen" group-title="Maç Yayınları",Maya Joint/Chan Hao-Ching - Alexandra Panova/Magali Kempen
+#EXTINF:-1 tvg-logo="" tvg-name="Litvanya - Estonya" group-title="Maç Yayınları",Litvanya - Estonya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110831.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110831.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055886.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055886.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="David Fix - Daniel Masur" group-title="Maç Yayınları",David Fix - Daniel Masur
+#EXTINF:-1 tvg-logo="" tvg-name="Lithuania - Estonia" group-title="Maç Yayınları",Lithuania - Estonia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110935.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110935.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112105.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112105.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Gonzalo Escobar/Niki Kaliyanda Poonacha - Nathaniel Lammons/Jackson Withrow" group-title="Maç Yayınları",Gonzalo Escobar/Niki Kaliyanda Poonacha - Nathaniel Lammons/Jackson Withrow
+#EXTINF:-1 tvg-logo="" tvg-name="REG BBC (w) - Hoops BBC (w)" group-title="Maç Yayınları",REG BBC (w) - Hoops BBC (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110907.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110907.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113235.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113235.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Theo Arribage/Albano Olivetti - Mate Pavic/Marcelo Arevalo" group-title="Maç Yayınları",Theo Arribage/Albano Olivetti - Mate Pavic/Marcelo Arevalo
+#EXTINF:-1 tvg-logo="" tvg-name="Sırbistan - Fransa" group-title="Maç Yayınları",Sırbistan - Fransa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110861.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110861.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056638.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056638.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Anton Matusevich - Mark Ceban" group-title="Maç Yayınları",Anton Matusevich - Mark Ceban
+#EXTINF:-1 tvg-logo="" tvg-name="Brezilya (Bayanlar) - Arjantin (Bayanlar)" group-title="Maç Yayınları",Brezilya (Bayanlar) - Arjantin (Bayanlar)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40110921.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40110921.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056685.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056685.m3u8
 
-#EXTINF:-1 tvg-logo="" tvg-name="Pavel Emelyanov - Denis Salyamov" group-title="Maç Yayınları",Pavel Emelyanov - Denis Salyamov
+#EXTINF:-1 tvg-logo="" tvg-name="Brazil (w) - Argentina (w)" group-title="Maç Yayınları",Brazil (w) - Argentina (w)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
-#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20054961.m3u8
-https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20054961.m3u8
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113703.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113703.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Serbia - France" group-title="Maç Yayınları",Serbia - France
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113609.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113609.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Dogs - IPBL Wolves" group-title="Maç Yayınları",IPBL Dogs - IPBL Wolves
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056946.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056946.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Bulgaristan (TBL) - New Zealand (TBL)" group-title="Maç Yayınları",Bulgaristan (TBL) - New Zealand (TBL)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056588.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056588.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kolombiya (TBL) - Çin (TBL)" group-title="Maç Yayınları",Kolombiya (TBL) - Çin (TBL)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056592.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056592.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Bulls - IPBL Boars" group-title="Maç Yayınları",IPBL Bulls - IPBL Boars
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056930.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056930.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="REG (Bayanlar) - The Hoops BBC (Bayanlar)" group-title="Maç Yayınları",REG (Bayanlar) - The Hoops BBC (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056451.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056451.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="IPBL Lynx (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="Maç Yayınları",IPBL Lynx (Bayanlar) - IPBL Iguana (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056962.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056962.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Krasnogorsk (Bayanlar) - Grozny (Bayanlar)" group-title="Maç Yayınları",Krasnogorsk (Bayanlar) - Grozny (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056710.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056710.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Chita - Khabarovsk" group-title="Maç Yayınları",Chita - Khabarovsk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056728.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056728.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Al Ahli Manama - Al Muharraq" group-title="Maç Yayınları",Al Ahli Manama - Al Muharraq
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056352.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056352.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kaliningrad - Voronezh" group-title="Maç Yayınları",Kaliningrad - Voronezh
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056700.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056700.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kaluga (Bayanlar) - Murino (Bayanlar)" group-title="Maç Yayınları",Kaluga (Bayanlar) - Murino (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056688.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056688.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Buckets - Outlaws" group-title="Maç Yayınları",Buckets - Outlaws
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20057005.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20057005.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Fransa U20 - İtalya U20" group-title="Maç Yayınları",Fransa U20 - İtalya U20
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056144.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056144.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="France U-20 - Italy U-20" group-title="Maç Yayınları",France U-20 - Italy U-20
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112621.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112621.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Ukrayna - Arjantin" group-title="Maç Yayınları",Ukrayna - Arjantin
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056958.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056958.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sırbistan (Bayanlar) - Japonya (Bayanlar)" group-title="Maç Yayınları",Sırbistan (Bayanlar) - Japonya (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056631.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056631.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sputnik (4x4) - Astoria (4x4)" group-title="Maç Yayınları",Sputnik (4x4) - Astoria (4x4)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056512.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056512.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="İtalya (Bayanlar) - ABD (Bayanlar)" group-title="Maç Yayınları",İtalya (Bayanlar) - ABD (Bayanlar)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056887.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056887.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="İtalya - Brezilya" group-title="Maç Yayınları",İtalya - Brezilya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056888.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056888.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Brezilya - Japonya" group-title="Maç Yayınları",Brezilya - Japonya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056806.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056806.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Venezuela (Pro) - ABD (Pro)" group-title="Maç Yayınları",Venezuela (Pro) - ABD (Pro)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056677.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056677.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Kanada - Brezilya" group-title="Maç Yayınları",Kanada - Brezilya
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056808.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056808.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Amanda Anisimova - Jessica Pegula" group-title="Maç Yayınları",Amanda Anisimova - Jessica Pegula
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20055996.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20055996.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Amanda Anisimova - Jessica Pegula" group-title="Maç Yayınları",Amanda Anisimova - Jessica Pegula
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112325.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112325.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Rei Sakamoto - Luca Van Assche" group-title="Maç Yayınları",Rei Sakamoto - Luca Van Assche
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40112973.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40112973.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Daniil Glinka - Harold Mayot" group-title="Maç Yayınları",Daniil Glinka - Harold Mayot
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113729.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113729.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Stefanos Sakellaridis - Aleksandar Vukic" group-title="Maç Yayınları",Stefanos Sakellaridis - Aleksandar Vukic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113817.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113817.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Louis Wessels - Maximilian Marterer" group-title="Maç Yayınları",Louis Wessels - Maximilian Marterer
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40113823.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40113823.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Seita Watanabe/Thomas Fancutt - Blaz Kavcic/Max Purcell" group-title="Maç Yayınları",Seita Watanabe/Thomas Fancutt - Blaz Kavcic/Max Purcell
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech40114053.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech40114053.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Sergey Penin - Aleksey Atamanets" group-title="Maç Yayınları",Sergey Penin - Aleksey Atamanets
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056599.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056599.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Ostapenko/Hsieh - Guo/Mladenovic" group-title="Maç Yayınları",Ostapenko/Hsieh - Guo/Mladenovic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056834.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056834.m3u8
+
+#EXTINF:-1 tvg-logo="" tvg-name="Jovic/Mcnally - Jiang/Zhang" group-title="Maç Yayınları",Jovic/Mcnally - Jiang/Zhang
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://taraftarium24.xyz/
+#ORIGINAL-URL:https://andro.2385437.xyz/checklist/androstreamlivech20056977.m3u8
+https://cors.gerhut.workers.dev/?https://andro.2385437.xyz/checklist/androstreamlivech20056977.m3u8
 
 #EXTINF:-1 tvg-logo="" tvg-name="BeIN Sports 1" group-title="BeinSports",BeIN Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
