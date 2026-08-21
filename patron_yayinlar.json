@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:02:54.658426",
+  "generated_at": "2026-08-21T19:14:10.619685",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
@@ -21,6 +21,20 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Erzurumspor",
+      "away": "Galatasaray",
+      "home_logo": "https://patronsports2.cfd/img/logos/erzurumspor.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+      "league": "Trendyol Süper Lig | 2. Kanal",
+      "time": "21:30",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
       "id": "trtspor",
       "home": "Karagümrük",
       "away": "Bursaspor",
@@ -31,6 +45,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "b3",
+      "home": "Arsenal",
+      "away": "Coventry",
+      "home_logo": "https://patronsports2.cfd/img/logos/arsenal.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/coventry.png",
+      "league": "İngiltere Premier Lig",
+      "time": "22:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -161,7 +189,7 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
-      "id": "ex1",
+      "id": "b5",
       "home": "Marsilya",
       "away": "Strasbourg",
       "home_logo": "https://patronsports2.cfd/img/logos/marsilya.png",
@@ -170,7 +198,7 @@
       "time": "21:45",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -185,34 +213,6 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://patronsports2.cfd/"
-    },
-    {
-      "id": "eu2",
-      "home": "BMW Açik Golf Turnuvasi",
-      "away": "Gün 2",
-      "home_logo": "https://patronsports2.cfd/img/logos/aik.png",
-      "away_logo": "https://patronsports2.cfd/img/logos/gun2.png",
-      "league": "BMW Açik Golf Turnuvasi",
-      "time": "22:00",
-      "sport": "football",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://patronsports2.cfd/"
-    },
-    {
-      "id": "ex2",
-      "home": "Arsenal",
-      "away": "Coventry",
-      "home_logo": "https://patronsports2.cfd/img/logos/arsenal.png",
-      "away_logo": "https://patronsports2.cfd/img/logos/coventry.png",
-      "league": "İngiltere Premier Lig",
-      "time": "22:00",
-      "sport": "football",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     }
