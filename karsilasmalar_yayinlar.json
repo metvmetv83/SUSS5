@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T17:43:45.530566",
+  "generated_at": "2026-08-21T18:55:19.989345",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1080.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1080.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 49,
+  "total_streams": 48,
   "matches": [
     {
       "id": "patron",
@@ -24,6 +24,16 @@
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1080.xyz/"
+    },
+    {
+      "id": "b3",
+      "name": "Arsenal - Coventry",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
@@ -118,12 +128,12 @@
       "referrer": "https://taraftarium1080.xyz/"
     },
     {
-      "id": "ex1",
+      "id": "b5",
       "name": "Marsilya - Strasbourg",
       "status": "21:45",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     },
@@ -134,26 +144,6 @@
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "eu2",
-      "name": "BMW Açik Golf Turnuvasi - Gün 2",
-      "status": "22:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1080.xyz/"
-    },
-    {
-      "id": "ex2",
-      "name": "Arsenal - Coventry",
-      "status": "22:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1080.xyz/"
     }
