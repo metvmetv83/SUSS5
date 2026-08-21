@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-21T19:31:14.837137",
+  "generated_at": "2026-08-21T20:33:50.772651",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 14,
+  "total_streams": 13,
   "channels": [
     {
       "id": "903407",
@@ -29,20 +29,6 @@
       "time": "",
       "sport": "Futbol",
       "url": "https://cdn.galyatv1.com/M903407/M903407.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "442917",
-      "home": "21:00",
-      "away": "",
-      "title": "21:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M442917/M442917.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     },
@@ -90,9 +76,9 @@
     },
     {
       "id": "814834",
-      "home": "CANLI22:00",
+      "home": "22:00",
       "away": "",
-      "title": "CANLI22:00",
+      "title": "22:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
