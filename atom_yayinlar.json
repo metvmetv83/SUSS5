@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T19:22:43.838039",
+  "generated_at": "2026-08-21T20:20:45.749975",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 10,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -233,6 +233,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20067828",
+      "home": "BB Erzurumspor",
+      "away": "Galatasaray S.K.",
+      "home_logo": "https://1xlite-65155.pro/resized/size16/sfiles/logo_teams/68c93035c1752b06a66e71cfb1fbc1be.png",
+      "away_logo": "https://1xlite-65155.pro/resized/size16/sfiles/logo_teams/f60846a0ea6e7376568237bcdef7a707.png",
+      "logo": "https://1xlite-65155.pro/resized/size16/sfiles/logo_teams/68c93035c1752b06a66e71cfb1fbc1be.png",
+      "time": "21:30",
+      "league": "Turkey. SuperLiga",
+      "url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8"
     }
   ]
 }
