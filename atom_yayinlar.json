@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T19:19:27.871189",
+  "generated_at": "2026-08-22T20:17:21.536070",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 13,
+  "total_streams": 14,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -183,6 +183,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "e575a01519afe320f38a90986947f2ac",
+      "home": "Espanyol",
+      "away": "Real Madrid",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/95.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/79.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/95.gif",
+      "time": "22:30",
+      "league": "LaLiga",
+      "url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
     },
     {
       "id": "80e51d3515b05d6db4fec6d6dcd1c588",
