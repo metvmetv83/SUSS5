@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T14:16:27.408080",
+  "generated_at": "2026-08-22T15:16:21.775835",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 9,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -208,6 +208,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.siteyaptim.live//bein5/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "31557be347bf2d73dcffd07f58b1e08e",
+      "home": "Athletic Bilbao",
+      "away": "Sevilla",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
+      "time": "18:00",
+      "league": "LaLiga",
+      "url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
     }
   ]
 }
