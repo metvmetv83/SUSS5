@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T15:16:21.775835",
+  "generated_at": "2026-08-22T16:18:23.481919",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 10,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "7ef4e4322b226a023bf849e9761efb33",
-      "home": "Everton",
-      "away": "Crystal Palace",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/44.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
-      "time": "17:00",
-      "league": "Premier Lig",
-      "url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8",
+      "id": "203dfe39fd752b1f62ac521d59824a76",
+      "home": "Çaykur Rizespor",
+      "away": "Samsunspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/448.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/8.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/448.gif",
+      "time": "19:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,18 +182,18 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "df6a39bbb2d28341d9ccc5d389f5f869",
-      "home": "Nottingham Forest",
-      "away": "Leeds United",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/29.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
-      "time": "17:00",
-      "league": "Premier Lig",
-      "url": "https://corestream.siteyaptim.live//bein5/tracks-v1a1/mono.m3u8",
+      "id": "3449b703283e932f91449be404402ccb",
+      "home": "Çorum FK",
+      "away": "Kasımpaşa",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/9665.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/9665.gif",
+      "time": "19:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.siteyaptim.live//bein2/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -207,7 +207,32 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live//bein5/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.siteyaptim.live//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "f97d9c0981d7cde0fc8d9fd705e164d2",
+      "home": "Iğdır FK",
+      "away": "Kayserispor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/42056.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/570.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/42056.gif",
+      "time": "19:00",
+      "league": "TFF 1. Lig",
+      "url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
     },
     {
       "id": "31557be347bf2d73dcffd07f58b1e08e",
