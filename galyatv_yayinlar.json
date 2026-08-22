@@ -1,37 +1,23 @@
 {
-  "generated_at": "2026-08-22T16:34:12.034314",
+  "generated_at": "2026-08-22T17:28:20.512966",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 32,
+  "total_streams": 31,
   "channels": [
     {
-      "id": "414450",
+      "id": "764820",
       "name": "Tivibu Spor",
       "logo": "https://galyatv2.com/images/channels/tivibuspor.png",
       "type": "channel",
-      "url": "https://cdn.galyatv1.com/M414450/M414450.m3u8",
+      "url": "https://cdn.galyatv1.com/M764820/M764820.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     }
   ],
   "matches": [
-    {
-      "id": "414450",
-      "home": "18:00",
-      "away": "",
-      "title": "18:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M414450/M414450.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
     {
       "id": "764820",
       "home": "18:45",
@@ -90,9 +76,9 @@
     },
     {
       "id": "440937",
-      "home": "CANLI19:00",
+      "home": "19:00",
       "away": "",
-      "title": "CANLI19:00",
+      "title": "19:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -146,9 +132,9 @@
     },
     {
       "id": "786985",
-      "home": "20:30",
+      "home": "BİRAZDAN20:30",
       "away": "",
-      "title": "20:30",
+      "title": "BİRAZDAN20:30",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
