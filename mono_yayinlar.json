@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T16:50:22.753325",
+  "generated_at": "2026-08-22T17:46:40.265551",
   "base_url": "https://ilp.zirvedesin240.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 56,
+  "total_streams": 57,
   "matches": [
     {
       "id": "zirve",
@@ -16,6 +16,20 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://ilp.zirvedesin240.cfd/zirve/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Fenerbahçe",
+      "away": "Konyaspor",
+      "home_logo": "https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
+      "away_logo": "https://img.sporekrani.com/teams/rrtsbcfkWv3ZkcOrUqjBySbDKkOgnZ4ntn0PfJeh.png",
+      "league": "Trendyol Süper Lig [Günün Maçı 2]",
+      "time": "21:30",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://ilp.zirvedesin240.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
