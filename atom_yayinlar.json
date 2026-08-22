@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T16:18:23.481919",
+  "generated_at": "2026-08-22T17:16:44.907645",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 11,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -235,15 +235,15 @@
       "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "31557be347bf2d73dcffd07f58b1e08e",
-      "home": "Athletic Bilbao",
-      "away": "Sevilla",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
-      "time": "18:00",
-      "league": "LaLiga",
-      "url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8",
+      "id": "f5eefdf2f670f111c567bf450faa8690",
+      "home": "Inter",
+      "away": "Monza",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/155.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/2611.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/155.gif",
+      "time": "19:30",
+      "league": "Serie A",
+      "url": "https://corestream.siteyaptim.live//s-sport2/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -257,7 +257,32 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.siteyaptim.live//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "d1b0d195b1023eefbc6af0f5c7df7376",
+      "home": "Brentford",
+      "away": "Tottenham",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/960.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/37.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/960.gif",
+      "time": "19:30",
+      "league": "Premier Lig",
+      "url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
     }
   ]
 }
