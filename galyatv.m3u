@@ -2,12 +2,7 @@
 #EXTINF:-1 tvg-logo="https://galyatv2.com/images/channels/tivibuspor.png" group-title="7/24 Kanallar",Tivibu Spor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M432962/M432962.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",16:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M432962/M432962.m3u8
+https://cdn.galyatv1.com/M768491/M768491.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",17:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
