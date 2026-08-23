@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T17:56:36.750011",
+  "generated_at": "2026-08-23T19:03:51.407003",
   "source": "Patron Sports",
-  "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
+  "base_url": "https://2ii4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 71,
+  "total_streams": 72,
   "matches": [
     {
       "id": "patron",
@@ -16,7 +16,7 @@
       "time": "19:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -30,7 +30,21 @@
       "time": "21:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8",
+      "home": "Alanyaspor",
+      "away": "Beşiktaş",
+      "home_logo": "https://patronsports2.cfd/img/logos/alanyaspor.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/besiktas.png",
+      "league": "Trendyol Süper Lig | 2. Kanal",
+      "time": "21:30",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/https://ff.8b9035807842a4e4dbe009f3f1478127.biz/hls/701.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -44,7 +58,7 @@
       "time": "19:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -58,7 +72,7 @@
       "time": "21:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -72,7 +86,7 @@
       "time": "11:30",
       "sport": "formula1",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -86,7 +100,7 @@
       "time": "02:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -100,7 +114,7 @@
       "time": "03:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -114,7 +128,7 @@
       "time": "12:45",
       "sport": "porsche_supercup",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -128,7 +142,7 @@
       "time": "14:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -142,7 +156,7 @@
       "time": "15:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -156,7 +170,7 @@
       "time": "16:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -170,7 +184,7 @@
       "time": "16:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -184,7 +198,7 @@
       "time": "16:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -198,7 +212,7 @@
       "time": "16:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -212,7 +226,7 @@
       "time": "17:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -226,7 +240,7 @@
       "time": "17:45",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -240,7 +254,7 @@
       "time": "18:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -254,7 +268,7 @@
       "time": "18:15",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -268,7 +282,7 @@
       "time": "18:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -282,7 +296,7 @@
       "time": "19:00",
       "sport": "wrestling",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -296,7 +310,7 @@
       "time": "19:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -310,7 +324,7 @@
       "time": "19:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -324,7 +338,7 @@
       "time": "19:00",
       "sport": "volleyball",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -338,7 +352,7 @@
       "time": "19:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -352,7 +366,7 @@
       "time": "19:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -366,7 +380,7 @@
       "time": "20:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -380,7 +394,7 @@
       "time": "20:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -394,7 +408,7 @@
       "time": "21:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -408,7 +422,7 @@
       "time": "21:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -422,7 +436,7 @@
       "time": "21:45",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -436,7 +450,7 @@
       "time": "21:45",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -450,7 +464,7 @@
       "time": "21:45",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -464,7 +478,7 @@
       "time": "22:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -478,7 +492,7 @@
       "time": "22:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -492,7 +506,7 @@
       "time": "22:30",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     }
@@ -503,7 +517,7 @@
       "name": "BEIN SPORTS 1",
       "logo": "https://patronsports2.cfd/img/beinsports1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -512,7 +526,7 @@
       "name": "BEIN SPORTS 2",
       "logo": "https://patronsports2.cfd/img/beinsports2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -521,7 +535,7 @@
       "name": "BEIN SPORTS 3",
       "logo": "https://patronsports2.cfd/img/beinsports3.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -530,7 +544,7 @@
       "name": "BEIN SPORTS 4",
       "logo": "https://patronsports2.cfd/img/beinsports4.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -539,7 +553,7 @@
       "name": "BEIN SPORTS 5",
       "logo": "https://patronsports2.cfd/img/beinsports5.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -548,7 +562,7 @@
       "name": "BEIN SPORTS MAX 1",
       "logo": "https://patronsports2.cfd/img/beinsportsmax1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -557,7 +571,7 @@
       "name": "BEIN SPORTS MAX 2",
       "logo": "https://patronsports2.cfd/img/beinsportsmax2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/bm2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/bm2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -566,7 +580,7 @@
       "name": "S SPORT",
       "logo": "https://patronsports2.cfd/img/ssport1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -575,7 +589,7 @@
       "name": "S SPORT 2",
       "logo": "https://patronsports2.cfd/img/ssport2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -584,7 +598,7 @@
       "name": "SMART SPOR",
       "logo": "https://patronsports2.cfd/img/smartspor.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -593,7 +607,7 @@
       "name": "SMART SPOR 2",
       "logo": "https://patronsports2.cfd/img/smartspor2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/smarts2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -602,7 +616,7 @@
       "name": "TİVİBU SPOR 1",
       "logo": "https://patronsports2.cfd/img/tivibu1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -611,7 +625,7 @@
       "name": "TİVİBU SPOR 2",
       "logo": "https://patronsports2.cfd/img/tivibu2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/t2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -620,7 +634,7 @@
       "name": "TİVİBU SPOR 3",
       "logo": "https://patronsports2.cfd/img/tivibu3.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/t3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -629,7 +643,7 @@
       "name": "TİVİBU SPOR 4",
       "logo": "https://patronsports2.cfd/img/tivibu4.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/t4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -638,7 +652,7 @@
       "name": "TRT SPOR",
       "logo": "https://patronsports2.cfd/img/trtspornew.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -647,7 +661,7 @@
       "name": "TRT SPOR YILDIZ",
       "logo": "https://patronsports2.cfd/img/trtspor2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -656,7 +670,7 @@
       "name": "TRT 1",
       "logo": "https://patronsports2.cfd/img/trt1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -665,7 +679,7 @@
       "name": "A SPOR",
       "logo": "https://patronsports2.cfd/img/aspornew.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/as/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/as/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -674,7 +688,7 @@
       "name": "ATV",
       "logo": "https://patronsports2.cfd/img/atv.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/atv/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/atv/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -683,7 +697,7 @@
       "name": "TV 8",
       "logo": "https://patronsports2.cfd/img/tv8.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/tv8/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/tv8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -692,7 +706,7 @@
       "name": "TV 8,5",
       "logo": "https://patronsports2.cfd/img/tv85.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/tv85/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/tv85/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -701,7 +715,7 @@
       "name": "Sıfır Tv",
       "logo": "https://patronsports2.cfd/img/sifirtv.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -710,7 +724,7 @@
       "name": "Bi Kanal",
       "logo": "https://patronsports2.cfd/img/bikanal.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -719,7 +733,7 @@
       "name": "SKY SPORTS F1",
       "logo": "https://patronsports2.cfd/img/skysportsf1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/skyf1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/skyf1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -728,7 +742,7 @@
       "name": "EURO SPORT 1",
       "logo": "https://patronsports2.cfd/img/eurosport1.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -737,7 +751,7 @@
       "name": "EURO SPORT 2",
       "logo": "https://patronsports2.cfd/img/eurosport2.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -746,7 +760,7 @@
       "name": "TABİİ SPOR",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -755,7 +769,7 @@
       "name": "TABİİ SPOR 1",
       "logo": "https://patronsports2.cfd/img/tabii (1).png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -764,7 +778,7 @@
       "name": "TABİİ SPOR 2",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -773,7 +787,7 @@
       "name": "TABİİ SPOR 3",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -782,7 +796,7 @@
       "name": "TABİİ SPOR 4",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -791,7 +805,7 @@
       "name": "TABİİ SPOR 5",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -800,7 +814,7 @@
       "name": "TABİİ SPOR 6",
       "logo": "https://patronsports2.cfd/img/tabii.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -809,7 +823,7 @@
       "name": "EXXEN",
       "logo": "https://patronsports2.cfd/img/exxen.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -818,7 +832,7 @@
       "name": "EXXEN 1",
       "logo": "https://patronsports2.cfd/img/exxen.png",
       "type": "channel",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2ii4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     }
