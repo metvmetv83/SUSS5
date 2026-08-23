@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-23T11:46:19.070626",
+  "generated_at": "2026-08-23T13:10:30.789475",
   "base_url": "https://ilp.zirvedesin240.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 51,
+  "total_streams": 52,
   "matches": [
     {
       "id": "zirve",
@@ -128,6 +128,20 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://ilp.zirvedesin240.cfd/b3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "trt1",
+      "home": "Slovenya",
+      "away": "Türkiye",
+      "home_logo": "https://img.sporekrani.com/tr_w_72,h_72,c_limit/teams/qAgVz0OHnqA1LzkV3rWSlDuStC7SPUThta229asL.png",
+      "away_logo": "https://img.sporekrani.com/tr_w_72,h_72,c_limit/teams/qMoYbPRcGX7GBkht1uSrafddF2ZV1rodvYJ4xVLl.png",
+      "league": "CEV Kadınlar Avrupa Şampiyonası",
+      "time": "19:00",
+      "sport": "Voleybol",
+      "type": "match",
+      "url": "https://ilp.zirvedesin240.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
