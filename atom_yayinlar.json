@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T15:17:41.593912",
+  "generated_at": "2026-08-23T16:19:39.323289",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 8,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "20085514",
-      "home": "PSV Eindhoven",
-      "away": "FC Groningen",
-      "home_logo": "https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/8830b5ef7a958db8670ceea57116529d.png",
-      "away_logo": "https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/dfe340caabb81901afd11fc966657807.png",
-      "logo": "https://1xlite-69200.pro/resized/size16/sfiles/logo_teams/8830b5ef7a958db8670ceea57116529d.png",
-      "time": "15:30",
-      "league": "Netherlands. Eredivisie",
-      "url": "https://corestream.siteyaptim.live//fey/tracks-v1a1/mono.m3u8",
+      "id": "a60031a088ecf581af66b46fdf79868f",
+      "home": "Trabzonspor",
+      "away": "Başakşehir FK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/451.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "time": "19:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,7 +182,107 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live//fey/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "5f83ea33d86feee858eb5c98fa91094e",
+      "home": "Eyüpspor",
+      "away": "Gaziantep FK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/557.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/572.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/557.gif",
+      "time": "19:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.siteyaptim.live//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "0464db9381fff98d8a885eedc7ab7e0b",
+      "home": "Atletico Madrid",
+      "away": "Villarreal",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/86.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/92.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/86.gif",
+      "time": "18:00",
+      "league": "LaLiga",
+      "url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "571fafdf7fc8a2df079948abc5e11571",
+      "home": "Newcastle United",
+      "away": "Liverpool",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/34.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/30.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/34.gif",
+      "time": "18:30",
+      "league": "Premier Lig",
+      "url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "a5eff666da1c0e3299b13fc7ce3b9448",
+      "home": "Bandırmaspor",
+      "away": "Keçiörengücü",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/633.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1182.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/633.gif",
+      "time": "17:00",
+      "league": "TFF 1. Lig",
+      "url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ]
 }
