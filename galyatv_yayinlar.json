@@ -1,65 +1,23 @@
 {
-  "generated_at": "2026-08-23T14:31:47.638255",
+  "generated_at": "2026-08-23T15:30:56.752980",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 32,
+  "total_streams": 29,
   "channels": [
     {
-      "id": "635656",
+      "id": "304671",
       "name": "Tivibu Spor",
       "logo": "https://galyatv2.com/images/channels/tivibuspor.png",
       "type": "channel",
-      "url": "https://cdn.galyatv1.com/M635656/M635656.m3u8",
+      "url": "https://cdn.galyatv1.com/M304671/M304671.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     }
   ],
   "matches": [
-    {
-      "id": "635656",
-      "home": "16:00",
-      "away": "",
-      "title": "16:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M635656/M635656.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "075777",
-      "home": "16:00",
-      "away": "",
-      "title": "16:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M075777/M075777.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "984660",
-      "home": "16:00",
-      "away": "",
-      "title": "16:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M984660/M984660.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
     {
       "id": "304671",
       "home": "17:00",
