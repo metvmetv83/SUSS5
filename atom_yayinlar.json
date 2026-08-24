@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T17:26:48.289334",
+  "generated_at": "2026-08-24T18:33:55.590031",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 7,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,106 @@
       "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "6b6e1ce2d042c581a79baf4cc6d462e4",
+      "home": "Osasuna",
+      "away": "Levante",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/93.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/100.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/93.gif",
+      "time": "20:30",
+      "league": "LaLiga",
+      "url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "269fe83e24659a25e2fb2ded1b00a907",
+      "home": "Kocaelispor",
+      "away": "Amed SK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/18.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/18.gif",
+      "time": "21:30",
+      "league": "Süper Lig",
+      "url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "fb21518e5524179aaf2260954e1fe5db",
+      "home": "Fulham",
+      "away": "Chelsea",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/28.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/26.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/28.gif",
+      "time": "22:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "1bd6395e99ec09fce94ddbc8e61d8c76",
+      "home": "Sivasspor",
+      "away": "Manisa FK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/446.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/14224.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/446.gif",
+      "time": "21:30",
+      "league": "TFF 1. Lig",
+      "url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
