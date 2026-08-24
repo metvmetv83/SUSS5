@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T18:33:55.590031",
+  "generated_at": "2026-08-24T19:25:17.188902",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 11,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -258,6 +258,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.siteyaptim.live//trt-spor/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "e9bf75f0faca9e6ce0bbf9c89827b9a3",
+      "home": "Bologna",
+      "away": "Lazio",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/158.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/160.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/158.gif",
+      "time": "19:30",
+      "league": "Serie A",
+      "url": "https://corestream.siteyaptim.live//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.siteyaptim.live//s-sport2/tracks-v1a1/mono.m3u8"
     }
   ]
 }
