@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T20:38:03.195318",
+  "generated_at": "2026-08-25T21:36:14.811849",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 10,
+  "total_streams": 7,
   "channels": [
     {
       "id": "875407",
@@ -99,48 +99,6 @@
       "time": "",
       "sport": "Futbol",
       "url": "https://cdn.galyatv1.com/M631708/M631708.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "439167",
-      "home": "CANLI22:00",
-      "away": "",
-      "title": "CANLI22:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M439167/M439167.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "227215",
-      "home": "CANLI22:00",
-      "away": "",
-      "title": "CANLI22:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M227215/M227215.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "475901",
-      "home": "CANLI22:00",
-      "away": "",
-      "title": "CANLI22:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M475901/M475901.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://galyatv2.com/"
     }
