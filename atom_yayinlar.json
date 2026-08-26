@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T16:14:45.576647",
+  "generated_at": "2026-08-26T18:54:32.356774",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 7,
+  "total_streams": 8,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,31 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "ddff4221880744bf613249f3ee4d69d9",
+      "home": "Lyon",
+      "away": "Fenerbahçe",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/2.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "time": "22:00",
+      "league": "Play Off",
+      "url": "https://corestream.ardastream.live//trt1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//trt1/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
