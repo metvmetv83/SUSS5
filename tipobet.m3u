@@ -1,9 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off [Günün Maçı]",Lyon - Fenerbahçe [22:00]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://tipobettv265.com/
-https://ilp.zirvedesin240.cfd/trt1/mono.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/qMoYbPRcGX7GBkht1uSrafddF2ZV1rodvYJ4xVLl.png" group-title="CANLI MAÇLAR - Akdeniz Oyunları",Türkiye - Kosova [15:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tipobettv265.com/
@@ -18,6 +13,11 @@ https://ilp.zirvedesin240.cfd/trt1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://tipobettv265.com/
 https://ilp.zirvedesin240.cfd/ss/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",Lyon - Fenerbahçe [22:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://tipobettv265.com/
+https://ilp.zirvedesin240.cfd/trt1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sporekrani.com/teams/EscwTwkTG56MVJCOAtjZbP308KrYENzdAzdh6Mef.png" group-title="CANLI MAÇLAR - UEFA Şampiyonlar Ligi Play-Off",AEK - Levski Sofya [22:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
