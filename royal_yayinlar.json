@@ -1,25 +1,11 @@
 {
-  "generated_at": "2026-08-25T23:49:16.491921",
+  "generated_at": "2026-08-26T03:32:45.155904",
   "source": "RoyalTV",
   "base_url": "https://ilp.zirvedesin240.cfd/",
   "referrer": "https://royaltv35.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
   "total_streams": 38,
   "matches": [
-    {
-      "id": "trt1",
-      "home": "Lyon",
-      "away": "Fenerbahçe",
-      "home_logo": "https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png",
-      "away_logo": "https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
-      "league": "UEFA Şampiyonlar Ligi Play-Off [Günün Maçı]",
-      "time": "22:00",
-      "sport": "Futbol",
-      "type": "match",
-      "url": "https://ilp.zirvedesin240.cfd/trt1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://royaltv35.com/"
-    },
     {
       "id": "trtspor",
       "home": "Türkiye",
@@ -59,6 +45,20 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://ilp.zirvedesin240.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv35.com/"
+    },
+    {
+      "id": "trt1",
+      "home": "Lyon",
+      "away": "Fenerbahçe",
+      "home_logo": "https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png",
+      "away_logo": "https://img.sporekrani.com/teams/v5HDBvsjiEUsYChq03Jk2EbrNXDHiHvLOdMI6fHR.png",
+      "league": "UEFA Şampiyonlar Ligi Play-Off",
+      "time": "22:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://ilp.zirvedesin240.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://royaltv35.com/"
     },
