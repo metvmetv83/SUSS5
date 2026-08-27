@@ -1,25 +1,11 @@
 {
-  "generated_at": "2026-08-27T11:49:09.451116",
+  "generated_at": "2026-08-27T22:28:54.780963",
   "source": "RoyalTV",
   "base_url": "https://ilp.zirvedesin240.cfd/",
   "referrer": "https://royaltv35.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
   "total_streams": 39,
   "matches": [
-    {
-      "id": "ex4",
-      "home": "Türkiye",
-      "away": "Yunanistan",
-      "home_logo": "https://img.sporekrani.com/teams/HAd4Sck7okZvo4JBIKWrQi3GtzXOMiDukeVsP27J.png",
-      "away_logo": "https://img.sporekrani.com/teams/uuoVdoEpHxWwj6QI1huT0XPVEVCWkmbr1SkyXnbv.png",
-      "league": "Akdeniz Oyunları",
-      "time": "18:00",
-      "sport": "Voleybol",
-      "type": "match",
-      "url": "https://ilp.zirvedesin240.cfd/ex4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://royaltv35.com/"
-    },
     {
       "id": "ss",
       "home": "Almanya",
@@ -31,6 +17,20 @@
       "sport": "Basketbol",
       "type": "match",
       "url": "https://ilp.zirvedesin240.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://royaltv35.com/"
+    },
+    {
+      "id": "trtspor",
+      "home": "Şampiyonlar Ligi",
+      "away": "Kura Çekimi",
+      "home_logo": "https://img.sporekrani.com/tr_w_26,h_26,c_limit/sports/HrHBG9jQU5nv4zO5utrTJ24yp69ol4V8nZX5n2rh.svg",
+      "away_logo": "https://img.sporekrani.com/tr_w_26,h_26,c_limit/sports/HrHBG9jQU5nv4zO5utrTJ24yp69ol4V8nZX5n2rh.svg",
+      "league": "19:00",
+      "time": "",
+      "sport": "Program",
+      "type": "match",
+      "url": "https://ilp.zirvedesin240.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://royaltv35.com/"
     },
