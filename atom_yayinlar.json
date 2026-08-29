@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T15:26:19.938944",
+  "generated_at": "2026-08-29T19:07:50.969265",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 10,
+  "total_streams": 15,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,14 +160,139 @@
   ],
   "matches": [
     {
-      "id": "d96789843cf0378a6294c84cb35daa4b",
-      "home": "Coventry",
-      "away": "Hull City",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/987.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
-      "time": "17:00",
-      "league": "Premier Lig",
+      "id": "0bf265ec4cdbf6c2d6e7cd81958f2412",
+      "home": "Galatasaray",
+      "away": "Göztepe",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/15.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
+      "time": "21:30",
+      "league": "Süper Lig",
+      "url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "8dba17cac05501586e3ddc5ae5bded42",
+      "home": "Gaziantep FK",
+      "away": "Çaykur Rizespor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/572.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/448.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/572.gif",
+      "time": "21:30",
+      "league": "Süper Lig",
+      "url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "4ca49d717dcb3f9af8ef17fcdaf3a2a1",
+      "home": "Juventus",
+      "away": "Parma",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/157.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/162.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/157.gif",
+      "time": "21:45",
+      "league": "Serie A",
+      "url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "35c40ecdd36c910cdc99d0a09b53912c",
+      "home": "Sevilla",
+      "away": "Atletico Madrid",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/86.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "time": "22:30",
+      "league": "LaLiga",
+      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "a6e7d60bb037e67387aae5f32b4d2f63",
+      "home": "Auxerre",
+      "away": "Angers",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/193.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/891.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/193.gif",
+      "time": "21:45",
+      "league": "Ligue 1",
+      "url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "f018924bb533b585ac19b8e3523d5192",
+      "home": "Lyon",
+      "away": "Le Havre",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/209.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "time": "21:45",
+      "league": "Ligue 1",
       "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
@@ -185,13 +310,13 @@
       "media_url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "66f9e3150baeef0353a1ee493200b37b",
-      "home": "Bournemouth",
-      "away": "Everton",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
-      "time": "17:00",
+      "id": "484738075e77a7c02369c493cdd0d1ff",
+      "home": "Academico Viseu",
+      "away": "Porto",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/1923.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/269.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/1923.gif",
+      "time": "20:00",
       "league": "Premier Lig",
       "url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8",
       "headers": {
@@ -210,15 +335,15 @@
       "media_url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "41b14aa023f509fb5f16120441397491",
-      "home": "RC Strasbourg",
-      "away": "Lens",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/200.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/199.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/200.gif",
-      "time": "18:15",
-      "league": "Ligue 1",
-      "url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8",
+      "id": "9b39b69e22a8dab3d21bbda1f26ef748",
+      "home": "Real Sociedad",
+      "away": "Espanyol",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/77.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/95.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/77.gif",
+      "time": "20:00",
+      "league": "LaLiga",
+      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -232,7 +357,7 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
     }
   ]
 }
