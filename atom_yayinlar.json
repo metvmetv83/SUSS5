@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T10:42:25.022660",
+  "generated_at": "2026-08-29T15:26:19.938944",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 7,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,81 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "d96789843cf0378a6294c84cb35daa4b",
+      "home": "Coventry",
+      "away": "Hull City",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/987.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "66f9e3150baeef0353a1ee493200b37b",
+      "home": "Bournemouth",
+      "away": "Everton",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "41b14aa023f509fb5f16120441397491",
+      "home": "RC Strasbourg",
+      "away": "Lens",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/200.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/199.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/200.gif",
+      "time": "18:15",
+      "league": "Ligue 1",
+      "url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
