@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-29T22:15:49.786023",
+  "generated_at": "2026-08-30T00:59:23.388191",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 9,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,56 +158,5 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "0bf265ec4cdbf6c2d6e7cd81958f2412",
-      "home": "Galatasaray",
-      "away": "Göztepe",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/15.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
-      "time": "21:30",
-      "league": "Süper Lig",
-      "url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv513.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv513.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "35c40ecdd36c910cdc99d0a09b53912c",
-      "home": "Sevilla",
-      "away": "Atletico Madrid",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/86.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
-      "time": "22:30",
-      "league": "LaLiga",
-      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv513.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv513.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
