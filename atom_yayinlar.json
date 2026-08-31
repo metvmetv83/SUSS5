@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-31T10:26:18.051955",
+  "generated_at": "2026-08-31T17:49:39.691973",
   "base_domain": "https://www.atomsportv513.top",
-  "total_streams": 7,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,81 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "bf0e801350b65815bfb083104beffbf2",
+      "home": "Amed SK",
+      "away": "Trabzonspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
+      "time": "21:30",
+      "league": "Süper Lig",
+      "url": "https://corestream.ardastream.live//bein1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "a00b1a793194f64fe418915afac62295",
+      "home": "Lecce",
+      "away": "Roma",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/175.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/161.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/175.gif",
+      "time": "19:30",
+      "league": "Serie A",
+      "url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "449fc6262e26182a4bdb498c48650bdf",
+      "home": "Beşiktaş",
+      "away": "Çorum FK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/3.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/9665.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/3.gif",
+      "time": "21:30",
+      "league": "Süper Lig",
+      "url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv513.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv513.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
