@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-01T13:00:41.744784",
+  "generated_at": "2026-09-01T17:33:07.771449",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 9,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,56 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "20181659",
+      "home": "Boluspor",
+      "away": "Keçiörengücü",
+      "home_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/63a331afb3c36ea24273141abe97eb46.png",
+      "away_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/18a474c0ae227154369a59ab91a23831.png",
+      "logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/63a331afb3c36ea24273141abe97eb46.png",
+      "time": "20:00",
+      "league": "Turkey. TFF 1. Lig",
+      "url": "https://corestream.ardastream.live//beinmax1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//beinmax1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20181658",
+      "home": "Sarıyer",
+      "away": "Pendikspor",
+      "home_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/31711.png",
+      "away_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/35017.png",
+      "logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/31711.png",
+      "time": "20:00",
+      "league": "Turkey. TFF 1. Lig",
+      "url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
