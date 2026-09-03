@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T07:42:33.412265",
+  "generated_at": "2026-09-03T12:32:06.519917",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 8,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,31 +158,5 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "20193405",
-      "home": "VfL Osnabruck",
-      "away": "FC Bayern Munich",
-      "home_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6597d3dad550e10f06f97c5d587db2e4.png",
-      "away_logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/701415b6d5ee3ffc9aaa20b1325ec160.png",
-      "logo": "https://1xlite-0687.pro/resized/size16/sfiles/logo_teams/6597d3dad550e10f06f97c5d587db2e4.png",
-      "time": "21:45",
-      "league": "Germany DFB Pokal",
-      "url": "https://corestream.ardastream.live//plus/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//plus/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
