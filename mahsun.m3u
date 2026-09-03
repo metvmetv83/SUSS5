@@ -1,12 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Stupaczuk/Sanz - Casas/Arroyo" group-title="Premier Padel",[13:00] Stupaczuk/Sanz - Casas/Arroyo (Premier Padel)
-https://mahsunsports80.xyz/event.html?id=androstreamlivebsm2
-#EXTINF:-1 tvg-name="Collombon/Sharifova - Martin/Fernandez" group-title="Premier Padel",[14:30] Collombon/Sharifova - Martin/Fernandez (Premier Padel)
-https://mahsunsports80.xyz/event.html?id=androstreamlivebsm2
-#EXTINF:-1 tvg-name="Polonya - Hollanda" group-title="CEV Kadinlar Avrupa Şampiyonasi Çeyrek Final",[16:00] Polonya - Hollanda (CEV Kadinlar Avrupa Şampiyonasi Çeyrek Final)
-https://mahsunsports80.xyz/event.html?id=androstreamlivetrtsy
 #EXTINF:-1 tvg-name="Iğdirspor - Manisa FK" group-title="Trendyol 1. Lig",[17:00] Iğdirspor - Manisa FK (Trendyol 1. Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamlivetrts
+#EXTINF:-1 tvg-name="Iğdirspor - Manisa FK (Yedek)" group-title="Trendyol 1. Lig",[17:00] Iğdirspor - Manisa FK (Yedek) (Trendyol 1. Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivebs2
 #EXTINF:-1 tvg-name="Esbri/Gutierrez - Chingotto/Galan" group-title="Premier Padel",[17:00] Esbri/Gutierrez - Chingotto/Galan (Premier Padel)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebsm2
 #EXTINF:-1 tvg-name="Denizli Basket - Petkimspor" group-title="Gloria Cup Basketbol",[17:00] Denizli Basket - Petkimspor (Gloria Cup Basketbol)
@@ -15,7 +11,11 @@ https://mahsunsports80.xyz/event.html?id=androstreamliveht
 https://mahsunsports80.xyz/event.html?id=androstreamlivetrt1
 #EXTINF:-1 tvg-name="Bursaspor - İstanbulspor" group-title="Trendyol 1. Lig",[20:00] Bursaspor - İstanbulspor (Trendyol 1. Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamlivetrts
+#EXTINF:-1 tvg-name="Bursaspor - İstanbulspor (Yedek)" group-title="Trendyol 1. Lig",[20:00] Bursaspor - İstanbulspor (Yedek) (Trendyol 1. Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivebs2
 #EXTINF:-1 tvg-name="Bodrumspor - Esenler Erokspor" group-title="Trendyol 1. Lig",[20:00] Bodrumspor - Esenler Erokspor (Trendyol 1. Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamliveexn1
+#EXTINF:-1 tvg-name="Bodrumspor - Esenler Erokspor (Yedek)" group-title="Trendyol 1. Lig",[20:00] Bodrumspor - Esenler Erokspor (Yedek) (Trendyol 1. Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebsm1
 #EXTINF:-1 tvg-name="Al Diriyah - Al Qadsiah" group-title="Suudi Arabistan Pro Lig",[21:00] Al Diriyah - Al Qadsiah (Suudi Arabistan Pro Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamliveht
@@ -27,6 +27,8 @@ https://mahsunsports80.xyz/event.html?id=androstreamlivebs4
 https://mahsunsports80.xyz/event.html?id=androstreamlivetrts
 #EXTINF:-1 tvg-name="Real Sociedad - Celta Vigo" group-title="İspanya La Liga",[22:00] Real Sociedad - Celta Vigo (İspanya La Liga)
 https://mahsunsports80.xyz/event.html?id=androstreamlivess1
+#EXTINF:-1 tvg-name="Real Sociedad - Celta Vigo (Azerice)" group-title="İspanya La Liga",[22:00] Real Sociedad - Celta Vigo (Azerice) (İspanya La Liga)
+https://mahsunsports80.xyz/event.html?id=androstreamliveidm
 #EXTINF:-1 tvg-name="İstanbul Başakşehir - Galatasaray" group-title="Trendyol Süper Lig",[20:00] İstanbul Başakşehir - Galatasaray (Trendyol Süper Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs1
 #EXTINF:-1 tvg-name="Antrenman Seansi" group-title="İtalya GP",[09:35] Antrenman Seansi (İtalya GP)
@@ -49,6 +51,8 @@ https://mahsunsports80.xyz/event.html?id=androstreamlivecbcs
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs4
 #EXTINF:-1 tvg-name="Çayirova Bld. - Denizli Basket" group-title="Gloria Cup Basketbol",[17:00] Çayirova Bld. - Denizli Basket (Gloria Cup Basketbol)
 https://mahsunsports80.xyz/event.html?id=androstreamliveht
+#EXTINF:-1 tvg-name="Antrenman Seansi" group-title="İtalya GP",[18:30] Antrenman Seansi (İtalya GP)
+https://mahsunsports80.xyz/event.html?id=androstreamlivebs4
 #EXTINF:-1 tvg-name="Olimpia Milano - Kizilyildiz" group-title="Girit Basketbol Turnuvasi",[18:30] Olimpia Milano - Kizilyildiz (Girit Basketbol Turnuvasi)
 https://mahsunsports80.xyz/event.html?id=androstreamlivess2
 #EXTINF:-1 tvg-name="Belçika - Türkiye" group-title="FIBA Kadinlar Dünya Kupasi",[18:30] Belçika - Türkiye (FIBA Kadinlar Dünya Kupasi)
@@ -57,17 +61,21 @@ https://mahsunsports80.xyz/event.html?id=androstreamlivetrts
 https://mahsunsports80.xyz/event.html?id=androstreamlivecbcs
 #EXTINF:-1 tvg-name="Arminia Bielefeld - St.Pauli" group-title="Almanya Bundesliga 2",[19:30] Arminia Bielefeld - St.Pauli (Almanya Bundesliga 2)
 https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
+#EXTINF:-1 tvg-name="Ingolstadt - Aachen" group-title="Almanya Bundesliga 3",[20:00] Ingolstadt - Aachen (Almanya Bundesliga 3)
+https://mahsunsports80.xyz/event.html?id=androstreamlivesifir
 #EXTINF:-1 tvg-name="Lyon - Auxerre" group-title="Fransa Ligue 1",[20:00] Lyon - Auxerre (Fransa Ligue 1)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs2
 #EXTINF:-1 tvg-name="Al Ahli - Al Riyadh" group-title="Suudi Arabistan Pro Lig",[21:00] Al Ahli - Al Riyadh (Suudi Arabistan Pro Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
+#EXTINF:-1 tvg-name="Chambery Savoie - PSG" group-title="Fransa Hentbol Ligi",[21:00] Chambery Savoie - PSG (Fransa Hentbol Ligi)
+https://mahsunsports80.xyz/event.html?id=androstreamlivebs5
 #EXTINF:-1 tvg-name="Al Shabab - Al Hilal" group-title="Suudi Arabistan Pro Lig",[21:00] Al Shabab - Al Hilal (Suudi Arabistan Pro Lig)
 https://mahsunsports80.xyz/event.html?id=androstreamliveht
 #EXTINF:-1 tvg-name="Olimpiakos - Fenerbahçe Tarfin" group-title="Girit Basketbol Turnuvasi",[21:00] Olimpiakos - Fenerbahçe Tarfin (Girit Basketbol Turnuvasi)
 https://mahsunsports80.xyz/event.html?id=androstreamlivess2
-#EXTINF:-1 tvg-name="Stuttgart - Köln" group-title="Almanya Bundesliga",[21:30] Stuttgart - Köln (Almanya Bundesliga)
-https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
 #EXTINF:-1 tvg-name="Las Palmas - Leganes" group-title="İspanya La Liga 2",[21:30] Las Palmas - Leganes (İspanya La Liga 2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
+#EXTINF:-1 tvg-name="Stuttgart - Köln" group-title="Almanya Bundesliga",[21:30] Stuttgart - Köln (Almanya Bundesliga)
 https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
 #EXTINF:-1 tvg-name="Genoa - Como" group-title="İtalya Serie A",[21:45] Genoa - Como (İtalya Serie A)
 https://mahsunsports80.xyz/event.html?id=androstreamlivessplus1
@@ -79,192 +87,224 @@ https://mahsunsports80.xyz/event.html?id=androstreamlivess1
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs2
 #EXTINF:-1 tvg-name="Porto - Moreirense" group-title="Portekiz Liga NOS",[22:15] Porto - Moreirense (Portekiz Liga NOS)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs4
-#EXTINF:-1 tvg-name="Kuzey Kore U20 - İran U20" group-title="AFC Cup U20 Qualification",[12:00] Kuzey Kore U20 - İran U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199429
-#EXTINF:-1 tvg-name="Kuveyt U20 - Yemen U20" group-title="AFC Cup U20 Qualification",[12:00] Kuveyt U20 - Yemen U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199426
-#EXTINF:-1 tvg-name="Makao U20 - Singapore U20" group-title="AFC Cup U20 Qualification",[12:00] Makao U20 - Singapore U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199379
-#EXTINF:-1 tvg-name="FC Sevastopol II - Fregat Kherson" group-title="Friendly Club Tournament",[12:00] FC Sevastopol II - Fregat Kherson (Friendly Club Tournament)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199366
-#EXTINF:-1 tvg-name="Korea DPR U-20 - Iran U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[12:00] Korea DPR U-20 - Iran U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399191
-#EXTINF:-1 tvg-name="Brunei U-20 - Myanmar U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[12:30] Brunei U-20 - Myanmar U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399831
-#EXTINF:-1 tvg-name="Kalighat Sports Lovers - Techno Aryan" group-title="India: Calcutta. Premier Division",[12:38] Kalighat Sports Lovers - Techno Aryan (India: Calcutta. Premier Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400207
-#EXTINF:-1 tvg-name="Demizes - Kings FC" group-title="Short Football 2x2",[13:10] Demizes - Kings FC (Short Football 2x2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200239
-#EXTINF:-1 tvg-name="Cordoba+ - Mons+" group-title="Short Football 4x4",[13:18] Cordoba+ - Mons+ (Short Football 4x4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200290
-#EXTINF:-1 tvg-name="Stuttgart+ - Palermo+" group-title="Short Football 5x5",[13:20] Stuttgart+ - Palermo+ (Short Football 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200284
-#EXTINF:-1 tvg-name="Monsters (2x2) - Stars (2x2)" group-title="Short Football D1",[13:21] Monsters (2x2) - Stars (2x2) (Short Football D1)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200275
-#EXTINF:-1 tvg-name="Bayern (Amatörler) - Stuttgart (Amatörler)" group-title="BudnesLiga LFL 5x5",[13:23] Bayern (Amatörler) - Stuttgart (Amatörler) (BudnesLiga LFL 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200083
-#EXTINF:-1 tvg-name="Berliner Dynamo (Amatörler) - Alemannia Aachen (Amatörler)" group-title="BudnesLiga LFL 5x5",[13:26] Berliner Dynamo (Amatörler) - Alemannia Aachen (Amatörler) (BudnesLiga LFL 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200087
-#EXTINF:-1 tvg-name="ART - MATH" group-title="Student League 2",[13:29] ART - MATH (Student League 2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200219
-#EXTINF:-1 tvg-name="Camama - Mungo" group-title="Short Football 4x4 L2",[13:32] Camama - Mungo (Short Football 4x4 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200296
-#EXTINF:-1 tvg-name="St. Louis + - Fusion +" group-title="MLS+",[13:37] St. Louis + - Fusion + (MLS+)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200179
-#EXTINF:-1 tvg-name="B-YSU - ASFL" group-title="Short Football 2x2 L2",[13:40] B-YSU - ASFL (Short Football 2x2 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200285
-#EXTINF:-1 tvg-name="Nijmegen (Amatörler) - Roda (Amatörler)" group-title="Division 4х4",[13:44] Nijmegen (Amatörler) - Roda (Amatörler) (Division 4х4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200113
-#EXTINF:-1 tvg-name="Chifeng - Hefei" group-title="Short Football 3x3 L1",[13:46] Chifeng - Hefei (Short Football 3x3 L1)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200225
-#EXTINF:-1 tvg-name="Chelsea (Dark) - Al Hilal (Fantasma)" group-title="FIFA 26. Amateur daily league",[13:46] Chelsea (Dark) - Al Hilal (Fantasma) (FIFA 26. Amateur daily league)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200163
-#EXTINF:-1 tvg-name="Leicester City (Cody) - Atletico Madrid (Thomas)" group-title="FIFA 23. Volta daily league",[13:46] Leicester City (Cody) - Atletico Madrid (Thomas) (FIFA 23. Volta daily league)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200209
-#EXTINF:-1 tvg-name="Maestro (sub) - Crash (sub)" group-title="Subsoccer",[13:48] Maestro (sub) - Crash (sub) (Subsoccer)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200292
-#EXTINF:-1 tvg-name="Picinguaba - Cafeara" group-title="Short Football 4x4",[13:49] Picinguaba - Cafeara (Short Football 4x4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200222
-#EXTINF:-1 tvg-name="Dongying Oilers - Weifang Athletic" group-title="Short Football 3x3 L2",[13:51] Dongying Oilers - Weifang Athletic (Short Football 3x3 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199914
-#EXTINF:-1 tvg-name="Tonic - Vino Gano" group-title="Nijerya. 1XBET Community Cup",[13:54] Tonic - Vino Gano (Nijerya. 1XBET Community Cup)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199886
-#EXTINF:-1 tvg-name="INOSTR - MED" group-title="Student League",[13:57] INOSTR - MED (Student League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200233
-#EXTINF:-1 tvg-name="Birmingham + - Charleston +" group-title="MLS+",[13:57] Birmingham + - Charleston + (MLS+)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200090
-#EXTINF:-1 tvg-name="Fujian Xunxing Sturgeons - Beijing Shougang Ducks" group-title="China: CBA. Pre-season",[12:30] Fujian Xunxing Sturgeons - Beijing Shougang Ducks (China: CBA. Pre-season)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399707
-#EXTINF:-1 tvg-name="Illawarra Hawks 3 pointers made - Adelaide 36ers 3 pointers made" group-title="Australia: NBL. Pre-season. 3 Point FG",[13:03] Illawarra Hawks 3 pointers made - Adelaide 36ers 3 pointers made (Australia: NBL. Pre-season. 3 Point FG)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399961
-#EXTINF:-1 tvg-name="Jinan Cyclones - Xi'an Legends" group-title="Çin. CDBL",[13:10] Jinan Cyclones - Xi'an Legends (Çin. CDBL)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199374
-#EXTINF:-1 tvg-name="Belgorod - Saratov" group-title="IPBL. Pro Division",[13:12] Belgorod - Saratov (IPBL. Pro Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199890
-#EXTINF:-1 tvg-name="Wollongong Hawks - Adelaide 36ers" group-title="Kulüplerin Dostluk Turnuvası",[13:16] Wollongong Hawks - Adelaide 36ers (Kulüplerin Dostluk Turnuvası)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199814
-#EXTINF:-1 tvg-name="IPBL Crows - IPBL Tigers" group-title="IPBL. Prime Division",[13:16] IPBL Crows - IPBL Tigers (IPBL. Prime Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199803
-#EXTINF:-1 tvg-name="Spartacus - Pase" group-title="Premier Liga A",[13:20] Spartacus - Pase (Premier Liga A)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200126
-#EXTINF:-1 tvg-name="IPBL Bears - IPBL Octopus" group-title="IPBL. Prime Division",[13:24] IPBL Bears - IPBL Octopus (IPBL. Prime Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199787
-#EXTINF:-1 tvg-name="Samara - Kazan" group-title="IPBL. Pro Division",[13:25] Samara - Kazan (IPBL. Pro Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200297
-#EXTINF:-1 tvg-name="Gunners FB - Vikings FB" group-title="FrostBall",[13:25] Gunners FB - Vikings FB (FrostBall)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200136
-#EXTINF:-1 tvg-name="Berezniki (Bayanlar) - Khimki (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[13:27] Berezniki (Bayanlar) - Khimki (Bayanlar) (IPBL. Pro Division. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199860
-#EXTINF:-1 tvg-name="Dinamo NS - Balcania Basket" group-title="World: BSKT CUP International",[13:30] Dinamo NS - Balcania Basket (World: BSKT CUP International)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400625
-#EXTINF:-1 tvg-name="Simferopol (Bayanlar) - Naberezhnye Chelny (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[13:36] Simferopol (Bayanlar) - Naberezhnye Chelny (Bayanlar) (IPBL. Pro Division. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199874
-#EXTINF:-1 tvg-name="Fujian Quanzhou Bank - Beijing Shougang Ducks" group-title="Çin Şampiyonası. Yaz Ligi",[13:41] Fujian Quanzhou Bank - Beijing Shougang Ducks (Çin Şampiyonası. Yaz Ligi)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199687
-#EXTINF:-1 tvg-name="Starship - Wildcats" group-title="Premier Liga",[13:42] Starship - Wildcats (Premier Liga)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200058
-#EXTINF:-1 tvg-name="Venue: Moscow - Udmurtia" group-title="Rusya Güçlüler Spartakiadası",[13:43] Venue: Moscow - Udmurtia (Rusya Güçlüler Spartakiadası)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199968
-#EXTINF:-1 tvg-name="No Limits - Untouchable" group-title="IPBL. CAGE",[13:46] No Limits - Untouchable (IPBL. CAGE)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199853
-#EXTINF:-1 tvg-name="Hapoel Tel Aviv (cyber) - Baskonia (cyber)" group-title="13:35 /",[NBA 2K26. Cyber Euro League] Hapoel Tel Aviv (cyber) - Baskonia (cyber) (13:35 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54846002
-#EXTINF:-1 tvg-name="Barcelona (cyber) - Paris (cyber)" group-title="13:05 /",[NBA 2K26. Cyber Euro League] Barcelona (cyber) - Paris (cyber) (13:05 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54845509
-#EXTINF:-1 tvg-name="Miami Heat (cyber) - Indiana Pacers (cyber)" group-title="13:20 /",[NBA 2K26. Cyber League] Miami Heat (cyber) - Indiana Pacers (cyber) (13:20 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54845757
-#EXTINF:-1 tvg-name="Tp Ho Chi Minh (Women) - PLDT High Speed Hitters (Bayanlar)" group-title="Philippines. PVL. Women",[11:00] Tp Ho Chi Minh (Women) - PLDT High Speed Hitters (Bayanlar) (Philippines. PVL. Women)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20198908
-#EXTINF:-1 tvg-name="Algeria (w) - Tunisia (w)" group-title="National teams: African Women's Championship",[13:00] Algeria (w) - Tunisia (w) (National teams: African Women's Championship)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400037
-#EXTINF:-1 tvg-name="Arjantin - Slovenya" group-title="VCA. Master Volleyball League",[13:16] Arjantin - Slovenya (VCA. Master Volleyball League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200076
-#EXTINF:-1 tvg-name="ABD - İtalya" group-title="VCA. Master Volleyball League",[13:22] ABD - İtalya (VCA. Master Volleyball League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199469
-#EXTINF:-1 tvg-name="Brezilya (Bayanlar) - ABD (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[13:23] Brezilya (Bayanlar) - ABD (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200035
-#EXTINF:-1 tvg-name="Letonya - Japonya" group-title="CBV 23. Duo Masters",[13:28] Letonya - Japonya (CBV 23. Duo Masters)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200077
-#EXTINF:-1 tvg-name="Austria Pro (Bayanlar) - Finlandiya Pro (Bayanlar)" group-title="UPVL. Milletler Ligi. Bayanlar",[13:30] Austria Pro (Bayanlar) - Finlandiya Pro (Bayanlar) (UPVL. Milletler Ligi. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200159
-#EXTINF:-1 tvg-name="Japonya (Bayanlar) - Çin (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[13:31] Japonya (Bayanlar) - Çin (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199865
-#EXTINF:-1 tvg-name="Perpetual Altas - NU Bulldogs" group-title="Philippines. GCVS",[13:37] Perpetual Altas - NU Bulldogs (Philippines. GCVS)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200246
-#EXTINF:-1 tvg-name="ReForma Balashiha - Tver" group-title="Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları",[13:46] ReForma Balashiha - Tver (Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200301
-#EXTINF:-1 tvg-name="Hollandaa - Küba" group-title="CBV 23. Duo Masters",[13:49] Hollandaa - Küba (CBV 23. Duo Masters)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199866
-#EXTINF:-1 tvg-name="Dinamo (4x4) - Stroitel (4x4)" group-title="Orange Cup",[13:57] Dinamo (4x4) - Stroitel (4x4) (Orange Cup)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199733
-#EXTINF:-1 tvg-name="Molot-Pro - Plamya-Pro" group-title="12:15 /",[Belarus. Liga Pro] Molot-Pro - Plamya-Pro (12:15 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199555
-#EXTINF:-1 tvg-name="Valerio Aboian - Sebastian Sorger" group-title="Challenger. Plovdiv 3",[11:00] Valerio Aboian - Sebastian Sorger (Challenger. Plovdiv 3)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20198946
-#EXTINF:-1 tvg-name="Elena Milovanovic - Sara Cakarevic" group-title="World Tennis. Kursumlijsk...",[12:00] Elena Milovanovic - Sara Cakarevic (World Tennis. Kursumlijsk...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199576
-#EXTINF:-1 tvg-name="Lucie Nguyen Tan - Francesca Pace" group-title="ITF: Women. Saint-Palais-sur-Mer. Clay",[12:05] Lucie Nguyen Tan - Francesca Pace (ITF: Women. Saint-Palais-sur-Mer. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399213
-#EXTINF:-1 tvg-name="Elena Milovanovic - Sara Cakarevic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:22] Elena Milovanovic - Sara Cakarevic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399485
-#EXTINF:-1 tvg-name="Niels Visker - Pedro Vives Marcos" group-title="Challenger. Porto",[12:30] Niels Visker - Pedro Vives Marcos (Challenger. Porto)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199680
-#EXTINF:-1 tvg-name="Kristijan Juhas - Boris Butulija" group-title="World Tennis. Kursumlijsk...",[12:30] Kristijan Juhas - Boris Butulija (World Tennis. Kursumlijsk...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199652
-#EXTINF:-1 tvg-name="Carlota Martinez Cirez - Anastasija Cvetkovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:31] Carlota Martinez Cirez - Anastasija Cvetkovic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399647
-#EXTINF:-1 tvg-name="Maria Golovina - Anna Petkovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:32] Maria Golovina - Anna Petkovic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399663
-#EXTINF:-1 tvg-name="Niels Visker - Pedro Vives Marcos" group-title="ATP Challenger: Porto. Clay",[12:35] Niels Visker - Pedro Vives Marcos (ATP Challenger: Porto. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399693
-#EXTINF:-1 tvg-name="Sofia Johnson - Celia Cervino Ruiz" group-title="ITF: Women. Leiria. Hard",[12:42] Sofia Johnson - Celia Cervino Ruiz (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399845
-#EXTINF:-1 tvg-name="Robin Bertrand - Kenny de Schepper" group-title="World Tennis. Bagneres-de...",[12:45] Robin Bertrand - Kenny de Schepper (World Tennis. Bagneres-de...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199881
-#EXTINF:-1 tvg-name="Robin Bertrand - Kenny De Schepper" group-title="ITF: Men. Bagneres-de-Bigorre. Hard",[12:55] Robin Bertrand - Kenny De Schepper (ITF: Men. Bagneres-de-Bigorre. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400095
-#EXTINF:-1 tvg-name="Axel Garcian - John Echeverria" group-title="World Tennis. Bagneres-de...",[13:00] Axel Garcian - John Echeverria (World Tennis. Bagneres-de...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199966
-#EXTINF:-1 tvg-name="Diogo Morais - Arthur Nagel" group-title="World Tennis. Casablanca",[13:00] Diogo Morais - Arthur Nagel (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199982
-#EXTINF:-1 tvg-name="Yassine Dlimi - Maxence Rivet" group-title="World Tennis. Casablanca",[13:00] Yassine Dlimi - Maxence Rivet (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200012
-#EXTINF:-1 tvg-name="Thiago Cigarran - Idriss Haddouch" group-title="World Tennis. Casablanca",[13:00] Thiago Cigarran - Idriss Haddouch (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199975
-#EXTINF:-1 tvg-name="Angelina Voloshchuk - Malaika Rapolu" group-title="ITF: Women. Leiria. Hard",[13:02] Angelina Voloshchuk - Malaika Rapolu (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400129
-#EXTINF:-1 tvg-name="Diogo Morais - Arthur Nagel" group-title="ITF: Men. Casablanca. Clay",[13:03] Diogo Morais - Arthur Nagel (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400297
-#EXTINF:-1 tvg-name="Thiago Cigarran - Idris Haddouch" group-title="ITF: Men. Casablanca. Clay",[13:03] Thiago Cigarran - Idris Haddouch (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400283
-#EXTINF:-1 tvg-name="Niklas Schell - Yaroslav Demin" group-title="ITF: Men. Casablanca. Clay",[13:03] Niklas Schell - Yaroslav Demin (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400291
-#EXTINF:-1 tvg-name="Yassine Dlimi - Maxence Rivet" group-title="ITF: Men. Casablanca. Clay",[13:03] Yassine Dlimi - Maxence Rivet (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400357
-#EXTINF:-1 tvg-name="Chelsea Fontenel - Francisca Jorge" group-title="ITF: Women. Leiria. Hard",[13:04] Chelsea Fontenel - Francisca Jorge (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400167
-#EXTINF:-1 tvg-name="Axel Garcian - John Echeverria" group-title="ITF: Men. Bagneres-de-Bigorre. Hard",[13:07] Axel Garcian - John Echeverria (ITF: Men. Bagneres-de-Bigorre. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400265
-#EXTINF:-1 tvg-name="Niklas Schell - Yaroslav Demin" group-title="World Tennis. Casablanca",[13:10] Niklas Schell - Yaroslav Demin (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199979
-#EXTINF:-1 tvg-name="Ekaterina Rozhkova - Yuliya Zaitseva" group-title="ATT. Moskova. Bayanlar",[13:13] Ekaterina Rozhkova - Yuliya Zaitseva (ATT. Moskova. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200089
-#EXTINF:-1 tvg-name="Nikita Mashtakov - Juan Manuel La Serna" group-title="ATP Challenger: Plovdiv 3. Clay",[13:29] Nikita Mashtakov - Juan Manuel La Serna (ATP Challenger: Plovdiv 3. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400583
-#EXTINF:-1 tvg-name="Mykyta Mashtakov - Juan Manuel La Serna" group-title="Challenger. Plovdiv 3",[13:30] Mykyta Mashtakov - Juan Manuel La Serna (Challenger. Plovdiv 3)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200125
-#EXTINF:-1 tvg-name="Johan Nikles - Filip Cristian Jianu" group-title="Challenger. Como",[13:30] Johan Nikles - Filip Cristian Jianu (Challenger. Como)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200180
-#EXTINF:-1 tvg-name="Dodig/Poljicak - Kalender/Serdarusic" group-title="Challenger. Como. Doubles",[13:30] Dodig/Poljicak - Kalender/Serdarusic (Challenger. Como. Doubles)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200183
-#EXTINF:-1 tvg-name="Vervoort/Forcano - Garbero/Colombo" group-title="Challenger. Como. Doubles",[13:30] Vervoort/Forcano - Garbero/Colombo (Challenger. Como. Doubles)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200137
-#EXTINF:-1 tvg-name="Matej Dodig/Mili Poljicak - Admir Kalender/Nino Serdarusic" group-title="ATP Challenger: Doubles. Como. Clay",[13:35] Matej Dodig/Mili Poljicak - Admir Kalender/Nino Serdarusic (ATP Challenger: Doubles. Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400699
-#EXTINF:-1 tvg-name="Johan Nikles - Filip Cristian Jianu" group-title="ATP Challenger: Como. Clay",[13:38] Johan Nikles - Filip Cristian Jianu (ATP Challenger: Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400693
-#EXTINF:-1 tvg-name="Ignasi Forcano/Mark Vervoort - Andrea Colombo/Filippo Francesco Garbero" group-title="ATP Challenger: Doubles. Como. Clay",[13:38] Ignasi Forcano/Mark Vervoort - Andrea Colombo/Filippo Francesco Garbero (ATP Challenger: Doubles. Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400607
+#EXTINF:-1 tvg-name="FA Siauliai - Kauno Zalgiris" group-title="2026 Litvanya Kupa Yarı Final",[17:15] FA Siauliai - Kauno Zalgiris (2026 Litvanya Kupa Yarı Final)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202089
+#EXTINF:-1 tvg-name="FK Siauliai - FK Kauno Zalgiris" group-title="Lithuania: Cup",[17:15] FK Siauliai - FK Kauno Zalgiris (Lithuania: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404511
+#EXTINF:-1 tvg-name="ACS Bacau - CS Universitatea Craiova" group-title="Romania: Cup",[17:30] ACS Bacau - CS Universitatea Craiova (Romania: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404765
+#EXTINF:-1 tvg-name="Cittadella - Renate" group-title="İtalya Serie C Kupası 2.Tur",[18:00] Cittadella - Renate (İtalya Serie C Kupası 2.Tur)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202486
+#EXTINF:-1 tvg-name="Avangard Melitopol - FC Shakhter Donetsk II" group-title="Friendly Club Tournament",[18:00] Avangard Melitopol - FC Shakhter Donetsk II (Friendly Club Tournament)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202477
+#EXTINF:-1 tvg-name="Cittadella - AC Renate" group-title="Italy: Serie C. Cup",[18:00] Cittadella - AC Renate (Italy: Serie C. Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405305
+#EXTINF:-1 tvg-name="CSD Colo-Colo (w) - Deportes Iquique (w)" group-title="Chile: Women. Primera Division",[18:00] CSD Colo-Colo (w) - Deportes Iquique (w) (Chile: Women. Primera Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405359
+#EXTINF:-1 tvg-name="Fajr Sepasi - Mes Shahr-e Babak FC" group-title="İran Persian Gulf Pro Lig",[18:30] Fajr Sepasi - Mes Shahr-e Babak FC (İran Persian Gulf Pro Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202731
+#EXTINF:-1 tvg-name="GKS Tychy'71 - LKS Lodz" group-title="Poland: Cup",[18:30] GKS Tychy'71 - LKS Lodz (Poland: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405765
+#EXTINF:-1 tvg-name="Al Mosul - Al Zawraa" group-title="Irak Premier Lig",[18:45] Al Mosul - Al Zawraa (Irak Premier Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202841
+#EXTINF:-1 tvg-name="Diala - Al Karma" group-title="Irak Premier Lig",[18:45] Diala - Al Karma (Irak Premier Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202842
+#EXTINF:-1 tvg-name="Diyala FC - Al Karma" group-title="Iraq: Stars League",[18:45] Diyala FC - Al Karma (Iraq: Stars League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406017
+#EXTINF:-1 tvg-name="Al Mosul - Al Zawra'a Sport Club" group-title="Iraq: Stars League",[18:45] Al Mosul - Al Zawra'a Sport Club (Iraq: Stars League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406015
+#EXTINF:-1 tvg-name="Al Fayha - Al Kholood Club" group-title="Saudi Arabia: Professional League",[18:55] Al Fayha - Al Kholood Club (Saudi Arabia: Professional League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406097
+#EXTINF:-1 tvg-name="Rakow Czestochowa - Gornik Zabrze" group-title="Polonya Ekstraklasa",[19:00] Rakow Czestochowa - Gornik Zabrze (Polonya Ekstraklasa)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202898
+#EXTINF:-1 tvg-name="Palermo - Mantova" group-title="İtalya Kupa 2.Tur",[19:00] Palermo - Mantova (İtalya Kupa 2.Tur)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202891
+#EXTINF:-1 tvg-name="Banga Gargzdai - Panevezys" group-title="Lithuania. A Liga",[19:00] Banga Gargzdai - Panevezys (Lithuania. A Liga)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202986
+#EXTINF:-1 tvg-name="Al-Baqa'a SC - Doqarah" group-title="Jordan. Premier League",[19:00] Al-Baqa'a SC - Doqarah (Jordan. Premier League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20203002
+#EXTINF:-1 tvg-name="Rakow Czestochowa - Gornik Zabrze" group-title="Poland: Ekstraklasa",[19:00] Rakow Czestochowa - Gornik Zabrze (Poland: Ekstraklasa)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406129
+#EXTINF:-1 tvg-name="Palermo - Mantova" group-title="Italy: Cup",[19:00] Palermo - Mantova (Italy: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406115
+#EXTINF:-1 tvg-name="Thisted FC - Sonderjyske" group-title="Denmark: Cup",[19:00] Thisted FC - Sonderjyske (Denmark: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406327
+#EXTINF:-1 tvg-name="Banga Gargzdai - FK Panevezys" group-title="Lithuania: A Lyga",[19:00] Banga Gargzdai - FK Panevezys (Lithuania: A Lyga)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406305
+#EXTINF:-1 tvg-name="Viimsi JK - FC Tallinn" group-title="Estonia: Esiliiga A",[19:00] Viimsi JK - FC Tallinn (Estonia: Esiliiga A)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406301
+#EXTINF:-1 tvg-name="HIFK - HPS" group-title="Finland: Kakkonen",[19:00] HIFK - HPS (Finland: Kakkonen)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406335
+#EXTINF:-1 tvg-name="Oman U-20 - Saudi Arabia U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[19:00] Oman U-20 - Saudi Arabia U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406341
+#EXTINF:-1 tvg-name="Hong Kong U-20 - Qatar U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[19:00] Hong Kong U-20 - Qatar U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406343
+#EXTINF:-1 tvg-name="Bulgaristan - Avustralya" group-title="3x3. ISFA World Cup",[19:03] Bulgaristan - Avustralya (3x3. ISFA World Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202936
+#EXTINF:-1 tvg-name="Fortuna (Amatörler) - Willem (Amatörler)" group-title="Division 4х4",[19:10] Fortuna (Amatörler) - Willem (Amatörler) (Division 4х4)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202816
+#EXTINF:-1 tvg-name="VfL Osnabruck (Amatörler) - 1860 Munchen (Amatörler)" group-title="BudnesLiga LFL 5x5",[19:12] VfL Osnabruck (Amatörler) - 1860 Munchen (Amatörler) (BudnesLiga LFL 5x5)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202968
+#EXTINF:-1 tvg-name="MANAG - GEO" group-title="Student League",[19:18] MANAG - GEO (Student League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202962
+#EXTINF:-1 tvg-name="Baoding - Dandong" group-title="Short Football 3x3 L1",[19:20] Baoding - Dandong (Short Football 3x3 L1)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202873
+#EXTINF:-1 tvg-name="Lancers - Fury" group-title="Short Football 2x2",[19:26] Lancers - Fury (Short Football 2x2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202964
+#EXTINF:-1 tvg-name="RB Leipzig (Amatörler) - Hertha (Amatörler)" group-title="BudnesLiga LFL 5x5",[19:36] RB Leipzig (Amatörler) - Hertha (Amatörler) (BudnesLiga LFL 5x5)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202967
+#EXTINF:-1 tvg-name="Juvenil Plaza - Atletico Cuevita" group-title="Küba. Liga de Barrios",[19:40] Juvenil Plaza - Atletico Cuevita (Küba. Liga de Barrios)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202514
+#EXTINF:-1 tvg-name="Al Ahli Doha - Katar SC" group-title="Katar Şampiyonası",[19:42] Al Ahli Doha - Katar SC (Katar Şampiyonası)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201983
+#EXTINF:-1 tvg-name="Maianga - Sambizanga" group-title="Short Football 4x4 L2",[19:42] Maianga - Sambizanga (Short Football 4x4 L2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202922
+#EXTINF:-1 tvg-name="RAILWAY - AVIA" group-title="Student League 2",[19:48] RAILWAY - AVIA (Student League 2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202947
+#EXTINF:-1 tvg-name="Arjantin (Bunny) - Italya (Gambit)" group-title="FIFA 26. Amateur daily league",[19:48] Arjantin (Bunny) - Italya (Gambit) (FIFA 26. Amateur daily league)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202876
+#EXTINF:-1 tvg-name="Santa Fe+ - Berlin+" group-title="Short Football 4x4",[19:52] Santa Fe+ - Berlin+ (Short Football 4x4)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202893
+#EXTINF:-1 tvg-name="PSG (Mick) - Chelsea (Eric)" group-title="FIFA 23. Volta daily league",[19:56] PSG (Mick) - Chelsea (Eric) (FIFA 23. Volta daily league)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202934
+#EXTINF:-1 tvg-name="Tianjin Pioneers - Qingdao Guoxin Haitian Eagle" group-title="China. CBA. Summer League",[15:00] Tianjin Pioneers - Qingdao Guoxin Haitian Eagle (China. CBA. Summer League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20200988
+#EXTINF:-1 tvg-name="Maktown Flyers - Aso Skyhawks" group-title="Nigeria: Premier League",[18:00] Maktown Flyers - Aso Skyhawks (Nigeria: Premier League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405355
+#EXTINF:-1 tvg-name="IPBL Hares - IPBL Rhinos" group-title="IPBL. Prime Division",[19:17] IPBL Hares - IPBL Rhinos (IPBL. Prime Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202619
+#EXTINF:-1 tvg-name="Maktown Flyers - Aso Skyhawks" group-title="Nijerya Şampiyonası",[19:18] Maktown Flyers - Aso Skyhawks (Nijerya Şampiyonası)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202511
+#EXTINF:-1 tvg-name="IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="IPBL. Prime Division. Bayanlar",[19:18] IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar) (IPBL. Prime Division. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202343
+#EXTINF:-1 tvg-name="Broncos FB - Orioles FB" group-title="FrostBall",[19:20] Broncos FB - Orioles FB (FrostBall)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202582
+#EXTINF:-1 tvg-name="Çin (TBL) - Bulgaristan (TBL)" group-title="Table Basketball League",[19:22] Çin (TBL) - Bulgaristan (TBL) (Table Basketball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202850
+#EXTINF:-1 tvg-name="Kolombiya (TBL) - New Zealand (TBL)" group-title="Table Basketball League",[19:25] Kolombiya (TBL) - New Zealand (TBL) (Table Basketball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202857
+#EXTINF:-1 tvg-name="Voronezh - Plavsk" group-title="IPBL. Pro Division",[19:26] Voronezh - Plavsk (IPBL. Pro Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202903
+#EXTINF:-1 tvg-name="Redemption - Outlaws" group-title="IPBL. CAGE",[19:26] Redemption - Outlaws (IPBL. CAGE)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202988
+#EXTINF:-1 tvg-name="IPBL Dogs - IPBL Camels" group-title="IPBL. Prime Division",[19:41] IPBL Dogs - IPBL Camels (IPBL. Prime Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202987
+#EXTINF:-1 tvg-name="Suzhou Cats - Kunming Monks" group-title="Çin. CDBL",[19:43] Suzhou Cats - Kunming Monks (Çin. CDBL)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202675
+#EXTINF:-1 tvg-name="Murino (Bayanlar) - Norilsk (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[19:57] Murino (Bayanlar) - Norilsk (Bayanlar) (IPBL. Pro Division. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202942
+#EXTINF:-1 tvg-name="Virtus Bologna (cyber) - Olimpia Milano (cyber)" group-title="18:35 /",[NBA 2K26. Cyber Euro League] Virtus Bologna (cyber) - Olimpia Milano (cyber) (18:35 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850998
+#EXTINF:-1 tvg-name="Olympiacos SFP Pireus (cyber) - Baskonia (cyber)" group-title="18:05 /",[NBA 2K26. Cyber Euro League] Olympiacos SFP Pireus (cyber) - Baskonia (cyber) (18:05 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850504
+#EXTINF:-1 tvg-name="Oklahoma City Thunder (cyber) - Detroit Pistons (cyber)" group-title="18:40 /",[NBA 2K26. Cyber League] Oklahoma City Thunder (cyber) - Detroit Pistons (cyber) (18:40 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54851088
+#EXTINF:-1 tvg-name="Houston Rockets (cyber) - Los Angeles Clippers (cyber)" group-title="18:00 /",[NBA 2K26. Cyber League] Houston Rockets (cyber) - Los Angeles Clippers (cyber) (18:00 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850424
+#EXTINF:-1 tvg-name="Almanya (Bayanlar) - Türkiye (Bayanlar)" group-title="European Championship. Wo...",[19:00] Almanya (Bayanlar) - Türkiye (Bayanlar) (European Championship. Wo...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202881
+#EXTINF:-1 tvg-name="Germany (w) - Turkey (w)" group-title="National teams: Women. European Championship",[19:00] Germany (w) - Turkey (w) (National teams: Women. European Championship)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406095
+#EXTINF:-1 tvg-name="Kenya (w) - Cameroon (w)" group-title="National teams: African Women's Championship",[19:00] Kenya (w) - Cameroon (w) (National teams: African Women's Championship)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406161
+#EXTINF:-1 tvg-name="İtalya (Bayanlar) - Türkiye (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[19:10] İtalya (Bayanlar) - Türkiye (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202855
+#EXTINF:-1 tvg-name="Cement (4x4) - Sokol (4x4)" group-title="Orange Cup",[19:13] Cement (4x4) - Sokol (4x4) (Orange Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202913
+#EXTINF:-1 tvg-name="Rusya (Bayanlar) - Japonya (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[19:15] Rusya (Bayanlar) - Japonya (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202412
+#EXTINF:-1 tvg-name="Almanya (Pro) - Norveç (Pro)" group-title="UPVL. Milletler Ligi",[19:20] Almanya (Pro) - Norveç (Pro) (UPVL. Milletler Ligi)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202935
+#EXTINF:-1 tvg-name="Polonya - İtalya" group-title="VCA. Master Volleyball League",[19:35] Polonya - İtalya (VCA. Master Volleyball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202359
+#EXTINF:-1 tvg-name="Japonya - Slovenya" group-title="VCA. Master Volleyball League",[19:35] Japonya - Slovenya (VCA. Master Volleyball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202564
+#EXTINF:-1 tvg-name="Otdushina Moscow - Rodnik Krasnoyarsk" group-title="Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları",[19:39] Otdushina Moscow - Rodnik Krasnoyarsk (Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202812
+#EXTINF:-1 tvg-name="İtalya - Küba" group-title="CBV 23. Duo Masters",[19:39] İtalya - Küba (CBV 23. Duo Masters)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202596
+#EXTINF:-1 tvg-name="Brezilya - Mozambik" group-title="CBV 23. Duo Masters",[19:53] Brezilya - Mozambik (CBV 23. Duo Masters)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202312
+#EXTINF:-1 tvg-name="Tahlia Kokkinis - Giorgia Pedone" group-title="ITF: Women. Kursumlijska Banja. Clay",[16:44] Tahlia Kokkinis - Giorgia Pedone (ITF: Women. Kursumlijska Banja. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40403981
+#EXTINF:-1 tvg-name="Miriana Tona - Anja Stankovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[16:59] Miriana Tona - Anja Stankovic (ITF: Women. Kursumlijska Banja. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404271
+#EXTINF:-1 tvg-name="Edas Butvilas - Remy Bertola" group-title="Challenger. Manacor",[17:00] Edas Butvilas - Remy Bertola (Challenger. Manacor)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201937
+#EXTINF:-1 tvg-name="Edas Butvilas - Remy Bertola" group-title="ATP Challenger: Manacor. Hard",[17:05] Edas Butvilas - Remy Bertola (ATP Challenger: Manacor. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404207
+#EXTINF:-1 tvg-name="Maximilian Figl - Karim Bennani" group-title="ITF: Men. Casablanca. Clay",[17:44] Maximilian Figl - Karim Bennani (ITF: Men. Casablanca. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404985
+#EXTINF:-1 tvg-name="Kostyuk/Ruse - Pigossi/Udvardy" group-title="US Open. Women. Doubles",[17:45] Kostyuk/Ruse - Pigossi/Udvardy (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202389
+#EXTINF:-1 tvg-name="Aboian/La Serna - Opitz/Strombachs" group-title="Challenger. Plovdiv 3. Do...",[17:45] Aboian/La Serna - Opitz/Strombachs (Challenger. Plovdiv 3. Do...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202446
+#EXTINF:-1 tvg-name="Daniel Rincon - Inaki Montes-De La Torre" group-title="Challenger. Manacor",[17:45] Daniel Rincon - Inaki Montes-De La Torre (Challenger. Manacor)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202415
+#EXTINF:-1 tvg-name="Liu/Pareja - Wang/Xu" group-title="US Open. Women. Doubles",[17:45] Liu/Pareja - Wang/Xu (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202390
+#EXTINF:-1 tvg-name="Kozyreva/Ninomiya - Kempen/Panova" group-title="US Open. Women. Doubles",[17:45] Kozyreva/Ninomiya - Kempen/Panova (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202384
+#EXTINF:-1 tvg-name="Izquierdo Luque/Rocha - Mansilla Diez/Ribeiro" group-title="Challenger. Porto. Double...",[17:45] Izquierdo Luque/Rocha - Mansilla Diez/Ribeiro (Challenger. Porto. Double...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202369
+#EXTINF:-1 tvg-name="Madison Keys - Anna Bondar" group-title="US Open. Women",[17:45] Madison Keys - Anna Bondar (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202364
+#EXTINF:-1 tvg-name="Felix Auger Aliassime - Karen Khachanov" group-title="US Open",[17:45] Felix Auger Aliassime - Karen Khachanov (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202382
+#EXTINF:-1 tvg-name="Daniel Rincon - Inaki Montes-De La Torre" group-title="ATP Challenger: Manacor. Hard",[17:54] Daniel Rincon - Inaki Montes-De La Torre (ATP Challenger: Manacor. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405163
+#EXTINF:-1 tvg-name="Juan Manuel La Serna /Valerio Aboian - Robert Strombachs/Jannik Opitz" group-title="ATP Challenger: Doubles. Plovdiv 3. Clay",[17:58] Juan Manuel La Serna /Valerio Aboian - Robert Strombachs/Jannik Opitz (ATP Challenger: Doubles. Plovdiv 3. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405225
+#EXTINF:-1 tvg-name="Luciano Darderi - Dalibor Svrcina" group-title="US Open",[18:00] Luciano Darderi - Dalibor Svrcina (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202379
+#EXTINF:-1 tvg-name="Iga Swiatek - Nadia Podoroska" group-title="US Open. Women",[18:00] Iga Swiatek - Nadia Podoroska (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202377
+#EXTINF:-1 tvg-name="Anastasia Potapova - Leolia Jeanjean" group-title="US Open. Women",[18:00] Anastasia Potapova - Leolia Jeanjean (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202371
+#EXTINF:-1 tvg-name="Maria Timofeeva - Elise Mertens" group-title="US Open. Women",[18:00] Maria Timofeeva - Elise Mertens (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202366
+#EXTINF:-1 tvg-name="Jan-Lennard Struff - Francisco Cerundolo" group-title="US Open",[18:00] Jan-Lennard Struff - Francisco Cerundolo (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202365
+#EXTINF:-1 tvg-name="Anastasia Zolotareva - Emma Lene" group-title="ITF: Women. Saint-Palais-sur-Mer. Clay",[18:03] Anastasia Zolotareva - Emma Lene (ITF: Women. Saint-Palais-sur-Mer. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405773
+#EXTINF:-1 tvg-name="Francisco Rocha/Rafael Izquierdo Luque - Mario Mansilla Diez/Eduardo Ribeiro" group-title="ATP Challenger: Doubles. Porto. Clay",[18:03] Francisco Rocha/Rafael Izquierdo Luque - Mario Mansilla Diez/Eduardo Ribeiro (ATP Challenger: Doubles. Porto. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405071
+#EXTINF:-1 tvg-name="Nino Ehrenschneider - Aaron James Williams" group-title="ITF: Men. Meerbusch. Clay",[18:05] Nino Ehrenschneider - Aaron James Williams (ITF: Men. Meerbusch. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405401
+#EXTINF:-1 tvg-name="Luciano Darderi - Dalibor Svrcina" group-title="Grand Slam: Men. US Open. Hard",[18:08] Luciano Darderi - Dalibor Svrcina (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405091
+#EXTINF:-1 tvg-name="Iga Swiatek - Nadia Podoroska" group-title="Grand Slam: Women. US Open. Hard",[18:08] Iga Swiatek - Nadia Podoroska (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405087
+#EXTINF:-1 tvg-name="Felix Auger-Aliassime - Karen Khachanov" group-title="Grand Slam: Men. US Open. Hard",[18:08] Felix Auger-Aliassime - Karen Khachanov (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405097
+#EXTINF:-1 tvg-name="Madison Keys - Anna Bondar" group-title="Grand Slam: Women. US Open. Hard",[18:08] Madison Keys - Anna Bondar (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405061
+#EXTINF:-1 tvg-name="Jan-Lennard Struff - Francisco Cerundolo" group-title="Grand Slam: Men. US Open. Hard",[18:08] Jan-Lennard Struff - Francisco Cerundolo (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405063
+#EXTINF:-1 tvg-name="Maria Timofeeva - Elise Mertens" group-title="Grand Slam: Women. US Open. Hard",[18:08] Maria Timofeeva - Elise Mertens (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405065
+#EXTINF:-1 tvg-name="Anastasia Potapova - Leolia Jeanjean" group-title="Grand Slam: Women. US Open. Hard",[18:08] Anastasia Potapova - Leolia Jeanjean (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405075
+#EXTINF:-1 tvg-name="Maria Kozyreva/Makoto Ninomiya - Alexandra Panova/Magali Kempen" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:08] Maria Kozyreva/Makoto Ninomiya - Alexandra Panova/Magali Kempen (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405101
+#EXTINF:-1 tvg-name="Marta Kostyuk/Elena Gabriela Ruse - Laura Pigossi/Panna Udvardy" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:08] Marta Kostyuk/Elena Gabriela Ruse - Laura Pigossi/Panna Udvardy (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405111
+#EXTINF:-1 tvg-name="Julieta Pareja/Claire Liu - Xu Yifan/Wang Xiyu" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:09] Julieta Pareja/Claire Liu - Xu Yifan/Wang Xiyu (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405113
+#EXTINF:-1 tvg-name="Naomi Osaka - Katerina Siniakova" group-title="US Open. Women",[18:15] Naomi Osaka - Katerina Siniakova (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202654
+#EXTINF:-1 tvg-name="Duje Ajdukovic - Juan Cruz Martin Manzano" group-title="ATP Challenger: Como. Clay",[18:23] Duje Ajdukovic - Juan Cruz Martin Manzano (ATP Challenger: Como. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406113
+#EXTINF:-1 tvg-name="Romain Faucon - Nikolai Barsukov" group-title="ITF: Men. Meerbusch. Clay",[18:30] Romain Faucon - Nikolai Barsukov (ITF: Men. Meerbusch. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405739
+#EXTINF:-1 tvg-name="Duje Ajdukovic - Juan Cruz Martin Manzano" group-title="Challenger. Como",[18:35] Duje Ajdukovic - Juan Cruz Martin Manzano (Challenger. Como)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202890
+#EXTINF:-1 tvg-name="Naomi Osaka - Katerina Siniakova" group-title="Grand Slam: Women. US Open. Hard",[18:38] Naomi Osaka - Katerina Siniakova (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405641
+#EXTINF:-1 tvg-name="Alexey Kanunnikov - Dmitry Kryukov" group-title="ATT. Moskova",[19:16] Alexey Kanunnikov - Dmitry Kryukov (ATT. Moskova)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201953
+#EXTINF:-1 tvg-name="Edgar Kocharyan - Nikita Vikhlyaev" group-title="ATT. Togliatti",[19:54] Edgar Kocharyan - Nikita Vikhlyaev (ATT. Togliatti)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201756
 #EXTINF:-1 tvg-name="BeIN Sports 1" group-title="7/24",BeIN Sports 1 (7/24)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs1
 #EXTINF:-1 tvg-name="BeIN Sports 2" group-title="7/24",BeIN Sports 2 (7/24)
@@ -371,192 +411,224 @@ https://mahsunsports80.xyz/event.html?id=androstreamliveexn6
 https://mahsunsports80.xyz/event.html?id=androstreamliveexn7
 #EXTINF:-1 tvg-name="Exxen Sports 8" group-title="7/24",Exxen Sports 8 (7/24)
 https://mahsunsports80.xyz/event.html?id=androstreamliveexn8
-#EXTINF:-1 tvg-name="Kuzey Kore U20 - İran U20" group-title="AFC Cup U20 Qualification",[12:00] Kuzey Kore U20 - İran U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199429
-#EXTINF:-1 tvg-name="Kuveyt U20 - Yemen U20" group-title="AFC Cup U20 Qualification",[12:00] Kuveyt U20 - Yemen U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199426
-#EXTINF:-1 tvg-name="Makao U20 - Singapore U20" group-title="AFC Cup U20 Qualification",[12:00] Makao U20 - Singapore U20 (AFC Cup U20 Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199379
-#EXTINF:-1 tvg-name="FC Sevastopol II - Fregat Kherson" group-title="Friendly Club Tournament",[12:00] FC Sevastopol II - Fregat Kherson (Friendly Club Tournament)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199366
-#EXTINF:-1 tvg-name="Korea DPR U-20 - Iran U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[12:00] Korea DPR U-20 - Iran U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399191
-#EXTINF:-1 tvg-name="Brunei U-20 - Myanmar U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[12:30] Brunei U-20 - Myanmar U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399831
-#EXTINF:-1 tvg-name="Kalighat Sports Lovers - Techno Aryan" group-title="India: Calcutta. Premier Division",[12:38] Kalighat Sports Lovers - Techno Aryan (India: Calcutta. Premier Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400207
-#EXTINF:-1 tvg-name="Demizes - Kings FC" group-title="Short Football 2x2",[13:10] Demizes - Kings FC (Short Football 2x2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200239
-#EXTINF:-1 tvg-name="Cordoba+ - Mons+" group-title="Short Football 4x4",[13:18] Cordoba+ - Mons+ (Short Football 4x4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200290
-#EXTINF:-1 tvg-name="Stuttgart+ - Palermo+" group-title="Short Football 5x5",[13:20] Stuttgart+ - Palermo+ (Short Football 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200284
-#EXTINF:-1 tvg-name="Monsters (2x2) - Stars (2x2)" group-title="Short Football D1",[13:21] Monsters (2x2) - Stars (2x2) (Short Football D1)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200275
-#EXTINF:-1 tvg-name="Bayern (Amatörler) - Stuttgart (Amatörler)" group-title="BudnesLiga LFL 5x5",[13:23] Bayern (Amatörler) - Stuttgart (Amatörler) (BudnesLiga LFL 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200083
-#EXTINF:-1 tvg-name="Berliner Dynamo (Amatörler) - Alemannia Aachen (Amatörler)" group-title="BudnesLiga LFL 5x5",[13:26] Berliner Dynamo (Amatörler) - Alemannia Aachen (Amatörler) (BudnesLiga LFL 5x5)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200087
-#EXTINF:-1 tvg-name="ART - MATH" group-title="Student League 2",[13:29] ART - MATH (Student League 2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200219
-#EXTINF:-1 tvg-name="Camama - Mungo" group-title="Short Football 4x4 L2",[13:32] Camama - Mungo (Short Football 4x4 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200296
-#EXTINF:-1 tvg-name="St. Louis + - Fusion +" group-title="MLS+",[13:37] St. Louis + - Fusion + (MLS+)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200179
-#EXTINF:-1 tvg-name="B-YSU - ASFL" group-title="Short Football 2x2 L2",[13:40] B-YSU - ASFL (Short Football 2x2 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200285
-#EXTINF:-1 tvg-name="Nijmegen (Amatörler) - Roda (Amatörler)" group-title="Division 4х4",[13:44] Nijmegen (Amatörler) - Roda (Amatörler) (Division 4х4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200113
-#EXTINF:-1 tvg-name="Chifeng - Hefei" group-title="Short Football 3x3 L1",[13:46] Chifeng - Hefei (Short Football 3x3 L1)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200225
-#EXTINF:-1 tvg-name="Chelsea (Dark) - Al Hilal (Fantasma)" group-title="FIFA 26. Amateur daily league",[13:46] Chelsea (Dark) - Al Hilal (Fantasma) (FIFA 26. Amateur daily league)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200163
-#EXTINF:-1 tvg-name="Leicester City (Cody) - Atletico Madrid (Thomas)" group-title="FIFA 23. Volta daily league",[13:46] Leicester City (Cody) - Atletico Madrid (Thomas) (FIFA 23. Volta daily league)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200209
-#EXTINF:-1 tvg-name="Maestro (sub) - Crash (sub)" group-title="Subsoccer",[13:48] Maestro (sub) - Crash (sub) (Subsoccer)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200292
-#EXTINF:-1 tvg-name="Picinguaba - Cafeara" group-title="Short Football 4x4",[13:49] Picinguaba - Cafeara (Short Football 4x4)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200222
-#EXTINF:-1 tvg-name="Dongying Oilers - Weifang Athletic" group-title="Short Football 3x3 L2",[13:51] Dongying Oilers - Weifang Athletic (Short Football 3x3 L2)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199914
-#EXTINF:-1 tvg-name="Tonic - Vino Gano" group-title="Nijerya. 1XBET Community Cup",[13:54] Tonic - Vino Gano (Nijerya. 1XBET Community Cup)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199886
-#EXTINF:-1 tvg-name="INOSTR - MED" group-title="Student League",[13:57] INOSTR - MED (Student League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200233
-#EXTINF:-1 tvg-name="Birmingham + - Charleston +" group-title="MLS+",[13:57] Birmingham + - Charleston + (MLS+)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200090
-#EXTINF:-1 tvg-name="Fujian Xunxing Sturgeons - Beijing Shougang Ducks" group-title="China: CBA. Pre-season",[12:30] Fujian Xunxing Sturgeons - Beijing Shougang Ducks (China: CBA. Pre-season)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399707
-#EXTINF:-1 tvg-name="Illawarra Hawks 3 pointers made - Adelaide 36ers 3 pointers made" group-title="Australia: NBL. Pre-season. 3 Point FG",[13:03] Illawarra Hawks 3 pointers made - Adelaide 36ers 3 pointers made (Australia: NBL. Pre-season. 3 Point FG)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399961
-#EXTINF:-1 tvg-name="Jinan Cyclones - Xi'an Legends" group-title="Çin. CDBL",[13:10] Jinan Cyclones - Xi'an Legends (Çin. CDBL)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199374
-#EXTINF:-1 tvg-name="Belgorod - Saratov" group-title="IPBL. Pro Division",[13:12] Belgorod - Saratov (IPBL. Pro Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199890
-#EXTINF:-1 tvg-name="Wollongong Hawks - Adelaide 36ers" group-title="Kulüplerin Dostluk Turnuvası",[13:16] Wollongong Hawks - Adelaide 36ers (Kulüplerin Dostluk Turnuvası)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199814
-#EXTINF:-1 tvg-name="IPBL Crows - IPBL Tigers" group-title="IPBL. Prime Division",[13:16] IPBL Crows - IPBL Tigers (IPBL. Prime Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199803
-#EXTINF:-1 tvg-name="Spartacus - Pase" group-title="Premier Liga A",[13:20] Spartacus - Pase (Premier Liga A)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200126
-#EXTINF:-1 tvg-name="IPBL Bears - IPBL Octopus" group-title="IPBL. Prime Division",[13:24] IPBL Bears - IPBL Octopus (IPBL. Prime Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199787
-#EXTINF:-1 tvg-name="Samara - Kazan" group-title="IPBL. Pro Division",[13:25] Samara - Kazan (IPBL. Pro Division)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200297
-#EXTINF:-1 tvg-name="Gunners FB - Vikings FB" group-title="FrostBall",[13:25] Gunners FB - Vikings FB (FrostBall)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200136
-#EXTINF:-1 tvg-name="Berezniki (Bayanlar) - Khimki (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[13:27] Berezniki (Bayanlar) - Khimki (Bayanlar) (IPBL. Pro Division. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199860
-#EXTINF:-1 tvg-name="Dinamo NS - Balcania Basket" group-title="World: BSKT CUP International",[13:30] Dinamo NS - Balcania Basket (World: BSKT CUP International)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400625
-#EXTINF:-1 tvg-name="Simferopol (Bayanlar) - Naberezhnye Chelny (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[13:36] Simferopol (Bayanlar) - Naberezhnye Chelny (Bayanlar) (IPBL. Pro Division. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199874
-#EXTINF:-1 tvg-name="Fujian Quanzhou Bank - Beijing Shougang Ducks" group-title="Çin Şampiyonası. Yaz Ligi",[13:41] Fujian Quanzhou Bank - Beijing Shougang Ducks (Çin Şampiyonası. Yaz Ligi)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199687
-#EXTINF:-1 tvg-name="Starship - Wildcats" group-title="Premier Liga",[13:42] Starship - Wildcats (Premier Liga)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200058
-#EXTINF:-1 tvg-name="Venue: Moscow - Udmurtia" group-title="Rusya Güçlüler Spartakiadası",[13:43] Venue: Moscow - Udmurtia (Rusya Güçlüler Spartakiadası)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199968
-#EXTINF:-1 tvg-name="No Limits - Untouchable" group-title="IPBL. CAGE",[13:46] No Limits - Untouchable (IPBL. CAGE)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199853
-#EXTINF:-1 tvg-name="Hapoel Tel Aviv (cyber) - Baskonia (cyber)" group-title="13:35 /",[NBA 2K26. Cyber Euro League] Hapoel Tel Aviv (cyber) - Baskonia (cyber) (13:35 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54846002
-#EXTINF:-1 tvg-name="Barcelona (cyber) - Paris (cyber)" group-title="13:05 /",[NBA 2K26. Cyber Euro League] Barcelona (cyber) - Paris (cyber) (13:05 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54845509
-#EXTINF:-1 tvg-name="Miami Heat (cyber) - Indiana Pacers (cyber)" group-title="13:20 /",[NBA 2K26. Cyber League] Miami Heat (cyber) - Indiana Pacers (cyber) (13:20 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech54845757
-#EXTINF:-1 tvg-name="Tp Ho Chi Minh (Women) - PLDT High Speed Hitters (Bayanlar)" group-title="Philippines. PVL. Women",[11:00] Tp Ho Chi Minh (Women) - PLDT High Speed Hitters (Bayanlar) (Philippines. PVL. Women)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20198908
-#EXTINF:-1 tvg-name="Algeria (w) - Tunisia (w)" group-title="National teams: African Women's Championship",[13:00] Algeria (w) - Tunisia (w) (National teams: African Women's Championship)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400037
-#EXTINF:-1 tvg-name="Arjantin - Slovenya" group-title="VCA. Master Volleyball League",[13:16] Arjantin - Slovenya (VCA. Master Volleyball League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200076
-#EXTINF:-1 tvg-name="ABD - İtalya" group-title="VCA. Master Volleyball League",[13:22] ABD - İtalya (VCA. Master Volleyball League)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199469
-#EXTINF:-1 tvg-name="Brezilya (Bayanlar) - ABD (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[13:23] Brezilya (Bayanlar) - ABD (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200035
-#EXTINF:-1 tvg-name="Letonya - Japonya" group-title="CBV 23. Duo Masters",[13:28] Letonya - Japonya (CBV 23. Duo Masters)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200077
-#EXTINF:-1 tvg-name="Austria Pro (Bayanlar) - Finlandiya Pro (Bayanlar)" group-title="UPVL. Milletler Ligi. Bayanlar",[13:30] Austria Pro (Bayanlar) - Finlandiya Pro (Bayanlar) (UPVL. Milletler Ligi. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200159
-#EXTINF:-1 tvg-name="Japonya (Bayanlar) - Çin (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[13:31] Japonya (Bayanlar) - Çin (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199865
-#EXTINF:-1 tvg-name="Perpetual Altas - NU Bulldogs" group-title="Philippines. GCVS",[13:37] Perpetual Altas - NU Bulldogs (Philippines. GCVS)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200246
-#EXTINF:-1 tvg-name="ReForma Balashiha - Tver" group-title="Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları",[13:46] ReForma Balashiha - Tver (Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200301
-#EXTINF:-1 tvg-name="Hollandaa - Küba" group-title="CBV 23. Duo Masters",[13:49] Hollandaa - Küba (CBV 23. Duo Masters)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199866
-#EXTINF:-1 tvg-name="Dinamo (4x4) - Stroitel (4x4)" group-title="Orange Cup",[13:57] Dinamo (4x4) - Stroitel (4x4) (Orange Cup)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199733
-#EXTINF:-1 tvg-name="Molot-Pro - Plamya-Pro" group-title="12:15 /",[Belarus. Liga Pro] Molot-Pro - Plamya-Pro (12:15 /)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199555
-#EXTINF:-1 tvg-name="Valerio Aboian - Sebastian Sorger" group-title="Challenger. Plovdiv 3",[11:00] Valerio Aboian - Sebastian Sorger (Challenger. Plovdiv 3)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20198946
-#EXTINF:-1 tvg-name="Elena Milovanovic - Sara Cakarevic" group-title="World Tennis. Kursumlijsk...",[12:00] Elena Milovanovic - Sara Cakarevic (World Tennis. Kursumlijsk...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199576
-#EXTINF:-1 tvg-name="Lucie Nguyen Tan - Francesca Pace" group-title="ITF: Women. Saint-Palais-sur-Mer. Clay",[12:05] Lucie Nguyen Tan - Francesca Pace (ITF: Women. Saint-Palais-sur-Mer. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399213
-#EXTINF:-1 tvg-name="Elena Milovanovic - Sara Cakarevic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:22] Elena Milovanovic - Sara Cakarevic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399485
-#EXTINF:-1 tvg-name="Niels Visker - Pedro Vives Marcos" group-title="Challenger. Porto",[12:30] Niels Visker - Pedro Vives Marcos (Challenger. Porto)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199680
-#EXTINF:-1 tvg-name="Kristijan Juhas - Boris Butulija" group-title="World Tennis. Kursumlijsk...",[12:30] Kristijan Juhas - Boris Butulija (World Tennis. Kursumlijsk...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199652
-#EXTINF:-1 tvg-name="Carlota Martinez Cirez - Anastasija Cvetkovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:31] Carlota Martinez Cirez - Anastasija Cvetkovic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399647
-#EXTINF:-1 tvg-name="Maria Golovina - Anna Petkovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[12:32] Maria Golovina - Anna Petkovic (ITF: Women. Kursumlijska Banja. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399663
-#EXTINF:-1 tvg-name="Niels Visker - Pedro Vives Marcos" group-title="ATP Challenger: Porto. Clay",[12:35] Niels Visker - Pedro Vives Marcos (ATP Challenger: Porto. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399693
-#EXTINF:-1 tvg-name="Sofia Johnson - Celia Cervino Ruiz" group-title="ITF: Women. Leiria. Hard",[12:42] Sofia Johnson - Celia Cervino Ruiz (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40399845
-#EXTINF:-1 tvg-name="Robin Bertrand - Kenny de Schepper" group-title="World Tennis. Bagneres-de...",[12:45] Robin Bertrand - Kenny de Schepper (World Tennis. Bagneres-de...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199881
-#EXTINF:-1 tvg-name="Robin Bertrand - Kenny De Schepper" group-title="ITF: Men. Bagneres-de-Bigorre. Hard",[12:55] Robin Bertrand - Kenny De Schepper (ITF: Men. Bagneres-de-Bigorre. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400095
-#EXTINF:-1 tvg-name="Axel Garcian - John Echeverria" group-title="World Tennis. Bagneres-de...",[13:00] Axel Garcian - John Echeverria (World Tennis. Bagneres-de...)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199966
-#EXTINF:-1 tvg-name="Diogo Morais - Arthur Nagel" group-title="World Tennis. Casablanca",[13:00] Diogo Morais - Arthur Nagel (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199982
-#EXTINF:-1 tvg-name="Yassine Dlimi - Maxence Rivet" group-title="World Tennis. Casablanca",[13:00] Yassine Dlimi - Maxence Rivet (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200012
-#EXTINF:-1 tvg-name="Thiago Cigarran - Idriss Haddouch" group-title="World Tennis. Casablanca",[13:00] Thiago Cigarran - Idriss Haddouch (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199975
-#EXTINF:-1 tvg-name="Angelina Voloshchuk - Malaika Rapolu" group-title="ITF: Women. Leiria. Hard",[13:02] Angelina Voloshchuk - Malaika Rapolu (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400129
-#EXTINF:-1 tvg-name="Diogo Morais - Arthur Nagel" group-title="ITF: Men. Casablanca. Clay",[13:03] Diogo Morais - Arthur Nagel (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400297
-#EXTINF:-1 tvg-name="Thiago Cigarran - Idris Haddouch" group-title="ITF: Men. Casablanca. Clay",[13:03] Thiago Cigarran - Idris Haddouch (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400283
-#EXTINF:-1 tvg-name="Niklas Schell - Yaroslav Demin" group-title="ITF: Men. Casablanca. Clay",[13:03] Niklas Schell - Yaroslav Demin (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400291
-#EXTINF:-1 tvg-name="Yassine Dlimi - Maxence Rivet" group-title="ITF: Men. Casablanca. Clay",[13:03] Yassine Dlimi - Maxence Rivet (ITF: Men. Casablanca. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400357
-#EXTINF:-1 tvg-name="Chelsea Fontenel - Francisca Jorge" group-title="ITF: Women. Leiria. Hard",[13:04] Chelsea Fontenel - Francisca Jorge (ITF: Women. Leiria. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400167
-#EXTINF:-1 tvg-name="Axel Garcian - John Echeverria" group-title="ITF: Men. Bagneres-de-Bigorre. Hard",[13:07] Axel Garcian - John Echeverria (ITF: Men. Bagneres-de-Bigorre. Hard)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400265
-#EXTINF:-1 tvg-name="Niklas Schell - Yaroslav Demin" group-title="World Tennis. Casablanca",[13:10] Niklas Schell - Yaroslav Demin (World Tennis. Casablanca)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20199979
-#EXTINF:-1 tvg-name="Ekaterina Rozhkova - Yuliya Zaitseva" group-title="ATT. Moskova. Bayanlar",[13:13] Ekaterina Rozhkova - Yuliya Zaitseva (ATT. Moskova. Bayanlar)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200089
-#EXTINF:-1 tvg-name="Nikita Mashtakov - Juan Manuel La Serna" group-title="ATP Challenger: Plovdiv 3. Clay",[13:29] Nikita Mashtakov - Juan Manuel La Serna (ATP Challenger: Plovdiv 3. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400583
-#EXTINF:-1 tvg-name="Mykyta Mashtakov - Juan Manuel La Serna" group-title="Challenger. Plovdiv 3",[13:30] Mykyta Mashtakov - Juan Manuel La Serna (Challenger. Plovdiv 3)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200125
-#EXTINF:-1 tvg-name="Johan Nikles - Filip Cristian Jianu" group-title="Challenger. Como",[13:30] Johan Nikles - Filip Cristian Jianu (Challenger. Como)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200180
-#EXTINF:-1 tvg-name="Dodig/Poljicak - Kalender/Serdarusic" group-title="Challenger. Como. Doubles",[13:30] Dodig/Poljicak - Kalender/Serdarusic (Challenger. Como. Doubles)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200183
-#EXTINF:-1 tvg-name="Vervoort/Forcano - Garbero/Colombo" group-title="Challenger. Como. Doubles",[13:30] Vervoort/Forcano - Garbero/Colombo (Challenger. Como. Doubles)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech20200137
-#EXTINF:-1 tvg-name="Matej Dodig/Mili Poljicak - Admir Kalender/Nino Serdarusic" group-title="ATP Challenger: Doubles. Como. Clay",[13:35] Matej Dodig/Mili Poljicak - Admir Kalender/Nino Serdarusic (ATP Challenger: Doubles. Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400699
-#EXTINF:-1 tvg-name="Johan Nikles - Filip Cristian Jianu" group-title="ATP Challenger: Como. Clay",[13:38] Johan Nikles - Filip Cristian Jianu (ATP Challenger: Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400693
-#EXTINF:-1 tvg-name="Ignasi Forcano/Mark Vervoort - Andrea Colombo/Filippo Francesco Garbero" group-title="ATP Challenger: Doubles. Como. Clay",[13:38] Ignasi Forcano/Mark Vervoort - Andrea Colombo/Filippo Francesco Garbero (ATP Challenger: Doubles. Como. Clay)
-https://mahsunsports80.xyz/event.html?id=androstreamlivech40400607
+#EXTINF:-1 tvg-name="FA Siauliai - Kauno Zalgiris" group-title="2026 Litvanya Kupa Yarı Final",[17:15] FA Siauliai - Kauno Zalgiris (2026 Litvanya Kupa Yarı Final)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202089
+#EXTINF:-1 tvg-name="FK Siauliai - FK Kauno Zalgiris" group-title="Lithuania: Cup",[17:15] FK Siauliai - FK Kauno Zalgiris (Lithuania: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404511
+#EXTINF:-1 tvg-name="ACS Bacau - CS Universitatea Craiova" group-title="Romania: Cup",[17:30] ACS Bacau - CS Universitatea Craiova (Romania: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404765
+#EXTINF:-1 tvg-name="Cittadella - Renate" group-title="İtalya Serie C Kupası 2.Tur",[18:00] Cittadella - Renate (İtalya Serie C Kupası 2.Tur)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202486
+#EXTINF:-1 tvg-name="Avangard Melitopol - FC Shakhter Donetsk II" group-title="Friendly Club Tournament",[18:00] Avangard Melitopol - FC Shakhter Donetsk II (Friendly Club Tournament)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202477
+#EXTINF:-1 tvg-name="Cittadella - AC Renate" group-title="Italy: Serie C. Cup",[18:00] Cittadella - AC Renate (Italy: Serie C. Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405305
+#EXTINF:-1 tvg-name="CSD Colo-Colo (w) - Deportes Iquique (w)" group-title="Chile: Women. Primera Division",[18:00] CSD Colo-Colo (w) - Deportes Iquique (w) (Chile: Women. Primera Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405359
+#EXTINF:-1 tvg-name="Fajr Sepasi - Mes Shahr-e Babak FC" group-title="İran Persian Gulf Pro Lig",[18:30] Fajr Sepasi - Mes Shahr-e Babak FC (İran Persian Gulf Pro Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202731
+#EXTINF:-1 tvg-name="GKS Tychy'71 - LKS Lodz" group-title="Poland: Cup",[18:30] GKS Tychy'71 - LKS Lodz (Poland: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405765
+#EXTINF:-1 tvg-name="Al Mosul - Al Zawraa" group-title="Irak Premier Lig",[18:45] Al Mosul - Al Zawraa (Irak Premier Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202841
+#EXTINF:-1 tvg-name="Diala - Al Karma" group-title="Irak Premier Lig",[18:45] Diala - Al Karma (Irak Premier Lig)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202842
+#EXTINF:-1 tvg-name="Diyala FC - Al Karma" group-title="Iraq: Stars League",[18:45] Diyala FC - Al Karma (Iraq: Stars League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406017
+#EXTINF:-1 tvg-name="Al Mosul - Al Zawra'a Sport Club" group-title="Iraq: Stars League",[18:45] Al Mosul - Al Zawra'a Sport Club (Iraq: Stars League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406015
+#EXTINF:-1 tvg-name="Al Fayha - Al Kholood Club" group-title="Saudi Arabia: Professional League",[18:55] Al Fayha - Al Kholood Club (Saudi Arabia: Professional League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406097
+#EXTINF:-1 tvg-name="Rakow Czestochowa - Gornik Zabrze" group-title="Polonya Ekstraklasa",[19:00] Rakow Czestochowa - Gornik Zabrze (Polonya Ekstraklasa)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202898
+#EXTINF:-1 tvg-name="Palermo - Mantova" group-title="İtalya Kupa 2.Tur",[19:00] Palermo - Mantova (İtalya Kupa 2.Tur)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202891
+#EXTINF:-1 tvg-name="Banga Gargzdai - Panevezys" group-title="Lithuania. A Liga",[19:00] Banga Gargzdai - Panevezys (Lithuania. A Liga)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202986
+#EXTINF:-1 tvg-name="Al-Baqa'a SC - Doqarah" group-title="Jordan. Premier League",[19:00] Al-Baqa'a SC - Doqarah (Jordan. Premier League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20203002
+#EXTINF:-1 tvg-name="Rakow Czestochowa - Gornik Zabrze" group-title="Poland: Ekstraklasa",[19:00] Rakow Czestochowa - Gornik Zabrze (Poland: Ekstraklasa)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406129
+#EXTINF:-1 tvg-name="Palermo - Mantova" group-title="Italy: Cup",[19:00] Palermo - Mantova (Italy: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406115
+#EXTINF:-1 tvg-name="Thisted FC - Sonderjyske" group-title="Denmark: Cup",[19:00] Thisted FC - Sonderjyske (Denmark: Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406327
+#EXTINF:-1 tvg-name="Banga Gargzdai - FK Panevezys" group-title="Lithuania: A Lyga",[19:00] Banga Gargzdai - FK Panevezys (Lithuania: A Lyga)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406305
+#EXTINF:-1 tvg-name="Viimsi JK - FC Tallinn" group-title="Estonia: Esiliiga A",[19:00] Viimsi JK - FC Tallinn (Estonia: Esiliiga A)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406301
+#EXTINF:-1 tvg-name="HIFK - HPS" group-title="Finland: Kakkonen",[19:00] HIFK - HPS (Finland: Kakkonen)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406335
+#EXTINF:-1 tvg-name="Oman U-20 - Saudi Arabia U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[19:00] Oman U-20 - Saudi Arabia U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406341
+#EXTINF:-1 tvg-name="Hong Kong U-20 - Qatar U-20" group-title="Youth teams: AFC U-20 Asian Cup. Qualification",[19:00] Hong Kong U-20 - Qatar U-20 (Youth teams: AFC U-20 Asian Cup. Qualification)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406343
+#EXTINF:-1 tvg-name="Bulgaristan - Avustralya" group-title="3x3. ISFA World Cup",[19:03] Bulgaristan - Avustralya (3x3. ISFA World Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202936
+#EXTINF:-1 tvg-name="Fortuna (Amatörler) - Willem (Amatörler)" group-title="Division 4х4",[19:10] Fortuna (Amatörler) - Willem (Amatörler) (Division 4х4)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202816
+#EXTINF:-1 tvg-name="VfL Osnabruck (Amatörler) - 1860 Munchen (Amatörler)" group-title="BudnesLiga LFL 5x5",[19:12] VfL Osnabruck (Amatörler) - 1860 Munchen (Amatörler) (BudnesLiga LFL 5x5)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202968
+#EXTINF:-1 tvg-name="MANAG - GEO" group-title="Student League",[19:18] MANAG - GEO (Student League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202962
+#EXTINF:-1 tvg-name="Baoding - Dandong" group-title="Short Football 3x3 L1",[19:20] Baoding - Dandong (Short Football 3x3 L1)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202873
+#EXTINF:-1 tvg-name="Lancers - Fury" group-title="Short Football 2x2",[19:26] Lancers - Fury (Short Football 2x2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202964
+#EXTINF:-1 tvg-name="RB Leipzig (Amatörler) - Hertha (Amatörler)" group-title="BudnesLiga LFL 5x5",[19:36] RB Leipzig (Amatörler) - Hertha (Amatörler) (BudnesLiga LFL 5x5)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202967
+#EXTINF:-1 tvg-name="Juvenil Plaza - Atletico Cuevita" group-title="Küba. Liga de Barrios",[19:40] Juvenil Plaza - Atletico Cuevita (Küba. Liga de Barrios)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202514
+#EXTINF:-1 tvg-name="Al Ahli Doha - Katar SC" group-title="Katar Şampiyonası",[19:42] Al Ahli Doha - Katar SC (Katar Şampiyonası)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201983
+#EXTINF:-1 tvg-name="Maianga - Sambizanga" group-title="Short Football 4x4 L2",[19:42] Maianga - Sambizanga (Short Football 4x4 L2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202922
+#EXTINF:-1 tvg-name="RAILWAY - AVIA" group-title="Student League 2",[19:48] RAILWAY - AVIA (Student League 2)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202947
+#EXTINF:-1 tvg-name="Arjantin (Bunny) - Italya (Gambit)" group-title="FIFA 26. Amateur daily league",[19:48] Arjantin (Bunny) - Italya (Gambit) (FIFA 26. Amateur daily league)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202876
+#EXTINF:-1 tvg-name="Santa Fe+ - Berlin+" group-title="Short Football 4x4",[19:52] Santa Fe+ - Berlin+ (Short Football 4x4)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202893
+#EXTINF:-1 tvg-name="PSG (Mick) - Chelsea (Eric)" group-title="FIFA 23. Volta daily league",[19:56] PSG (Mick) - Chelsea (Eric) (FIFA 23. Volta daily league)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202934
+#EXTINF:-1 tvg-name="Tianjin Pioneers - Qingdao Guoxin Haitian Eagle" group-title="China. CBA. Summer League",[15:00] Tianjin Pioneers - Qingdao Guoxin Haitian Eagle (China. CBA. Summer League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20200988
+#EXTINF:-1 tvg-name="Maktown Flyers - Aso Skyhawks" group-title="Nigeria: Premier League",[18:00] Maktown Flyers - Aso Skyhawks (Nigeria: Premier League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405355
+#EXTINF:-1 tvg-name="IPBL Hares - IPBL Rhinos" group-title="IPBL. Prime Division",[19:17] IPBL Hares - IPBL Rhinos (IPBL. Prime Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202619
+#EXTINF:-1 tvg-name="Maktown Flyers - Aso Skyhawks" group-title="Nijerya Şampiyonası",[19:18] Maktown Flyers - Aso Skyhawks (Nijerya Şampiyonası)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202511
+#EXTINF:-1 tvg-name="IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar)" group-title="IPBL. Prime Division. Bayanlar",[19:18] IPBL Owls (Bayanlar) - IPBL Iguana (Bayanlar) (IPBL. Prime Division. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202343
+#EXTINF:-1 tvg-name="Broncos FB - Orioles FB" group-title="FrostBall",[19:20] Broncos FB - Orioles FB (FrostBall)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202582
+#EXTINF:-1 tvg-name="Çin (TBL) - Bulgaristan (TBL)" group-title="Table Basketball League",[19:22] Çin (TBL) - Bulgaristan (TBL) (Table Basketball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202850
+#EXTINF:-1 tvg-name="Kolombiya (TBL) - New Zealand (TBL)" group-title="Table Basketball League",[19:25] Kolombiya (TBL) - New Zealand (TBL) (Table Basketball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202857
+#EXTINF:-1 tvg-name="Voronezh - Plavsk" group-title="IPBL. Pro Division",[19:26] Voronezh - Plavsk (IPBL. Pro Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202903
+#EXTINF:-1 tvg-name="Redemption - Outlaws" group-title="IPBL. CAGE",[19:26] Redemption - Outlaws (IPBL. CAGE)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202988
+#EXTINF:-1 tvg-name="IPBL Dogs - IPBL Camels" group-title="IPBL. Prime Division",[19:41] IPBL Dogs - IPBL Camels (IPBL. Prime Division)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202987
+#EXTINF:-1 tvg-name="Suzhou Cats - Kunming Monks" group-title="Çin. CDBL",[19:43] Suzhou Cats - Kunming Monks (Çin. CDBL)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202675
+#EXTINF:-1 tvg-name="Murino (Bayanlar) - Norilsk (Bayanlar)" group-title="IPBL. Pro Division. Bayanlar",[19:57] Murino (Bayanlar) - Norilsk (Bayanlar) (IPBL. Pro Division. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202942
+#EXTINF:-1 tvg-name="Virtus Bologna (cyber) - Olimpia Milano (cyber)" group-title="18:35 /",[NBA 2K26. Cyber Euro League] Virtus Bologna (cyber) - Olimpia Milano (cyber) (18:35 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850998
+#EXTINF:-1 tvg-name="Olympiacos SFP Pireus (cyber) - Baskonia (cyber)" group-title="18:05 /",[NBA 2K26. Cyber Euro League] Olympiacos SFP Pireus (cyber) - Baskonia (cyber) (18:05 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850504
+#EXTINF:-1 tvg-name="Oklahoma City Thunder (cyber) - Detroit Pistons (cyber)" group-title="18:40 /",[NBA 2K26. Cyber League] Oklahoma City Thunder (cyber) - Detroit Pistons (cyber) (18:40 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54851088
+#EXTINF:-1 tvg-name="Houston Rockets (cyber) - Los Angeles Clippers (cyber)" group-title="18:00 /",[NBA 2K26. Cyber League] Houston Rockets (cyber) - Los Angeles Clippers (cyber) (18:00 /)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech54850424
+#EXTINF:-1 tvg-name="Almanya (Bayanlar) - Türkiye (Bayanlar)" group-title="European Championship. Wo...",[19:00] Almanya (Bayanlar) - Türkiye (Bayanlar) (European Championship. Wo...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202881
+#EXTINF:-1 tvg-name="Germany (w) - Turkey (w)" group-title="National teams: Women. European Championship",[19:00] Germany (w) - Turkey (w) (National teams: Women. European Championship)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406095
+#EXTINF:-1 tvg-name="Kenya (w) - Cameroon (w)" group-title="National teams: African Women's Championship",[19:00] Kenya (w) - Cameroon (w) (National teams: African Women's Championship)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406161
+#EXTINF:-1 tvg-name="İtalya (Bayanlar) - Türkiye (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[19:10] İtalya (Bayanlar) - Türkiye (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202855
+#EXTINF:-1 tvg-name="Cement (4x4) - Sokol (4x4)" group-title="Orange Cup",[19:13] Cement (4x4) - Sokol (4x4) (Orange Cup)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202913
+#EXTINF:-1 tvg-name="Rusya (Bayanlar) - Japonya (Bayanlar)" group-title="VCA. Master Volleyball League. Bayanlar",[19:15] Rusya (Bayanlar) - Japonya (Bayanlar) (VCA. Master Volleyball League. Bayanlar)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202412
+#EXTINF:-1 tvg-name="Almanya (Pro) - Norveç (Pro)" group-title="UPVL. Milletler Ligi",[19:20] Almanya (Pro) - Norveç (Pro) (UPVL. Milletler Ligi)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202935
+#EXTINF:-1 tvg-name="Polonya - İtalya" group-title="VCA. Master Volleyball League",[19:35] Polonya - İtalya (VCA. Master Volleyball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202359
+#EXTINF:-1 tvg-name="Japonya - Slovenya" group-title="VCA. Master Volleyball League",[19:35] Japonya - Slovenya (VCA. Master Volleyball League)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202564
+#EXTINF:-1 tvg-name="Otdushina Moscow - Rodnik Krasnoyarsk" group-title="Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları",[19:39] Otdushina Moscow - Rodnik Krasnoyarsk (Rusya Geneli 45+ Yaş Veteranlararası Müsabakaları)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202812
+#EXTINF:-1 tvg-name="İtalya - Küba" group-title="CBV 23. Duo Masters",[19:39] İtalya - Küba (CBV 23. Duo Masters)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202596
+#EXTINF:-1 tvg-name="Brezilya - Mozambik" group-title="CBV 23. Duo Masters",[19:53] Brezilya - Mozambik (CBV 23. Duo Masters)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202312
+#EXTINF:-1 tvg-name="Tahlia Kokkinis - Giorgia Pedone" group-title="ITF: Women. Kursumlijska Banja. Clay",[16:44] Tahlia Kokkinis - Giorgia Pedone (ITF: Women. Kursumlijska Banja. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40403981
+#EXTINF:-1 tvg-name="Miriana Tona - Anja Stankovic" group-title="ITF: Women. Kursumlijska Banja. Clay",[16:59] Miriana Tona - Anja Stankovic (ITF: Women. Kursumlijska Banja. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404271
+#EXTINF:-1 tvg-name="Edas Butvilas - Remy Bertola" group-title="Challenger. Manacor",[17:00] Edas Butvilas - Remy Bertola (Challenger. Manacor)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201937
+#EXTINF:-1 tvg-name="Edas Butvilas - Remy Bertola" group-title="ATP Challenger: Manacor. Hard",[17:05] Edas Butvilas - Remy Bertola (ATP Challenger: Manacor. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404207
+#EXTINF:-1 tvg-name="Maximilian Figl - Karim Bennani" group-title="ITF: Men. Casablanca. Clay",[17:44] Maximilian Figl - Karim Bennani (ITF: Men. Casablanca. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40404985
+#EXTINF:-1 tvg-name="Kostyuk/Ruse - Pigossi/Udvardy" group-title="US Open. Women. Doubles",[17:45] Kostyuk/Ruse - Pigossi/Udvardy (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202389
+#EXTINF:-1 tvg-name="Aboian/La Serna - Opitz/Strombachs" group-title="Challenger. Plovdiv 3. Do...",[17:45] Aboian/La Serna - Opitz/Strombachs (Challenger. Plovdiv 3. Do...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202446
+#EXTINF:-1 tvg-name="Daniel Rincon - Inaki Montes-De La Torre" group-title="Challenger. Manacor",[17:45] Daniel Rincon - Inaki Montes-De La Torre (Challenger. Manacor)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202415
+#EXTINF:-1 tvg-name="Liu/Pareja - Wang/Xu" group-title="US Open. Women. Doubles",[17:45] Liu/Pareja - Wang/Xu (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202390
+#EXTINF:-1 tvg-name="Kozyreva/Ninomiya - Kempen/Panova" group-title="US Open. Women. Doubles",[17:45] Kozyreva/Ninomiya - Kempen/Panova (US Open. Women. Doubles)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202384
+#EXTINF:-1 tvg-name="Izquierdo Luque/Rocha - Mansilla Diez/Ribeiro" group-title="Challenger. Porto. Double...",[17:45] Izquierdo Luque/Rocha - Mansilla Diez/Ribeiro (Challenger. Porto. Double...)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202369
+#EXTINF:-1 tvg-name="Madison Keys - Anna Bondar" group-title="US Open. Women",[17:45] Madison Keys - Anna Bondar (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202364
+#EXTINF:-1 tvg-name="Felix Auger Aliassime - Karen Khachanov" group-title="US Open",[17:45] Felix Auger Aliassime - Karen Khachanov (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202382
+#EXTINF:-1 tvg-name="Daniel Rincon - Inaki Montes-De La Torre" group-title="ATP Challenger: Manacor. Hard",[17:54] Daniel Rincon - Inaki Montes-De La Torre (ATP Challenger: Manacor. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405163
+#EXTINF:-1 tvg-name="Juan Manuel La Serna /Valerio Aboian - Robert Strombachs/Jannik Opitz" group-title="ATP Challenger: Doubles. Plovdiv 3. Clay",[17:58] Juan Manuel La Serna /Valerio Aboian - Robert Strombachs/Jannik Opitz (ATP Challenger: Doubles. Plovdiv 3. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405225
+#EXTINF:-1 tvg-name="Luciano Darderi - Dalibor Svrcina" group-title="US Open",[18:00] Luciano Darderi - Dalibor Svrcina (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202379
+#EXTINF:-1 tvg-name="Iga Swiatek - Nadia Podoroska" group-title="US Open. Women",[18:00] Iga Swiatek - Nadia Podoroska (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202377
+#EXTINF:-1 tvg-name="Anastasia Potapova - Leolia Jeanjean" group-title="US Open. Women",[18:00] Anastasia Potapova - Leolia Jeanjean (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202371
+#EXTINF:-1 tvg-name="Maria Timofeeva - Elise Mertens" group-title="US Open. Women",[18:00] Maria Timofeeva - Elise Mertens (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202366
+#EXTINF:-1 tvg-name="Jan-Lennard Struff - Francisco Cerundolo" group-title="US Open",[18:00] Jan-Lennard Struff - Francisco Cerundolo (US Open)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202365
+#EXTINF:-1 tvg-name="Anastasia Zolotareva - Emma Lene" group-title="ITF: Women. Saint-Palais-sur-Mer. Clay",[18:03] Anastasia Zolotareva - Emma Lene (ITF: Women. Saint-Palais-sur-Mer. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405773
+#EXTINF:-1 tvg-name="Francisco Rocha/Rafael Izquierdo Luque - Mario Mansilla Diez/Eduardo Ribeiro" group-title="ATP Challenger: Doubles. Porto. Clay",[18:03] Francisco Rocha/Rafael Izquierdo Luque - Mario Mansilla Diez/Eduardo Ribeiro (ATP Challenger: Doubles. Porto. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405071
+#EXTINF:-1 tvg-name="Nino Ehrenschneider - Aaron James Williams" group-title="ITF: Men. Meerbusch. Clay",[18:05] Nino Ehrenschneider - Aaron James Williams (ITF: Men. Meerbusch. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405401
+#EXTINF:-1 tvg-name="Luciano Darderi - Dalibor Svrcina" group-title="Grand Slam: Men. US Open. Hard",[18:08] Luciano Darderi - Dalibor Svrcina (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405091
+#EXTINF:-1 tvg-name="Iga Swiatek - Nadia Podoroska" group-title="Grand Slam: Women. US Open. Hard",[18:08] Iga Swiatek - Nadia Podoroska (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405087
+#EXTINF:-1 tvg-name="Felix Auger-Aliassime - Karen Khachanov" group-title="Grand Slam: Men. US Open. Hard",[18:08] Felix Auger-Aliassime - Karen Khachanov (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405097
+#EXTINF:-1 tvg-name="Madison Keys - Anna Bondar" group-title="Grand Slam: Women. US Open. Hard",[18:08] Madison Keys - Anna Bondar (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405061
+#EXTINF:-1 tvg-name="Jan-Lennard Struff - Francisco Cerundolo" group-title="Grand Slam: Men. US Open. Hard",[18:08] Jan-Lennard Struff - Francisco Cerundolo (Grand Slam: Men. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405063
+#EXTINF:-1 tvg-name="Maria Timofeeva - Elise Mertens" group-title="Grand Slam: Women. US Open. Hard",[18:08] Maria Timofeeva - Elise Mertens (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405065
+#EXTINF:-1 tvg-name="Anastasia Potapova - Leolia Jeanjean" group-title="Grand Slam: Women. US Open. Hard",[18:08] Anastasia Potapova - Leolia Jeanjean (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405075
+#EXTINF:-1 tvg-name="Maria Kozyreva/Makoto Ninomiya - Alexandra Panova/Magali Kempen" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:08] Maria Kozyreva/Makoto Ninomiya - Alexandra Panova/Magali Kempen (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405101
+#EXTINF:-1 tvg-name="Marta Kostyuk/Elena Gabriela Ruse - Laura Pigossi/Panna Udvardy" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:08] Marta Kostyuk/Elena Gabriela Ruse - Laura Pigossi/Panna Udvardy (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405111
+#EXTINF:-1 tvg-name="Julieta Pareja/Claire Liu - Xu Yifan/Wang Xiyu" group-title="Grand Slam: Women. Doubles. US Open. Hard",[18:09] Julieta Pareja/Claire Liu - Xu Yifan/Wang Xiyu (Grand Slam: Women. Doubles. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405113
+#EXTINF:-1 tvg-name="Naomi Osaka - Katerina Siniakova" group-title="US Open. Women",[18:15] Naomi Osaka - Katerina Siniakova (US Open. Women)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202654
+#EXTINF:-1 tvg-name="Duje Ajdukovic - Juan Cruz Martin Manzano" group-title="ATP Challenger: Como. Clay",[18:23] Duje Ajdukovic - Juan Cruz Martin Manzano (ATP Challenger: Como. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40406113
+#EXTINF:-1 tvg-name="Romain Faucon - Nikolai Barsukov" group-title="ITF: Men. Meerbusch. Clay",[18:30] Romain Faucon - Nikolai Barsukov (ITF: Men. Meerbusch. Clay)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405739
+#EXTINF:-1 tvg-name="Duje Ajdukovic - Juan Cruz Martin Manzano" group-title="Challenger. Como",[18:35] Duje Ajdukovic - Juan Cruz Martin Manzano (Challenger. Como)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20202890
+#EXTINF:-1 tvg-name="Naomi Osaka - Katerina Siniakova" group-title="Grand Slam: Women. US Open. Hard",[18:38] Naomi Osaka - Katerina Siniakova (Grand Slam: Women. US Open. Hard)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech40405641
+#EXTINF:-1 tvg-name="Alexey Kanunnikov - Dmitry Kryukov" group-title="ATT. Moskova",[19:16] Alexey Kanunnikov - Dmitry Kryukov (ATT. Moskova)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201953
+#EXTINF:-1 tvg-name="Edgar Kocharyan - Nikita Vikhlyaev" group-title="ATT. Togliatti",[19:54] Edgar Kocharyan - Nikita Vikhlyaev (ATT. Togliatti)
+https://mahsunsports80.xyz/event.html?id=androstreamlivech20201756
 #EXTINF:-1 tvg-name="BeIN Sports 1" group-title="7/24",BeIN Sports 1 (7/24)
 https://mahsunsports80.xyz/event.html?id=androstreamlivebs1
 #EXTINF:-1 tvg-name="BeIN Sports 2" group-title="7/24",BeIN Sports 2 (7/24)
