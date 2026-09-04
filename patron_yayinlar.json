@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-04T14:33:11.274260",
+  "generated_at": "2026-09-04T17:49:31.396544",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 58,
+  "total_streams": 59,
   "matches": [
     {
       "id": "patron",
@@ -17,6 +17,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://sc.ed469618898d75b149e5c7c4b6a1c415.biz/hls/701.m3u8",
+      "home": "İstanbul Başakşehir",
+      "away": "Galatasaray",
+      "home_logo": "https://patronsports2.cfd/img/logos/basaksehir.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+      "league": "Trendyol Süper Lig | 2. Kanal",
+      "time": "20:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://sc.ed469618898d75b149e5c7c4b6a1c415.biz/hls/701.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
