@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T18:02:03.882870",
+  "generated_at": "2026-09-04T21:11:44.851943",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 9,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "8457d709d1a36e28c9c904e35f5617e9",
-      "home": "Başakşehir FK",
-      "away": "Galatasaray",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/451.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/451.gif",
-      "time": "20:00",
-      "league": "Süper Lig",
-      "url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8",
+      "id": "7f431ac8a7ff5701cd9254178a6f7d08",
+      "home": "Real Betis",
+      "away": "Real Madrid",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/82.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/79.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/82.gif",
+      "time": "22:00",
+      "league": "LaLiga",
+      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,16 +182,41 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "838a2213621e8cdd9c8373a1e5928f93",
-      "home": "Lyon",
-      "away": "Auxerre",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/193.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
-      "time": "20:00",
+      "id": "be77d60db83051e5c1b6a0e7312f0914",
+      "home": "Ipswich Town",
+      "away": "Liverpool",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/48.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/30.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/48.gif",
+      "time": "22:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "b62c2e544dea1a94effa3a86185fe5e2",
+      "home": "PSG",
+      "away": "Monaco",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/195.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/196.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/195.gif",
+      "time": "22:05",
       "league": "Ligue 1",
       "url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8",
       "headers": {
@@ -208,6 +233,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "68f3b5b86a22fd9d8d2ca683b4c8c6e5",
+      "home": "Porto",
+      "away": "Moreirense",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/269.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/285.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/269.gif",
+      "time": "22:15",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein4/tracks-v1a1/mono.m3u8"
     }
   ]
 }
