@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-04T11:34:06.321874",
+  "generated_at": "2026-09-04T16:31:53.298297",
   "base_url": "https://as9.zirvedesin241.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 41,
+  "total_streams": 39,
   "matches": [
     {
       "id": "zirve",
@@ -16,34 +16,6 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://as9.zirvedesin241.cfd/zirve/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://patronsports2.cfd/"
-    },
-    {
-      "id": "trtspor",
-      "home": "Avustralya",
-      "away": "Porto Riko",
-      "home_logo": "https://img.sporekrani.com/teams/GdLWh94GLymE9aN8nd1PoUXb4FR9GpPOnCSTdkoy.png",
-      "away_logo": "https://img.sporekrani.com/teams/mAFsABwwjmgpSE6BUjAPiBjfjKmLHT1ZmSEEi0i7.png",
-      "league": "FIBA Kadınlar Dünya Kupası",
-      "time": "12:30",
-      "sport": "Basketbol",
-      "type": "match",
-      "url": "https://as9.zirvedesin241.cfd/trtspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://patronsports2.cfd/"
-    },
-    {
-      "id": "ss",
-      "home": "ABD",
-      "away": "Çin",
-      "home_logo": "https://img.sporekrani.com/teams/XQoWS56vbBlFWHiF8JGvnvH8aaitxkFdY9lN9yVm.png",
-      "away_logo": "https://img.sporekrani.com/teams/S0VW51K3JvM4oY7Wcpng5sON3vH1x1LxtrCgzQ0g.png",
-      "league": "FIBA Kadınlar Dünya Kupası",
-      "time": "15:15",
-      "sport": "Basketbol",
-      "type": "match",
-      "url": "https://as9.zirvedesin241.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
