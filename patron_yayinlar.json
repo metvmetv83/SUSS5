@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-05T10:55:55.097178",
+  "generated_at": "2026-09-05T14:00:33.013819",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 77,
+  "total_streams": 82,
   "matches": [
     {
       "id": "patron",
@@ -87,6 +87,34 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "ex7",
+      "home": "Petkimspor",
+      "away": "Çayırova Bld.",
+      "home_logo": "https://patronsports2.cfd/img/logos/petkim.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/cayirovabld.png",
+      "league": "Gloria Cup Basketbol",
+      "time": "14:45",
+      "sport": "basketball",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "ex8",
+      "home": "Hansa Rostock",
+      "away": "Wehen Wiesbaden",
+      "home_logo": "https://patronsports2.cfd/img/logos/rostock.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/wehenwiesbaden.png",
+      "league": "Almanya Bundesliga 3",
+      "time": "15:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -273,6 +301,20 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
+      "id": "ex7",
+      "home": "Tofaş",
+      "away": "Galatasaray MCT Technic",
+      "home_logo": "https://patronsports2.cfd/img/logos/tofas.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/galatasaray.png",
+      "league": "Gloria Cup Basketbol",
+      "time": "17:00",
+      "sport": "basketball",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
       "id": "t1",
       "home": "Yıldırımspor",
       "away": "Sökespor",
@@ -297,6 +339,34 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "ex8",
+      "home": "Essen",
+      "away": "Viktoria Köln",
+      "home_logo": "https://patronsports2.cfd/img/logos/giesseners.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/viktoriaplzen.png",
+      "league": "Almanya Bundesliga 3",
+      "time": "17:30",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "tv8",
+      "home": "Karpaty Lviv",
+      "away": "Shakhtar Donetsk",
+      "home_logo": "https://patronsports2.cfd/img/logos/karpatylviv.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/shakhtar.png",
+      "league": "Ukrayna Premier Ligi",
+      "time": "18:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/tv8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },

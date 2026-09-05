@@ -36,6 +36,18 @@ https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8
 https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/newcastle.png | https://patronsports2.cfd/img/logos/bournemouth.png
 
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/petkim.png" group-title="CANLI MAÇLAR - Gloria Cup Basketbol",Petkimspor - Çayırova Bld. [14:45]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/petkim.png | https://patronsports2.cfd/img/logos/cayirovabld.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/rostock.png" group-title="CANLI MAÇLAR - Almanya Bundesliga 3",Hansa Rostock - Wehen Wiesbaden [15:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/rostock.png | https://patronsports2.cfd/img/logos/wehenwiesbaden.png
+
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/fiorentina.png" group-title="CANLI MAÇLAR - İtalya Serie A",Fiorentina - Torino [16:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
@@ -114,6 +126,12 @@ https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8
 https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/notforest.png | https://patronsports2.cfd/img/logos/tottenham.png
 
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/tofas.png" group-title="CANLI MAÇLAR - Gloria Cup Basketbol",Tofaş - Galatasaray MCT Technic [17:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/tofas.png | https://patronsports2.cfd/img/logos/galatasaray.png
+
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/bursayildirimspor.png" group-title="CANLI MAÇLAR - TFF 3. Lig",Yıldırımspor - Sökespor [17:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
@@ -125,6 +143,18 @@ https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8
 #EXTVLCOPT:http-referrer=https://patronsports2.cfd/
 https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8
 # İki logo: https://patronsports2.cfd/img/logos/athleticbilbao.png | https://patronsports2.cfd/img/logos/atleticomadrid.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/giesseners.png" group-title="CANLI MAÇLAR - Almanya Bundesliga 3",Essen - Viktoria Köln [17:30]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/giesseners.png | https://patronsports2.cfd/img/logos/viktoriaplzen.png
+
+#EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/karpatylviv.png" group-title="CANLI MAÇLAR - Ukrayna Premier Ligi",Karpaty Lviv - Shakhtar Donetsk [18:00]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://patronsports2.cfd/
+https://2i4.d72577a9dd0ec71.cfd/tv8/mono.m3u8
+# İki logo: https://patronsports2.cfd/img/logos/karpatylviv.png | https://patronsports2.cfd/img/logos/shakhtar.png
 
 #EXTINF:-1 tvg-logo="https://patronsports2.cfd/img/logos/inter.png" group-title="CANLI MAÇLAR - İtalya Serie A",Inter - Napoli [19:00]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
