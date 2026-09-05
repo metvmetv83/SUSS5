@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T17:05:52.861947",
+  "generated_at": "2026-09-05T19:51:36.587314",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 9,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -185,15 +185,15 @@
       "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "31b0c67b9998f61891e46a502d16c66e",
-      "home": "Bursa Yıldırımspor",
-      "away": "Söke 1970 SK",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/41923.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/53355.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/41923.gif",
-      "time": "17:00",
-      "league": "3.Lig 2.Grup",
-      "url": "https://corestream.ardastream.live//hls/tivibu-spor-1.m3u8",
+      "id": "22ebb51fb0142d999880bcfe81db1824",
+      "home": "Villarreal",
+      "away": "Deportivo La Coruna",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/92.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/81.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/92.gif",
+      "time": "22:00",
+      "league": "LaLiga",
+      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -207,7 +207,32 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//hls/tivibu-spor-1.m3u8"
+      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "5e5e1cf4399e54ef5993339b463e371b",
+      "home": "Roma",
+      "away": "Atalanta",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/161.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/171.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/161.gif",
+      "time": "21:45",
+      "league": "Serie A",
+      "url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//s-sport2/tracks-v1a1/mono.m3u8"
     }
   ]
 }
