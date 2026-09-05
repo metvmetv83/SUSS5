@@ -1,43 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://galyatv2.com/images/channels/trtspor.png" group-title="7/24 Kanallar",TRT Spor
+#EXTINF:-1 tvg-logo="https://galyatv2.com/images/channels/tivibuspor.png" group-title="7/24 Kanallar",Tivibu Spor
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M631708/M631708.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M631708/M631708.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M473882/M473882.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M817817/M817817.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M541957/M541957.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M970499/M970499.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M875407/M875407.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",14:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M820780/M820780.m3u8
+https://cdn.galyatv1.com/M235710/M235710.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",14:30
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
@@ -182,11 +147,6 @@ https://cdn.galyatv1.com/M992417/M992417.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://galyatv2.com/
-https://cdn.galyatv1.com/M220539/M220539.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://galyatv2.com/
 https://cdn.galyatv1.com/M421830/M421830.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",21:00
@@ -228,3 +188,33 @@ https://cdn.galyatv1.com/M672804/M672804.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://galyatv2.com/
 https://cdn.galyatv1.com/M135351/M135351.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M875407/M875407.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M970499/M970499.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M541957/M541957.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M817817/M817817.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M473882/M473882.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Canlı Maçlar",CANLI00:00
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://galyatv2.com/
+https://cdn.galyatv1.com/M631708/M631708.m3u8
