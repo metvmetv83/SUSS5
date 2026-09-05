@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T21:52:44.653398",
+  "generated_at": "2026-09-05T23:30:52.095407",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 10,
+  "total_streams": 9,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -159,31 +159,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "a7c6f4e359379d428e9729ba659b240e",
-      "home": "Fenerbahçe",
-      "away": "Beşiktaş",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/2.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/3.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/2.gif",
-      "time": "20:00",
-      "league": "Süper Lig",
-      "url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
-    },
     {
       "id": "22ebb51fb0142d999880bcfe81db1824",
       "home": "Villarreal",
