@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-05T11:34:57.977223",
+  "generated_at": "2026-09-05T14:29:00.014639",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 14,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,181 @@
       "media_url": "https://corestream.ardastream.live//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "1b4e7d6d23edec88b5c3b1d001f656d0",
+      "home": "Manchester City",
+      "away": "Coventry",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/31.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/31.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "265b0f97805c880e64dd17ecb8e3f731",
+      "home": "Nottingham Forest",
+      "away": "Tottenham",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/37.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein5/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "4a417e3fa308e4ee1a160971ab3e9b37",
+      "home": "Fulham",
+      "away": "Crystal Palace",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/28.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/44.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/28.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//beinmax2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//beinmax2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "ee10a558b797ac0014e5988fed29b98e",
+      "home": "Brighton & Hove Albion",
+      "away": "Leeds United",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/41.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/29.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/41.gif",
+      "time": "17:00",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//beinmax1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//beinmax1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "90e3e7724e06cb21512a6c98fe1f9ccf",
+      "home": "Athletic Bilbao",
+      "away": "Atletico Madrid",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/86.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/91.gif",
+      "time": "17:15",
+      "league": "LaLiga",
+      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "981c1ed0c8d9f621294e5d87a61d5b92",
+      "home": "Erzurumspor FK",
+      "away": "Konyaspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/9632.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/447.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/9632.gif",
+      "time": "17:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "f6aa7cec652832e5c1a044e80f3858b0",
+      "home": "Newcastle United",
+      "away": "Bournemouth",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/34.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/34.gif",
+      "time": "14:30",
+      "league": "Premier Lig",
+      "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
