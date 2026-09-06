@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T14:50:39.169872",
+  "generated_at": "2026-09-06T17:28:36.372045",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 11,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,13 +160,13 @@
   ],
   "matches": [
     {
-      "id": "82f767fc87ada17decf2c628f6c9f502",
-      "home": "Kasımpaşa",
-      "away": "Amed SK",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
-      "time": "17:00",
+      "id": "f575f67738bd51fbb32c97d4f41f663d",
+      "home": "Trabzonspor",
+      "away": "Gençlerbirliği",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/7.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "time": "20:00",
       "league": "Süper Lig",
       "url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8",
       "headers": {
@@ -185,13 +185,13 @@
       "media_url": "https://corestream.ardastream.live//beintv/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "6b68424abc0e6d976f8bc5f1ed8cc114",
-      "home": "Çorum FK",
-      "away": "Eyüpspor",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/9665.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/557.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/9665.gif",
-      "time": "17:00",
+      "id": "8ce28fa15ebea6d26788eb1243ed7de8",
+      "home": "Kocaelispor",
+      "away": "Samsunspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/18.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/8.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/18.gif",
+      "time": "20:00",
       "league": "Süper Lig",
       "url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8",
       "headers": {
@@ -210,38 +210,13 @@
       "media_url": "https://corestream.ardastream.live//bein2/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "1d95b6e3dd6372bfef1165e21f1f52dc",
-      "home": "Valencia",
-      "away": "Barcelona",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/80.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/83.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/80.gif",
-      "time": "17:15",
-      "league": "LaLiga",
-      "url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.ardastream.live//s-sport/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "1014cd889dbd727433cafd27c2fc5a1c",
-      "home": "Everton",
-      "away": "Manchester United",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/32.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
-      "time": "16:00",
+      "id": "83ece60f62339426a45f10adb1291a0c",
+      "home": "Arsenal",
+      "away": "Chelsea",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/20.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/26.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/20.gif",
+      "time": "18:30",
       "league": "Premier Lig",
       "url": "https://corestream.ardastream.live//bein3/tracks-v1a1/mono.m3u8",
       "headers": {
