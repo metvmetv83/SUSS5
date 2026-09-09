@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T12:41:08.910577",
+  "generated_at": "2026-09-09T17:00:09.336033",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 8,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,31 @@
       "media_url": "https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "ba2f0607253441aaa867ecf9ed8a1225",
+      "home": "Stuttgart",
+      "away": "Viking",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/129.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/406.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/129.gif",
+      "time": "19:45",
+      "league": "Lig Aşaması",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//tabii1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//tabii1/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
