@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T17:00:09.336033",
+  "generated_at": "2026-09-09T19:40:47.810083",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 8,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -9,7 +9,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "title": "BeIN Sports 1",
-      "url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -23,7 +23,7 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8"
     },
     {
       "id": "bein-sports-2",
@@ -141,7 +141,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png",
       "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/TRT_Spor_logo.svg/200px-TRT_Spor_logo.svg.png",
       "title": "TRT Spor",
-      "url": "https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -155,18 +155,68 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8"
     }
   ],
   "matches": [
     {
-      "id": "ba2f0607253441aaa867ecf9ed8a1225",
-      "home": "Stuttgart",
-      "away": "Viking",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/129.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/406.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/129.gif",
-      "time": "19:45",
+      "id": "67e54cdba0f7768014f78d8dd33a05be",
+      "home": "Sporting CP",
+      "away": "Galatasaray",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
+      "time": "22:00",
+      "league": "Lig Aşaması",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//hls/trt1.m3u8"
+    },
+    {
+      "id": "de80c1c83c51d9fb192fd743a38a9c10",
+      "home": "Napoli",
+      "away": "Arsenal",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/182.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/20.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/182.gif",
+      "time": "22:00",
+      "league": "Lig Aşaması",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//tabii2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//tabii2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "0a0ff04ca3debd4a07a4b8e96290db42",
+      "home": "PSG",
+      "away": "Slovan Bratislava",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/195.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1044.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/195.gif",
+      "time": "22:00",
       "league": "Lig Aşaması",
       "url": "https://corestream.d72377a9ds0ec71.cfd//tabii1/tracks-v1a1/mono.m3u8",
       "headers": {
