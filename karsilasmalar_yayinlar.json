@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T14:35:06.384320",
+  "generated_at": "2026-09-09T18:35:11.632901",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1082.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1082.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 47,
+  "total_streams": 50,
   "matches": [
     {
       "id": "trt1",
@@ -14,6 +14,16 @@
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1082.xyz/"
+    },
+    {
+      "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "name": "Sporting Lisbon - Galatasaray FHD",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1082.xyz/"
     },
@@ -28,12 +38,32 @@
       "referrer": "https://taraftarium1082.xyz/"
     },
     {
+      "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+      "name": "Barcelona - Feyenoord FHD",
+      "status": "19:45 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1082.xyz/"
+    },
+    {
       "id": "ex1",
       "name": "Stuttgart - Viking",
       "status": "19:45",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1082.xyz/"
+    },
+    {
+      "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+      "name": "Stuttgart - Viking FHD",
+      "status": "19:45 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1082.xyz/"
     },
@@ -48,6 +78,16 @@
       "referrer": "https://taraftarium1082.xyz/"
     },
     {
+      "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+      "name": "Liverpool - Atletico Madrid FHD",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1082.xyz/"
+    },
+    {
       "id": "ex1",
       "name": "PSG - Slovan Bratislava",
       "status": "22:00",
@@ -58,12 +98,12 @@
       "referrer": "https://taraftarium1082.xyz/"
     },
     {
-      "id": "ex1",
-      "name": "St.Johnstone - Celtic",
-      "status": "22:00",
+      "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+      "name": "PSG - Slovan Bratislava FHD",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1082.xyz/"
     },
@@ -78,32 +118,22 @@
       "referrer": "https://taraftarium1082.xyz/"
     },
     {
-      "id": "ex5",
-      "name": "Anadolu Efes - Lokomotiv Kuban",
-      "status": "17:00",
+      "id": "https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8",
+      "name": "Napoli - Arsenal FHD",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1082.xyz/"
     },
     {
-      "id": "trtspor2",
-      "name": "Avrupa Para Yüzme Şampiyonasi - Gebze",
-      "status": "17:00",
+      "id": "ex6",
+      "name": "St.Johnstone - Celtic",
+      "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1082.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Porto Riko - Çin",
-      "status": "18:45",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1082.xyz/"
     },
