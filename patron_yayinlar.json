@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T10:02:56.592712",
+  "generated_at": "2026-09-10T14:39:04.246453",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 49,
+  "total_streams": 54,
   "matches": [
     {
       "id": "trt1",
@@ -17,6 +17,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "home": "Fenerbahçe",
+      "away": "Roma",
+      "home_logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/roma.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "19:45",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -35,6 +49,20 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
+      "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+      "home": "PSV",
+      "away": "Shakhtar Donetsk",
+      "home_logo": "https://patronsports2.cfd/img/logos/psv.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/shakhtar.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "19:45",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
       "id": "ex7",
       "home": "Bayern Münih",
       "away": "Bodo Glimt",
@@ -45,6 +73,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+      "home": "Bayern Münih",
+      "away": "Bodo Glimt",
+      "home_logo": "https://patronsports2.cfd/img/logos/bayern-munih.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/bodoglimt.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "22:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -63,6 +105,20 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
+      "id": "https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8",
+      "home": "Slavia Prag",
+      "away": "Lens",
+      "home_logo": "https://patronsports2.cfd/img/logos/slavia-prag.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/lens.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "22:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
       "id": "ex1",
       "home": "Manchester Utd",
       "away": "Sabah Bakü",
@@ -73,6 +129,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+      "home": "Manchester Utd",
+      "away": "Sabah Bakü",
+      "home_logo": "https://patronsports2.cfd/img/logos/manchesterunited.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/sabahbaku.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "22:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
@@ -91,16 +161,16 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
-      "id": "ss",
-      "home": "ABD",
-      "away": "Macaristan",
-      "home_logo": "https://patronsports2.cfd/img/logos/abd.png",
-      "away_logo": "https://patronsports2.cfd/img/logos/macaristan.png",
-      "league": "FIBA Kadinlar Dünya Kupasi",
-      "time": "12:30",
-      "sport": "basketball",
+      "id": "https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8",
+      "home": "Como",
+      "away": "Leipzig",
+      "home_logo": "https://patronsports2.cfd/img/logos/como.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/leipzig.png",
+      "league": "Sadece Türkiye'den izlenebilir | FHD",
+      "time": "22:00",
+      "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
