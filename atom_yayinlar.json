@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T21:21:25.756830",
+  "generated_at": "2026-09-10T23:39:37.082753",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 10,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -9,7 +9,7 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
       "title": "BeIN Sports 1",
-      "url": "https://corestream.d72377a9ds0ec24.cfd//tabii/tracks-v1a1/mono.m3u8",
+      "url": "https://corestream.d72377a9ds0ec24.cfd//beintv/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -23,7 +23,7 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec24.cfd//tabii/tracks-v1a1/mono.m3u8"
+      "media_url": "https://corestream.d72377a9ds0ec24.cfd//beintv/tracks-v1a1/mono.m3u8"
     },
     {
       "id": "bein-sports-2",
@@ -158,81 +158,5 @@
       "media_url": "https://corestream.d72377a9ds0ec24.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "347ddc2b43564cc95567f93f9dc1a5d6",
-      "home": "Manchester United",
-      "away": "Sabah",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/32.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/44709.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/32.gif",
-      "time": "22:00",
-      "league": "Lig Aşaması",
-      "url": "https://corestream.d72377a9ds0ec24.cfd//tabii1/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec24.cfd//tabii1/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "ed3fb7869eb58726f0f05fbbb57584a2",
-      "home": "Como",
-      "away": "RB Leipzig",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/170.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/911.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/170.gif",
-      "time": "22:00",
-      "league": "Lig Aşaması",
-      "url": "https://corestream.d72377a9ds0ec24.cfd//tabii2/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec24.cfd//tabii2/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "f5d48b367cf3a34c8d0e1544e8a904dd",
-      "home": "Slavia Prag",
-      "away": "Lens",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/348.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/199.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/348.gif",
-      "time": "22:00",
-      "league": "Lig Aşaması",
-      "url": "https://corestream.d72377a9ds0ec24.cfd//tabii3/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec24.cfd//tabii3/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
