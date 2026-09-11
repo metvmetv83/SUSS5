@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T16:51:56.366117",
+  "generated_at": "2026-09-11T19:25:00.851100",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 8,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -183,6 +183,106 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "bd31e8b2a712dde9da8bbc8069429c18",
+      "home": "Rennes",
+      "away": "Marsilya",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/212.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/197.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/212.gif",
+      "time": "21:45",
+      "league": "Ligue 1",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "285778503b358c7d35445a9f31703ac7",
+      "home": "Venezia",
+      "away": "Fiorentina",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/189.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1189.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/189.gif",
+      "time": "21:45",
+      "league": "Serie A",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "77e59911adca5955416bd83a8b3760b7",
+      "home": "Sevilla",
+      "away": "Valencia",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/80.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "time": "22:00",
+      "league": "LaLiga",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20290975",
+      "home": "Union Berlin",
+      "away": "FC Schalke 04",
+      "home_logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/da198addc88412e983dfe932f2d23093.png",
+      "away_logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/7d185689417db855d668106a6f407247.PNG",
+      "logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/da198addc88412e983dfe932f2d23093.png",
+      "time": "21:30",
+      "league": "Germany. Bundesliga",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//plus1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//plus1/tracks-v1a1/mono.m3u8"
     }
   ]
 }
