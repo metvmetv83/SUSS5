@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-12T13:29:43.526435",
+  "generated_at": "2026-09-12T16:42:12.842866",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,106 @@
       "media_url": "https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "e80476e5f02aad7a60a4b52f4cc238cd",
+      "home": "Lazio",
+      "away": "Milan",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/160.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/156.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/160.gif",
+      "time": "19:00",
+      "league": "Serie A",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "2268053be3667ab444cd2fd65d3587be",
+      "home": "Tottenham",
+      "away": "Everton",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/37.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/27.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/37.gif",
+      "time": "19:30",
+      "league": "Premier Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "865461fef15633a00ceae36f243b26bf",
+      "home": "Konyaspor",
+      "away": "Trabzonspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/447.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/447.gif",
+      "time": "20:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "28d17ed774c5ec9ab8cee125425ce72b",
+      "home": "Alanyaspor",
+      "away": "Göztepe",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/619.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/15.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/619.gif",
+      "time": "20:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein2/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
