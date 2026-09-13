@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T13:09:16.471310",
+  "generated_at": "2026-09-13T17:12:50.593217",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,131 @@
       "media_url": "https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "512f66bb3dafaf40192af11fc6a53ac4",
+      "home": "Galatasaray",
+      "away": "Kocaelispor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/18.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
+      "time": "20:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "a4b3dcff2cab9025d3b9198bafc21b14",
+      "home": "Amed SK",
+      "away": "Başakşehir FK",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/451.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/591.gif",
+      "time": "20:00",
+      "league": "Süper Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//bein2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "80004cf61c834132f7a4b27519a0b6a1",
+      "home": "Manchester United",
+      "away": "Manchester City",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/32.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/31.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/32.gif",
+      "time": "18:30",
+      "league": "Premier Lig",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20311290",
+      "home": "SV Elversberg",
+      "away": "FC Bayern Munich",
+      "home_logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/bec668d4d55334bdf33233052943f2b7.png",
+      "away_logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/701415b6d5ee3ffc9aaa20b1325ec160.png",
+      "logo": "https://1xlite-5026.pro/resized/size16/sfiles/logo_teams/bec668d4d55334bdf33233052943f2b7.png",
+      "time": "18:30",
+      "league": "Germany. Bundesliga",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//plus1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//plus1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "55a421c8bc1b58e0aa7733fb6ab3d911",
+      "home": "Napoli",
+      "away": "Bologna",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/182.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/158.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/182.gif",
+      "time": "19:00",
+      "league": "Serie A",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
