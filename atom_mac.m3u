@@ -56,14 +56,6 @@ https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://corestream.d72377a9ds0ec71.cfd//trt-spor/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/6348.gif" group-title="CANLI MAÇLAR - Serie A",Sassuolo - Juventus [21:45]
-#EXTVLCOPT:http-accept=*/*
-#EXTVLCOPT:http-referer=https://www.atomsportv514.top/
-#EXTVLCOPT:http-origin=https://www.atomsportv514.top
-#EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8
-
 #EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/1295.gif" group-title="CANLI MAÇLAR - Ligue 1",Brest - PSG [21:45]
 #EXTVLCOPT:http-accept=*/*
 #EXTVLCOPT:http-referer=https://www.atomsportv514.top/
@@ -71,6 +63,14 @@ https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/6348.gif" group-title="CANLI MAÇLAR - Serie A",Sassuolo - Juventus [21:45]
+#EXTVLCOPT:http-accept=*/*
+#EXTVLCOPT:http-referer=https://www.atomsportv514.top/
+#EXTVLCOPT:http-origin=https://www.atomsportv514.top
+#EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/77.gif" group-title="CANLI MAÇLAR - LaLiga",Real Sociedad - Atletico Madrid [22:00]
 #EXTVLCOPT:http-accept=*/*

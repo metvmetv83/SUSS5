@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:39:48.275263",
+  "generated_at": "2026-09-14T05:43:11.621781",
   "base_domain": "https://www.atomsportv514.top",
   "total_streams": 10,
   "channels": [
@@ -160,31 +160,6 @@
   ],
   "matches": [
     {
-      "id": "587a678529291df726152486a2229eef",
-      "home": "Sassuolo",
-      "away": "Juventus",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/6348.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/157.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/6348.gif",
-      "time": "21:45",
-      "league": "Serie A",
-      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8"
-    },
-    {
       "id": "66cf8f344c23c19687c43c3ae37122a1",
       "home": "Brest",
       "away": "PSG",
@@ -208,6 +183,31 @@
       },
       "playlistURL": "",
       "media_url": "https://corestream.d72377a9ds0ec71.cfd//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "587a678529291df726152486a2229eef",
+      "home": "Sassuolo",
+      "away": "Juventus",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/6348.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/157.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/6348.gif",
+      "time": "21:45",
+      "league": "Serie A",
+      "url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://corestream.d72377a9ds0ec71.cfd//s-sport2/tracks-v1a1/mono.m3u8"
     },
     {
       "id": "e23318f23addb7554468902b09e2e0ec",
