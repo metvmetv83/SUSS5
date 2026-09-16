@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T17:55:32.272579",
+  "generated_at": "2026-09-16T20:49:27.974436",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 8,
+  "total_streams": 14,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,13 +160,38 @@
   ],
   "matches": [
     {
-      "id": "88cfc790faacc700bb2ac498c7f818d9",
-      "home": "FC Ararat-Armenia",
-      "away": "Sparta Prag",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/43725.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/347.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/43725.gif",
-      "time": "19:45",
+      "id": "20345249",
+      "home": "Manchester United",
+      "away": "Brighton & Hove Albion",
+      "home_logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/1996.png",
+      "away_logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/2026.png",
+      "logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/1996.png",
+      "time": "22:00",
+      "league": "England. League Cup",
+      "url": "https://ladyboy.taylandpattaya.cfd//manu/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//manu/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "6fb7da30c152b98670ad97089724571e",
+      "home": "Bayer Leverkusen",
+      "away": "Celje",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/133.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1054.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/133.gif",
+      "time": "22:00",
       "league": "Lig Aşaması",
       "url": "https://ladyboy.taylandpattaya.cfd//tabii1/tracks-v1a1/mono.m3u8",
       "headers": {
@@ -183,6 +208,131 @@
       },
       "playlistURL": "",
       "media_url": "https://ladyboy.taylandpattaya.cfd//tabii1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "378f5470e80d52ea28abd1bf80244115",
+      "home": "Sunderland",
+      "away": "AZ Alkmaar",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/36.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/242.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/36.gif",
+      "time": "22:00",
+      "league": "Lig Aşaması",
+      "url": "https://ladyboy.taylandpattaya.cfd//tabii3/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//tabii3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "f4bcce4f0b504305d946bddc19e98240",
+      "home": "Anderlecht",
+      "away": "Lyon",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/254.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/254.gif",
+      "time": "22:00",
+      "league": "Lig Aşaması",
+      "url": "https://ladyboy.taylandpattaya.cfd//tabii2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//tabii2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20345248",
+      "home": "Coventry City",
+      "away": "Aston Villa",
+      "home_logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/2074.png",
+      "away_logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/1976.png",
+      "logo": "https://1xlite-5469.pro/resized/size16/sfiles/logo_teams/2074.png",
+      "time": "22:00",
+      "league": "England. League Cup",
+      "url": "https://ladyboy.taylandpattaya.cfd//aston/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//aston/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "58b53b113dba94ab431ac988802a4627",
+      "home": "Sturm Graz",
+      "away": "Rennes",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/289.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/212.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/289.gif",
+      "time": "22:00",
+      "league": "Lig Aşaması",
+      "url": "https://ladyboy.taylandpattaya.cfd//tabii4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//tabii4/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "264972403ad4aec20651fcb23db22c11",
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/83.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/84.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/83.gif",
+      "time": "22:30",
+      "league": "LaLiga",
+      "url": "https://ladyboy.taylandpattaya.cfd//s-sport/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//s-sport/tracks-v1a1/mono.m3u8"
     }
   ]
 }
