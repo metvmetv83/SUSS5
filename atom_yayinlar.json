@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-17T18:46:08.209811",
+  "generated_at": "2026-09-17T21:53:16.859430",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 10,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,81 +158,5 @@
       "media_url": "https://ladyboy.taylandpattaya.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "73692167faa73e7b6edbbd059c9052cd",
-      "home": "Levski Sofia",
-      "away": "Salzburg",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/525.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/294.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/525.gif",
-      "time": "19:45",
-      "league": "Lig Aşaması",
-      "url": "https://ladyboy.taylandpattaya.cfd//tabii1/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.taylandpattaya.cfd//tabii1/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "0edd25610e9ff9b35c5fa3ffd406c339",
-      "home": "Beşiktaş",
-      "away": "Marsilya",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/3.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/197.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/3.gif",
-      "time": "22:00",
-      "league": "Lig Aşaması",
-      "url": "https://ladyboy.taylandpattaya.cfd//hls/trt1.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.taylandpattaya.cfd//hls/trt1.m3u8"
-    },
-    {
-      "id": "f029742fad022cfd5ca1c01ccb67eb2f",
-      "home": "Real Betis",
-      "away": "Getafe",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/82.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/103.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/82.gif",
-      "time": "20:00",
-      "league": "LaLiga",
-      "url": "https://ladyboy.taylandpattaya.cfd//s-sport/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.taylandpattaya.cfd//s-sport/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
