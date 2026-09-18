@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T17:26:43.995047",
+  "generated_at": "2026-09-18T20:19:27.876436",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 8,
+  "total_streams": 11,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "2782dc34d93d08f5e949dfa3d116bf26",
-      "home": "Kasımpaşa",
-      "away": "Konyaspor",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/447.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
-      "time": "20:00",
-      "league": "Süper Lig",
-      "url": "https://ladyboy.taylandpattaya.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "id": "0e9e3edb13206534ee51881c2bc809a2",
+      "home": "Brentford",
+      "away": "Chelsea",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/960.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/26.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/960.gif",
+      "time": "22:00",
+      "league": "Premier Lig",
+      "url": "https://ladyboy.taylandpattaya.cfd//bein3/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,7 +182,82 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.taylandpattaya.cfd//beintv/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.taylandpattaya.cfd//bein3/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "1fb68df22e74754dd599ba9e7242b4b9",
+      "home": "Monaco",
+      "away": "Lens",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/196.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/199.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/196.gif",
+      "time": "21:45",
+      "league": "Ligue 1",
+      "url": "https://ladyboy.taylandpattaya.cfd//bein4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//bein4/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "ce069992ca51f4166101bd1fe9cb5bff",
+      "home": "Monza",
+      "away": "Sassuolo",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/2611.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/6348.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/2611.gif",
+      "time": "21:45",
+      "league": "Serie A",
+      "url": "https://ladyboy.taylandpattaya.cfd//s-sport2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//s-sport2/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "83fabb647101b1a13f5d80bd426c83f9",
+      "home": "Reims",
+      "away": "Montpellier",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/229.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/210.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/229.gif",
+      "time": "21:00",
+      "league": "Ligue 2",
+      "url": "https://ladyboy.taylandpattaya.cfd//beinmax1/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//beinmax1/tracks-v1a1/mono.m3u8"
     }
   ]
 }
