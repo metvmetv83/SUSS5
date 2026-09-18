@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T13:20:16.784953",
+  "generated_at": "2026-09-18T17:26:43.995047",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 7,
+  "total_streams": 8,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,31 @@
       "media_url": "https://ladyboy.taylandpattaya.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "2782dc34d93d08f5e949dfa3d116bf26",
+      "home": "Kasımpaşa",
+      "away": "Konyaspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/447.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/656.gif",
+      "time": "20:00",
+      "league": "Süper Lig",
+      "url": "https://ladyboy.taylandpattaya.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.taylandpattaya.cfd//beintv/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
