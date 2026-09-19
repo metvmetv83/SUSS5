@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T18:22:06.072772",
+  "generated_at": "2026-09-19T21:14:26.508089",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 12,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "60f97afd5b5aac18e7f706da3e1b207f",
-      "home": "Trabzonspor",
-      "away": "Galatasaray",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/1.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/4.gif",
-      "time": "20:00",
-      "league": "Süper Lig",
-      "url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "id": "3be1e6e4e1f45f3153d29d242bf72a2e",
+      "home": "Sevilla",
+      "away": "Barcelona",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/83.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
+      "time": "22:00",
+      "league": "LaLiga",
+      "url": "https://ladyboy.yedektv.cfd//s-sport/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,42 +182,17 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//s-sport/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "edc30993270d22320675d1b391be22f7",
-      "home": "Roma",
-      "away": "Inter",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/161.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/155.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/161.gif",
-      "time": "19:00",
-      "league": "Serie A",
-      "url": "https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "1abe883f14e8a0fe64f5dcc2c1e04b66",
-      "home": "Nottingham Forest",
-      "away": "Coventry",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/43.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/52.gif",
-      "time": "19:30",
-      "league": "Premier Lig",
+      "id": "e5c3c84466966d1c0a976ae2fb8d464b",
+      "home": "Lyon",
+      "away": "Rennes",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/212.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
+      "time": "21:45",
+      "league": "Ligue 1",
       "url": "https://ladyboy.yedektv.cfd//bein3/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
@@ -235,15 +210,15 @@
       "media_url": "https://ladyboy.yedektv.cfd//bein3/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "20376833",
-      "home": "VfB Stuttgart",
-      "away": "Borussia Dortmund",
-      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/123e961b16a42a5d63301336dd119ca5.png",
-      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/2c00163238eb3b254debbc851815b59a.PNG",
-      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/123e961b16a42a5d63301336dd119ca5.png",
-      "time": "19:30",
-      "league": "Germany. Bundesliga",
-      "url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8",
+      "id": "a41f58762c70d3b9d854c87f9b8e0ca0",
+      "home": "Sporting CP",
+      "away": "Arouca",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/8987.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
+      "time": "22:30",
+      "league": "Premier Lig",
+      "url": "https://ladyboy.yedektv.cfd//bein2/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -257,32 +232,7 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "20376547",
-      "home": "Roma",
-      "away": "Internazionale Milano",
-      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/67c1910477a661497cdf9ad85b5b9432.png",
-      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/26e4a6de8e5461081e99ee9feda21a56.png",
-      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/67c1910477a661497cdf9ad85b5b9432.png",
-      "time": "19:00",
-      "league": "Italy. Serie A",
-      "url": "https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv514.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv514.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//bein2/tracks-v1a1/mono.m3u8"
     }
   ]
 }
