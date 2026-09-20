@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T09:00:21.415071",
+  "generated_at": "2026-09-20T13:33:07.745357",
   "base_domain": "https://www.atomsportv514.top",
-  "total_streams": 10,
+  "total_streams": 12,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "3be1e6e4e1f45f3153d29d242bf72a2e",
-      "home": "Sevilla",
-      "away": "Barcelona",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/83.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/89.gif",
-      "time": "22:00",
-      "league": "LaLiga",
-      "url": "https://ladyboy.yedektv.cfd//s-sport/tracks-v1a1/mono.m3u8",
+      "id": "c5db19d560ed3ef06eb5ee85fa740780",
+      "home": "Fenerbahçe",
+      "away": "Eyüpspor",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/2.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/557.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/2.gif",
+      "time": "17:00",
+      "league": "Süper Lig",
+      "url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,17 +182,17 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//s-sport/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "e5c3c84466966d1c0a976ae2fb8d464b",
-      "home": "Lyon",
-      "away": "Rennes",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/212.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/201.gif",
-      "time": "21:45",
-      "league": "Ligue 1",
+      "id": "d590cb84e71015c38159dafeba2b753f",
+      "home": "Manchester City",
+      "away": "Sunderland",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/31.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/36.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/31.gif",
+      "time": "16:00",
+      "league": "Premier Lig",
       "url": "https://ladyboy.yedektv.cfd//bein3/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
@@ -210,15 +210,15 @@
       "media_url": "https://ladyboy.yedektv.cfd//bein3/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "a41f58762c70d3b9d854c87f9b8e0ca0",
-      "home": "Sporting CP",
-      "away": "Arouca",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/8987.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/275.gif",
-      "time": "22:30",
+      "id": "1a9b4fbc7e3c4a0c108e41c4d17245f7",
+      "home": "Leeds United",
+      "away": "Crystal Palace",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/29.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/44.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/29.gif",
+      "time": "16:00",
       "league": "Premier Lig",
-      "url": "https://ladyboy.yedektv.cfd//bein2/tracks-v1a1/mono.m3u8",
+      "url": "https://ladyboy.yedektv.cfd//bein5/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -232,7 +232,57 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//bein2/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//bein5/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "08d07cf3894ac7dfd580f8df65bb6a8f",
+      "home": "Bournemouth",
+      "away": "Liverpool",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/30.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/959.gif",
+      "time": "16:00",
+      "league": "Premier Lig",
+      "url": "https://ladyboy.yedektv.cfd//bein4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//bein4/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20385569",
+      "home": "FC Twente",
+      "away": "PSV Eindhoven",
+      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/4206.png",
+      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/8830b5ef7a958db8670ceea57116529d.png",
+      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/4206.png",
+      "time": "15:30",
+      "league": "Netherlands. Eredivisie",
+      "url": "https://ladyboy.yedektv.cfd//plus2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//plus2/tracks-v1a1/mono.m3u8"
     }
   ]
 }
