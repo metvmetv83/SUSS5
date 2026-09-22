@@ -1,8 +1,52 @@
 {
-  "generated_at": "2026-09-22T00:37:23.695209",
-  "base_domain": "https://www.atomsportv510.top",
-  "total_streams": 4,
+  "generated_at": "2026-09-22T05:52:10.723896",
+  "base_domain": "https://www.atomsportv514.top",
+  "total_streams": 3,
   "channels": [
+    {
+      "id": "bein-sports-1",
+      "name": "BEIN SPORTS 1",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
+      "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/BeIN_Sports_1_HD.svg/200px-BeIN_Sports_1_HD.svg.png",
+      "title": "BeIN Sports 1",
+      "url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//beintv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "bein-sports-4",
+      "name": "BEIN SPORTS 4",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png",
+      "thumb_square": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/BeIN_Sports_4_HD.svg/200px-BeIN_Sports_4_HD.svg.png",
+      "title": "BeIN Sports 4",
+      "url": "https://ladyboy.yedektv.cfd//bein4/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv514.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv514.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//bein4/tracks-v1a1/mono.m3u8"
+    },
     {
       "id": "s-sport-2",
       "name": "S SPORT 2",
@@ -14,9 +58,9 @@
         "h1Key": "accept",
         "h1Val": "*/*",
         "h2Key": "referer",
-        "h2Val": "https://www.atomsportv510.top/",
+        "h2Val": "https://www.atomsportv514.top/",
         "h3Key": "origin",
-        "h3Val": "https://www.atomsportv510.top",
+        "h3Val": "https://www.atomsportv514.top",
         "h4Key": "accept-language",
         "h4Val": "tr-TR,tr;q=0.8",
         "h5Key": "user-agent",
@@ -26,81 +70,5 @@
       "media_url": "https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "20400362",
-      "home": "Braden Shick",
-      "away": "Patrick Maloney",
-      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/501c791219408ad58e3f3a8d2f6c182f.png",
-      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/7f952b2bda31527a62da99d6dc06c3fb.png",
-      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/501c791219408ad58e3f3a8d2f6c182f.png",
-      "time": "00:45",
-      "league": "Challenger. San Diego 2",
-      "url": "https://corestream.siteyaptim.live/hls/bein1.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv510.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv510.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live/hls/bein1.m3u8"
-    },
-    {
-      "id": "20400499",
-      "home": "Carolina Kuhl",
-      "away": "Tori Kinard",
-      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/5f3e57f4b896511e0ef38365a2f33fa5.png",
-      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/18461.png",
-      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/5f3e57f4b896511e0ef38365a2f33fa5.png",
-      "time": "01:00",
-      "league": "World Tennis. Berkeley. W...",
-      "url": "https://corestream.siteyaptim.live/hls/bein1.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv510.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv510.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live/hls/bein1.m3u8"
-    },
-    {
-      "id": "20400792",
-      "home": "Leon (Bayanlar)",
-      "away": "Juarez (Bayanlar)",
-      "home_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/952733.png",
-      "away_logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/c894a36d2df1788f9d7fe318a97f3e33.png",
-      "logo": "https://1xlite-5022.pro/resized/size16/sfiles/logo_teams/952733.png",
-      "time": "02:00",
-      "league": "Mexico. Liga MX. Women",
-      "url": "https://corestream.siteyaptim.live/hls/bein1.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv510.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv510.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://corestream.siteyaptim.live/hls/bein1.m3u8"
-    }
-  ]
+  "matches": []
 }
