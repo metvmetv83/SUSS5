@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-24T16:24:24.279305",
+  "generated_at": "2026-09-24T20:14:58.758463",
   "base_domain": "https://www.atomsportv515.top",
-  "total_streams": 7,
+  "total_streams": 8,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,5 +158,31 @@
       "media_url": "https://ladyboy.yedektv.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": []
+  "matches": [
+    {
+      "id": "4428b65dc196fea2933fc3a8f8dd2d37",
+      "home": "Hollanda",
+      "away": "Almanya",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/485.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/494.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/485.gif",
+      "time": "21:45",
+      "league": "A Ligi Grup 2",
+      "url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv515.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv515.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8"
+    }
+  ]
 }
