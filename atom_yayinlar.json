@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T17:25:56.755132",
+  "generated_at": "2026-09-27T20:47:11.741229",
   "base_domain": "https://www.atomsportv515.top",
-  "total_streams": 8,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,31 +158,5 @@
       "media_url": "https://ladyboy.yedektv.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "20461205",
-      "home": "Sırbistan",
-      "away": "Hollanda",
-      "home_logo": "https://1xlite-1276.pro/resized/size16/sfiles/logo_teams/4adac0619ab89c05eaf9e946b9d6ac14.png",
-      "away_logo": "https://1xlite-1276.pro/resized/size16/sfiles/logo_teams/13189.png",
-      "logo": "https://1xlite-1276.pro/resized/size16/sfiles/logo_teams/4adac0619ab89c05eaf9e946b9d6ac14.png",
-      "time": "19:00",
-      "league": "UEFA Nations League",
-      "url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv515.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv515.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
