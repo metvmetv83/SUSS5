@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-30T13:34:22.305255",
+  "generated_at": "2026-09-30T19:05:03.664824",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 12,
+  "total_streams": 11,
   "channels": [
     {
       "id": "631708",
@@ -103,24 +103,10 @@
       "referrer": "https://galyatv2.com/"
     },
     {
-      "id": "479903",
-      "home": "19:00",
-      "away": "",
-      "title": "19:00",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M479903/M479903.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
       "id": "430046",
-      "home": "20:00",
+      "home": "CANLI20:00",
       "away": "",
-      "title": "20:00",
+      "title": "CANLI20:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -132,9 +118,9 @@
     },
     {
       "id": "983787",
-      "home": "21:05",
+      "home": "CANLI21:05",
       "away": "",
-      "title": "21:05",
+      "title": "CANLI21:05",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -146,9 +132,9 @@
     },
     {
       "id": "078254",
-      "home": "21:15",
+      "home": "CANLI21:15",
       "away": "",
-      "title": "21:15",
+      "title": "CANLI21:15",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -160,9 +146,9 @@
     },
     {
       "id": "327596",
-      "home": "22:00",
+      "home": "CANLI22:00",
       "away": "",
-      "title": "22:00",
+      "title": "CANLI22:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
