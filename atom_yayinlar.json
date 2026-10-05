@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T17:47:34.007976",
+  "generated_at": "2026-10-05T23:39:46.771649",
   "base_domain": "https://www.atomsportv516.top",
-  "total_streams": 9,
+  "total_streams": 10,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -160,15 +160,15 @@
   ],
   "matches": [
     {
-      "id": "4641b660bc1cd45d85ef306123d297a3",
-      "home": "Beşiktaş",
-      "away": "Trabzonspor",
-      "home_logo": "https://im.mackolik.com/img/basketlogo/buyuk/27.gif",
-      "away_logo": "https://im.mackolik.com/img/basketlogo/buyuk/669.gif",
-      "logo": "https://im.mackolik.com/img/basketlogo/buyuk/27.gif",
-      "time": "19:00",
-      "league": "Türkiye Sigorta Basketbol...",
-      "url": "https://ladyboy.yedektv.cfd//bein5/tracks-v1a1/mono.m3u8",
+      "id": "4b2194de2896d7374fa3fcd03be5377c",
+      "home": "Fransa",
+      "away": "Belçika",
+      "home_logo": "https://im.mackolik.com/img/logo/buyuk/474.gif",
+      "away_logo": "https://im.mackolik.com/img/logo/buyuk/509.gif",
+      "logo": "https://im.mackolik.com/img/logo/buyuk/474.gif",
+      "time": "21:45",
+      "league": "A Ligi Grup 1",
+      "url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -182,18 +182,18 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//bein5/tracks-v1a1/mono.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8"
     },
     {
-      "id": "87039da8876b495eb8ebf14620bfd87c",
-      "home": "Şanlıurfaspor",
-      "away": "Güzide Gebze Spor Kulübü",
-      "home_logo": "https://im.mackolik.com/img/logo/buyuk/582.gif",
-      "away_logo": "https://im.mackolik.com/img/logo/buyuk/36224.gif",
-      "logo": "https://im.mackolik.com/img/logo/buyuk/582.gif",
-      "time": "19:00",
-      "league": "2.Lig Beyaz Grup",
-      "url": "https://ladyboy.yedektv.cfd//hls/tivibu-spor-1.m3u8",
+      "id": "20548207",
+      "home": "Bosna-Hersek",
+      "away": "Polonya",
+      "home_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12669.png",
+      "away_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12689.png",
+      "logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12669.png",
+      "time": "21:45",
+      "league": "UEFA Nations League",
+      "url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8",
       "headers": {
         "h1Key": "accept",
         "h1Val": "*/*",
@@ -207,7 +207,32 @@
         "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
       },
       "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//hls/tivibu-spor-1.m3u8"
+      "media_url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "id": "20548210",
+      "home": "Ukrayna",
+      "away": "Macaristan",
+      "home_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/11443d2443911634bd32ae45d6024a83.png",
+      "away_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12795.png",
+      "logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/11443d2443911634bd32ae45d6024a83.png",
+      "time": "21:45",
+      "league": "UEFA Nations League",
+      "url": "https://ladyboy.yedektv.cfd//plus2/tracks-v1a1/mono.m3u8",
+      "headers": {
+        "h1Key": "accept",
+        "h1Val": "*/*",
+        "h2Key": "referer",
+        "h2Val": "https://www.atomsportv516.top/",
+        "h3Key": "origin",
+        "h3Val": "https://www.atomsportv516.top",
+        "h4Key": "accept-language",
+        "h4Val": "tr-TR,tr;q=0.8",
+        "h5Key": "user-agent",
+        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      },
+      "playlistURL": "",
+      "media_url": "https://ladyboy.yedektv.cfd//plus2/tracks-v1a1/mono.m3u8"
     }
   ]
 }
