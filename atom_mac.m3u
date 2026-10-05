@@ -56,11 +56,19 @@ https://ladyboy.yedektv.cfd//s-sport2/tracks-v1a1/mono.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 https://ladyboy.yedektv.cfd//trt-spor/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/485.gif" group-title="CANLI MAÇLAR - A Ligi Grup 2",Hollanda - Sırbistan [21:45]
+#EXTINF:-1 tvg-logo="https://im.mackolik.com/img/basketlogo/buyuk/27.gif" group-title="CANLI MAÇLAR - Türkiye Sigorta Basketbol...",Beşiktaş - Trabzonspor [19:00]
 #EXTVLCOPT:http-accept=*/*
 #EXTVLCOPT:http-referer=https://www.atomsportv516.top/
 #EXTVLCOPT:http-origin=https://www.atomsportv516.top
 #EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
-https://ladyboy.yedektv.cfd//aspor/tracks-v1a1/mono.m3u8
+https://ladyboy.yedektv.cfd//bein5/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://im.mackolik.com/img/logo/buyuk/582.gif" group-title="CANLI MAÇLAR - 2.Lig Beyaz Grup",Şanlıurfaspor - Güzide Gebze Spor Kulübü [19:00]
+#EXTVLCOPT:http-accept=*/*
+#EXTVLCOPT:http-referer=https://www.atomsportv516.top/
+#EXTVLCOPT:http-origin=https://www.atomsportv516.top
+#EXTVLCOPT:http-accept-language=tr-TR,tr;q=0.8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+https://ladyboy.yedektv.cfd//hls/tivibu-spor-1.m3u8
 
