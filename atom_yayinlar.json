@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07T02:01:31.616734",
+  "generated_at": "2026-10-07T09:42:51.962322",
   "base_domain": "https://www.atomsportv516.top",
-  "total_streams": 9,
+  "total_streams": 7,
   "channels": [
     {
       "id": "bein-sports-1",
@@ -158,56 +158,5 @@
       "media_url": "https://ladyboy.yedektv.cfd//trt-spor/tracks-v1a1/mono.m3u8"
     }
   ],
-  "matches": [
-    {
-      "id": "20558878",
-      "home": "İsviçre",
-      "away": "Kuzey Makedonya",
-      "home_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12399.png",
-      "away_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/2485113.png",
-      "logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12399.png",
-      "time": "21:45",
-      "league": "UEFA Nations League",
-      "url": "https://ladyboy.yedektv.cfd//apara/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv516.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv516.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//apara/tracks-v1a1/mono.m3u8"
-    },
-    {
-      "id": "20558879",
-      "home": "İskoçya",
-      "away": "Slovenya",
-      "home_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12741.png",
-      "away_logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12657.png",
-      "logo": "https://1xlite-39092.pro/resized/size16/sfiles/logo_teams/12741.png",
-      "time": "21:45",
-      "league": "UEFA Nations League",
-      "url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8",
-      "headers": {
-        "h1Key": "accept",
-        "h1Val": "*/*",
-        "h2Key": "referer",
-        "h2Val": "https://www.atomsportv516.top/",
-        "h3Key": "origin",
-        "h3Val": "https://www.atomsportv516.top",
-        "h4Key": "accept-language",
-        "h4Val": "tr-TR,tr;q=0.8",
-        "h5Key": "user-agent",
-        "h5Val": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      },
-      "playlistURL": "",
-      "media_url": "https://ladyboy.yedektv.cfd//plus1/tracks-v1a1/mono.m3u8"
-    }
-  ]
+  "matches": []
 }
