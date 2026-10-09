@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T08:51:31.117897",
+  "generated_at": "2026-10-09T16:04:59.539898",
   "source": "Galyatv1",
   "base_url": "https://galyatv2.com",
   "cdn_base": "https://cdn.galyatv1.com",
   "referrer": "https://galyatv2.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 26,
+  "total_streams": 24,
   "channels": [
     {
       "id": "875407",
@@ -103,38 +103,10 @@
       "referrer": "https://galyatv2.com/"
     },
     {
-      "id": "135743",
-      "home": "15:30",
-      "away": "",
-      "title": "15:30",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M135743/M135743.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
-      "id": "199562",
-      "home": "16:30",
-      "away": "",
-      "title": "16:30",
-      "logo": "",
-      "type": "match",
-      "league": "Galyatv1 Maçları",
-      "time": "",
-      "sport": "Futbol",
-      "url": "https://cdn.galyatv1.com/M199562/M199562.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://galyatv2.com/"
-    },
-    {
       "id": "731716",
-      "home": "17:00",
+      "home": "CANLI17:00",
       "away": "",
-      "title": "17:00",
+      "title": "CANLI17:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -146,9 +118,9 @@
     },
     {
       "id": "071321",
-      "home": "17:00",
+      "home": "CANLI17:00",
       "away": "",
-      "title": "17:00",
+      "title": "CANLI17:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
@@ -160,9 +132,9 @@
     },
     {
       "id": "411610",
-      "home": "19:00",
+      "home": "CANLI19:00",
       "away": "",
-      "title": "19:00",
+      "title": "CANLI19:00",
       "logo": "",
       "type": "match",
       "league": "Galyatv1 Maçları",
