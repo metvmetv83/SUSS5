@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T09:07:05.299830",
+  "generated_at": "2026-10-09T16:14:37.433413",
   "source": "Tipobet TV",
   "active_domain": "https://tipobettv265.com",
   "base_url": "https://5ln.zirvedesin244.cfd/",
   "referrer": "https://tipobettv265.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 43,
+  "total_streams": 42,
   "matches": [
     {
       "id": "zirve",
@@ -18,20 +18,6 @@
       "sport": "Futbol",
       "type": "match",
       "url": "https://5ln.zirvedesin244.cfd/zirve/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://tipobettv265.com/"
-    },
-    {
-      "id": "bm1",
-      "home": "Q.Zheng",
-      "away": "E.Svitolina",
-      "home_logo": "https://static.flashscore.com/res/image/data/b7N9NHdM-MZFHcn8n.png",
-      "away_logo": "https://static.flashscore.com/res/image/data/0hCIo7h5-WCqsXbkh.png",
-      "league": "WTA Pekin",
-      "time": "10:00",
-      "sport": "Tenis",
-      "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/bm1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://tipobettv265.com/"
     },
