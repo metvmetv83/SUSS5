@@ -1,137 +1,179 @@
 {
-  "generated_at": "2026-10-08T21:20:46.725433",
+  "generated_at": "2026-10-09T02:11:36.867370",
   "source": "Tipobet TV",
-  "active_domain": "https://zirveyonlendir.xyz/tipobettv",
+  "active_domain": "https://tipobettv265.com",
   "base_url": "https://5ln.zirvedesin244.cfd/",
-  "referrer": "https://zirveyonlendir.xyz/tipobettv/",
+  "referrer": "https://tipobettv265.com/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 40,
+  "total_streams": 43,
   "matches": [
     {
+      "id": "zirve",
+      "home": "Galatasaray",
+      "away": "Kasımpaşa",
+      "home_logo": "https://img.sporekrani.com/teams/GG15p6Gkt4vy5CbGDmFNuSLHMC5ojiP0GatfJCdh.png",
+      "away_logo": "https://img.sporekrani.com/teams/V8j30a2ng4nlBmArptHawOVHFk5ArigAyuoxEMW4.png",
+      "league": "Trendyol Süper Lig [Günün Maçı]",
+      "time": "20:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/zirve/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
       "id": "bm1",
-      "home": "K.Muchova",
-      "away": "N.Bartunkova",
-      "home_logo": "https://static.flashscore.com/res/image/data/zPfjENFG-b9SLPqcf.png",
-      "away_logo": "https://static.flashscore.com/res/image/data/U1bZs9e5-SUaUoUDh.png",
+      "home": "Q.Zheng",
+      "away": "E.Svitolina",
+      "home_logo": "https://static.flashscore.com/res/image/data/b7N9NHdM-MZFHcn8n.png",
+      "away_logo": "https://static.flashscore.com/res/image/data/0hCIo7h5-WCqsXbkh.png",
       "league": "WTA Pekin",
       "time": "10:00",
       "sport": "Tenis",
       "type": "match",
       "url": "https://5ln.zirvedesin244.cfd/bm1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
-      "id": "ss",
-      "home": "L.Van Assche",
-      "away": "Y.Bu",
-      "home_logo": "https://img.sporekrani.com/teams/TSAOE1v0NcW3Wy8IvDiZqKgxRDK7upBpysqArtF2.png",
-      "away_logo": "https://img.sporekrani.com/teams/08f91711-a50c-4a41-b5cf-e5192911976f.png",
-      "league": "ATP Shanghai",
-      "time": "13:00",
-      "sport": "Tenis",
-      "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
-    },
-    {
-      "id": "as",
-      "home": "Erciyes 38 FK",
-      "away": "Kahta 02",
-      "home_logo": "https://img.sporekrani.com/teams/91f94fb8-9f07-4d1b-9d67-cfaceaf8d109.png",
-      "away_logo": "https://img.sporekrani.com/teams/1OBZT5TuLb8JXyX0HIboqNjjTOKNRA9myYXPUm6x.png",
-      "league": "Ziraat Türkiye Kupası",
-      "time": "14:00",
+      "id": "t1",
+      "home": "Veres Rivne",
+      "away": "Shakhtar Donetsk",
+      "home_logo": "https://img.sporekrani.com/teams/1564b60e-9da4-4603-81f3-196444293462.png",
+      "away_logo": "https://img.sporekrani.com/teams/O1zRrBUKcDWBD4tbNdWeSuEOE8QhSGyESHvOJhVO.png",
+      "league": "Ukrayna Premier Ligi",
+      "time": "15:30",
       "sport": "Futbol",
       "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/as/mono.m3u8",
+      "url": "https://5ln.zirvedesin244.cfd/t1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "trtspor",
+      "home": "Sivasspor",
+      "away": "Pendikspor",
+      "home_logo": "https://img.sporekrani.com/teams/ZWFgnB5u64sACD0oSXhflEFzCwG4i2OF0GkXxEhM.png",
+      "away_logo": "https://img.sporekrani.com/teams/OX5uFgYNhnDuSJNajSSIymW0ydzYfITpueo5BAwa.png",
+      "league": "Trendyol 1. Lig",
+      "time": "17:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "b2",
+      "home": "Bodrumspor",
+      "away": "Keçiörengücü",
+      "home_logo": "https://img.sporekrani.com/teams/UJHiYegN0LxwzUJTthUXBJXK2CxsfXga6CsPxBul.png",
+      "away_logo": "https://img.sporekrani.com/teams/PTiUdmdArMpiiPZbFZcICciKqz0bJkJFnnfK5TuR.png",
+      "league": "Trendyol 1. Lig",
+      "time": "17:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/b2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "trtspor2",
-      "home": "TFL Altekma",
-      "away": "Gaziantep Gençlik",
-      "home_logo": "https://img.sporekrani.com/teams/8Mmeicy8mASuMDa2g3KzHrzzFAg4U22zH5e421Hf.png",
-      "away_logo": "https://img.sporekrani.com/teams/bGRAoEBGDibELQVlDmxD8n9GqDNuXcAM0G1OvWpX.png",
+      "home": "Sungurlu Bld.",
+      "away": "Sultanbeyli Bld.",
+      "home_logo": "https://volleybox.net/media/upload/teams/17633740743KfiO.png",
+      "away_logo": "https://volleybox.net/media/upload/teams/1770811208RWm0b.png",
       "league": "TVF Erkekler Kupa Volley",
-      "time": "16:00",
+      "time": "19:00",
       "sport": "Voleybol",
       "type": "match",
       "url": "https://5ln.zirvedesin244.cfd/trtspor2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
-      "id": "as",
-      "home": "Denizli İdmanyurdu",
-      "away": "Serik Bld.",
-      "home_logo": "https://upload.wikimedia.org/wikipedia/tr/1/1e/Denizliidmanyurdu.png",
-      "away_logo": "https://img.sporekrani.com/teams/TOUqSTVIhPTWdbRvDuyPc8PXbenp5rF4JGgiYHGG.png",
-      "league": "Ziraat Türkiye Kupası",
-      "time": "17:00",
-      "sport": "Futbol",
-      "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/as/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
-    },
-    {
-      "id": "ss2",
-      "home": "Dubai Basket",
-      "away": "Kızılyıldız",
-      "home_logo": "https://img.sporekrani.com/teams/061afddf-f0b9-47a9-82d5-95662f36dd2f.png",
-      "away_logo": "https://img.sporekrani.com/teams/4c60CQ7vTN4HnUwf6j0bTgah2pGJdc1GjR0E6NAs.png",
-      "league": "Euroleague",
-      "time": "19:00",
-      "sport": "Basketbol",
-      "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/ss2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
-    },
-    {
-      "id": "as",
-      "home": "Orduspor",
-      "away": "Karadeniz Ereğli",
-      "home_logo": "https://img.sporekrani.com/teams/D8tehX73aAcp94X6GEuXHgqC3NfZFVtn1hDfxMd3.png",
-      "away_logo": "https://img.sporekrani.com/teams/3YX5Z4No1aLPuQkybGCkWfpi5jZji8bjSMcDq0xJ.png",
-      "league": "Ziraat Türkiye Kupası",
+      "id": "b2",
+      "home": "Ümraniyespor",
+      "away": "Sarıyer",
+      "home_logo": "https://img.sporekrani.com/teams/JfAl81ZTfdntqyJ9AhKJOynyQKpfbu5iK2fw962V.png",
+      "away_logo": "https://img.sporekrani.com/teams/DMMkzvfUGppo6KDRrBSADy1AiDxBAjc9TehQY0zE.png",
+      "league": "Trendyol 1. Lig",
       "time": "20:00",
       "sport": "Futbol",
       "type": "match",
-      "url": "https://5ln.zirvedesin244.cfd/as/mono.m3u8",
+      "url": "https://5ln.zirvedesin244.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "trtspor",
+      "home": "Vanspor",
+      "away": "Bandırmaspor",
+      "home_logo": "https://img.sporekrani.com/teams/0kzZCnbPpEIdi71Uo0SQsMPizNPEXkupWjY8UFZy.png",
+      "away_logo": "https://img.sporekrani.com/teams/eCMSnOYhdkN1g2KIVMtcLZYKjyzxUghS4LzkHirS.png",
+      "league": "Trendyol 1. Lig",
+      "time": "20:00",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ss",
-      "home": "Panathinaikos",
-      "away": "Fenerbahçe Tarfin",
-      "home_logo": "https://img.sporekrani.com/teams/pBmHTDjxdSE8r4oiLuT8COAOtUK74PD6fh5uF4l4.png",
-      "away_logo": "https://img.sporekrani.com/teams/6fad4a16-b5bd-4727-8443-ddac90b0d13c.png",
+      "home": "Olympiakos",
+      "away": "Anadolu Efes",
+      "home_logo": "https://img.sporekrani.com/teams/dliE3fU5Qwlmo3K2vYAbQfcUigAUDSKV62PbcuXa.png",
+      "away_logo": "https://img.sporekrani.com/teams/7NXfuFWZCNXytgMhlDQAXuZmXYmlv3kt5Vb3Ol5M.png",
       "league": "Euroleague",
       "time": "21:15",
       "sport": "Basketbol",
       "type": "match",
       "url": "https://5ln.zirvedesin244.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ss2",
-      "home": "Real Madrid",
-      "away": "Partizan",
-      "home_logo": "https://img.sporekrani.com/teams/tGkJGgNyCmYK4sBJa0c8fePaLQoJuH1103BH1Tv7.png",
-      "away_logo": "https://img.sporekrani.com/teams/h8Sj15lmUiN8Q4RJCSuXjgtgAUVsi7THt9EHGNnl.png",
+      "home": "Baskonia",
+      "away": "Beşiktaş",
+      "home_logo": "https://img.sporekrani.com/teams/7W6dPZOB4AYV93KTCSdYUWauRGtiaf6IAerqX85t.png",
+      "away_logo": "https://img.sporekrani.com/teams/ATPU6MJ3X6MzjgMpm80O8O25sU6yBMmWetDKdzAH.png",
       "league": "Euroleague",
-      "time": "21:45",
+      "time": "21:30",
       "sport": "Basketbol",
       "type": "match",
       "url": "https://5ln.zirvedesin244.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "b4",
+      "home": "Lens",
+      "away": "Lyon",
+      "home_logo": "https://img.sporekrani.com/teams/O7hGBlUn9iU9yrcJfHxLkJpalt1u52U1j6UQoOAS.png",
+      "away_logo": "https://img.sporekrani.com/teams/8YONWo71YMouSpLksS1LKe6aVoq2Prrq5yDjgylr.png",
+      "league": "Fransa Ligue 1",
+      "time": "21:45",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/b4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
+    },
+    {
+      "id": "b3",
+      "home": "Braga",
+      "away": "Sporting Lisbon",
+      "home_logo": "https://img.sporekrani.com/teams/9mdNduiarpCltDZ5RJmD1ciCPoqukM6fyyEUcUgc.png",
+      "away_logo": "https://img.sporekrani.com/teams/wmkMpVv7deEV46KqRI9Evc7cCPEqzIIZoGNt6t1j.png",
+      "league": "Portekiz Liga NOS",
+      "time": "22:15",
+      "sport": "Futbol",
+      "type": "match",
+      "url": "https://5ln.zirvedesin244.cfd/b3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://tipobettv265.com/"
     }
   ],
   "channels": [
@@ -142,7 +184,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/zirve/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "b2",
@@ -151,7 +193,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "b3",
@@ -160,7 +202,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "b4",
@@ -169,7 +211,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "b5",
@@ -178,7 +220,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "bm1",
@@ -187,7 +229,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/bm1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "bm2",
@@ -196,7 +238,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/bm2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ss",
@@ -205,7 +247,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ss/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ss2",
@@ -214,7 +256,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "smarts",
@@ -223,7 +265,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/smarts/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "sms2",
@@ -232,7 +274,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/sms2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "t1",
@@ -241,7 +283,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/t1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "t2",
@@ -250,7 +292,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/t2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "t3",
@@ -259,7 +301,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/t3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "t4",
@@ -268,7 +310,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/t4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "trtspor",
@@ -277,7 +319,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "trtspor2",
@@ -286,7 +328,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/trtspor2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "trt1",
@@ -295,7 +337,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "as",
@@ -304,7 +346,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/as/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "atv",
@@ -313,7 +355,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/atv/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "tv8",
@@ -322,7 +364,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/tv8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "tv85",
@@ -331,7 +373,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/tv85/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "eu1",
@@ -340,7 +382,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/eu1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "eu2",
@@ -349,7 +391,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/eu2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex7",
@@ -358,7 +400,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex7/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex1",
@@ -367,7 +409,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex2",
@@ -376,7 +418,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex3",
@@ -385,7 +427,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex4",
@@ -394,7 +436,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex5",
@@ -403,7 +445,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     },
     {
       "id": "ex6",
@@ -412,7 +454,7 @@
       "type": "channel",
       "url": "https://5ln.zirvedesin244.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-      "referrer": "https://zirveyonlendir.xyz/tipobettv/"
+      "referrer": "https://tipobettv265.com/"
     }
   ]
 }
