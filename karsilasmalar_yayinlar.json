@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-12T07:20:05.838611",
+  "generated_at": "2026-10-12T17:53:02.086410",
   "source": "Karsilasmalar",
   "active_domain": "https://taraftarium1085.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://taraftarium1085.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 88,
+  "total_streams": 48,
   "matches": [
     {
       "id": "patron",
-      "name": "Beşiktaş - Kocaelispor",
-      "status": "19:00",
+      "name": "Eyüpspor - Göztepe",
+      "status": "20:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
@@ -18,59 +18,19 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "patron",
-      "name": "Konyaspor - İstanbul Başakşehir",
-      "status": "13:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "patron",
-      "name": "Gaziantep FK - Çorum FK",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b3",
-      "name": "Liverpool - Manchester City",
-      "status": "18:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b4",
-      "name": "Formula 1 - Singapur GP",
+      "id": "t1",
+      "name": "Adana Adaletgücü Spor - Silifke Bld.",
       "status": "15:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b5",
-      "name": "Trabzonspor - Bandırma Bordo",
-      "status": "13:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
       "id": "smarts",
-      "name": "Real Madrid - Manresa",
-      "status": "13:00",
+      "name": "Pakhtakor - Al Qadsiah",
+      "status": "16:45",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
@@ -78,29 +38,9 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "bm1",
-      "name": "Porsche Super Cup - Yarış 2",
-      "status": "13:25",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ss2",
-      "name": "Como - Roma",
-      "status": "13:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
       "id": "htspor",
-      "name": "Galatasaray - ÇBK Mersin",
-      "status": "14:00",
+      "name": "Gallardo - Istanbul Utku",
+      "status": "18:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/htspor/mono.m3u8",
@@ -108,39 +48,19 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "ex2",
-      "name": "Southampton - Portsmouth",
-      "status": "14:00",
+      "id": "b5",
+      "name": "Galatasaray MCT Technic - Bursaspor",
+      "status": "19:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex3",
-      "name": "Motherwell - Celtic",
-      "status": "14:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "trtspor2",
-      "name": "İstanbul Gençlik - Trabzon BB",
-      "status": "14:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
       "id": "sms2",
-      "name": "İspanya Açik Golf Turnuvasi - İspanya",
-      "status": "14:00",
+      "name": "Al Wasl - Al Ahli",
+      "status": "19:00",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
@@ -148,319 +68,39 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "t1",
-      "name": "Karaköprü Bld. - Bitlis 1916 FK",
-      "status": "14:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Elche - Celta Vigo",
-      "status": "15:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "cbc",
-      "name": "Imisli - Karabağ",
-      "status": "15:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/cbc/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t2",
-      "name": "Hatayspor - Elazığspor",
-      "status": "15:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b5",
-      "name": "Anadolu Efes - Denizli Basket",
-      "status": "15:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t3",
-      "name": "Gebzespor - Erbaaspor",
-      "status": "15:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex4",
-      "name": "Nice - Strasbourg",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "bm1",
-      "name": "Crystal Palace - Nottingham Forest",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b3",
-      "name": "Hull City - Everton",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
       "id": "ss2",
-      "name": "Lazio - Monza",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex5",
-      "name": "Lecce - Bologna",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "trtspor",
-      "name": "Karagümrük - Muğlaspor",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "trtspor2",
-      "name": "Eczacibasi - Aras Kargo",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t0",
-      "name": "24 Erzincanspor - Beyoğlu Yeni Çarşı",
-      "status": "16:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t0/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "htspor",
-      "name": "Balıkesir BB - Keçiören Bld",
-      "status": "16:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/htspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex7",
-      "name": "JV Jaguars - Philadelphia Eagles",
-      "status": "16:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex6",
-      "name": "Köln - Monchengladbach",
-      "status": "16:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Real Sociedad - Deportivo",
-      "status": "17:15",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "cbc",
-      "name": "Safa Bakü - Turan",
-      "status": "17:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/cbc/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b5",
-      "name": "Türk Telekom - Beşiktaş",
-      "status": "18:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "smarts",
-      "name": "Baskonia - Joventut Badalona",
-      "status": "18:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "bm1",
-      "name": "Rennes - Auxerre",
-      "status": "18:15",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ex9",
-      "name": "Freiburg - Schalke 04",
-      "status": "18:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex9/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ss2",
-      "name": "Sassuolo - Milan",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "trtspor",
-      "name": "Bursaspor - Mardin 1969",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "trtspor2",
-      "name": "Beşiktaş - Fenerbahçe Medicana",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t1",
-      "name": "Sakaryaspor - İskenderunspor",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t2",
-      "name": "Eskişehirspor - Etimesgut Bld.",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t2/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "t3",
-      "name": "Karşıyaka - Eskişehir Anadolu Spor",
-      "status": "19:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/t3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "ss",
-      "name": "Real Betis - Osasuna",
+      "name": "Atalanta - Venezia",
       "status": "19:30",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "ex10",
-      "name": "NE Patriots - Las Vegas Raiders",
-      "status": "20:00",
+      "id": "trtspor",
+      "name": "Ziraat Bankkart - Galatasaray",
+      "status": "19:30",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex10/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1085.xyz/"
+    },
+    {
+      "id": "sms2",
+      "name": "Al Gharafa - Esteghlal FC",
+      "status": "21:15",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
       "id": "smarts",
-      "name": "Barcelona - Valencia Basket",
-      "status": "20:00",
+      "name": "Al Nassr Riyadh - Neftchi Fargona",
+      "status": "21:15",
       "logo": "",
       "type": "match",
       "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
@@ -468,38 +108,8 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "b4",
-      "name": "Benfica - Vitoria",
-      "status": "20:00",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "sifirtv",
-      "name": "Modena - Verona",
-      "status": "20:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/sifirtv/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "b3",
-      "name": "Troyes - Marsilya",
-      "status": "21:45",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
       "id": "ss2",
-      "name": "Cagliari - Juventus",
+      "name": "Torino - Udinese",
       "status": "21:45",
       "logo": "",
       "type": "match",
@@ -509,7 +119,7 @@
     },
     {
       "id": "ss",
-      "name": "Racing Santander - Valencia",
+      "name": "Levante - Sevilla",
       "status": "22:00",
       "logo": "",
       "type": "match",
@@ -518,32 +128,22 @@
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "smarts",
-      "name": "Rosario Central - Independiente Rivadavia",
-      "status": "23:00",
+      "id": "ex2",
+      "name": "Tenerife - Girona",
+      "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     },
     {
-      "id": "ex11",
-      "name": "Seattle Seahawks - SF 49ers",
-      "status": "23:25",
+      "id": "b3",
+      "name": "Coventry - Newcastle",
+      "status": "22:00",
       "logo": "",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/ex11/mono.m3u8",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
-    },
-    {
-      "id": "sms2",
-      "name": "Palmeiras - Corinthians",
-      "status": "23:30",
-      "logo": "",
-      "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
       "referrer": "https://taraftarium1085.xyz/"
     }
