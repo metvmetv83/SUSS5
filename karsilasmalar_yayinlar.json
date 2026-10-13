@@ -1,12 +1,413 @@
 {
-  "generated_at": "2026-10-13T15:56:55.675571",
+  "generated_at": "2026-10-13T21:13:55.246041",
   "source": "Karsilasmalar",
-  "active_domain": "https://taraftarium1085.xyz",
+  "active_domain": "https://taraftarium1086.xyz",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
-  "referrer": "https://taraftarium1085.xyz/",
+  "referrer": "https://taraftarium1086.xyz/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "total_streams": 34,
-  "matches": [],
+  "total_streams": 74,
+  "matches": [
+    {
+      "id": "trt1",
+      "name": "Galatasaray - Barcelona",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "name": "Galatasaray - Barcelona | FHD",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://tv-trt1.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex7",
+      "name": "Atletico Madrid - Manchester Utd",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8",
+      "name": "Atletico Madrid - Manchester Utd",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://kl9mr2vxw7nq5py1sh4tj3gb6.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex1",
+      "name": "Arsenal - Lille",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8",
+      "name": "Arsenal - Lille",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://pz4qt7nw1mr9sh2vl5xk8jg3y.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex3",
+      "name": "Viking - Bayern Münih",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8",
+      "name": "Viking - Bayern Münih",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://mr4vl7nq2sh9tw5xp1zk3gj8b.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex2",
+      "name": "Inter - Club Brugge",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8",
+      "name": "Inter - Club Brugge",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://mr8bv4kl1nq7sh9tw2xp5zj6g.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex5",
+      "name": "Leipzig - PSV",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://vl2nq8sh4tw1mr7xp5zk9gj3y.medya.trt.com.tr/master.m3u8",
+      "name": "Leipzig - PSV",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://vl2nq8sh4tw1mr7xp5zk9gj3y.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex4",
+      "name": "Villarreal - Napoli",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "https://sh7tq2nw5mr1vl9xp4zk3gj8k.medya.trt.com.tr/master.m3u8",
+      "name": "Villarreal - Napoli",
+      "status": "22:00 | Sadece Türkiye'den izlenebilir.",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://sh7tq2nw5mr1vl9xp4zk3gj8k.medya.trt.com.tr/master.m3u8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex1",
+      "name": "Sabah Bakü - Slavia Prag",
+      "status": "19:45",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex7",
+      "name": "Lens - Sporting Lisbon",
+      "status": "19:45",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "bm1",
+      "name": "Kalinina/Yastremska - Eala/Sönmez",
+      "status": "10:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "smarts",
+      "name": "Newcastle Jets - Gamba Osaka",
+      "status": "10:45",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "sms2",
+      "name": "Kyoto - Ratchaburi",
+      "status": "13:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "smarts",
+      "name": "Shanghai Port - Daejeon Citizen",
+      "status": "13:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "trtspor",
+      "name": "Bandırmaspor - Sivasspor",
+      "status": "14:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex3",
+      "name": "Leipzig - PSV",
+      "status": "15:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "sms2",
+      "name": "Buriram - Beijing Guoan",
+      "status": "15:15",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "smarts",
+      "name": "Cong An Ha Noi - Kashima Antlers",
+      "status": "15:15",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex4",
+      "name": "East Bengal - Al Shorta",
+      "status": "16:45",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "trtspor",
+      "name": "Sarıyer - Bodrumspor",
+      "status": "17:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex5",
+      "name": "Villarreal - Napoli",
+      "status": "17:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "trtspor2",
+      "name": "Bahçeşehir Klj - Manresa",
+      "status": "19:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "smarts",
+      "name": "Al Sadd - Al Hilal",
+      "status": "19:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "sms2",
+      "name": "Al Seeb - Al Hussein",
+      "status": "19:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "b2",
+      "name": "Pendikspor - Vanspor",
+      "status": "20:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ss",
+      "name": "Fenerbahçe Tarfin - Zalgiris Kaunas",
+      "status": "20:45",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex6",
+      "name": "Asvel Villeurbanne - Kizilyildiz",
+      "status": "21:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "sms2",
+      "name": "Al Ittihad - Al Ahli Dubai",
+      "status": "21:15",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex10",
+      "name": "Barcelona - Maccabi Fox",
+      "status": "21:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex10/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex8",
+      "name": "Baskonia - Dubai Basket",
+      "status": "21:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex9",
+      "name": "Olimpia Milano - Real Madrid",
+      "status": "21:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex9/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ss2",
+      "name": "Partizan - Panathinaikos",
+      "status": "21:30",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex10",
+      "name": "Valencia Basket - Olympiakos",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex10/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    },
+    {
+      "id": "ex11",
+      "name": "Stoke - Middlesbrough",
+      "status": "22:00",
+      "logo": "",
+      "type": "match",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/ex11/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "referrer": "https://taraftarium1086.xyz/"
+    }
+  ],
   "channels": [
     {
       "id": "zirve",
@@ -15,7 +416,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/zirve/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "taraftarium",
@@ -24,7 +425,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/taraftarium/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "patron",
@@ -33,7 +434,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/patron/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "b2",
@@ -42,7 +443,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/b2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "b3",
@@ -51,7 +452,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/b3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "b4",
@@ -60,7 +461,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/b4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "b5",
@@ -69,7 +470,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/b5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "bm1",
@@ -78,7 +479,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/bm1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "bm2",
@@ -87,7 +488,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/bm2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ss1",
@@ -96,7 +497,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ss1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ss2",
@@ -105,7 +506,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ss2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "smarts",
@@ -114,7 +515,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/smarts/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "sms2",
@@ -123,7 +524,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/sms2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "t1",
@@ -132,7 +533,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/t1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "t2",
@@ -141,7 +542,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/t2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "t3",
@@ -150,7 +551,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/t3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "t4",
@@ -159,7 +560,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/t4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "as",
@@ -168,7 +569,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/as/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "trtspor",
@@ -177,7 +578,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "trtspor2",
@@ -186,7 +587,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trtspor2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "trt1",
@@ -195,7 +596,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/trt1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "atv",
@@ -204,7 +605,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/atv/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "tv85",
@@ -213,7 +614,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/tv85/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "nbatv",
@@ -222,7 +623,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/nbatv/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "eu1",
@@ -231,7 +632,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/eu1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "eu2",
@@ -240,7 +641,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/eu2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex1",
@@ -249,7 +650,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex1/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex2",
@@ -258,7 +659,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex2/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex3",
@@ -267,7 +668,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex3/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex4",
@@ -276,7 +677,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex4/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex5",
@@ -285,7 +686,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex5/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex6",
@@ -294,7 +695,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex6/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex7",
@@ -303,7 +704,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex7/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     },
     {
       "id": "ex8",
@@ -312,7 +713,7 @@
       "type": "channel",
       "url": "https://2i4.d72577a9dd0ec71.cfd/ex8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "referrer": "https://taraftarium1085.xyz/"
+      "referrer": "https://taraftarium1086.xyz/"
     }
   ]
 }
