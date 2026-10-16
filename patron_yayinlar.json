@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:55:15.388360",
+  "generated_at": "2026-10-16T16:58:09.102163",
   "source": "Patron Sports",
   "base_url": "https://2i4.d72577a9dd0ec71.cfd/",
   "referrer": "https://patronsports2.cfd/",
@@ -21,16 +21,16 @@
       "referrer": "https://patronsports2.cfd/"
     },
     {
-      "id": "cbc",
-      "home": "Shamakhi",
-      "away": "Safa Bakü",
-      "home_logo": "https://patronsports2.cfd/img/logos/shamakhi.png",
-      "away_logo": "https://patronsports2.cfd/img/logos/safabaku.png",
-      "league": "Azerbaycan Premier Ligi",
-      "time": "14:00",
+      "id": "https://t0k.d72577a9dd0ec71.cfd/hls/patron.m3u8",
+      "home": "Çorum FK",
+      "away": "Ç.Rizespor",
+      "home_logo": "https://patronsports2.cfd/img/logos/corum.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/rizespor.png",
+      "league": "Trendyol Süper Lig | 2. Kanal",
+      "time": "20:00",
       "sport": "football",
       "type": "match",
-      "url": "https://2i4.d72577a9dd0ec71.cfd/cbc/mono.m3u8",
+      "url": "https://2i4.d72577a9dd0ec71.cfd/https://t0k.d72577a9dd0ec71.cfd/hls/patron.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
