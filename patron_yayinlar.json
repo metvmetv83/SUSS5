@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-31T07:30:26.287756",
+  "generated_at": "2026-10-31T13:54:05.342381",
   "source": "Patron Sports",
   "base_url": "https://g1b.d72577a9dd0ec74.cfd/",
   "referrer": "https://patronsports2.cfd/",
   "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-  "total_streams": 96,
+  "total_streams": 97,
   "matches": [
     {
       "id": "patron",
@@ -17,6 +17,20 @@
       "sport": "football",
       "type": "match",
       "url": "https://g1b.d72577a9dd0ec74.cfd/patron/mono.m3u8",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "referrer": "https://patronsports2.cfd/"
+    },
+    {
+      "id": "https://t0k.d72577a9dd0ec74.cfd/hls/patron.m3u8",
+      "home": "Fenerbahçe",
+      "away": "Göztepe",
+      "home_logo": "https://patronsports2.cfd/img/logos/fenerbahce.png",
+      "away_logo": "https://patronsports2.cfd/img/logos/goztepe.png",
+      "league": "Trendyol Süper Lig | 2. Kanal",
+      "time": "19:00",
+      "sport": "football",
+      "type": "match",
+      "url": "https://g1b.d72577a9dd0ec74.cfd/https://t0k.d72577a9dd0ec74.cfd/hls/patron.m3u8/mono.m3u8",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
       "referrer": "https://patronsports2.cfd/"
     },
